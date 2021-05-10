@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-change-naming-crypto-convention-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zcotc3iso5cpfcw4ylcifjqxhy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-change-naming-crypto-convention-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "c7047160525f22c05bcde7ae7338a919d0d4b9832b634af9eead1a6325a94846cb2dc6502abd9bbe40c0e4ceb62b9b31f95d352eaa68dff6cd6c40935b4d2692",
+          "sha256": "f4638562edf3f8d44ee178a692117abeceb06a27b3aca2872b3bd94f820cc3d8",
+          "sha1": "b7e9984fff737e083830958b9d7609f6739dd106",
+          "md5": "dfecd34e6d94269c21fa092858e7e80a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-change-naming-crypto-convention-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "c7047160525f22c05bcde7ae7338a919d0d4b9832b634af9eead1a6325a94846cb2dc6502abd9bbe40c0e4ceb62b9b31f95d352eaa68dff6cd6c40935b4d2692",
+          "sha256": "f4638562edf3f8d44ee178a692117abeceb06a27b3aca2872b3bd94f820cc3d8",
+          "sha1": "b7e9984fff737e083830958b9d7609f6739dd106",
+          "md5": "dfecd34e6d94269c21fa092858e7e80a"
+        }
+      ]
+    }
+  ]
+}
