@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-common</artifactId>
   <versioning>
-    <latest>1.11.0-add-networking-contract-SNAPSHOT</latest>
+    <latest>1.11.0-add-envrioment-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
+      <version>1.11.0-add-envrioment-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510073221</lastUpdated>
+    <lastUpdated>20210510081010</lastUpdated>
   </versioning>
 </metadata>
