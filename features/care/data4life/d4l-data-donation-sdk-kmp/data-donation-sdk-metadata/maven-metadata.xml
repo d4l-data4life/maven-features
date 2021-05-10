@@ -3,10 +3,11 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.0.1-fix-koin-dependency-SNAPSHOT</latest>
+    <latest>0.0.1-change-publish-script-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
+      <version>0.0.1-change-publish-script-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510134807</lastUpdated>
+    <lastUpdated>20210510150200</lastUpdated>
   </versioning>
 </metadata>
