@@ -5,31 +5,31 @@
   <version>1.11.0-change-api-service-to-kotlin-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210510.134025</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210510.151247</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210510134025</lastUpdated>
+    <lastUpdated>20210510151247</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.11.0-change-api-service-to-kotlin-20210510.134025-1</value>
-        <updated>20210510134025</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-change-api-service-to-kotlin-20210510.134025-1</value>
-        <updated>20210510134025</updated>
+        <value>1.11.0-change-api-service-to-kotlin-20210510.151247-2</value>
+        <updated>20210510151247</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-change-api-service-to-kotlin-20210510.134025-1</value>
-        <updated>20210510134025</updated>
+        <extension>aar</extension>
+        <value>1.11.0-change-api-service-to-kotlin-20210510.151247-2</value>
+        <updated>20210510151247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.11.0-change-api-service-to-kotlin-20210510.134025-1</value>
-        <updated>20210510134025</updated>
+        <value>1.11.0-change-api-service-to-kotlin-20210510.151247-2</value>
+        <updated>20210510151247</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.11.0-change-api-service-to-kotlin-20210510.151247-2</value>
+        <updated>20210510151247</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

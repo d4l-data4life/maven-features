@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.11.0-change-api-module-tests-SNAPSHOT</latest>
+    <latest>1.11.0-change-api-service-to-kotlin-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -13,6 +13,6 @@
       <version>1.11.0-change-api-service-to-kotlin-SNAPSHOT</version>
       <version>1.11.0-change-api-module-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510135917</lastUpdated>
+    <lastUpdated>20210510151317</lastUpdated>
   </versioning>
 </metadata>
