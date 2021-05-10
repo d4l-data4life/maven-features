@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-add-networking-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3ov5eze3svdddlovjj2g7vbcra"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-networking-contract-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "be6d8b69f5e2a8317e0f6bf96d444f223ac33ae7921879ee91dc380489bbdf66f8fe6bbdbce6e3b6074152d2ecde3e77e0c3fbac35ee6d30e34f3c2b6bac5a25",
+          "sha256": "de6ae5ee3a5322f69dda482e451de8bceab61f537a3220d1f0ed56da2909ed6f",
+          "sha1": "ffab54f240ce89fe012a8784abe2f608bff88f58",
+          "md5": "43d6b8d52224072ecb5aac03923351c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-networking-contract-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "be6d8b69f5e2a8317e0f6bf96d444f223ac33ae7921879ee91dc380489bbdf66f8fe6bbdbce6e3b6074152d2ecde3e77e0c3fbac35ee6d30e34f3c2b6bac5a25",
+          "sha256": "de6ae5ee3a5322f69dda482e451de8bceab61f537a3220d1f0ed56da2909ed6f",
+          "sha1": "ffab54f240ce89fe012a8784abe2f608bff88f58",
+          "md5": "43d6b8d52224072ecb5aac03923351c4"
+        }
+      ]
+    }
+  ]
+}
