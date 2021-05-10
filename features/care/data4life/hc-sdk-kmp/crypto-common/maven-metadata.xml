@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-common</artifactId>
   <versioning>
-    <latest>1.11.0-change-naming-crypto-convention-SNAPSHOT</latest>
+    <latest>1.11.0-change-api-service-to-kotlin-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
       <version>1.11.0-add-envrioment-tests-SNAPSHOT</version>
       <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
       <version>1.11.0-add-api-service-unit-tests-SNAPSHOT</version>
+      <version>1.11.0-change-api-service-to-kotlin-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510130847</lastUpdated>
+    <lastUpdated>20210510134102</lastUpdated>
   </versioning>
 </metadata>
