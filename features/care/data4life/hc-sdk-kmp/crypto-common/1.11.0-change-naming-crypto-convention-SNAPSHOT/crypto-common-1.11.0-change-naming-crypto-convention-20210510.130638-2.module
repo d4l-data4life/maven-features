@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-change-naming-crypto-convention-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "x2ps4duztvht7gwitutotvm64y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "ed29a35ce21e0ca52255f8aca151f84983617ee02158b8b246b5a05cc67c9b9dfc97fb349be96ae2a508fa960f5ea298df1b09f5ccb0d24ba57cbdfea773c3fd",
+          "sha256": "56a803fe5bda53522df69b219d555028795dddf3d5fe21bb572b96e4abe8ffc4",
+          "sha1": "77b2f336d5f70c03573f617d1db56ca78ffa7b79",
+          "md5": "89e3067b0d82ce4bb05c41df3a64abeb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "ed29a35ce21e0ca52255f8aca151f84983617ee02158b8b246b5a05cc67c9b9dfc97fb349be96ae2a508fa960f5ea298df1b09f5ccb0d24ba57cbdfea773c3fd",
+          "sha256": "56a803fe5bda53522df69b219d555028795dddf3d5fe21bb572b96e4abe8ffc4",
+          "sha1": "77b2f336d5f70c03573f617d1db56ca78ffa7b79",
+          "md5": "89e3067b0d82ce4bb05c41df3a64abeb"
+        }
+      ]
+    }
+  ]
+}

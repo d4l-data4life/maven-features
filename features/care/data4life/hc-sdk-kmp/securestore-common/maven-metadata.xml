@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-common</artifactId>
   <versioning>
-    <latest>1.11.0-add-api-service-unit-tests-SNAPSHOT</latest>
+    <latest>1.11.0-change-naming-crypto-convention-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -11,6 +11,6 @@
       <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
       <version>1.11.0-add-api-service-unit-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510114129</lastUpdated>
+    <lastUpdated>20210510130850</lastUpdated>
   </versioning>
 </metadata>

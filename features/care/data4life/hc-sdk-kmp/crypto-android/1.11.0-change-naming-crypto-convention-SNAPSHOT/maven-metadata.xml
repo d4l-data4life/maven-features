@@ -5,31 +5,31 @@
   <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210510.085536</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210510.130638</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210510085536</lastUpdated>
+    <lastUpdated>20210510130638</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.11.0-change-naming-crypto-convention-20210510.085536-1</value>
-        <updated>20210510085536</updated>
+        <extension>module</extension>
+        <value>1.11.0-change-naming-crypto-convention-20210510.130638-2</value>
+        <updated>20210510130638</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.11.0-change-naming-crypto-convention-20210510.085536-1</value>
-        <updated>20210510085536</updated>
+        <value>1.11.0-change-naming-crypto-convention-20210510.130638-2</value>
+        <updated>20210510130638</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.11.0-change-naming-crypto-convention-20210510.085536-1</value>
-        <updated>20210510085536</updated>
+        <value>1.11.0-change-naming-crypto-convention-20210510.130638-2</value>
+        <updated>20210510130638</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-change-naming-crypto-convention-20210510.085536-1</value>
-        <updated>20210510085536</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.11.0-change-naming-crypto-convention-20210510.130638-2</value>
+        <updated>20210510130638</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
