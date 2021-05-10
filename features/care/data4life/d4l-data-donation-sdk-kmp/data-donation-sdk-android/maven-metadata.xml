@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
+  <artifactId>data-donation-sdk-android</artifactId>
+  <versioning>
+    <latest>0.0.1-fix-koin-dependency-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210510134505</lastUpdated>
+  </versioning>
+</metadata>
