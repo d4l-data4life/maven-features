@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.0.1-fix-koin-dependency-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "6bbydvilovbwfhacv3nv6m7nf4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.1-fix-koin-dependency-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.0.1-fix-koin-dependency-SNAPSHOT.jar",
+          "size": 63040,
+          "sha512": "4b8e31d1b34c2fef3ffe9d7d9eec18d826d287d90c705ff5b8abc95525e2c0de322fdbed741c3bf54ff23b5c737c92693304e0efa5d641843eebef49d2731da2",
+          "sha256": "94aaf931b8d08fc2a4f1649b4eacf7146ecaa350276c6832cb1d10218e3620ba",
+          "sha1": "9486e41b06dc16f7cd21a0e4d2b0c09c4a1b255f",
+          "md5": "f23dca4b4e593f8f0a0ef6ed725db495"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-android-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-android-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-android-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-android-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-iosarm64-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.0.1-fix-koin-dependency-SNAPSHOT/data-donation-sdk-iosx64-0.0.1-fix-koin-dependency-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.0.1-fix-koin-dependency-SNAPSHOT"
+      }
+    }
+  ]
+}
