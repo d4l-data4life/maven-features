@@ -3,13 +3,13 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-change-naming-crypto-convention-SNAPSHOT</latest>
+    <latest>1.11.0-add-envrioment-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
       <version>1.11.0-add-envrioment-tests-SNAPSHOT</version>
       <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210510085557</lastUpdated>
+    <lastUpdated>20210510091802</lastUpdated>
   </versioning>
 </metadata>
