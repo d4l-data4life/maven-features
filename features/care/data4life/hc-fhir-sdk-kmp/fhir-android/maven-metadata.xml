@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-android</artifactId>
   <versioning>
-    <latest>0.1.0-add-fhir4-date-primitives-SNAPSHOT</latest>
+    <latest>0.1.0-fix-fhir-generation-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -15,7 +15,8 @@
       <version>0.1.0-add-fhir4-base-types-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-date-primitives-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-code-systems-SNAPSHOT</version>
+      <version>0.1.0-fix-fhir-generation-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210511212225</lastUpdated>
+    <lastUpdated>20210511221740</lastUpdated>
   </versioning>
 </metadata>
