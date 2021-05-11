@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-datetime-to-common-SNAPSHOT/fhir-0.1.0-change-datetime-to-common-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-datetime-to-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "7cy765o3uvfrvkayct5vcmreja"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-change-datetime-to-common-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-change-datetime-to-common-SNAPSHOT.jar",
+          "size": 2441057,
+          "sha512": "22c38cdc0836e8327f677679c92729afda5043b38cd32b54b37e7d9df9d2ce105a1d32ae135a5b7719eaeb8f62707d9693be53ca8b898ba64f47703acd08d10b",
+          "sha256": "50b022a06444a0556b4b3f6a9ca4c2f40d1fa1c106346bc03527c1afd661b95b",
+          "sha1": "3eccf3a2571aa6ea2a477d3cb35bb7d6a2825872",
+          "md5": "e43185706c0b7c57e140018e4cacceda"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-change-datetime-to-common-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-change-datetime-to-common-SNAPSHOT.jar",
+          "size": 2441057,
+          "sha512": "22c38cdc0836e8327f677679c92729afda5043b38cd32b54b37e7d9df9d2ce105a1d32ae135a5b7719eaeb8f62707d9693be53ca8b898ba64f47703acd08d10b",
+          "sha256": "50b022a06444a0556b4b3f6a9ca4c2f40d1fa1c106346bc03527c1afd661b95b",
+          "sha1": "3eccf3a2571aa6ea2a477d3cb35bb7d6a2825872",
+          "md5": "e43185706c0b7c57e140018e4cacceda"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-datetime-to-common-SNAPSHOT/fhir-metadata-0.1.0-change-datetime-to-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-datetime-to-common-SNAPSHOT"
+      }
+    }
+  ]
+}
