@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-add-fhir4-date-primitives-SNAPSHOT/fhir-0.1.0-add-fhir4-date-primitives-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-fhir4-date-primitives-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "tdlwhmwjk5de5caqogn2kp5aya"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-add-fhir4-date-primitives-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-add-fhir4-date-primitives-SNAPSHOT.jar",
+          "size": 4425348,
+          "sha512": "d63d6f267cf8a55d464039f2797a77d2fc10b81a5162ecc6dc187ab84d2715f356e3e48707a506b2b161969626faff751abce2cefc638bf21667b560bce6764f",
+          "sha256": "c6cdd5ee49fc648dc9d111313cf71aa62161e6fe04a5dffe7fde78abdbfa57f6",
+          "sha1": "f095e43e724d1864b20e8970c3b14c0ff3a0f0d5",
+          "md5": "d564a05680a8d29cb0f8f795020d4610"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-add-fhir4-date-primitives-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-add-fhir4-date-primitives-SNAPSHOT.jar",
+          "size": 4425348,
+          "sha512": "d63d6f267cf8a55d464039f2797a77d2fc10b81a5162ecc6dc187ab84d2715f356e3e48707a506b2b161969626faff751abce2cefc638bf21667b560bce6764f",
+          "sha256": "c6cdd5ee49fc648dc9d111313cf71aa62161e6fe04a5dffe7fde78abdbfa57f6",
+          "sha1": "f095e43e724d1864b20e8970c3b14c0ff3a0f0d5",
+          "md5": "d564a05680a8d29cb0f8f795020d4610"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-add-fhir4-date-primitives-SNAPSHOT/fhir-metadata-0.1.0-add-fhir4-date-primitives-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-add-fhir4-date-primitives-SNAPSHOT"
+      }
+    }
+  ]
+}
