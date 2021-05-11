@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT/fhir-0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "y7pg5uxemnddrfgncioniae5a4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fhir-release.aar",
+          "url": "fhir-android-0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT.aar",
+          "size": 2178605,
+          "sha512": "aabb88e07df08db4261425b214c40bb1f1ff5acbae14b916c3271e78db8498680c4ce1a915484c7e4bbde021c9cfa04a444d91fe3cd150792629fe86a6ffab84",
+          "sha256": "01bc1d545089015f99dcc9dd8ac4b509a5924e312c80b44bd38f360381126553",
+          "sha1": "ac04638c134f43df80a93a2f25f07e2872a9a5ba",
+          "md5": "9c41d55edb0f2afd60ad600b13f8f721"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-release.aar",
+          "url": "fhir-android-0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT.aar",
+          "size": 2178605,
+          "sha512": "aabb88e07df08db4261425b214c40bb1f1ff5acbae14b916c3271e78db8498680c4ce1a915484c7e4bbde021c9cfa04a444d91fe3cd150792629fe86a6ffab84",
+          "sha256": "01bc1d545089015f99dcc9dd8ac4b509a5924e312c80b44bd38f360381126553",
+          "sha1": "ac04638c134f43df80a93a2f25f07e2872a9a5ba",
+          "md5": "9c41d55edb0f2afd60ad600b13f8f721"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT/fhir-metadata-0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT"
+      }
+    }
+  ]
+}
