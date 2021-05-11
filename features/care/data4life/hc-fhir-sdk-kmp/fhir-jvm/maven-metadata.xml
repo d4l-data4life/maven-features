@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-jvm</artifactId>
   <versioning>
-    <latest>0.1.0-add-spotless-SNAPSHOT</latest>
+    <latest>0.1.0-add-fhir4-config-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
       <version>0.1.0-add-spotless-SNAPSHOT</version>
+      <version>0.1.0-add-fhir4-config-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210511130703</lastUpdated>
+    <lastUpdated>20210511135358</lastUpdated>
   </versioning>
 </metadata>
