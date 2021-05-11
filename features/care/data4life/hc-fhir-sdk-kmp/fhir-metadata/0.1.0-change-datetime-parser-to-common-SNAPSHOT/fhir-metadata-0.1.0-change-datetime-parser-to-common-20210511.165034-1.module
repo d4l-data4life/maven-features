@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-jvm/0.1.0-change-datetime-parser-to-common-SNAPSHOT/fhir-jvm-0.1.0-change-datetime-parser-to-common-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-jvm",
+    "version": "0.1.0-change-datetime-parser-to-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fldi2eha4rfdrj7ksafybwomx4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.1.0-change-datetime-parser-to-common-SNAPSHOT.jar",
+          "url": "fhir-metadata-0.1.0-change-datetime-parser-to-common-SNAPSHOT.jar",
+          "size": 523080,
+          "sha512": "584b1861327fdfeed9eb23a353719ba0fd26e8117e96f5677f64654ef8040e354e982123db95fb7fcfebf19b930de3b6e7fef4412e8156935716c286dd9d338d",
+          "sha256": "b52dc7442b8992dec0b72d960c6ba95920107da90fbcbabba8385251f96b12e9",
+          "sha1": "a15620433c009abcc2e3f289ee50a0c3ce6a54a4",
+          "md5": "196debbf2bc97adefefc4016e2fce439"
+        }
+      ]
+    }
+  ]
+}
