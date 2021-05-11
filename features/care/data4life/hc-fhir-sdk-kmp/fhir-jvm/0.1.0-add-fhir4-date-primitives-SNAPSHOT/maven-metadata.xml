@@ -5,31 +5,31 @@
   <version>0.1.0-add-fhir4-date-primitives-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210511.171053</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210511.180237</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210511171053</lastUpdated>
+    <lastUpdated>20210511180237</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-add-fhir4-date-primitives-20210511.171053-1</value>
-        <updated>20210511171053</updated>
+        <value>0.1.0-add-fhir4-date-primitives-20210511.180237-2</value>
+        <updated>20210511180237</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-add-fhir4-date-primitives-20210511.180237-2</value>
+        <updated>20210511180237</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-add-fhir4-date-primitives-20210511.171053-1</value>
-        <updated>20210511171053</updated>
+        <value>0.1.0-add-fhir4-date-primitives-20210511.180237-2</value>
+        <updated>20210511180237</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.0-add-fhir4-date-primitives-20210511.171053-1</value>
-        <updated>20210511171053</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-add-fhir4-date-primitives-20210511.171053-1</value>
-        <updated>20210511171053</updated>
+        <value>0.1.0-add-fhir4-date-primitives-20210511.180237-2</value>
+        <updated>20210511180237</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
