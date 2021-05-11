@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-iosx64</artifactId>
   <versioning>
-    <latest>0.1.0-fix-fhir-generation-SNAPSHOT</latest>
+    <latest>0.1.0-add-fhir4-base-resource-types-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>0.1.0-add-fhir4-date-primitives-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-code-systems-SNAPSHOT</version>
       <version>0.1.0-fix-fhir-generation-SNAPSHOT</version>
+      <version>0.1.0-add-fhir4-base-resource-types-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210511221741</lastUpdated>
+    <lastUpdated>20210511231849</lastUpdated>
   </versioning>
 </metadata>
