@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-add-fhir4-date-primitives-SNAPSHOT/fhir-0.1.0-add-fhir4-date-primitives-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-fhir4-date-primitives-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "2mk6b3o37fflppall3mcpba5qm"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosarm64-0.1.0-add-fhir4-date-primitives-SNAPSHOT.klib",
+          "size": 1227030,
+          "sha512": "aaa36bc2bfb60321a8ebdceafeee483156cef8262da460d7660c8f7595226a4404fc9cd71940f07811b623359b15d38782657b3fcd57d01ebdbb956facdae9c7",
+          "sha256": "7f5b17fc957e549076c08814d0212626aa6c8d494ff1d603b72b6ea43a6837ab",
+          "sha1": "70586dfc8ec4aefeabe5b3d75642d783e1ae3e25",
+          "md5": "f2611bcc0da5ae4f39d80ff44a9b520e"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-add-fhir4-date-primitives-SNAPSHOT/fhir-metadata-0.1.0-add-fhir4-date-primitives-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-add-fhir4-date-primitives-SNAPSHOT"
+      }
+    }
+  ]
+}
