@@ -5,31 +5,31 @@
   <version>0.1.0-add-spotless-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210511.123717</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210511.130629</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210511123717</lastUpdated>
+    <lastUpdated>20210511130629</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-add-spotless-20210511.123717-1</value>
-        <updated>20210511123717</updated>
+        <extension>module</extension>
+        <value>0.1.0-add-spotless-20210511.130629-2</value>
+        <updated>20210511130629</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-add-spotless-20210511.123717-1</value>
-        <updated>20210511123717</updated>
+        <extension>pom</extension>
+        <value>0.1.0-add-spotless-20210511.130629-2</value>
+        <updated>20210511130629</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-add-spotless-20210511.123717-1</value>
-        <updated>20210511123717</updated>
+        <value>0.1.0-add-spotless-20210511.130629-2</value>
+        <updated>20210511130629</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-add-spotless-20210511.123717-1</value>
-        <updated>20210511123717</updated>
+        <value>0.1.0-add-spotless-20210511.130629-2</value>
+        <updated>20210511130629</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
