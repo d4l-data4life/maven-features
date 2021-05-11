@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.11.0-change-client-version-header-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "m45z2ok3vfhlrkwni53av37rfq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-client-version-header-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-change-client-version-header-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-change-client-version-header-SNAPSHOT.aar",
+          "size": 41958,
+          "sha512": "d093bd67f9d3502996d133f7bc114d60f2587d82d3c1f16a0bdf085ddbd0b0b08bc86cb55f8befab1952449359be85c9b0bcbcdd7d033350a35a99a341e1b44a",
+          "sha256": "e204ab52728abfbdf60f24ed3156ce133efcd104e79e0d387c187de55a69f4ce",
+          "sha1": "664f74ef4076da382ab1d144ac09e298da5b6beb",
+          "md5": "1ac8e172c9e2f45ae7829a343ce3962c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-client-version-header-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-change-client-version-header-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-change-client-version-header-SNAPSHOT.aar",
+          "size": 41958,
+          "sha512": "d093bd67f9d3502996d133f7bc114d60f2587d82d3c1f16a0bdf085ddbd0b0b08bc86cb55f8befab1952449359be85c9b0bcbcdd7d033350a35a99a341e1b44a",
+          "sha256": "e204ab52728abfbdf60f24ed3156ce133efcd104e79e0d387c187de55a69f4ce",
+          "sha1": "664f74ef4076da382ab1d144ac09e298da5b6beb",
+          "md5": "1ac8e172c9e2f45ae7829a343ce3962c"
+        }
+      ]
+    }
+  ]
+}
