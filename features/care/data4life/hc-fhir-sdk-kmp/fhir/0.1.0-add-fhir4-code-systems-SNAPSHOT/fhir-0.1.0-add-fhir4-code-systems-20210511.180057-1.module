@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zxftycdmlrb2pcewcrmpkimef4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.1.0-add-fhir4-code-systems-SNAPSHOT.jar",
+          "url": "fhir-0.1.0-add-fhir4-code-systems-SNAPSHOT.jar",
+          "size": 982010,
+          "sha512": "ef8b9314d87de9606fd6cf621fb96c9d9e16651b7c46a36a66528277a3e5b3e6af9efa6945dc346a5ba7ba75eb55b895a6ab7fd9a9065345d0d8a1086c0e2862",
+          "sha256": "b13bffafbd732af83c506366cd637dd5c082191f2c96de66b066c837ca1cf68c",
+          "sha1": "c5f41b4c72e071d1d5d1dabb82514fa9f61a8274",
+          "md5": "db29b6212de656124b47ee499c292a96"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-android-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-android-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-android-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-android-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-iosarm64/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-iosarm64-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-iosarm64",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-iosx64/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-iosx64-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-iosx64",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-jvm/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-jvm-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-jvm",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-jvm/0.1.0-add-fhir4-code-systems-SNAPSHOT/fhir-jvm-0.1.0-add-fhir4-code-systems-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-jvm",
+        "version": "0.1.0-add-fhir4-code-systems-SNAPSHOT"
+      }
+    }
+  ]
+}

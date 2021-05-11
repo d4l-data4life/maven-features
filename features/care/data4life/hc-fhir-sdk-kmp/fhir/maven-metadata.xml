@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir</artifactId>
   <versioning>
-    <latest>0.1.0-add-fhir4-base-types-SNAPSHOT</latest>
+    <latest>0.1.0-add-fhir4-code-systems-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -14,7 +14,8 @@
       <version>0.1.0-change-datetime-parser-to-common-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-base-types-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-date-primitives-SNAPSHOT</version>
+      <version>0.1.0-add-fhir4-code-systems-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210511173500</lastUpdated>
+    <lastUpdated>20210511180129</lastUpdated>
   </versioning>
 </metadata>
