@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-add-fhir4-base-types-SNAPSHOT/fhir-0.1.0-add-fhir4-base-types-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-fhir4-base-types-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "lgife6nuefbbnmpmfwt3iyk6hu"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosx64-0.1.0-add-fhir4-base-types-SNAPSHOT.klib",
+          "size": 1213942,
+          "sha512": "0e6d164f92238a4f6247291f2ecddb044abc40a788823b2c88e6358d7ed7a3332d97b470aef3caf3023ab29b24f2a28e36ba522574a74913614c1fc534dce4c2",
+          "sha256": "c568cb1b7593ebc977206a19bab6acedf44363f489c34c6df76d5ff6fef00038",
+          "sha1": "8e808abb1b1beaf477ffdcbdb54532f3e958c95b",
+          "md5": "ccf19dd72cc2eb397583633984e8c6c1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-add-fhir4-base-types-SNAPSHOT/fhir-metadata-0.1.0-add-fhir4-base-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-add-fhir4-base-types-SNAPSHOT"
+      }
+    }
+  ]
+}
