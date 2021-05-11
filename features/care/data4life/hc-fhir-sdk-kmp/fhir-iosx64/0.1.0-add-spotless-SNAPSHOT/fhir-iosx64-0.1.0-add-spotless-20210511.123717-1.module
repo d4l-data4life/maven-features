@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-add-spotless-SNAPSHOT/fhir-0.1.0-add-spotless-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-spotless-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "nonq5wpy5jdltbfa3sogegfyju"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosx64-0.1.0-add-spotless-SNAPSHOT.klib",
+          "size": 1192671,
+          "sha512": "6418896a3b208575376c2eae0ece87032d3812cdd27733337ba2e8a288d37ea920c8a1c853298e461cf8d8408b400cdb81d967fd96bc854d3501d0ee0fd55e04",
+          "sha256": "a2b77447f399a51c1ad094681f28a653f0113353ced16c47242e89c9653e75c3",
+          "sha1": "5d7341ec903ac410108dadb5efc2fb21ebf87814",
+          "md5": "9246f5a78cac51c5ae5a0ac61830547a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-add-spotless-SNAPSHOT/fhir-metadata-0.1.0-add-spotless-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-add-spotless-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-add-spotless-SNAPSHOT/fhir-0.1.0-add-spotless-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-spotless-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "nonq5wpy5jdltbfa3sogegfyju"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-add-spotless-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-add-spotless-SNAPSHOT.jar",
+          "size": 2440730,
+          "sha512": "2cbfe0c698f27ddae2ebdff3cc77698a008f0e95441f741fb2a4170deb741b1b9d7f30574bff140ed0e4f2c14ee6e60d531f43fcc8c3e824b6633afcea8ecb74",
+          "sha256": "19203be5efe4f0b9d6e05ba19a40393fbdfeb18fd07a9a1b83fd0aed82308c44",
+          "sha1": "1a22830a06acb24b9c6f7f566d5ca346891c17bd",
+          "md5": "c22df369a839d97ae0f717a9d071c32e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-add-spotless-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-add-spotless-SNAPSHOT.jar",
+          "size": 2440730,
+          "sha512": "2cbfe0c698f27ddae2ebdff3cc77698a008f0e95441f741fb2a4170deb741b1b9d7f30574bff140ed0e4f2c14ee6e60d531f43fcc8c3e824b6633afcea8ecb74",
+          "sha256": "19203be5efe4f0b9d6e05ba19a40393fbdfeb18fd07a9a1b83fd0aed82308c44",
+          "sha1": "1a22830a06acb24b9c6f7f566d5ca346891c17bd",
+          "md5": "c22df369a839d97ae0f717a9d071c32e"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-add-spotless-SNAPSHOT/fhir-metadata-0.1.0-add-spotless-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-add-spotless-SNAPSHOT"
+      }
+    }
+  ]
+}
