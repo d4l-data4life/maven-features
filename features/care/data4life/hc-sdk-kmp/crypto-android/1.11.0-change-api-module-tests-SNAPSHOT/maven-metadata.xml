@@ -5,31 +5,31 @@
   <version>1.11.0-change-api-module-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210510.135846</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210512.121153</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210510135846</lastUpdated>
+    <lastUpdated>20210512121153</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.11.0-change-api-module-tests-20210510.135846-1</value>
-        <updated>20210510135846</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.11.0-change-api-module-tests-20210510.135846-1</value>
-        <updated>20210510135846</updated>
+        <value>1.11.0-change-api-module-tests-20210512.121153-2</value>
+        <updated>20210512121153</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-change-api-module-tests-20210510.135846-1</value>
-        <updated>20210510135846</updated>
+        <value>1.11.0-change-api-module-tests-20210512.121153-2</value>
+        <updated>20210512121153</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.11.0-change-api-module-tests-20210510.135846-1</value>
-        <updated>20210510135846</updated>
+        <value>1.11.0-change-api-module-tests-20210512.121153-2</value>
+        <updated>20210512121153</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.11.0-change-api-module-tests-20210512.121153-2</value>
+        <updated>20210512121153</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
