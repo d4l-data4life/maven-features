@@ -5,31 +5,31 @@
   <version>1.11.0-change-client-version-header-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210511.074641</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210512.105542</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210511074641</lastUpdated>
+    <lastUpdated>20210512105542</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.11.0-change-client-version-header-20210511.074641-1</value>
-        <updated>20210511074641</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-change-client-version-header-20210511.074641-1</value>
-        <updated>20210511074641</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-change-client-version-header-20210511.074641-1</value>
-        <updated>20210511074641</updated>
+        <value>1.11.0-change-client-version-header-20210512.105542-2</value>
+        <updated>20210512105542</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-change-client-version-header-20210511.074641-1</value>
-        <updated>20210511074641</updated>
+        <value>1.11.0-change-client-version-header-20210512.105542-2</value>
+        <updated>20210512105542</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.11.0-change-client-version-header-20210512.105542-2</value>
+        <updated>20210512105542</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.11.0-change-client-version-header-20210512.105542-2</value>
+        <updated>20210512105542</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
