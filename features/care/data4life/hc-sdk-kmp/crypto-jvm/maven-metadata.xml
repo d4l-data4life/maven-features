@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-change-client-version-header-SNAPSHOT</latest>
+    <latest>1.11.0-change-update-data-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -13,7 +13,8 @@
       <version>1.11.0-change-api-service-to-kotlin-SNAPSHOT</version>
       <version>1.11.0-change-api-module-tests-SNAPSHOT</version>
       <version>1.11.0-change-client-version-header-SNAPSHOT</version>
+      <version>1.11.0-change-update-data-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210511074710</lastUpdated>
+    <lastUpdated>20210512095519</lastUpdated>
   </versioning>
 </metadata>
