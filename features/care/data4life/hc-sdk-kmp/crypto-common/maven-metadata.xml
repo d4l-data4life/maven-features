@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-common</artifactId>
   <versioning>
-    <latest>1.11.0-add-interceptors-SNAPSHOT</latest>
+    <latest>1.11.0-add-certificate-pinner-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -15,7 +15,8 @@
       <version>1.11.0-change-client-version-header-SNAPSHOT</version>
       <version>1.11.0-change-update-data-SNAPSHOT</version>
       <version>1.11.0-add-interceptors-SNAPSHOT</version>
+      <version>1.11.0-add-certificate-pinner-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210512100900</lastUpdated>
+    <lastUpdated>20210512102228</lastUpdated>
   </versioning>
 </metadata>

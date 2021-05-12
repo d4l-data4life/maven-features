@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.11.0-add-certificate-pinner-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "exsjfgsemfgk7fawrxnhqaokqm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "ff33b530edca4e20031b7ccc58b7898056be491cabe1fefdabdfaa3840d47b524330edf043231499074971ead42a2153d50b2331a2ecc295f982bc02a406e921",
+          "sha256": "c989abdbe34305d7ef6c4199f82f212afbb30335e9c673a076e28b3c90de6bdf",
+          "sha1": "fdac12b0c69a8257715872108f842dc722cbb3eb",
+          "md5": "1c910f6e2a30a1b17bfdd7af08f35329"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "ff33b530edca4e20031b7ccc58b7898056be491cabe1fefdabdfaa3840d47b524330edf043231499074971ead42a2153d50b2331a2ecc295f982bc02a406e921",
+          "sha256": "c989abdbe34305d7ef6c4199f82f212afbb30335e9c673a076e28b3c90de6bdf",
+          "sha1": "fdac12b0c69a8257715872108f842dc722cbb3eb",
+          "md5": "1c910f6e2a30a1b17bfdd7af08f35329"
+        }
+      ]
+    }
+  ]
+}
