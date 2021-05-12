@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.11.0-add-certificate-pinner-SNAPSHOT</latest>
+    <latest>1.11.0-change-api-service-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>1.11.0-change-update-data-SNAPSHOT</version>
       <version>1.11.0-add-interceptors-SNAPSHOT</version>
       <version>1.11.0-add-certificate-pinner-SNAPSHOT</version>
+      <version>1.11.0-change-api-service-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210512102230</lastUpdated>
+    <lastUpdated>20210512103814</lastUpdated>
   </versioning>
 </metadata>
