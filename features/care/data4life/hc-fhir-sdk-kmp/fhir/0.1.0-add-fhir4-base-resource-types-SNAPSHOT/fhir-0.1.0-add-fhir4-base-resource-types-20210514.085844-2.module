@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qe65myrspvgq3ekpkzw2xpln6i"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.jar",
+          "url": "fhir-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.jar",
+          "size": 1007109,
+          "sha512": "8c2f48a8393d64e043e6ef02c4626df5d54b2641ed8f4f991508714d961808e1a4169bdfb3d764485334881fb877864b5acdeb0a036fb220cdcac7c7540bb0f6",
+          "sha256": "7acb35ffd24f0f5fcf7cfafebdac193dc6048bc1503c8ec39d0da33783fdd4a8",
+          "sha1": "02c5590428222d42efff7a54bfb6d24ce82fa78c",
+          "md5": "beebebdd0dec7152916447f57affcd0e"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-android-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-android-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-android-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-android/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-android-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-android",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-iosarm64/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-iosarm64-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-iosarm64",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-iosx64/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-iosx64-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-iosx64",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-jvm/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-jvm-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-jvm",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-jvm/0.1.0-add-fhir4-base-resource-types-SNAPSHOT/fhir-jvm-0.1.0-add-fhir4-base-resource-types-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-jvm",
+        "version": "0.1.0-add-fhir4-base-resource-types-SNAPSHOT"
+      }
+    }
+  ]
+}
