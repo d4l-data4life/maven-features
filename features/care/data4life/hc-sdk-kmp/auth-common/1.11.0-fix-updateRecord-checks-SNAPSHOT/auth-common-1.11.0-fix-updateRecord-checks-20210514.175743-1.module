@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0-fix-updateRecord-checks-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "uqypsdpftrervn3osaqkitvtmm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-fix-updateRecord-checks-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-fix-updateRecord-checks-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "8d364986b0fe3ae4ee7d5b3cad3713e26a4ac3cc6eb9ed5da04e33b642f1b9e272aaa53e930397ba04bde2e86de770d284e4209493cff563ab6cf22fe30f5f67",
+          "sha256": "5d7c61742a4f30203b2a29a0ceaf80dc322773fbd57e04e8b3167ad497f72521",
+          "sha1": "30c58162df2e154ef3291ca4bfcfa22185ee060f",
+          "md5": "24b913fde92af61dc7327ce9fe331875"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-fix-updateRecord-checks-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-fix-updateRecord-checks-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-fix-updateRecord-checks-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "8d364986b0fe3ae4ee7d5b3cad3713e26a4ac3cc6eb9ed5da04e33b642f1b9e272aaa53e930397ba04bde2e86de770d284e4209493cff563ab6cf22fe30f5f67",
+          "sha256": "5d7c61742a4f30203b2a29a0ceaf80dc322773fbd57e04e8b3167ad497f72521",
+          "sha1": "30c58162df2e154ef3291ca4bfcfa22185ee060f",
+          "md5": "24b913fde92af61dc7327ce9fe331875"
+        }
+      ]
+    }
+  ]
+}
