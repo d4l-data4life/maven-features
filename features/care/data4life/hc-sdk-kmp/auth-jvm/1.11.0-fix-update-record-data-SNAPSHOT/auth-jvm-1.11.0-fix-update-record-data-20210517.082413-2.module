@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.11.0-fix-update-record-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "b3ys5acjije5xazx2c6hgv6uyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.11.0-fix-update-record-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "auth-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "d9f01d1fbdb9d15ad74f8b5437c8ca8ae2d3df3f9075a7c74ff58e2b04104de4cfa9a9c7459b0bb4820e3fdcadfff00bf60f82f8cd2df2b1385ae018b14afbdb",
+          "sha256": "8cbfb20633caf8aec1b343eaff86ee5c1b909263ee6b1fb6059d1f957a4e0c52",
+          "sha1": "7c742dff4f16ea5cfb1bf4dbdb531a8f7bcc9aa4",
+          "md5": "fa2e2003a0e57606d94544ad70f3b29f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.11.0-fix-update-record-data-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.11.0-fix-update-record-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "auth-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "d9f01d1fbdb9d15ad74f8b5437c8ca8ae2d3df3f9075a7c74ff58e2b04104de4cfa9a9c7459b0bb4820e3fdcadfff00bf60f82f8cd2df2b1385ae018b14afbdb",
+          "sha256": "8cbfb20633caf8aec1b343eaff86ee5c1b909263ee6b1fb6059d1f957a4e0c52",
+          "sha1": "7c742dff4f16ea5cfb1bf4dbdb531a8f7bcc9aa4",
+          "md5": "fa2e2003a0e57606d94544ad70f3b29f"
+        }
+      ]
+    }
+  ]
+}

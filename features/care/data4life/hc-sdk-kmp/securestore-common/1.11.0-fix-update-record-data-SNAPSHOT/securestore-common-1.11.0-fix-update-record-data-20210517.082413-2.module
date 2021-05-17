@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.11.0-fix-update-record-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "b3ys5acjije5xazx2c6hgv6uyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "4d5426b6c60b0e9585577562184e67b1ae10d96d3d1820cc5c43fb877f2f6a30a4d2f3e1c1e1c7a3196433d1f10a112c9eb052e8c5f518c4604b1cb36ca6a6b9",
+          "sha256": "fe0fbc787b5ea0e5d8ce92c72a3651b4dcdbca3dcda0a3c4569e3c4b1cbc57de",
+          "sha1": "5fd29de87c5117e0e889dfe413e97cc7da81f4fd",
+          "md5": "33be6d74af5ad01a747ff953bc546d49"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "4d5426b6c60b0e9585577562184e67b1ae10d96d3d1820cc5c43fb877f2f6a30a4d2f3e1c1e1c7a3196433d1f10a112c9eb052e8c5f518c4604b1cb36ca6a6b9",
+          "sha256": "fe0fbc787b5ea0e5d8ce92c72a3651b4dcdbca3dcda0a3c4569e3c4b1cbc57de",
+          "sha1": "5fd29de87c5117e0e889dfe413e97cc7da81f4fd",
+          "md5": "33be6d74af5ad01a747ff953bc546d49"
+        }
+      ]
+    }
+  ]
+}

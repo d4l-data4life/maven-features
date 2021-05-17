@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.11.0-fix-update-record-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "b3ys5acjije5xazx2c6hgv6uyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-fix-update-record-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "b141dd03783af6f4456a36b1057afc77e4a8cd9b51c7842d179b7de88697ad81b92caef2a8a7d334566549115623451565217373eeefa366b952b81d03ba525e",
+          "sha256": "a1f9b081f60e13082a5ddb2a8c55d143fe8fcb7855bc743c341e295d731ec02d",
+          "sha1": "e51d0da469aea015c537668d5d2b5e06f6543ec5",
+          "md5": "6bd701018bb38fed12d94701ce405837"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-fix-update-record-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "b141dd03783af6f4456a36b1057afc77e4a8cd9b51c7842d179b7de88697ad81b92caef2a8a7d334566549115623451565217373eeefa366b952b81d03ba525e",
+          "sha256": "a1f9b081f60e13082a5ddb2a8c55d143fe8fcb7855bc743c341e295d731ec02d",
+          "sha1": "e51d0da469aea015c537668d5d2b5e06f6543ec5",
+          "md5": "6bd701018bb38fed12d94701ce405837"
+        }
+      ]
+    }
+  ]
+}
