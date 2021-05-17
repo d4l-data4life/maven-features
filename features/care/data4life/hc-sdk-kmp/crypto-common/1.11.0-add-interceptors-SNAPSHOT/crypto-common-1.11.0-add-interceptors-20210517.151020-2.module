@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-add-interceptors-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "u6fa5pqgq5dk3n2ber5tl6kzgm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "231dbf96dd11af69c6b09682cb85512cd3ed0a40ffe72c59ffcfa408038719e1a369f07cfe8423a723b2f2764c53c1271d540c0683520df62bf794b6feb94341",
+          "sha256": "e3e1d4ef39422d6e44bab8e09b4518c6600a482a5b8e55ec16236271c8012b1a",
+          "sha1": "cdbe24b8e61755e671a084b3955665c81acf8c94",
+          "md5": "238b2bd5cfb1ddf31620cd51c21bc1ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "231dbf96dd11af69c6b09682cb85512cd3ed0a40ffe72c59ffcfa408038719e1a369f07cfe8423a723b2f2764c53c1271d540c0683520df62bf794b6feb94341",
+          "sha256": "e3e1d4ef39422d6e44bab8e09b4518c6600a482a5b8e55ec16236271c8012b1a",
+          "sha1": "cdbe24b8e61755e671a084b3955665c81acf8c94",
+          "md5": "238b2bd5cfb1ddf31620cd51c21bc1ea"
+        }
+      ]
+    }
+  ]
+}

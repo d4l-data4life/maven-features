@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-add-interceptors-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "u6fa5pqgq5dk3n2ber5tl6kzgm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-interceptors-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "f674599edca7c363e78c508ccaca40a0c0ffdfd626a42cb0d5617b518f25de60a74d31518c12290c4432885f1f85d8692ecd834d1f6df7ea7bab599ff274be08",
+          "sha256": "660bd5e6e7a2f43cca40f9aea1fd4b2ed9d3c801d4fd29d663d1c62ea967e762",
+          "sha1": "39184fab8bab9cba68dfc38ea6d65a5aeb0f8a17",
+          "md5": "a06c03d6b02945db868154082e60f248"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-interceptors-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-interceptors-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "f674599edca7c363e78c508ccaca40a0c0ffdfd626a42cb0d5617b518f25de60a74d31518c12290c4432885f1f85d8692ecd834d1f6df7ea7bab599ff274be08",
+          "sha256": "660bd5e6e7a2f43cca40f9aea1fd4b2ed9d3c801d4fd29d663d1c62ea967e762",
+          "sha1": "39184fab8bab9cba68dfc38ea6d65a5aeb0f8a17",
+          "md5": "a06c03d6b02945db868154082e60f248"
+        }
+      ]
+    }
+  ]
+}
