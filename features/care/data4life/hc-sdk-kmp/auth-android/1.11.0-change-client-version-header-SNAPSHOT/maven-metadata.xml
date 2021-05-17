@@ -5,31 +5,31 @@
   <version>1.11.0-change-client-version-header-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210517.074138</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210517.095124</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210517074138</lastUpdated>
+    <lastUpdated>20210517095124</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-change-client-version-header-20210517.074138-3</value>
-        <updated>20210517074138</updated>
+        <extension>aar</extension>
+        <value>1.11.0-change-client-version-header-20210517.095124-4</value>
+        <updated>20210517095124</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-change-client-version-header-20210517.074138-3</value>
-        <updated>20210517074138</updated>
+        <value>1.11.0-change-client-version-header-20210517.095124-4</value>
+        <updated>20210517095124</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.11.0-change-client-version-header-20210517.074138-3</value>
-        <updated>20210517074138</updated>
+        <value>1.11.0-change-client-version-header-20210517.095124-4</value>
+        <updated>20210517095124</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.11.0-change-client-version-header-20210517.074138-3</value>
-        <updated>20210517074138</updated>
+        <extension>module</extension>
+        <value>1.11.0-change-client-version-header-20210517.095124-4</value>
+        <updated>20210517095124</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-fix-update-record-data-SNAPSHOT</latest>
+    <latest>1.11.0-change-client-version-header-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -21,6 +21,6 @@
       <version>1.11.0-fix-updateRecord-checks-SNAPSHOT</version>
       <version>1.11.0-fix-update-record-data-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210517082511</lastUpdated>
+    <lastUpdated>20210517095205</lastUpdated>
   </versioning>
 </metadata>
