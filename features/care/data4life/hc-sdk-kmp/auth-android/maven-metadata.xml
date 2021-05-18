@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.11.0-change-client-version-header-dynamic-SNAPSHOT</latest>
+    <latest>1.11.0-change-compatibility-service-unblocking-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -24,6 +24,6 @@
       <version>1.11.0-change-compatibility-service-unblocking-SNAPSHOT</version>
       <version>1.11.0-change-client-version-header-dynamic-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210518060425</lastUpdated>
+    <lastUpdated>20210518101645</lastUpdated>
   </versioning>
 </metadata>

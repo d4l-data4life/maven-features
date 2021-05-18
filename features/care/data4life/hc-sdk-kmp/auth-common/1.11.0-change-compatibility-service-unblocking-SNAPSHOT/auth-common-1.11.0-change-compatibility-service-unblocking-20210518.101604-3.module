@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0-change-compatibility-service-unblocking-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "kfifm3gb35c4fim6y4p72zati4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-compatibility-service-unblocking-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-compatibility-service-unblocking-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "d32ac1ce3c911c91d07961fcd923ae2f7d9de78b2602c525f243677e7e574a458c48756b28ba8554e82c61de7e37b390fe45a801333677be89625ab9fbe6452f",
+          "sha256": "368dfda07437da29e890691dcf316aa2647292381120de8f724231199cb847bd",
+          "sha1": "eadc4e0528c26659692e7d4d9918b4d0441a2e0c",
+          "md5": "83b9e77157ddd90ce5c9a2e8578756e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-compatibility-service-unblocking-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-compatibility-service-unblocking-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-compatibility-service-unblocking-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "d32ac1ce3c911c91d07961fcd923ae2f7d9de78b2602c525f243677e7e574a458c48756b28ba8554e82c61de7e37b390fe45a801333677be89625ab9fbe6452f",
+          "sha256": "368dfda07437da29e890691dcf316aa2647292381120de8f724231199cb847bd",
+          "sha1": "eadc4e0528c26659692e7d4d9918b4d0441a2e0c",
+          "md5": "83b9e77157ddd90ce5c9a2e8578756e2"
+        }
+      ]
+    }
+  ]
+}
