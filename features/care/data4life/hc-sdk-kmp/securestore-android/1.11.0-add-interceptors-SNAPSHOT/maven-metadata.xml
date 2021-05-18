@@ -5,31 +5,31 @@
   <version>1.11.0-add-interceptors-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210517.151020</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210518.111926</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210517151020</lastUpdated>
+    <lastUpdated>20210518111926</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-add-interceptors-20210517.151020-2</value>
-        <updated>20210517151020</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.11.0-add-interceptors-20210517.151020-2</value>
-        <updated>20210517151020</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>1.11.0-add-interceptors-20210517.151020-2</value>
-        <updated>20210517151020</updated>
+        <value>1.11.0-add-interceptors-20210518.111926-3</value>
+        <updated>20210518111926</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-interceptors-20210517.151020-2</value>
-        <updated>20210517151020</updated>
+        <value>1.11.0-add-interceptors-20210518.111926-3</value>
+        <updated>20210518111926</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.11.0-add-interceptors-20210518.111926-3</value>
+        <updated>20210518111926</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.11.0-add-interceptors-20210518.111926-3</value>
+        <updated>20210518111926</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
