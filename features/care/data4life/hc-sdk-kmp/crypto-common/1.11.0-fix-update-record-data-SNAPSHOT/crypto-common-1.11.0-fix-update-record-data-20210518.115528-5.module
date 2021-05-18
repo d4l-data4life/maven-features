@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-fix-update-record-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "2izywu4e6rgwhehoizj6gl6zdy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "f263902263fee83ba7b95cc6d6061904879d33ac11db88ae9828e624587bf8359ddba06f0752670730596114a323344a47804206d86ba5926c6aea8ea06eb41b",
+          "sha256": "c6a228bcfd2fcc4ebd4c5ec2f0903270edb54b4d575c859b3eeca107c5ccd3c5",
+          "sha1": "07768c5e0749ccd81ea736198b292b4cbf0dccbc",
+          "md5": "625b5e0b43be6ab0c304bc9e05a7e117"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-fix-update-record-data-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "f263902263fee83ba7b95cc6d6061904879d33ac11db88ae9828e624587bf8359ddba06f0752670730596114a323344a47804206d86ba5926c6aea8ea06eb41b",
+          "sha256": "c6a228bcfd2fcc4ebd4c5ec2f0903270edb54b4d575c859b3eeca107c5ccd3c5",
+          "sha1": "07768c5e0749ccd81ea736198b292b4cbf0dccbc",
+          "md5": "625b5e0b43be6ab0c304bc9e05a7e117"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-common</artifactId>
   <versioning>
-    <latest>1.11.0-add-interceptors-SNAPSHOT</latest>
+    <latest>1.11.0-fix-update-record-data-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -24,6 +24,6 @@
       <version>1.11.0-change-compatibility-service-unblocking-SNAPSHOT</version>
       <version>1.11.0-change-client-version-header-dynamic-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210518112015</lastUpdated>
+    <lastUpdated>20210518115612</lastUpdated>
   </versioning>
 </metadata>
