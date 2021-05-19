@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-add-interceptors-SNAPSHOT</latest>
+    <latest>1.11.0-change-client-version-header-dynamic-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -25,6 +25,6 @@
       <version>1.11.0-change-client-version-header-dynamic-SNAPSHOT</version>
       <version>1.11.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210519053553</lastUpdated>
+    <lastUpdated>20210519092559</lastUpdated>
   </versioning>
 </metadata>
