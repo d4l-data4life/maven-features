@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-jvm</artifactId>
   <versioning>
-    <latest>0.1.0-add-kotlin-generator-script-SNAPSHOT</latest>
+    <latest>0.1.0-add-full-fhir4-support-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -19,7 +19,8 @@
       <version>0.1.0-add-fhir4-base-resource-types-SNAPSHOT</version>
       <version>0.1.0-add-fhir4-generated-types-SNAPSHOT</version>
       <version>0.1.0-add-kotlin-generator-script-SNAPSHOT</version>
+      <version>0.1.0-add-full-fhir4-support-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210519132306</lastUpdated>
+    <lastUpdated>20210519141419</lastUpdated>
   </versioning>
 </metadata>
