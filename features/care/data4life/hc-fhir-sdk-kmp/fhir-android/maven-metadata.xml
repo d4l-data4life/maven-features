@@ -20,6 +20,6 @@
       <version>0.1.0-add-fhir4-generated-types-SNAPSHOT</version>
       <version>0.1.0-add-kotlin-generator-script-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210518162447</lastUpdated>
+    <lastUpdated>20210519132304</lastUpdated>
   </versioning>
 </metadata>

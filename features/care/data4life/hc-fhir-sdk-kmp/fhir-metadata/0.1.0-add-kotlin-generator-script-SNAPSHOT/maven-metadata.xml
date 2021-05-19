@@ -5,31 +5,31 @@
   <version>0.1.0-add-kotlin-generator-script-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210518.162414</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210519.132218</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210518162414</lastUpdated>
+    <lastUpdated>20210519132218</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.0-add-kotlin-generator-script-20210518.162414-2</value>
-        <updated>20210518162414</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-add-kotlin-generator-script-20210518.162414-2</value>
-        <updated>20210518162414</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-add-kotlin-generator-script-20210518.162414-2</value>
-        <updated>20210518162414</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-add-kotlin-generator-script-20210518.162414-2</value>
-        <updated>20210518162414</updated>
+        <value>0.1.0-add-kotlin-generator-script-20210519.132218-3</value>
+        <updated>20210519132218</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-add-kotlin-generator-script-20210519.132218-3</value>
+        <updated>20210519132218</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-add-kotlin-generator-script-20210519.132218-3</value>
+        <updated>20210519132218</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-add-kotlin-generator-script-20210519.132218-3</value>
+        <updated>20210519132218</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
