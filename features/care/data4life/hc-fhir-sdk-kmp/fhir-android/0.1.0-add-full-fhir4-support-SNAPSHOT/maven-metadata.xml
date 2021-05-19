@@ -5,31 +5,31 @@
   <version>0.1.0-add-full-fhir4-support-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210519.172205</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210519.210046</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210519172205</lastUpdated>
+    <lastUpdated>20210519210046</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.0-add-full-fhir4-support-20210519.172205-3</value>
-        <updated>20210519172205</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-add-full-fhir4-support-20210519.172205-3</value>
-        <updated>20210519172205</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.0-add-full-fhir4-support-20210519.172205-3</value>
-        <updated>20210519172205</updated>
+        <value>0.1.0-add-full-fhir4-support-20210519.210046-4</value>
+        <updated>20210519210046</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.1.0-add-full-fhir4-support-20210519.172205-3</value>
-        <updated>20210519172205</updated>
+        <value>0.1.0-add-full-fhir4-support-20210519.210046-4</value>
+        <updated>20210519210046</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-add-full-fhir4-support-20210519.210046-4</value>
+        <updated>20210519210046</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-add-full-fhir4-support-20210519.210046-4</value>
+        <updated>20210519210046</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
