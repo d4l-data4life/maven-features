@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-common</artifactId>
   <versioning>
-    <latest>1.11.0-SNAPSHOT</latest>
+    <latest>1.11.0-add-interceptors-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -25,6 +25,6 @@
       <version>1.11.0-change-client-version-header-dynamic-SNAPSHOT</version>
       <version>1.11.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210518130754</lastUpdated>
+    <lastUpdated>20210519050358</lastUpdated>
   </versioning>
 </metadata>

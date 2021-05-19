@@ -5,37 +5,37 @@
   <version>1.11.0-add-interceptors-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210518.111926</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210519.050313</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210518111926</lastUpdated>
+    <lastUpdated>20210519050313</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.11.0-add-interceptors-20210518.111926-3</value>
-        <updated>20210518111926</updated>
+        <extension>pom</extension>
+        <value>1.11.0-add-interceptors-20210519.050313-4</value>
+        <updated>20210519050313</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-add-interceptors-20210518.111926-3</value>
-        <updated>20210518111926</updated>
+        <extension>jar</extension>
+        <value>1.11.0-add-interceptors-20210519.050313-4</value>
+        <updated>20210519050313</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-interceptors-20210518.111926-3</value>
-        <updated>20210518111926</updated>
+        <value>1.11.0-add-interceptors-20210519.050313-4</value>
+        <updated>20210519050313</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.11.0-add-interceptors-20210519.050313-4</value>
+        <updated>20210519050313</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-interceptors-20210518.111926-3</value>
-        <updated>20210518111926</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-add-interceptors-20210518.111926-3</value>
-        <updated>20210518111926</updated>
+        <value>1.11.0-add-interceptors-20210519.050313-4</value>
+        <updated>20210519050313</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
