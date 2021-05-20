@@ -5,37 +5,37 @@
   <version>1.11.0-add-certificate-pinner-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210512.102145</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210520.085831</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210512102145</lastUpdated>
+    <lastUpdated>20210520085831</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-certificate-pinner-20210512.102145-1</value>
-        <updated>20210512102145</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.11.0-add-certificate-pinner-20210512.102145-1</value>
-        <updated>20210512102145</updated>
+        <value>1.11.0-add-certificate-pinner-20210520.085831-2</value>
+        <updated>20210520085831</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-certificate-pinner-20210512.102145-1</value>
-        <updated>20210512102145</updated>
+        <value>1.11.0-add-certificate-pinner-20210520.085831-2</value>
+        <updated>20210520085831</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-add-certificate-pinner-20210512.102145-1</value>
-        <updated>20210512102145</updated>
+        <extension>jar</extension>
+        <value>1.11.0-add-certificate-pinner-20210520.085831-2</value>
+        <updated>20210520085831</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.11.0-add-certificate-pinner-20210512.102145-1</value>
-        <updated>20210512102145</updated>
+        <value>1.11.0-add-certificate-pinner-20210520.085831-2</value>
+        <updated>20210520085831</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.11.0-add-certificate-pinner-20210520.085831-2</value>
+        <updated>20210520085831</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

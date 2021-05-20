@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-add-certificate-pinner-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "pcpk4mrtkjhhpp376j656fu4l4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-certificate-pinner-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "b589e42c03e20c1bcf8866d60160d6b2e3a39a3327713ecf17978e4ceba31cbb239653f22ba4e0efab816af79964b5d74025db6c3225919a4d8fe1332b6ba3d6",
+          "sha256": "82c0eaf9e81722ce1484b45a4e1cd1c87fd1f5e7bc64495329490cac0011b35c",
+          "sha1": "548c4a3c8e1ac967d8d4debd4d86d777bab881fe",
+          "md5": "4f4008c2ca6d6547e131dc3a6bbc815c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-certificate-pinner-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-certificate-pinner-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "b589e42c03e20c1bcf8866d60160d6b2e3a39a3327713ecf17978e4ceba31cbb239653f22ba4e0efab816af79964b5d74025db6c3225919a4d8fe1332b6ba3d6",
+          "sha256": "82c0eaf9e81722ce1484b45a4e1cd1c87fd1f5e7bc64495329490cac0011b35c",
+          "sha1": "548c4a3c8e1ac967d8d4debd4d86d777bab881fe",
+          "md5": "4f4008c2ca6d6547e131dc3a6bbc815c"
+        }
+      ]
+    }
+  ]
+}
