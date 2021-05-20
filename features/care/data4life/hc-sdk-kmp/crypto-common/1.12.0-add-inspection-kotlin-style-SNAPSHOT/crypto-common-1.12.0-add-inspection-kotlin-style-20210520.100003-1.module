@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.12.0-add-inspection-kotlin-style-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "up7vwqdrwrhzjkaxp7dvfhigzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-add-inspection-kotlin-style-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-add-inspection-kotlin-style-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "f020e45838c1ef1eb4d36c5859bc7a929484afc16379c15563923ec8cc0617865d5717d2ebb3ec65ff64fcb8f310f0c3a16904c509c7c012690796f91897ff96",
+          "sha256": "a9f9a9f6a5e30cc9dcc03420c166c93a77f57a1fdf33cfb1e9c402352a779f2a",
+          "sha1": "f590c5065d01b787ffcf03978580e727f9981b3c",
+          "md5": "de0fbe9af29cb35abe6e40ac8cb7ac17"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-add-inspection-kotlin-style-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-add-inspection-kotlin-style-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "f020e45838c1ef1eb4d36c5859bc7a929484afc16379c15563923ec8cc0617865d5717d2ebb3ec65ff64fcb8f310f0c3a16904c509c7c012690796f91897ff96",
+          "sha256": "a9f9a9f6a5e30cc9dcc03420c166c93a77f57a1fdf33cfb1e9c402352a779f2a",
+          "sha1": "f590c5065d01b787ffcf03978580e727f9981b3c",
+          "md5": "de0fbe9af29cb35abe6e40ac8cb7ac17"
+        }
+      ]
+    }
+  ]
+}
