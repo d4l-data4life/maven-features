@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-change-client-version-header-dynamic-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dpagpg7j6fcgvk5js3cjhh6hmq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "2fcec485076c1e07725c4f32d50b1622df67bbf36a16d180e348c5a07dad68db6f29a5f397ff950c0a90709d4895f014a35ee0b875fad9cc4e75689bc1193902",
+          "sha256": "ccbda9a05b170218efb9b338c1c92449b0311dfa849e909ab0ea107f76b373fe",
+          "sha1": "3cd3dce5a376001a17f8958b4f34861125f803f5",
+          "md5": "17d5a4e7774e093a27e8b68c3799f092"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "2fcec485076c1e07725c4f32d50b1622df67bbf36a16d180e348c5a07dad68db6f29a5f397ff950c0a90709d4895f014a35ee0b875fad9cc4e75689bc1193902",
+          "sha256": "ccbda9a05b170218efb9b338c1c92449b0311dfa849e909ab0ea107f76b373fe",
+          "sha1": "3cd3dce5a376001a17f8958b4f34861125f803f5",
+          "md5": "17d5a4e7774e093a27e8b68c3799f092"
+        }
+      ]
+    }
+  ]
+}
