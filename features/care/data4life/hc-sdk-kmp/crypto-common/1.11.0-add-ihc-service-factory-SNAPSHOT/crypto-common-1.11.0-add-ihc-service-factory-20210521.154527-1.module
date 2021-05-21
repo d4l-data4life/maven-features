@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-add-ihc-service-factory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "k56oaukgvbbi3doiuviyikw7g4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-ihc-service-factory-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-ihc-service-factory-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "46574635bf30c88f64ba9abf086ad500c900dc0f9686b798cb629130ab27a33cbbb57fc73c1c95d5e4bb8cd45fad4a2f373850017849369767960393619f4a32",
+          "sha256": "5a511cf525ecbe508ac76bf070212b7e4655b491c7d03fb05299e83f8dd9de7a",
+          "sha1": "5dc75db01a9d0156cb07c4b7a841b477b2a71751",
+          "md5": "b71fda82564dd079d3729d6b33e2366d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-ihc-service-factory-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-ihc-service-factory-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "46574635bf30c88f64ba9abf086ad500c900dc0f9686b798cb629130ab27a33cbbb57fc73c1c95d5e4bb8cd45fad4a2f373850017849369767960393619f4a32",
+          "sha256": "5a511cf525ecbe508ac76bf070212b7e4655b491c7d03fb05299e83f8dd9de7a",
+          "sha1": "5dc75db01a9d0156cb07c4b7a841b477b2a71751",
+          "md5": "b71fda82564dd079d3729d6b33e2366d"
+        }
+      ]
+    }
+  ]
+}
