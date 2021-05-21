@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0-change-client-version-header-dynamic-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "p3ldgez2tjaxzjaeu37pmwakju"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "42a65d8faae069e916ab3b62a6173376b00259cab251339faf40aafff3ad131b00770b68294fbf598aeaca28bb90c62289fe56de9f5893e371ad8af2d7981bc6",
+          "sha256": "70d7c3ea1fa58f09ae0d820185b4d12bb4df58cd8f406517691d99490ad70d3e",
+          "sha1": "dd9ba43324a1ba0610f745d8ce4f317c1c177fd4",
+          "md5": "481db288b2e04e9a3e9c0509de2be430"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-client-version-header-dynamic-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-client-version-header-dynamic-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "42a65d8faae069e916ab3b62a6173376b00259cab251339faf40aafff3ad131b00770b68294fbf598aeaca28bb90c62289fe56de9f5893e371ad8af2d7981bc6",
+          "sha256": "70d7c3ea1fa58f09ae0d820185b4d12bb4df58cd8f406517691d99490ad70d3e",
+          "sha1": "dd9ba43324a1ba0610f745d8ce4f317c1c177fd4",
+          "md5": "481db288b2e04e9a3e9c0509de2be430"
+        }
+      ]
+    }
+  ]
+}

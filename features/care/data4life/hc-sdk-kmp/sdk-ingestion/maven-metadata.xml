@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-ingestion</artifactId>
   <versioning>
-    <latest>1.11.0-add-client-factory-SNAPSHOT</latest>
+    <latest>1.11.0-change-client-version-header-dynamic-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -27,6 +27,6 @@
       <version>1.12.0-add-inspection-kotlin-style-SNAPSHOT</version>
       <version>1.11.0-add-client-factory-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210520121621</lastUpdated>
+    <lastUpdated>20210521123108</lastUpdated>
   </versioning>
 </metadata>
