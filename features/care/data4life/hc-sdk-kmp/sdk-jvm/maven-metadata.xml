@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-add-ihc-service-factory-SNAPSHOT</latest>
+    <latest>1.11.0-change-api-service-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -28,6 +28,6 @@
       <version>1.11.0-add-client-factory-SNAPSHOT</version>
       <version>1.11.0-add-ihc-service-factory-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210521154630</lastUpdated>
+    <lastUpdated>20210525103321</lastUpdated>
   </versioning>
 </metadata>
