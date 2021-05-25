@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.4.0-add-allergy-intolerance-and-others-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gzmsnjbwk5gkvjutb34sg7vweu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.4.0-add-allergy-intolerance-and-others-SNAPSHOT.jar",
+          "url": "fhir-java-1.4.0-add-allergy-intolerance-and-others-SNAPSHOT.jar",
+          "size": 999974,
+          "sha512": "776dfa062d4df937a67c32a029c0deae898d171ef03aa834d8cab565dbcc553b9f0a48616ddd1098fe87d012392c41282f3e338ff670d4a715d012ada9f34b53",
+          "sha256": "802580c24095a92759a33d7bb17e3de18ba826e2374ff9d5d3eb8d171ccb2eb4",
+          "sha1": "5bea0ae902f17aceb7104081848ce57434f97536",
+          "md5": "9a9f386c06d9b9f3ab3030d0b0d8f169"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.4.0-add-allergy-intolerance-and-others-SNAPSHOT.jar",
+          "url": "fhir-java-1.4.0-add-allergy-intolerance-and-others-SNAPSHOT.jar",
+          "size": 999974,
+          "sha512": "776dfa062d4df937a67c32a029c0deae898d171ef03aa834d8cab565dbcc553b9f0a48616ddd1098fe87d012392c41282f3e338ff670d4a715d012ada9f34b53",
+          "sha256": "802580c24095a92759a33d7bb17e3de18ba826e2374ff9d5d3eb8d171ccb2eb4",
+          "sha1": "5bea0ae902f17aceb7104081848ce57434f97536",
+          "md5": "9a9f386c06d9b9f3ab3030d0b0d8f169"
+        }
+      ]
+    }
+  ]
+}
