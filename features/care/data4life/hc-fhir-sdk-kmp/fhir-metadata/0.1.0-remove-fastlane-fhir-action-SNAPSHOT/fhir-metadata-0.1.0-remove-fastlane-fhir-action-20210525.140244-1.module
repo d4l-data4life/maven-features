@@ -1,0 +1,37 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-jvm/0.1.0-remove-fastlane-fhir-action-SNAPSHOT/fhir-jvm-0.1.0-remove-fastlane-fhir-action-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-jvm",
+    "version": "0.1.0-remove-fastlane-fhir-action-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.1.0-remove-fastlane-fhir-action-SNAPSHOT.jar",
+          "url": "fhir-metadata-0.1.0-remove-fastlane-fhir-action-SNAPSHOT.jar",
+          "size": 3216152,
+          "sha512": "f2241f2d17a315f75c85f570d9a3636fac6289789fee6e76daea713aecbdf31bfd66141bd8600cac256e1ba33175f9809a411a934067b59639bea131767843c5",
+          "sha256": "393d2acd437f75f95547af57ab7122fabe59512dcbc9e27aea24a6ee309164c6",
+          "sha1": "e7d0fa5e9bcbccad07fb8b613ab28e184b37e4a5",
+          "md5": "278eb29bec54f9f884d0df8e9a92b86a"
+        }
+      ]
+    }
+  ]
+}
