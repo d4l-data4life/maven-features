@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-change-ihc-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ay3rdd2vo5blzp5hhzxvy676cu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-ihc-service-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-ihc-service-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "990be2ab9e01a47318ae51fa0a948e11248111b8b16e82632d2cd4b24f2a49c58737f24d67c4447f7142307d78ccfe6104245318ca3ab6a098a04f898e8eed03",
+          "sha256": "93fc0df2a445335cc3d25ffebd034f6343e06002396e4f5a12ce5c9ab25693f9",
+          "sha1": "d67ac1b00abd5be39c3d9bc04dd8cb75d6e30fe4",
+          "md5": "4f76f3df8b7e68a85de940d0bbc645c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-ihc-service-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-ihc-service-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "990be2ab9e01a47318ae51fa0a948e11248111b8b16e82632d2cd4b24f2a49c58737f24d67c4447f7142307d78ccfe6104245318ca3ab6a098a04f898e8eed03",
+          "sha256": "93fc0df2a445335cc3d25ffebd034f6343e06002396e4f5a12ce5c9ab25693f9",
+          "sha1": "d67ac1b00abd5be39c3d9bc04dd8cb75d6e30fe4",
+          "md5": "4f76f3df8b7e68a85de940d0bbc645c9"
+        }
+      ]
+    }
+  ]
+}
