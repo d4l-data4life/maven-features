@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-core",
+    "version": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wesjnyfvq5c75ovkbhahlvw3ae"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "sdk-core-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 579414,
+          "sha512": "0e2ffd1b0d3a77c010bf7f1515d6755470bee53e2f6ad5d99c0faa1cb13a14ec2ef4b4dd5153bc99fa62bf30ea559d9f29600440694eda40c6c28a18ca194b09",
+          "sha256": "57ac4cc696f5d58235f139b48be0520d286c3ee1aef9e952d75644eef07430c6",
+          "sha1": "62b5282e272eeaee44c8cc39afaace0f8d06c111",
+          "md5": "5cfa499d518d626be4b125f87887ac02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "sdk-core-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 579414,
+          "sha512": "0e2ffd1b0d3a77c010bf7f1515d6755470bee53e2f6ad5d99c0faa1cb13a14ec2ef4b4dd5153bc99fa62bf30ea559d9f29600440694eda40c6c28a18ca194b09",
+          "sha256": "57ac4cc696f5d58235f139b48be0520d286c3ee1aef9e952d75644eef07430c6",
+          "sha1": "62b5282e272eeaee44c8cc39afaace0f8d06c111",
+          "md5": "5cfa499d518d626be4b125f87887ac02"
+        }
+      ]
+    }
+  ]
+}

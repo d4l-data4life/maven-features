@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wesjnyfvq5c75ovkbhahlvw3ae"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "fda65f3541c65fbcb75af6deac97374f68346fc703b8a138daa3f7a23ca9163f29eb0c4ff3620e67b910bdf54a6f1e2c201dc28a47452b9ee38bcb95ddb52fae",
+          "sha256": "6e0aa92e2722e0d4ca9ecdbb8d789b43003a1b127bd654ff81876ee25695dd9b",
+          "sha1": "63d49b11f31322bf6de67ffd3a34ecd1f0a6a92c",
+          "md5": "0fe4e90cd32fb45e4bd546e50ba13efb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "fda65f3541c65fbcb75af6deac97374f68346fc703b8a138daa3f7a23ca9163f29eb0c4ff3620e67b910bdf54a6f1e2c201dc28a47452b9ee38bcb95ddb52fae",
+          "sha256": "6e0aa92e2722e0d4ca9ecdbb8d789b43003a1b127bd654ff81876ee25695dd9b",
+          "sha1": "63d49b11f31322bf6de67ffd3a34ecd1f0a6a92c",
+          "md5": "0fe4e90cd32fb45e4bd546e50ba13efb"
+        }
+      ]
+    }
+  ]
+}

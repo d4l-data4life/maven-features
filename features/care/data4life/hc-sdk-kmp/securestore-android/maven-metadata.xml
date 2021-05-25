@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.11.0-change-ihc-service-SNAPSHOT</latest>
+    <latest>1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -28,7 +28,8 @@
       <version>1.11.0-add-client-factory-SNAPSHOT</version>
       <version>1.11.0-add-ihc-service-factory-SNAPSHOT</version>
       <version>1.11.0-change-ihc-service-SNAPSHOT</version>
+      <version>1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210525133828</lastUpdated>
+    <lastUpdated>20210525180404</lastUpdated>
   </versioning>
 </metadata>
