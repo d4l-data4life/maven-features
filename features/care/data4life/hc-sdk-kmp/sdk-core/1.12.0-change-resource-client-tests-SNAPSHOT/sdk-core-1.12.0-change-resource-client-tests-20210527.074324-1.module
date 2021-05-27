@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-core",
+    "version": "1.12.0-change-resource-client-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "rvv5gt3g5necxomg2ljcen2ena"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.12.0-change-resource-client-tests-SNAPSHOT.jar",
+          "url": "sdk-core-1.12.0-change-resource-client-tests-SNAPSHOT.jar",
+          "size": 579398,
+          "sha512": "536559412e5f2b6fafb78c810ce7396eee30ec38c74c5bd34bb7c407818346404cae36f6180bc52c8139b2dc90d18559cce76e342030a0720951c405f9b288e0",
+          "sha256": "4ab09a19898f0cd9422050bfc721ff3fc25e880daacc96c4be0c48a222dd55e9",
+          "sha1": "180dca32edd19a7fe8430c66e2dab895b3abd3bc",
+          "md5": "dbbddcdcf342e717a8c903bff7a1a030"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.12.0-change-resource-client-tests-SNAPSHOT.jar",
+          "url": "sdk-core-1.12.0-change-resource-client-tests-SNAPSHOT.jar",
+          "size": 579398,
+          "sha512": "536559412e5f2b6fafb78c810ce7396eee30ec38c74c5bd34bb7c407818346404cae36f6180bc52c8139b2dc90d18559cce76e342030a0720951c405f9b288e0",
+          "sha256": "4ab09a19898f0cd9422050bfc721ff3fc25e880daacc96c4be0c48a222dd55e9",
+          "sha1": "180dca32edd19a7fe8430c66e2dab895b3abd3bc",
+          "md5": "dbbddcdcf342e717a8c903bff7a1a030"
+        }
+      ]
+    }
+  ]
+}

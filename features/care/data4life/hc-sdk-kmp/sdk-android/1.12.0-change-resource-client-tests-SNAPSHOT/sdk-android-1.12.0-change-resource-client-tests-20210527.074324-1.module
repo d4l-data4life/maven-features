@@ -1,0 +1,254 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-android",
+    "version": "1.12.0-change-resource-client-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "rvv5gt3g5necxomg2ljcen2ena"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "auth-jvm"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            },
+            {
+              "group": "*",
+              "module": "securestore-jvm"
+            },
+            {
+              "group": "*",
+              "module": "crypto-jvm"
+            },
+            {
+              "group": "org.threeten",
+              "module": "threetenbp"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-android-1.12.0-change-resource-client-tests-SNAPSHOT.aar",
+          "url": "sdk-android-1.12.0-change-resource-client-tests-SNAPSHOT.aar",
+          "size": 28246,
+          "sha512": "ddb8a56a1a1c184145801a1f0c371893b388a73fd731864daccaba8dc42ce43d802d9e4b1dee4b8cb2433b3c0e18e715310e07628aeb9cb3cb4bbd2f89580c85",
+          "sha256": "9db5b54d9cb15312e6b4adb693eca15227d56a8758e040c9ccdddb74bcd531cf",
+          "sha1": "655ca85e193d9e1770230380bdcfb267081a1a81",
+          "md5": "18c7b02b06f0f3a371736ee4a11c7854"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "auth-jvm"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            },
+            {
+              "group": "*",
+              "module": "securestore-jvm"
+            },
+            {
+              "group": "*",
+              "module": "crypto-jvm"
+            },
+            {
+              "group": "org.threeten",
+              "module": "threetenbp"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-android",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-android",
+          "version": {
+            "requires": "1.12.0-change-resource-client-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.threetenabp",
+          "module": "threetenabp",
+          "version": {
+            "requires": "1.2.4"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-android-1.12.0-change-resource-client-tests-SNAPSHOT.aar",
+          "url": "sdk-android-1.12.0-change-resource-client-tests-SNAPSHOT.aar",
+          "size": 28246,
+          "sha512": "ddb8a56a1a1c184145801a1f0c371893b388a73fd731864daccaba8dc42ce43d802d9e4b1dee4b8cb2433b3c0e18e715310e07628aeb9cb3cb4bbd2f89580c85",
+          "sha256": "9db5b54d9cb15312e6b4adb693eca15227d56a8758e040c9ccdddb74bcd531cf",
+          "sha1": "655ca85e193d9e1770230380bdcfb267081a1a81",
+          "md5": "18c7b02b06f0f3a371736ee4a11c7854"
+        }
+      ]
+    }
+  ]
+}
