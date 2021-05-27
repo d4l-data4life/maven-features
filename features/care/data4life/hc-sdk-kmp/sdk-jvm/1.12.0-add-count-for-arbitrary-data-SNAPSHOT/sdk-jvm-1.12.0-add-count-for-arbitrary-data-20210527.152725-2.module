@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ibostorcrvhz7chnnu3popfprm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 11654,
+          "sha512": "4145cc38cdc296d6596e922d0029da58b9f05dd74cd36652ea46fa967834e099ca51db2311421b4448dca09d14deac0f60772cb88e534ff24362183b94645c8d",
+          "sha256": "e9f16312cc230a99173469564b615f6a320dd84249680013f5ba582e8b4d1d0e",
+          "sha1": "c079dd07274cece3f6a879f7acb05758073d0baa",
+          "md5": "135ba98e29b9c416604938b58b9795f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 11654,
+          "sha512": "4145cc38cdc296d6596e922d0029da58b9f05dd74cd36652ea46fa967834e099ca51db2311421b4448dca09d14deac0f60772cb88e534ff24362183b94645c8d",
+          "sha256": "e9f16312cc230a99173469564b615f6a320dd84249680013f5ba582e8b4d1d0e",
+          "sha1": "c079dd07274cece3f6a879f7acb05758073d0baa",
+          "md5": "135ba98e29b9c416604938b58b9795f8"
+        }
+      ]
+    }
+  ]
+}

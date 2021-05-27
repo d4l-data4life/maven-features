@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ibostorcrvhz7chnnu3popfprm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "ebdb6f5f252ff29bfced76ce5a8eda4882acdc3ae44cb4501f4670cac556e84d012367662e31312c0248829cbb55a5b0a4f44af0e2829a8a56fc945bb908c6ea",
+          "sha256": "d3f412e7b61610fb5973bdfdd626134b6df947ffc52d68a06d76bc0c1fd35abc",
+          "sha1": "c064f04c880fa8f8d1bb1e664bcf94670693a7a4",
+          "md5": "51ac777c70063313d6102ed8a6fad0a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "ebdb6f5f252ff29bfced76ce5a8eda4882acdc3ae44cb4501f4670cac556e84d012367662e31312c0248829cbb55a5b0a4f44af0e2829a8a56fc945bb908c6ea",
+          "sha256": "d3f412e7b61610fb5973bdfdd626134b6df947ffc52d68a06d76bc0c1fd35abc",
+          "sha1": "c064f04c880fa8f8d1bb1e664bcf94670693a7a4",
+          "md5": "51ac777c70063313d6102ed8a6fad0a5"
+        }
+      ]
+    }
+  ]
+}

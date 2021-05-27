@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ibostorcrvhz7chnnu3popfprm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "9dece2f8482da50e2b6dc8f0cb80e2c1a76a0abbc1f321e71d94a12278ebe5f55e2cb68ea69ceb0f964f3ec335d504994305316e39bbfddd831e14bdab5c5b90",
+          "sha256": "18ae20c63e439be1f47d774cf9d0268bb064a6c74ade7bc69b6644b90dd167c4",
+          "sha1": "4e711f9425894a791dc05b2901cdab9c930c1078",
+          "md5": "f83bc12415772c08c0a86968ed8b998f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-add-count-for-arbitrary-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-add-count-for-arbitrary-data-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "9dece2f8482da50e2b6dc8f0cb80e2c1a76a0abbc1f321e71d94a12278ebe5f55e2cb68ea69ceb0f964f3ec335d504994305316e39bbfddd831e14bdab5c5b90",
+          "sha256": "18ae20c63e439be1f47d774cf9d0268bb064a6c74ade7bc69b6644b90dd167c4",
+          "sha1": "4e711f9425894a791dc05b2901cdab9c930c1078",
+          "md5": "f83bc12415772c08c0a86968ed8b998f"
+        }
+      ]
+    }
+  ]
+}
