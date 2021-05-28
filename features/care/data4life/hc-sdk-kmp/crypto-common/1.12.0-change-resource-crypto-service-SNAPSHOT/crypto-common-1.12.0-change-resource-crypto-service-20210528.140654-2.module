@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.12.0-change-resource-crypto-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "mgpqk7z7tfagfajl6gojuhg4oa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "22d60cd2faba04d53caefc1696223b52143d2a3e2b975484e50aa00682a35b1ed2c17a7a8e903270714f0f5f8514cf7de9ea56a74269d9c8f419643807a0ec6b",
+          "sha256": "740052066e0fcfad822d4688772cc7e468af59f583572963c774d99b28516f76",
+          "sha1": "66273bec09bfad9fe67d4d098361f0a53ba4ae45",
+          "md5": "92dd77b6d9e53d23857b17449d4c7799"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "22d60cd2faba04d53caefc1696223b52143d2a3e2b975484e50aa00682a35b1ed2c17a7a8e903270714f0f5f8514cf7de9ea56a74269d9c8f419643807a0ec6b",
+          "sha256": "740052066e0fcfad822d4688772cc7e468af59f583572963c774d99b28516f76",
+          "sha1": "66273bec09bfad9fe67d4d098361f0a53ba4ae45",
+          "md5": "92dd77b6d9e53d23857b17449d4c7799"
+        }
+      ]
+    }
+  ]
+}

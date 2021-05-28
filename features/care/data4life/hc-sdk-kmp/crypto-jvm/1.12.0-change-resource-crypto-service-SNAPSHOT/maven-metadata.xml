@@ -5,37 +5,37 @@
   <version>1.12.0-change-resource-crypto-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210528.134626</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210528.140654</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210528134626</lastUpdated>
+    <lastUpdated>20210528140654</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.12.0-change-resource-crypto-service-20210528.134626-1</value>
-        <updated>20210528134626</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.12.0-change-resource-crypto-service-20210528.134626-1</value>
-        <updated>20210528134626</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.12.0-change-resource-crypto-service-20210528.134626-1</value>
-        <updated>20210528134626</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.12.0-change-resource-crypto-service-20210528.134626-1</value>
-        <updated>20210528134626</updated>
+        <value>1.12.0-change-resource-crypto-service-20210528.140654-2</value>
+        <updated>20210528140654</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.12.0-change-resource-crypto-service-20210528.134626-1</value>
-        <updated>20210528134626</updated>
+        <value>1.12.0-change-resource-crypto-service-20210528.140654-2</value>
+        <updated>20210528140654</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.12.0-change-resource-crypto-service-20210528.140654-2</value>
+        <updated>20210528140654</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.12.0-change-resource-crypto-service-20210528.140654-2</value>
+        <updated>20210528140654</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.12.0-change-resource-crypto-service-20210528.140654-2</value>
+        <updated>20210528140654</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
