@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.12.0-change-merge-fhir-and-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qqfzc4u6dnghhl7da2ilc5kun4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.12.0-change-merge-fhir-and-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "99ef7f409b8501545dbea01fcdaca1c32aa0b913871dc812fed9d5f59d9543767022827e844edf14e8d67e6cbb0086b3f7644bc405e88655f82e81de49e6b8f9",
+          "sha256": "319bf3036a36695087751a0fb42767a2c3f1f79d60f302132e1c833744737179",
+          "sha1": "4f15002ede1f6d202fcb788aede63301a4be4fe7",
+          "md5": "024ebc4f65f82db0f5bbb5c993ad4cce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.12.0-change-merge-fhir-and-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "99ef7f409b8501545dbea01fcdaca1c32aa0b913871dc812fed9d5f59d9543767022827e844edf14e8d67e6cbb0086b3f7644bc405e88655f82e81de49e6b8f9",
+          "sha256": "319bf3036a36695087751a0fb42767a2c3f1f79d60f302132e1c833744737179",
+          "sha1": "4f15002ede1f6d202fcb788aede63301a4be4fe7",
+          "md5": "024ebc4f65f82db0f5bbb5c993ad4cce"
+        }
+      ]
+    }
+  ]
+}
