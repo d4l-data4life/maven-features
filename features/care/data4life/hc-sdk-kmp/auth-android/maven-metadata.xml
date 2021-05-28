@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.12.0-change-resource-crypto-tests-SNAPSHOT</latest>
+    <latest>1.12.0-change-resource-crypto-service-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -33,7 +33,8 @@
       <version>1.12.0-change-resource-client-tests-SNAPSHOT</version>
       <version>1.12.0-add-count-for-arbitrary-data-SNAPSHOT</version>
       <version>1.12.0-change-resource-crypto-tests-SNAPSHOT</version>
+      <version>1.12.0-change-resource-crypto-service-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210528114851</lastUpdated>
+    <lastUpdated>20210528134734</lastUpdated>
   </versioning>
 </metadata>
