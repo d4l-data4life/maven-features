@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vpbm6lmtdvcl7gezbc5xya2ioe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "e0f85287e6959b96efc9f6e0bde3209731ad2456e99036df4dd3ad465585936b2019e8d1522c701b16aa6b26d1d44570f352a989330b1ca77daced27298adc02",
+          "sha256": "04647d7d083c4a16ee315e66a6ed126b133ce8a2cdb79865bcf8782b81249a33",
+          "sha1": "19de059ab947e7d63560336526692e3583c48a5a",
+          "md5": "ba171117fa1c1cf67042df3c1894bafa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "e0f85287e6959b96efc9f6e0bde3209731ad2456e99036df4dd3ad465585936b2019e8d1522c701b16aa6b26d1d44570f352a989330b1ca77daced27298adc02",
+          "sha256": "04647d7d083c4a16ee315e66a6ed126b133ce8a2cdb79865bcf8782b81249a33",
+          "sha1": "19de059ab947e7d63560336526692e3583c48a5a",
+          "md5": "ba171117fa1c1cf67042df3c1894bafa"
+        }
+      ]
+    }
+  ]
+}
