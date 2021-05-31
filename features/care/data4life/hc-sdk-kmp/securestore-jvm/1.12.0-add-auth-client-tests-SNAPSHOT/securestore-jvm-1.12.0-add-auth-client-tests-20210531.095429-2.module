@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.12.0-add-auth-client-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "jfappqw7pncurlg45vldq5mioy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-add-auth-client-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "121d052a74390c4576dc898a0a2e6f9ca3f2329db10d114cb2163d82a90c6a964eb7e1f38beb3ceca0ec2ff94151e54181b04b22b50765c741579c3a1a939162",
+          "sha256": "5152c0dad7280a2c449230c72c888128d7625d094ca67bc62917acc2d8e87dbc",
+          "sha1": "1aa694b20884e40a77ffbf8a4601863b321358cf",
+          "md5": "564a679291d0b0e97417716ebe941151"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.12.0-add-auth-client-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "121d052a74390c4576dc898a0a2e6f9ca3f2329db10d114cb2163d82a90c6a964eb7e1f38beb3ceca0ec2ff94151e54181b04b22b50765c741579c3a1a939162",
+          "sha256": "5152c0dad7280a2c449230c72c888128d7625d094ca67bc62917acc2d8e87dbc",
+          "sha1": "1aa694b20884e40a77ffbf8a4601863b321358cf",
+          "md5": "564a679291d0b0e97417716ebe941151"
+        }
+      ]
+    }
+  ]
+}
