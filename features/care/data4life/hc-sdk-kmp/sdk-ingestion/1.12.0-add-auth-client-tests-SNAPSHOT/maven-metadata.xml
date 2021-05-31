@@ -5,37 +5,37 @@
   <version>1.12.0-add-auth-client-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210531.095429</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210531.103717</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210531095429</lastUpdated>
+    <lastUpdated>20210531103717</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.12.0-add-auth-client-tests-20210531.103717-3</value>
+        <updated>20210531103717</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.12.0-add-auth-client-tests-20210531.095429-2</value>
-        <updated>20210531095429</updated>
+        <value>1.12.0-add-auth-client-tests-20210531.103717-3</value>
+        <updated>20210531103717</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.12.0-add-auth-client-tests-20210531.103717-3</value>
+        <updated>20210531103717</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.12.0-add-auth-client-tests-20210531.103717-3</value>
+        <updated>20210531103717</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.12.0-add-auth-client-tests-20210531.095429-2</value>
-        <updated>20210531095429</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.12.0-add-auth-client-tests-20210531.095429-2</value>
-        <updated>20210531095429</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.12.0-add-auth-client-tests-20210531.095429-2</value>
-        <updated>20210531095429</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.12.0-add-auth-client-tests-20210531.095429-2</value>
-        <updated>20210531095429</updated>
+        <value>1.12.0-add-auth-client-tests-20210531.103717-3</value>
+        <updated>20210531103717</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
