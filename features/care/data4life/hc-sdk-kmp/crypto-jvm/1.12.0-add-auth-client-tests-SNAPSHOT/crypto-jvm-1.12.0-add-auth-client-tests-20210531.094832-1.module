@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.12.0-add-auth-client-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "mcix2dz25bdtvpnb4jljkshbqq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.12.0-add-auth-client-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "b84064c2c91d62f7495ccafbd18c4b8baa344441c10156ac68fca016c7d91ea65befd8597b1666db09a3788e5d7f7f96ecef160852a4efb947e3873910b25d42",
+          "sha256": "685d9ee4d89ef51386426c2d852b3385556a8679d1f0ed6dd486d18ea84bbf4d",
+          "sha1": "381aaab7fa1f8ad5cb5453a5d48bcbd2062b9c84",
+          "md5": "dab3938d3e7f3a15d84d1b8f42d3b15b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.12.0-add-auth-client-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.12.0-add-auth-client-tests-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "b84064c2c91d62f7495ccafbd18c4b8baa344441c10156ac68fca016c7d91ea65befd8597b1666db09a3788e5d7f7f96ecef160852a4efb947e3873910b25d42",
+          "sha256": "685d9ee4d89ef51386426c2d852b3385556a8679d1f0ed6dd486d18ea84bbf4d",
+          "sha1": "381aaab7fa1f8ad5cb5453a5d48bcbd2062b9c84",
+          "md5": "dab3938d3e7f3a15d84d1b8f42d3b15b"
+        }
+      ]
+    }
+  ]
+}
