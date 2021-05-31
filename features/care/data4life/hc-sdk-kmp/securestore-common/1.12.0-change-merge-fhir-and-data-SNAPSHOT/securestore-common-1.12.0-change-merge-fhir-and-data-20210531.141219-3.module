@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.12.0-change-merge-fhir-and-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3nw3hslqt5b5hfszqqqikkelpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "securestore-common-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "7747a47bf0bf2fd595a31633b02d809933430d8f5a5d5e2359c05c12b8df8b5fc8ee4ab6d289efbe4561aad96658c57fc848f50a6dcde6b22ab42e405e7e4ae5",
+          "sha256": "e0d167290a42b05a93a61ed14551d50229922b206ae4447c541c4d8c5fb85461",
+          "sha1": "0a9c92aed84edfb35ac65f5a348e156321618550",
+          "md5": "38924f47b690c992fdfea06827538279"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "securestore-common-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "7747a47bf0bf2fd595a31633b02d809933430d8f5a5d5e2359c05c12b8df8b5fc8ee4ab6d289efbe4561aad96658c57fc848f50a6dcde6b22ab42e405e7e4ae5",
+          "sha256": "e0d167290a42b05a93a61ed14551d50229922b206ae4447c541c4d8c5fb85461",
+          "sha1": "0a9c92aed84edfb35ac65f5a348e156321618550",
+          "md5": "38924f47b690c992fdfea06827538279"
+        }
+      ]
+    }
+  ]
+}

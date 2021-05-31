@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-jvm</artifactId>
   <versioning>
-    <latest>1.12.0-change-user-service-tests-SNAPSHOT</latest>
+    <latest>1.12.0-change-merge-fhir-and-data-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -38,6 +38,6 @@
       <version>1.12.0-add-auth-client-tests-SNAPSHOT</version>
       <version>1.12.0-change-user-service-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210531125207</lastUpdated>
+    <lastUpdated>20210531141333</lastUpdated>
   </versioning>
 </metadata>

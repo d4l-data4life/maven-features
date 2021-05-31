@@ -5,37 +5,37 @@
   <version>1.12.0-change-merge-fhir-and-data-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210528.174217</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210531.141219</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210528174217</lastUpdated>
+    <lastUpdated>20210531141219</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.12.0-change-merge-fhir-and-data-20210528.174217-2</value>
-        <updated>20210528174217</updated>
+        <value>1.12.0-change-merge-fhir-and-data-20210531.141219-3</value>
+        <updated>20210531141219</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.12.0-change-merge-fhir-and-data-20210528.174217-2</value>
-        <updated>20210528174217</updated>
+        <value>1.12.0-change-merge-fhir-and-data-20210531.141219-3</value>
+        <updated>20210531141219</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.12.0-change-merge-fhir-and-data-20210528.174217-2</value>
-        <updated>20210528174217</updated>
+        <value>1.12.0-change-merge-fhir-and-data-20210531.141219-3</value>
+        <updated>20210531141219</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.12.0-change-merge-fhir-and-data-20210528.174217-2</value>
-        <updated>20210528174217</updated>
+        <value>1.12.0-change-merge-fhir-and-data-20210531.141219-3</value>
+        <updated>20210531141219</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.12.0-change-merge-fhir-and-data-20210528.174217-2</value>
-        <updated>20210528174217</updated>
+        <value>1.12.0-change-merge-fhir-and-data-20210531.141219-3</value>
+        <updated>20210531141219</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

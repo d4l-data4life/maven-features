@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.12.0-change-merge-fhir-and-data-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3nw3hslqt5b5hfszqqqikkelpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-merge-fhir-and-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "84ccec7d26bdfc816d476ebe65520c4c9e0bbf95ef92b3a5b42fe3fc06e0c572e532a2fcaefdb9f65237ab335363336252b76b4f8574cb0831691fe58e05e51e",
+          "sha256": "569bf0fb0532069c40848360b54ad58730cf67da3a1f3e4186e7c8f6855c32f6",
+          "sha1": "51722563ade96f7d54606fe4be5df46addb445f7",
+          "md5": "8dc9e4f148be4b1d3119fbed033ebe74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.12.0-change-merge-fhir-and-data-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-merge-fhir-and-data-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-merge-fhir-and-data-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "84ccec7d26bdfc816d476ebe65520c4c9e0bbf95ef92b3a5b42fe3fc06e0c572e532a2fcaefdb9f65237ab335363336252b76b4f8574cb0831691fe58e05e51e",
+          "sha256": "569bf0fb0532069c40848360b54ad58730cf67da3a1f3e4186e7c8f6855c32f6",
+          "sha1": "51722563ade96f7d54606fe4be5df46addb445f7",
+          "md5": "8dc9e4f148be4b1d3119fbed033ebe74"
+        }
+      ]
+    }
+  ]
+}
