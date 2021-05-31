@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.12.0-change-contracts-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "63cmugcfene45nenctysit3pri"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-contracts-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-contracts-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "44af9c6dfdbfba94d0429e90326f1ba2ba2bfd84b9a7733b9a115a3b788b27a0c2750827402dfe2714f25bc50d446e31c766a600a5f646014d33fd77ad5c98b6",
+          "sha256": "2c7b86c3fe76092df72e54f2a4e11796a39520eab7926827b5b3f75cda9440ab",
+          "sha1": "4742ed3560197c584effa7255e8e0302f46036f1",
+          "md5": "65badd1855b402282749d5c4fb335475"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-contracts-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-contracts-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "44af9c6dfdbfba94d0429e90326f1ba2ba2bfd84b9a7733b9a115a3b788b27a0c2750827402dfe2714f25bc50d446e31c766a600a5f646014d33fd77ad5c98b6",
+          "sha256": "2c7b86c3fe76092df72e54f2a4e11796a39520eab7926827b5b3f75cda9440ab",
+          "sha1": "4742ed3560197c584effa7255e8e0302f46036f1",
+          "md5": "65badd1855b402282749d5c4fb335475"
+        }
+      ]
+    }
+  ]
+}
