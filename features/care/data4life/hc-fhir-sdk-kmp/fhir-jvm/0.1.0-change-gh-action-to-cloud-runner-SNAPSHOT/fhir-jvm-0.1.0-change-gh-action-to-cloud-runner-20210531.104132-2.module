@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT/fhir-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.jar",
+          "size": 16071003,
+          "sha512": "5e64063a87055e1de8ce47c349b0ab973da2d5f8432d8b6c8e71623ce837b69c8b7f5c435536c16d4794783ebe9f9e51b28a5fd145ae27bc7cd1e08231cfdcbe",
+          "sha256": "a42865107ab572ba943ca34ed226a62a185ba0d1fe3f4673ed6cfbfedcc3fffe",
+          "sha1": "220e82a316bafc9493a4abbc39afdcbd79ee17f7",
+          "md5": "0e0ac8dcf0fd4bb2f3a2e1e5b46806cb"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.jar",
+          "size": 16071003,
+          "sha512": "5e64063a87055e1de8ce47c349b0ab973da2d5f8432d8b6c8e71623ce837b69c8b7f5c435536c16d4794783ebe9f9e51b28a5fd145ae27bc7cd1e08231cfdcbe",
+          "sha256": "a42865107ab572ba943ca34ed226a62a185ba0d1fe3f4673ed6cfbfedcc3fffe",
+          "sha1": "220e82a316bafc9493a4abbc39afdcbd79ee17f7",
+          "md5": "0e0ac8dcf0fd4bb2f3a2e1e5b46806cb"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT/fhir-metadata-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT"
+      }
+    }
+  ]
+}

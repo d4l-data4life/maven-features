@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT/fhir-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosarm64-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.klib",
+          "size": 9752809,
+          "sha512": "173048079a35f5ddb2f9a18e7f8be30887050d943eb65f58df073ff95fc934ef59fb9902a327e3401bd2d9e007680d50f6beb819992c2d308467f75d6e1fcd8f",
+          "sha256": "a6b60195e20f2dfb730e736889ca2cf5b9a32f45e2050a482ec9aaa16add0ddd",
+          "sha1": "dfb8d1333670cc3075c3d0c9ca7bfc3cdd55bea4",
+          "md5": "340c36abf080da67a3997650b8b9200d"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT/fhir-metadata-0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT"
+      }
+    }
+  ]
+}
