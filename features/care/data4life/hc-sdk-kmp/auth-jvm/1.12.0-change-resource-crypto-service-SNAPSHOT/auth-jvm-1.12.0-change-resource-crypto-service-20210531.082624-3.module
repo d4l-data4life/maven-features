@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.12.0-change-resource-crypto-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "deuhjigdszh3fitt4f5picqb6u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-resource-crypto-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "160070373c2576dc72b9bd3d4baa23f0be8dcdb1eb2b0b5a10b28a29abe720d161b3374c593d052a2ce4d3c1279dc26520d6a4bf7da3c688aa8ef238c3bdaefc",
+          "sha256": "4485f41cf66a3053d4231d7867dc474ff8626401c1c7a5beab0fdaffc0978452",
+          "sha1": "e404b99ffa0851a6286293699825a8b957e3f29c",
+          "md5": "78fa85c61f8326462cfa78fd5793a0a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.12.0-change-resource-crypto-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-resource-crypto-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-resource-crypto-service-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "160070373c2576dc72b9bd3d4baa23f0be8dcdb1eb2b0b5a10b28a29abe720d161b3374c593d052a2ce4d3c1279dc26520d6a4bf7da3c688aa8ef238c3bdaefc",
+          "sha256": "4485f41cf66a3053d4231d7867dc474ff8626401c1c7a5beab0fdaffc0978452",
+          "sha1": "e404b99ffa0851a6286293699825a8b957e3f29c",
+          "md5": "78fa85c61f8326462cfa78fd5793a0a5"
+        }
+      ]
+    }
+  ]
+}
