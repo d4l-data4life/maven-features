@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.12.0-change-fileservice-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "y5kcuo7t35f3njk4jjinivy77m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-fileservice-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-fileservice-tests-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "b4a4a3fe1f89bace81a9fa2653074235c1ced7325a718c8f1268f1e01d380de7389ac10ab2d7090d1189c55c1ecbec0511b80612535a1b6fd0d8e0b6284c80f0",
+          "sha256": "20800c97650baf5e3bb307aaca4ffce7fc4984d1b5697c4290ae6c707552cb26",
+          "sha1": "f3dc888691d61e239a153f6550b58368796cf304",
+          "md5": "6813a9a6f40093f533572f2fab33081b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.12.0-change-fileservice-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.12.0-change-fileservice-tests-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "b4a4a3fe1f89bace81a9fa2653074235c1ced7325a718c8f1268f1e01d380de7389ac10ab2d7090d1189c55c1ecbec0511b80612535a1b6fd0d8e0b6284c80f0",
+          "sha256": "20800c97650baf5e3bb307aaca4ffce7fc4984d1b5697c4290ae6c707552cb26",
+          "sha1": "f3dc888691d61e239a153f6550b58368796cf304",
+          "md5": "6813a9a6f40093f533572f2fab33081b"
+        }
+      ]
+    }
+  ]
+}
