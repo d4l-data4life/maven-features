@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.12.0-change-contracts-SNAPSHOT</latest>
+    <latest>1.12.0-change-user-service-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -39,6 +39,6 @@
       <version>1.12.0-change-user-service-tests-SNAPSHOT</version>
       <version>1.12.0-change-contracts-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210531143503</lastUpdated>
+    <lastUpdated>20210601063009</lastUpdated>
   </versioning>
 </metadata>
