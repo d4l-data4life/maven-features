@@ -5,37 +5,37 @@
   <version>1.13.0-bump-mockk-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210601.105044</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210601.170607</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210601105044</lastUpdated>
+    <lastUpdated>20210601170607</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.13.0-bump-mockk-20210601.105044-1</value>
-        <updated>20210601105044</updated>
+        <extension>module</extension>
+        <value>1.13.0-bump-mockk-20210601.170607-2</value>
+        <updated>20210601170607</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.13.0-bump-mockk-20210601.170607-2</value>
+        <updated>20210601170607</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.13.0-bump-mockk-20210601.105044-1</value>
-        <updated>20210601105044</updated>
+        <value>1.13.0-bump-mockk-20210601.170607-2</value>
+        <updated>20210601170607</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.13.0-bump-mockk-20210601.105044-1</value>
-        <updated>20210601105044</updated>
+        <value>1.13.0-bump-mockk-20210601.170607-2</value>
+        <updated>20210601170607</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.13.0-bump-mockk-20210601.105044-1</value>
-        <updated>20210601105044</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.13.0-bump-mockk-20210601.105044-1</value>
-        <updated>20210601105044</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.13.0-bump-mockk-20210601.170607-2</value>
+        <updated>20210601170607</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

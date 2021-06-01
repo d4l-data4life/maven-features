@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.13.0-bump-mockk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "smcsphdrhvgqfcfnppicezsyjy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "url": "auth-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "9024f948a76aad438e858b9b1a59c265f3cf8e8d8154566aa09fee2eae8e283200496797ab3de04eac4431da1db6fbd08fbeaa7b9b813bca1e6bf30b4a6840ec",
+          "sha256": "a5c8a2e16e0ad4bfdf3265a008856cae4a42d33564662ccc3e2a360f7607dc25",
+          "sha1": "7039dbbd737404877d6ded7e2811f3b946a0eadc",
+          "md5": "08c396b07ea3d823d49fff05bb5e6fd4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.0-bump-mockk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "url": "auth-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "9024f948a76aad438e858b9b1a59c265f3cf8e8d8154566aa09fee2eae8e283200496797ab3de04eac4431da1db6fbd08fbeaa7b9b813bca1e6bf30b4a6840ec",
+          "sha256": "a5c8a2e16e0ad4bfdf3265a008856cae4a42d33564662ccc3e2a360f7607dc25",
+          "sha1": "7039dbbd737404877d6ded7e2811f3b946a0eadc",
+          "md5": "08c396b07ea3d823d49fff05bb5e6fd4"
+        }
+      ]
+    }
+  ]
+}
