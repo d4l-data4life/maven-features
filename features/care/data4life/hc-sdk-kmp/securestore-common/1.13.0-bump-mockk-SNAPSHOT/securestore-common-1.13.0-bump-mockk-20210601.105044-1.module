@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.0-bump-mockk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "g4icepa36je35mn2qhw5aq7co4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "5c88a76f6b0de12428247d0f53cf53e870cca26633934e928829a40707a9f89259f27a0ff663b454e1cf590fc795a196d29cb25ab011a7339b34f89f5b6524fb",
+          "sha256": "320ac5deda876a675a57a2a11c965acd1d4cb3ce3081e9ba04369908a895abb5",
+          "sha1": "c69609385d4290c4d91df16ec6baf548e06d2bd2",
+          "md5": "20f4cfc831c6d1fb1de492ac23b45ff6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.0-bump-mockk-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "5c88a76f6b0de12428247d0f53cf53e870cca26633934e928829a40707a9f89259f27a0ff663b454e1cf590fc795a196d29cb25ab011a7339b34f89f5b6524fb",
+          "sha256": "320ac5deda876a675a57a2a11c965acd1d4cb3ce3081e9ba04369908a895abb5",
+          "sha1": "c69609385d4290c4d91df16ec6baf548e06d2bd2",
+          "md5": "20f4cfc831c6d1fb1de492ac23b45ff6"
+        }
+      ]
+    }
+  ]
+}
