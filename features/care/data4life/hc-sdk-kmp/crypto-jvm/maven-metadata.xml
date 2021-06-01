@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-jvm</artifactId>
   <versioning>
-    <latest>1.13.0-bump-mockk-SNAPSHOT</latest>
+    <latest>1.12.0-change-fileservice-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -40,7 +40,8 @@
       <version>1.12.0-change-contracts-SNAPSHOT</version>
       <version>1.12.0-SNAPSHOT</version>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
+      <version>1.12.0-change-fileservice-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210601105159</lastUpdated>
+    <lastUpdated>20210601123533</lastUpdated>
   </versioning>
 </metadata>
