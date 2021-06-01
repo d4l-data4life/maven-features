@@ -5,31 +5,31 @@
   <version>1.12.0-change-contracts-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210601.073936</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210601.075141</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210601073936</lastUpdated>
+    <lastUpdated>20210601075141</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.12.0-change-contracts-20210601.073936-4</value>
-        <updated>20210601073936</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>1.12.0-change-contracts-20210601.073936-4</value>
-        <updated>20210601073936</updated>
+        <value>1.12.0-change-contracts-20210601.075141-5</value>
+        <updated>20210601075141</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.12.0-change-contracts-20210601.073936-4</value>
-        <updated>20210601073936</updated>
+        <extension>aar</extension>
+        <value>1.12.0-change-contracts-20210601.075141-5</value>
+        <updated>20210601075141</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.12.0-change-contracts-20210601.073936-4</value>
-        <updated>20210601073936</updated>
+        <value>1.12.0-change-contracts-20210601.075141-5</value>
+        <updated>20210601075141</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.12.0-change-contracts-20210601.075141-5</value>
+        <updated>20210601075141</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

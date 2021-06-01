@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.12.0-change-contracts-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ttc33ah5sbgevdt33k4rhpgi3a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-contracts-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-contracts-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-contracts-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "4687c397245495bb8af7860b5c1792d3fc1cbbed2718eee7e7dceaf507bcf89fb4e5ea4cdc285c5ef25e2445069126ce0665da0ff6867b6c909bb668a8b53164",
+          "sha256": "d9d1c2f721c05f27f310073a4e605a6da4d069174092f07cc134a3aebf8d5218",
+          "sha1": "ebd1c6d270258040b9746257e955753d75b9c857",
+          "md5": "eb16c3fdbebbdb5d44db36c0b9742a85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.12.0-change-contracts-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.12.0-change-contracts-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.12.0-change-contracts-SNAPSHOT.jar",
+          "url": "auth-jvm-1.12.0-change-contracts-SNAPSHOT.jar",
+          "size": 34318,
+          "sha512": "4687c397245495bb8af7860b5c1792d3fc1cbbed2718eee7e7dceaf507bcf89fb4e5ea4cdc285c5ef25e2445069126ce0665da0ff6867b6c909bb668a8b53164",
+          "sha256": "d9d1c2f721c05f27f310073a4e605a6da4d069174092f07cc134a3aebf8d5218",
+          "sha1": "ebd1c6d270258040b9746257e955753d75b9c857",
+          "md5": "eb16c3fdbebbdb5d44db36c0b9742a85"
+        }
+      ]
+    }
+  ]
+}
