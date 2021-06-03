@@ -5,31 +5,31 @@
   <version>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210603.140405</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210603.221646</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210603140405</lastUpdated>
+    <lastUpdated>20210603221646</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
-        <updated>20210603140405</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
-        <updated>20210603140405</updated>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.221646-2</value>
+        <updated>20210603221646</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
-        <updated>20210603140405</updated>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.221646-2</value>
+        <updated>20210603221646</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.221646-2</value>
+        <updated>20210603221646</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
-        <updated>20210603140405</updated>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.221646-2</value>
+        <updated>20210603221646</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

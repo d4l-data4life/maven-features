@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT/fhir-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.jar",
+          "size": 16071003,
+          "sha512": "797435875494d3378e3e23b45a842ecff4734e41775257514f619f2df603b78a0e228623432c61418c4e737be29752ff305a2187bf7f86df432aa1a42aa62d6e",
+          "sha256": "70c19d9ca9b9735cfb297e06feabd78f8dc0d3daba1bbec10c8988354250a003",
+          "sha1": "9f08a1295c979e7ca637875a305dfe44142a5ad2",
+          "md5": "06c289057c63e1bbc684b500ea27b1f9"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.jar",
+          "size": 16071003,
+          "sha512": "797435875494d3378e3e23b45a842ecff4734e41775257514f619f2df603b78a0e228623432c61418c4e737be29752ff305a2187bf7f86df432aa1a42aa62d6e",
+          "sha256": "70c19d9ca9b9735cfb297e06feabd78f8dc0d3daba1bbec10c8988354250a003",
+          "sha1": "9f08a1295c979e7ca637875a305dfe44142a5ad2",
+          "md5": "06c289057c63e1bbc684b500ea27b1f9"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT/fhir-metadata-0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT"
+      }
+    }
+  ]
+}
