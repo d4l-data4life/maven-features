@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-common</artifactId>
   <versioning>
-    <latest>1.12.0-change-contracts-SNAPSHOT</latest>
+    <latest>1.13.1-change-attachment-service-tests-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -43,7 +43,8 @@
       <version>1.12.0-change-fileservice-tests-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
       <version>1.13.0-SNAPSHOT</version>
+      <version>1.13.1-change-attachment-service-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210603062047</lastUpdated>
+    <lastUpdated>20210603101244</lastUpdated>
   </versioning>
 </metadata>
