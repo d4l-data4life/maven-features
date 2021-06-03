@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-jvm</artifactId>
   <versioning>
-    <latest>0.1.0-fix-docs-dependencies-SNAPSHOT</latest>
+    <latest>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -25,7 +25,8 @@
       <version>0.1.0-change-gh-action-to-cloud-runner-SNAPSHOT</version>
       <version>0.1.0-change-contribution-guide-SNAPSHOT</version>
       <version>0.1.0-fix-docs-dependencies-SNAPSHOT</version>
+      <version>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210603134435</lastUpdated>
+    <lastUpdated>20210603140532</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
+  <artifactId>fhir</artifactId>
+  <version>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210603.140405</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210603140405</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
+        <updated>20210603140405</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
+        <updated>20210603140405</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
+        <updated>20210603140405</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-bump-npm-and-yarn-docs-bl-4.0.4-20210603.140405-1</value>
+        <updated>20210603140405</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
