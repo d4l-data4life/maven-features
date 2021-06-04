@@ -5,31 +5,31 @@
   <version>1.13.1-bump-jacoco-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210604.132748</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210604.134215</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210604132748</lastUpdated>
+    <lastUpdated>20210604134215</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.13.1-bump-jacoco-20210604.132748-1</value>
-        <updated>20210604132748</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.13.1-bump-jacoco-20210604.132748-1</value>
-        <updated>20210604132748</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.13.1-bump-jacoco-20210604.132748-1</value>
-        <updated>20210604132748</updated>
+        <value>1.13.1-bump-jacoco-20210604.134215-2</value>
+        <updated>20210604134215</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.13.1-bump-jacoco-20210604.132748-1</value>
-        <updated>20210604132748</updated>
+        <value>1.13.1-bump-jacoco-20210604.134215-2</value>
+        <updated>20210604134215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.13.1-bump-jacoco-20210604.134215-2</value>
+        <updated>20210604134215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.13.1-bump-jacoco-20210604.134215-2</value>
+        <updated>20210604134215</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
