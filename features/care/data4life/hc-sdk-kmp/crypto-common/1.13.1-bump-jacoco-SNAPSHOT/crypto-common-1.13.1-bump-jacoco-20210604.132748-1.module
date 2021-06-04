@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.13.1-bump-jacoco-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qz6kpygcdnacjkev7cw6dfa2du"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "c2e43a3a28ac38635af25d068537dfd4a996a5f24c3000d256906838a549e0f8dd2b8e8cae5d447e28cc1bc573787a0fb86784ed7f6906c8541bffe0228bab7d",
+          "sha256": "f2ee37c71bd66f293a9c46cccbc959b2e1c4439722b5b16418d4931e5ccfb719",
+          "sha1": "1ac27ef3daf4fb59d48478bffb732d8c906f9892",
+          "md5": "889f9256cf833a8529509edf24bf4871"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "c2e43a3a28ac38635af25d068537dfd4a996a5f24c3000d256906838a549e0f8dd2b8e8cae5d447e28cc1bc573787a0fb86784ed7f6906c8541bffe0228bab7d",
+          "sha256": "f2ee37c71bd66f293a9c46cccbc959b2e1c4439722b5b16418d4931e5ccfb719",
+          "sha1": "1ac27ef3daf4fb59d48478bffb732d8c906f9892",
+          "md5": "889f9256cf833a8529509edf24bf4871"
+        }
+      ]
+    }
+  ]
+}
