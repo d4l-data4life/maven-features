@@ -5,25 +5,25 @@
   <version>1.13.1-bump-jacoco-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210607.083342</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210608.101751</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210607083342</lastUpdated>
+    <lastUpdated>20210608101751</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.13.1-bump-jacoco-20210607.083342-4</value>
-        <updated>20210607083342</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.13.1-bump-jacoco-20210607.083342-4</value>
-        <updated>20210607083342</updated>
+        <value>1.13.1-bump-jacoco-20210608.101751-5</value>
+        <updated>20210608101751</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.13.1-bump-jacoco-20210607.083342-4</value>
-        <updated>20210607083342</updated>
+        <value>1.13.1-bump-jacoco-20210608.101751-5</value>
+        <updated>20210608101751</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.13.1-bump-jacoco-20210608.101751-5</value>
+        <updated>20210608101751</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

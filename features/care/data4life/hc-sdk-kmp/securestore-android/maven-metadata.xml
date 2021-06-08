@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.13.1-SNAPSHOT</latest>
+    <latest>1.13.1-bump-jacoco-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -49,6 +49,6 @@
       <version>1.13.1-remove-pinning-s4h-SNAPSHOT</version>
       <version>1.13.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210608085107</lastUpdated>
+    <lastUpdated>20210608101933</lastUpdated>
   </versioning>
 </metadata>
