@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.13.1-bump-jacoco-SNAPSHOT</latest>
+    <latest>1.13.1-remove-pinning-s4h-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -46,7 +46,8 @@
       <version>1.13.1-change-attachment-service-tests-SNAPSHOT</version>
       <version>1.13.1-change-attachment-service-SNAPSHOT</version>
       <version>1.13.1-bump-jacoco-SNAPSHOT</version>
+      <version>1.13.1-remove-pinning-s4h-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210607083513</lastUpdated>
+    <lastUpdated>20210608082258</lastUpdated>
   </versioning>
 </metadata>

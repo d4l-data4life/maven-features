@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.13.1-remove-pinning-s4h-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "v7wkef75mjg2dpkqtpmk6iikge"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "77857a41affc7dc028568949f01865dd63651ec697ee944dfd3d708355f98190a1f04f865f1e5f2b7dc618f5a1c22743292fa3d65143bd4e8515aff98cbce935",
+          "sha256": "33f7155760f4e15a1b99ed63cfd0b5f07c04165c11b423c25491986118072342",
+          "sha1": "40b03390a88dc12117935a52292482c79eeb819a",
+          "md5": "94905088648dd664647a2312b090dcb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "77857a41affc7dc028568949f01865dd63651ec697ee944dfd3d708355f98190a1f04f865f1e5f2b7dc618f5a1c22743292fa3d65143bd4e8515aff98cbce935",
+          "sha256": "33f7155760f4e15a1b99ed63cfd0b5f07c04165c11b423c25491986118072342",
+          "sha1": "40b03390a88dc12117935a52292482c79eeb819a",
+          "md5": "94905088648dd664647a2312b090dcb1"
+        }
+      ]
+    }
+  ]
+}

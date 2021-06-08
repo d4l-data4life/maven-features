@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.13.1-remove-pinning-s4h-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "v7wkef75mjg2dpkqtpmk6iikge"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "6f69facd30b3667de3d96d4a4bb64b91429abf1b42ad72e555525512badf12a974e1ce0847483933ab91709329e0a8147d31bbf1a28240a3f517370852359353",
+          "sha256": "c5e697bdc6b72d39ff30f74c679ef3cb081ec29819643c7beebb77660bab2ecf",
+          "sha1": "a45b21341959b62c962ad31f60cdb088bfc4f241",
+          "md5": "fdf5245c02d9b21e0de353ee520a550d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "6f69facd30b3667de3d96d4a4bb64b91429abf1b42ad72e555525512badf12a974e1ce0847483933ab91709329e0a8147d31bbf1a28240a3f517370852359353",
+          "sha256": "c5e697bdc6b72d39ff30f74c679ef3cb081ec29819643c7beebb77660bab2ecf",
+          "sha1": "a45b21341959b62c962ad31f60cdb088bfc4f241",
+          "md5": "fdf5245c02d9b21e0de353ee520a550d"
+        }
+      ]
+    }
+  ]
+}
