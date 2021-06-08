@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.2-fix-danger-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3jpu4a4xtng6lcnkqkjmd2snwe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-fix-danger-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-fix-danger-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "f05f74fa2d34021d5b0bbc35758f76fea385eea87641e97c136b778e1515badb0220e3e92d665507900ac8fa31bda22201454751b44867a71d56b2ac05300ae3",
+          "sha256": "8b68ab15115c37c3a81accd86a936b42483d9f5b7600a2c23f2e7528b6b120a8",
+          "sha1": "4d68f7c5139f37d12040847f429ed072df437d62",
+          "md5": "2aed6fc4e706e5d7669a4d3f0b90515a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-fix-danger-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-fix-danger-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "f05f74fa2d34021d5b0bbc35758f76fea385eea87641e97c136b778e1515badb0220e3e92d665507900ac8fa31bda22201454751b44867a71d56b2ac05300ae3",
+          "sha256": "8b68ab15115c37c3a81accd86a936b42483d9f5b7600a2c23f2e7528b6b120a8",
+          "sha1": "4d68f7c5139f37d12040847f429ed072df437d62",
+          "md5": "2aed6fc4e706e5d7669a4d3f0b90515a"
+        }
+      ]
+    }
+  ]
+}
