@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.1-bump-jacoco-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "y3wjjxsvh5avrhqren2wghbwlq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "9cbf83f444f23af8a963bc2f21e1731c4d2c31671038b7e5dbeed7751e979ce89ebedb9fa6c52cd068cad2d24c4293448e3f09f6d56acb124a98475bb450d583",
+          "sha256": "7b02ebe02924e3c5d5e239dd75cb852ff15ff8522ecc8dc90019b0ff406bf81a",
+          "sha1": "d3346c7d6cba5dca85fc170b422967e2ff9129a7",
+          "md5": "020f87043d9ba2d5f72f4d276df508e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.1-bump-jacoco-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "9cbf83f444f23af8a963bc2f21e1731c4d2c31671038b7e5dbeed7751e979ce89ebedb9fa6c52cd068cad2d24c4293448e3f09f6d56acb124a98475bb450d583",
+          "sha256": "7b02ebe02924e3c5d5e239dd75cb852ff15ff8522ecc8dc90019b0ff406bf81a",
+          "sha1": "d3346c7d6cba5dca85fc170b422967e2ff9129a7",
+          "md5": "020f87043d9ba2d5f72f4d276df508e4"
+        }
+      ]
+    }
+  ]
+}

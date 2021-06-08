@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.13.2-fix-danger-SNAPSHOT</latest>
+    <latest>1.13.1-bump-jacoco-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -50,6 +50,6 @@
       <version>1.13.1-SNAPSHOT</version>
       <version>1.13.2-fix-danger-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210608103746</lastUpdated>
+    <lastUpdated>20210608105655</lastUpdated>
   </versioning>
 </metadata>
