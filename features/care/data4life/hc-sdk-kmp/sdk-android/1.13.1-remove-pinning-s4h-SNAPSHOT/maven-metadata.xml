@@ -5,25 +5,25 @@
   <version>1.13.1-remove-pinning-s4h-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210608.082118</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210608.083340</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210608082118</lastUpdated>
+    <lastUpdated>20210608083340</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.13.1-remove-pinning-s4h-20210608.082118-1</value>
-        <updated>20210608082118</updated>
+        <extension>aar</extension>
+        <value>1.13.1-remove-pinning-s4h-20210608.083340-2</value>
+        <updated>20210608083340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.13.1-remove-pinning-s4h-20210608.082118-1</value>
-        <updated>20210608082118</updated>
+        <value>1.13.1-remove-pinning-s4h-20210608.083340-2</value>
+        <updated>20210608083340</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.13.1-remove-pinning-s4h-20210608.082118-1</value>
-        <updated>20210608082118</updated>
+        <extension>module</extension>
+        <value>1.13.1-remove-pinning-s4h-20210608.083340-2</value>
+        <updated>20210608083340</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

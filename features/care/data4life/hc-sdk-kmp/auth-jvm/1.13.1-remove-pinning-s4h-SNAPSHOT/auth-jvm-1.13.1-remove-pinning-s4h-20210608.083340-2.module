@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.13.1-remove-pinning-s4h-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qilwgfpq6zcjne22tvwkcjsc5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "050cd736e320a8fa903b38c8dc93b6455bb1b2b30a677c77ff71e1b1edc1c8fa3a37c9da5ab5bf08aec167601fad7aa12e742f0734f8d7fc1f4bc24b41621730",
+          "sha256": "5ccfd9724a0d04bc63e00ec731615ef1abfb50d10f333c0fa38e933eab7ff62d",
+          "sha1": "48217d961af1ec99527fc0de25abc3d03ba50798",
+          "md5": "412dadbd933a4315c73575b843d4dff4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "050cd736e320a8fa903b38c8dc93b6455bb1b2b30a677c77ff71e1b1edc1c8fa3a37c9da5ab5bf08aec167601fad7aa12e742f0734f8d7fc1f4bc24b41621730",
+          "sha256": "5ccfd9724a0d04bc63e00ec731615ef1abfb50d10f333c0fa38e933eab7ff62d",
+          "sha1": "48217d961af1ec99527fc0de25abc3d03ba50798",
+          "md5": "412dadbd933a4315c73575b843d4dff4"
+        }
+      ]
+    }
+  ]
+}

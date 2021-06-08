@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.13.1-remove-pinning-s4h-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qilwgfpq6zcjne22tvwkcjsc5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "auth-common-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "7332b15fc3f913b8a594daeb4dceafc254414169e86829ec3e39055897950b78158349fde9ea31f58245517b0497780ffbe30ba19a4ea8e500d06c020091b2f0",
+          "sha256": "508e2c7373946adf404958926ca43e3f187119a315a64c50419015312af369a6",
+          "sha1": "fdc9e642b8bbdb4a1e69170ce7086faf53b76322",
+          "md5": "6ae1d3f531d1df2882d2295c386cea32"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.1-remove-pinning-s4h-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "url": "auth-common-1.13.1-remove-pinning-s4h-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "7332b15fc3f913b8a594daeb4dceafc254414169e86829ec3e39055897950b78158349fde9ea31f58245517b0497780ffbe30ba19a4ea8e500d06c020091b2f0",
+          "sha256": "508e2c7373946adf404958926ca43e3f187119a315a64c50419015312af369a6",
+          "sha1": "fdc9e642b8bbdb4a1e69170ce7086faf53b76322",
+          "md5": "6ae1d3f531d1df2882d2295c386cea32"
+        }
+      ]
+    }
+  ]
+}
