@@ -5,31 +5,31 @@
   <version>0.0.1-add-coverage-scripts-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210609.135802</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210609.164235</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210609135802</lastUpdated>
+    <lastUpdated>20210609164235</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-add-coverage-scripts-20210609.135802-1</value>
-        <updated>20210609135802</updated>
+        <value>0.0.1-add-coverage-scripts-20210609.164235-2</value>
+        <updated>20210609164235</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-add-coverage-scripts-20210609.135802-1</value>
-        <updated>20210609135802</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.1-add-coverage-scripts-20210609.135802-1</value>
-        <updated>20210609135802</updated>
+        <value>0.0.1-add-coverage-scripts-20210609.164235-2</value>
+        <updated>20210609164235</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-add-coverage-scripts-20210609.135802-1</value>
-        <updated>20210609135802</updated>
+        <value>0.0.1-add-coverage-scripts-20210609.164235-2</value>
+        <updated>20210609164235</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.1-add-coverage-scripts-20210609.164235-2</value>
+        <updated>20210609164235</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
