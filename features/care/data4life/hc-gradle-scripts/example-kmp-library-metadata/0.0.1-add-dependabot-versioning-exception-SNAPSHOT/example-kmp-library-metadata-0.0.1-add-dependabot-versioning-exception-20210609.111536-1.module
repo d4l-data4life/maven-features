@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library-jvm/0.0.1-add-dependabot-versioning-exception-SNAPSHOT/example-kmp-library-jvm-0.0.1-add-dependabot-versioning-exception-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library-jvm",
+    "version": "0.0.1-add-dependabot-versioning-exception-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ekmkwk5aa5gv3et3seqcxyymeu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-metadata-0.0.1-add-dependabot-versioning-exception-SNAPSHOT.jar",
+          "url": "example-kmp-library-metadata-0.0.1-add-dependabot-versioning-exception-SNAPSHOT.jar",
+          "size": 5643,
+          "sha512": "218c7a168b319a0d789ec2bcd5e33f1f055c5e0294df8464d94ee22432070d41214dc1b7cdb997d64ef1b31d88c3201eb1e7b53eb46b0ecb3d63ad74a207543b",
+          "sha256": "9d05e6e3dbe031e0c5c8dafb14c114784dfbaa2a323f6e216624ad9809822c07",
+          "sha1": "d9df7b64511053baf358073d0be63f58652e1f3a",
+          "md5": "98dbb1bd137a6657a733098758464f4a"
+        }
+      ]
+    }
+  ]
+}
