@@ -5,31 +5,31 @@
   <version>1.13.1-change-attachment-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210603.113236</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210609.154225</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210603113236</lastUpdated>
+    <lastUpdated>20210609154225</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.13.1-change-attachment-service-20210603.113236-1</value>
-        <updated>20210603113236</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.13.1-change-attachment-service-20210603.113236-1</value>
-        <updated>20210603113236</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>1.13.1-change-attachment-service-20210603.113236-1</value>
-        <updated>20210603113236</updated>
+        <value>1.13.1-change-attachment-service-20210609.154225-2</value>
+        <updated>20210609154225</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.13.1-change-attachment-service-20210609.154225-2</value>
+        <updated>20210609154225</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.13.1-change-attachment-service-20210603.113236-1</value>
-        <updated>20210603113236</updated>
+        <value>1.13.1-change-attachment-service-20210609.154225-2</value>
+        <updated>20210609154225</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.13.1-change-attachment-service-20210609.154225-2</value>
+        <updated>20210609154225</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

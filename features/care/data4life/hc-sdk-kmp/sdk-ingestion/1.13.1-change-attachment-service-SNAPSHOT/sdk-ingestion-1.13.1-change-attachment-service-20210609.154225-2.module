@@ -1,0 +1,207 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-ingestion",
+    "version": "1.13.1-change-attachment-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "q5d2joa4xbcr7ahnra6xf6qppe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.13.1-change-attachment-service-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.13.1-change-attachment-service-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.13.1-change-attachment-service-SNAPSHOT.jar",
+          "size": 18342,
+          "sha512": "97c701f4141a819d9528718dd4056aae7e36bca7046549daad21420343aad8f4e70228fabbf8e6e39d65990f9a5dff43f343bedaa6c6d64a5a7ae0d679749efa",
+          "sha256": "7c5a21f95ff9647c05a806632c4b9ceed78a154c18fb1017a9fd000f120d966a",
+          "sha1": "ce8038e9f727e36976eb79ac99212625d94d0314",
+          "md5": "6e72f5a034ca9c17acf4e08d233eaaf3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.1-change-attachment-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.13.1-change-attachment-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.13.1-change-attachment-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+          "module": "fhir-helper-jvm",
+          "version": {
+            "requires": "1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.13.1-change-attachment-service-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.13.1-change-attachment-service-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.13.1-change-attachment-service-SNAPSHOT.jar",
+          "size": 18342,
+          "sha512": "97c701f4141a819d9528718dd4056aae7e36bca7046549daad21420343aad8f4e70228fabbf8e6e39d65990f9a5dff43f343bedaa6c6d64a5a7ae0d679749efa",
+          "sha256": "7c5a21f95ff9647c05a806632c4b9ceed78a154c18fb1017a9fd000f120d966a",
+          "sha1": "ce8038e9f727e36976eb79ac99212625d94d0314",
+          "md5": "6e72f5a034ca9c17acf4e08d233eaaf3"
+        }
+      ]
+    }
+  ]
+}
