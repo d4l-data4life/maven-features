@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.13.2-add-coverage-android-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "gt2wd4re55esrdojmnzl5e7zdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "0cc59af2c86fa59b57cbb877f32bac2b1bfddb178e42a97f1c6120976c53711b7d54b1981fcf57e03956ecf0bf091d8f6e33390f592399212c0191ea6d91b86b",
+          "sha256": "f2c5d8775aeade78dfd4bbadda0f5a8e8771f417849d492bb5a05c6172df7e84",
+          "sha1": "d060f44ff9a9375023ad64dd63f6625de8fa4ea2",
+          "md5": "adf6fccad4a2a4bcb346e62343ddc8f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "0cc59af2c86fa59b57cbb877f32bac2b1bfddb178e42a97f1c6120976c53711b7d54b1981fcf57e03956ecf0bf091d8f6e33390f592399212c0191ea6d91b86b",
+          "sha256": "f2c5d8775aeade78dfd4bbadda0f5a8e8771f417849d492bb5a05c6172df7e84",
+          "sha1": "d060f44ff9a9375023ad64dd63f6625de8fa4ea2",
+          "md5": "adf6fccad4a2a4bcb346e62343ddc8f7"
+        }
+      ]
+    }
+  ]
+}
