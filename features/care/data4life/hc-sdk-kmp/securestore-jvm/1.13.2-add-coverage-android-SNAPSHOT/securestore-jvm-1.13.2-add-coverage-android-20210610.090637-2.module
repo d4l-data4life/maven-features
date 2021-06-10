@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.13.2-add-coverage-android-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "7jccsbgfjnagtlaycrllr3hofy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.2-add-coverage-android-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "659d80035d4dc884578cb1f4ded66776fd8f33c92e52eb6ce5466d0c2627ccebe50f403e6954cd83a6c4bfce665099c787240c7dc72cc4e068425f226aeaa772",
+          "sha256": "44d8aa1fca294a6670e293ace1d86d9650867524657fc7498263b8f85835877c",
+          "sha1": "d72487b643d8d37dfc03e9c9a72a2cbbb33badf4",
+          "md5": "06c5d65d5c9870b445b7579414a99b4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.2-add-coverage-android-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "659d80035d4dc884578cb1f4ded66776fd8f33c92e52eb6ce5466d0c2627ccebe50f403e6954cd83a6c4bfce665099c787240c7dc72cc4e068425f226aeaa772",
+          "sha256": "44d8aa1fca294a6670e293ace1d86d9650867524657fc7498263b8f85835877c",
+          "sha1": "d72487b643d8d37dfc03e9c9a72a2cbbb33badf4",
+          "md5": "06c5d65d5c9870b445b7579414a99b4e"
+        }
+      ]
+    }
+  ]
+}
