@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.2-add-coverage-android-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "y3j7a5h4nfdddcw7tuhxprx55e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "6594710f14c88c100ad61f098124d6915a14945d1826e3240e548b950171a9a5fa67e9ff0e4f3314bf884783c216217918cb65c69e313b740a34e64d205c7410",
+          "sha256": "e95a5da9844c513c7739228819537bdc1af82f6e9062741bb260d7f38f9f3436",
+          "sha1": "c37f39985beaef6c9d8d078c2dda1e8e53c65e9b",
+          "md5": "2553ca75350be16d528deb1d520d93c2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-add-coverage-android-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "6594710f14c88c100ad61f098124d6915a14945d1826e3240e548b950171a9a5fa67e9ff0e4f3314bf884783c216217918cb65c69e313b740a34e64d205c7410",
+          "sha256": "e95a5da9844c513c7739228819537bdc1af82f6e9062741bb260d7f38f9f3436",
+          "sha1": "c37f39985beaef6c9d8d078c2dda1e8e53c65e9b",
+          "md5": "2553ca75350be16d528deb1d520d93c2"
+        }
+      ]
+    }
+  ]
+}

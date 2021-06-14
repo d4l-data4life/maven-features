@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.10.0-change-securestore-to-external-dependency-SNAPSHOT</latest>
+    <latest>1.13.2-add-coverage-android-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -53,6 +53,6 @@
       <version>1.13.2-add-coverage-aggregation-SNAPSHOT</version>
       <version>1.10.0-change-securestore-to-external-dependency-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210614101308</lastUpdated>
+    <lastUpdated>20210614102141</lastUpdated>
   </versioning>
 </metadata>

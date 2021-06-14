@@ -5,37 +5,37 @@
   <version>1.13.2-add-coverage-android-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210610.145145</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210614.102006</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210610145145</lastUpdated>
+    <lastUpdated>20210614102006</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.13.2-add-coverage-android-20210614.102006-5</value>
+        <updated>20210614102006</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>module</extension>
-        <value>1.13.2-add-coverage-android-20210610.145145-4</value>
-        <updated>20210610145145</updated>
+        <value>1.13.2-add-coverage-android-20210614.102006-5</value>
+        <updated>20210614102006</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.13.2-add-coverage-android-20210614.102006-5</value>
+        <updated>20210614102006</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.13.2-add-coverage-android-20210610.145145-4</value>
-        <updated>20210610145145</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.13.2-add-coverage-android-20210610.145145-4</value>
-        <updated>20210610145145</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.13.2-add-coverage-android-20210610.145145-4</value>
-        <updated>20210610145145</updated>
+        <value>1.13.2-add-coverage-android-20210614.102006-5</value>
+        <updated>20210614102006</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.13.2-add-coverage-android-20210610.145145-4</value>
-        <updated>20210610145145</updated>
+        <value>1.13.2-add-coverage-android-20210614.102006-5</value>
+        <updated>20210614102006</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
