@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-jvm</artifactId>
   <versioning>
-    <latest>1.13.2-add-coverage-aggregation-SNAPSHOT</latest>
+    <latest>1.10.0-change-securestore-to-external-dependency-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -51,7 +51,8 @@
       <version>1.13.2-fix-danger-SNAPSHOT</version>
       <version>1.13.2-add-coverage-android-SNAPSHOT</version>
       <version>1.13.2-add-coverage-aggregation-SNAPSHOT</version>
+      <version>1.10.0-change-securestore-to-external-dependency-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210611085649</lastUpdated>
+    <lastUpdated>20210614101309</lastUpdated>
   </versioning>
 </metadata>
