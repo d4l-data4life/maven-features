@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-add-jacoco-coverage-SNAPSHOT/example-kmp-library-0.0.1-add-jacoco-coverage-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-add-jacoco-coverage-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "4fz4lznozzdkdgzmprvf2jgznu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-add-jacoco-coverage-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-add-jacoco-coverage-SNAPSHOT.jar",
+          "size": 16602,
+          "sha512": "84994cb811c1f6146c450f8221946bc1af88e824eeb4aca600811ba368f8d62ba79b3a84811b540190dfe10acbd6cd630b09b40e6a2db589f9171521f1fb9dfb",
+          "sha256": "fc7160861d0991e94046114be13bdbf171496f218415906bdb5da73140e3728d",
+          "sha1": "994aa50f5f9c0a57b929968ea746f344982cd608",
+          "md5": "4d269106b37b84cfe9bd25606854b12c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-add-jacoco-coverage-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-add-jacoco-coverage-SNAPSHOT.jar",
+          "size": 16602,
+          "sha512": "84994cb811c1f6146c450f8221946bc1af88e824eeb4aca600811ba368f8d62ba79b3a84811b540190dfe10acbd6cd630b09b40e6a2db589f9171521f1fb9dfb",
+          "sha256": "fc7160861d0991e94046114be13bdbf171496f218415906bdb5da73140e3728d",
+          "sha1": "994aa50f5f9c0a57b929968ea746f344982cd608",
+          "md5": "4d269106b37b84cfe9bd25606854b12c"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-metadata/0.0.1-add-jacoco-coverage-SNAPSHOT/example-kmp-library-metadata-0.0.1-add-jacoco-coverage-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-metadata",
+        "version": "0.0.1-add-jacoco-coverage-SNAPSHOT"
+      }
+    }
+  ]
+}

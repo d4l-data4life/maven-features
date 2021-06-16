@@ -5,31 +5,31 @@
   <version>0.0.1-add-jacoco-coverage-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210616.121039</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210616.170242</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210616121039</lastUpdated>
+    <lastUpdated>20210616170242</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-add-jacoco-coverage-20210616.121039-1</value>
-        <updated>20210616121039</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-add-jacoco-coverage-20210616.121039-1</value>
-        <updated>20210616121039</updated>
+        <value>0.0.1-add-jacoco-coverage-20210616.170242-2</value>
+        <updated>20210616170242</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-add-jacoco-coverage-20210616.121039-1</value>
-        <updated>20210616121039</updated>
+        <value>0.0.1-add-jacoco-coverage-20210616.170242-2</value>
+        <updated>20210616170242</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-add-jacoco-coverage-20210616.170242-2</value>
+        <updated>20210616170242</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-add-jacoco-coverage-20210616.121039-1</value>
-        <updated>20210616121039</updated>
+        <value>0.0.1-add-jacoco-coverage-20210616.170242-2</value>
+        <updated>20210616170242</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
