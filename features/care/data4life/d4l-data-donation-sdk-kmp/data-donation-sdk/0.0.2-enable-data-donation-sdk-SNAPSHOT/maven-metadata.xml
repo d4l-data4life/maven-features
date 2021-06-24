@@ -5,31 +5,31 @@
   <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210624.063821</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210624.083608</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210624063821</lastUpdated>
+    <lastUpdated>20210624083608</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
+        <extension>pom</extension>
+        <value>0.0.2-enable-data-donation-sdk-20210624.083608-3</value>
+        <updated>20210624083608</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.2-enable-data-donation-sdk-20210624.063821-2</value>
-        <updated>20210624063821</updated>
+        <value>0.0.2-enable-data-donation-sdk-20210624.083608-3</value>
+        <updated>20210624083608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.2-enable-data-donation-sdk-20210624.063821-2</value>
-        <updated>20210624063821</updated>
+        <value>0.0.2-enable-data-donation-sdk-20210624.083608-3</value>
+        <updated>20210624083608</updated>
       </snapshotVersion>
       <snapshotVersion>
+        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.2-enable-data-donation-sdk-20210624.063821-2</value>
-        <updated>20210624063821</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.2-enable-data-donation-sdk-20210624.063821-2</value>
-        <updated>20210624063821</updated>
+        <value>0.0.2-enable-data-donation-sdk-20210624.083608-3</value>
+        <updated>20210624083608</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
