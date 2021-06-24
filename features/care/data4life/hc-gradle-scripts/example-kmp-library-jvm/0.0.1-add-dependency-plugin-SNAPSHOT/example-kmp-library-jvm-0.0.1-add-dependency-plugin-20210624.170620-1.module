@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-add-dependency-plugin-SNAPSHOT/example-kmp-library-0.0.1-add-dependency-plugin-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-add-dependency-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-add-dependency-plugin-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-add-dependency-plugin-SNAPSHOT.jar",
+          "size": 14401,
+          "sha512": "edda4979c37800a3f816fbeba4c5f284dbb1335896e9340c014a5ba97c03d66e0e3028341965c3eb7ac585d3ab168ae2e65cbbfeefe5d1694e927af07c2ab909",
+          "sha256": "f26d79c965dcefdff2690124286a17e0f726c759ec64ca35477d6f27c3ad348d",
+          "sha1": "b1f0848c642a1a941dd5bfee431e906a11f8461e",
+          "md5": "80cca2e6ff07957e9328caf112b44627"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-add-dependency-plugin-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-add-dependency-plugin-SNAPSHOT.jar",
+          "size": 14401,
+          "sha512": "edda4979c37800a3f816fbeba4c5f284dbb1335896e9340c014a5ba97c03d66e0e3028341965c3eb7ac585d3ab168ae2e65cbbfeefe5d1694e927af07c2ab909",
+          "sha256": "f26d79c965dcefdff2690124286a17e0f726c759ec64ca35477d6f27c3ad348d",
+          "sha1": "b1f0848c642a1a941dd5bfee431e906a11f8461e",
+          "md5": "80cca2e6ff07957e9328caf112b44627"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-metadata/0.0.1-add-dependency-plugin-SNAPSHOT/example-kmp-library-metadata-0.0.1-add-dependency-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-metadata",
+        "version": "0.0.1-add-dependency-plugin-SNAPSHOT"
+      }
+    }
+  ]
+}
