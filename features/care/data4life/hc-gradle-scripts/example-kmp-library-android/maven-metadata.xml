@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-gradle-scripts</groupId>
   <artifactId>example-kmp-library-android</artifactId>
   <versioning>
-    <latest>0.0.1-change-example-lib-SNAPSHOT</latest>
+    <latest>0.0.1-add-example-non-kmp-lib-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-add-dependabot-versioning-exception-SNAPSHOT</version>
       <version>0.0.1-add-coverage-scripts-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>0.0.1-add-dependency-plugin-SNAPSHOT</version>
       <version>0.0.1-bump-dependencies-SNAPSHOT</version>
       <version>0.0.1-change-example-lib-SNAPSHOT</version>
+      <version>0.0.1-add-example-non-kmp-lib-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210630121915</lastUpdated>
+    <lastUpdated>20210630125137</lastUpdated>
   </versioning>
 </metadata>
