@@ -5,31 +5,31 @@
   <version>0.0.2-change-fetch-consent-for-custom-key-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210629.204414</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20210630.085140</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
-    <lastUpdated>20210629204414</lastUpdated>
+    <lastUpdated>20210630085140</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.2-change-fetch-consent-for-custom-key-20210629.204414-6</value>
-        <updated>20210629204414</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.2-change-fetch-consent-for-custom-key-20210629.204414-6</value>
-        <updated>20210629204414</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.2-change-fetch-consent-for-custom-key-20210629.204414-6</value>
-        <updated>20210629204414</updated>
+        <value>0.0.2-change-fetch-consent-for-custom-key-20210630.085140-7</value>
+        <updated>20210630085140</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.2-change-fetch-consent-for-custom-key-20210629.204414-6</value>
-        <updated>20210629204414</updated>
+        <value>0.0.2-change-fetch-consent-for-custom-key-20210630.085140-7</value>
+        <updated>20210630085140</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.2-change-fetch-consent-for-custom-key-20210630.085140-7</value>
+        <updated>20210630085140</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.2-change-fetch-consent-for-custom-key-20210630.085140-7</value>
+        <updated>20210630085140</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
