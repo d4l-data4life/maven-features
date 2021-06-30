@@ -5,31 +5,31 @@
   <version>0.0.1-add-dependency-plugin-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210630.083609</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210630.212532</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210630083609</lastUpdated>
+    <lastUpdated>20210630212532</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-add-dependency-plugin-20210630.083609-2</value>
-        <updated>20210630083609</updated>
+        <value>0.0.1-add-dependency-plugin-20210630.212532-3</value>
+        <updated>20210630212532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-add-dependency-plugin-20210630.083609-2</value>
-        <updated>20210630083609</updated>
+        <value>0.0.1-add-dependency-plugin-20210630.212532-3</value>
+        <updated>20210630212532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-add-dependency-plugin-20210630.083609-2</value>
-        <updated>20210630083609</updated>
+        <value>0.0.1-add-dependency-plugin-20210630.212532-3</value>
+        <updated>20210630212532</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-add-dependency-plugin-20210630.083609-2</value>
-        <updated>20210630083609</updated>
+        <value>0.0.1-add-dependency-plugin-20210630.212532-3</value>
+        <updated>20210630212532</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
