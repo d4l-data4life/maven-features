@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-bump-dependencies-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "j2m2qp4mqna3jckewsjlmjvla4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-metadata-0.0.1-bump-dependencies-SNAPSHOT.jar",
+          "url": "example-kmp-library-0.0.1-bump-dependencies-SNAPSHOT.jar",
+          "size": 5810,
+          "sha512": "efcf1d17bc2a0596de1c2557c511404789920287deec38d77e83f69c6184d678377ce01db185db5e82de6db73999bd4b16017aa511651e74a692f62e75715ca9",
+          "sha256": "e371cebf2017ceb0e7b79120880505d84cffc9c291c108ce23005dc1a69f703d",
+          "sha1": "05638158481d3bb99c47f422da3aed852510ee6a",
+          "md5": "30771f2cb7cab2065163c7389ad78483"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-android-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-android-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-android-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-android-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-iosarm64/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-iosarm64-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "example-kmp-library-iosarm64",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-iosx64/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-iosx64-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "example-kmp-library-iosx64",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-jvm/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-jvm-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-jvm",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-jvm/0.0.1-bump-dependencies-SNAPSHOT/example-kmp-library-jvm-0.0.1-bump-dependencies-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-jvm",
+        "version": "0.0.1-bump-dependencies-SNAPSHOT"
+      }
+    }
+  ]
+}
