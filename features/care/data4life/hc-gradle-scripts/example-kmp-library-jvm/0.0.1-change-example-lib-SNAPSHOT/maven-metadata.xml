@@ -5,31 +5,31 @@
   <version>0.0.1-change-example-lib-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210630.121827</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210701.133626</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210630121827</lastUpdated>
+    <lastUpdated>20210701133626</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-change-example-lib-20210630.121827-1</value>
-        <updated>20210630121827</updated>
+        <value>0.0.1-change-example-lib-20210701.133626-2</value>
+        <updated>20210701133626</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.1-change-example-lib-20210630.121827-1</value>
-        <updated>20210630121827</updated>
+        <extension>jar</extension>
+        <value>0.0.1-change-example-lib-20210701.133626-2</value>
+        <updated>20210701133626</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-change-example-lib-20210630.121827-1</value>
-        <updated>20210630121827</updated>
+        <value>0.0.1-change-example-lib-20210701.133626-2</value>
+        <updated>20210701133626</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-change-example-lib-20210630.121827-1</value>
-        <updated>20210630121827</updated>
+        <extension>pom</extension>
+        <value>0.0.1-change-example-lib-20210701.133626-2</value>
+        <updated>20210701133626</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
