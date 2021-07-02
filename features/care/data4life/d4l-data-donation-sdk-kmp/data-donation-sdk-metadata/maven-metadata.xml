@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.0.3-change-create-and-revoke-consent-to-support-custom-key-SNAPSHOT</latest>
+    <latest>0.0.3-missing-native-resources-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>0.0.2-fix-build-resolution-SNAPSHOT</version>
       <version>0.0.3-create-and-revoke-consent-supporting-custom-key-SNAPSHOT</version>
       <version>0.0.3-change-create-and-revoke-consent-to-support-custom-key-SNAPSHOT</version>
+      <version>0.0.3-missing-native-resources-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210630111825</lastUpdated>
+    <lastUpdated>20210702180303</lastUpdated>
   </versioning>
 </metadata>
