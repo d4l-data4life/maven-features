@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.0.3-bump-coroutines-SNAPSHOT</latest>
+    <latest>0.0.3-change-dependencies-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -19,7 +19,8 @@
       <version>0.0.3-missing-native-resources-SNAPSHOT</version>
       <version>0.0.3-fix-missing-native-resources-SNAPSHOT</version>
       <version>0.0.3-bump-coroutines-SNAPSHOT</version>
+      <version>0.0.3-change-dependencies-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210705132537</lastUpdated>
+    <lastUpdated>20210705133219</lastUpdated>
   </versioning>
 </metadata>

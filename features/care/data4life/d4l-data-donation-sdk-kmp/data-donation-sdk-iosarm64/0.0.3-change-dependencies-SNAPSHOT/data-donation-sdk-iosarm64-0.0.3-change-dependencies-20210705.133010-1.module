@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk/0.0.3-change-dependencies-SNAPSHOT/data-donation-sdk-0.0.3-change-dependencies-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.0.3-change-dependencies-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3owwmr4cvraslcn5augubhtk3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.3-native-mt",
+            "requires": "1.4.3-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.3-change-dependencies-SNAPSHOT.klib",
+          "size": 7265361,
+          "sha512": "8b8184935e9253bc5c8e6597ab7f61aaf506e785ff2ae2b03682b182b4d760b824a7f3ff843a7f4d4f0f3fb109e3dfe6af1cd60fca2c6a2e86f9d13e62447869",
+          "sha256": "af3db6395d9af72d5411ffc3c6e6d5f4d496b5bac943aca0ade3f91ff549f402",
+          "sha1": "c44155e054ba0c9b064e85ac732bba5352cd8d7a",
+          "md5": "55b3e7696878c44d5f416175131b1644"
+        },
+        {
+          "name": "data-donation-sdk-cinterop-iOSDCryptoDD.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.3-change-dependencies-SNAPSHOT-cinterop-iOSDCryptoDD.klib",
+          "size": 5908,
+          "sha512": "f2855cf77c71986ffeeacfa457ee1b3c4f5d719b7930cd998346ee2aac6cbe57bcd7a4528c7c62cffa0fd4ae8eaf8c36eb7c6220753ec73d0058062c40824573",
+          "sha256": "20bd61c27ccb4b07249aa21113d0b6ad4d2bb9085dd3b237bd660db32037f055",
+          "sha1": "47c36ae177227c1ff2cd01f85e2f669de558d281",
+          "md5": "b0932e65f67f2311a5ee60c5188e890d"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-metadata/0.0.3-change-dependencies-SNAPSHOT/data-donation-sdk-metadata-0.0.3-change-dependencies-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-metadata",
+        "version": "0.0.3-change-dependencies-SNAPSHOT"
+      }
+    }
+  ]
+}
