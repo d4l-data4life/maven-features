@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk/0.0.3-fix-missing-native-resources-test-SNAPSHOT/data-donation-sdk-0.0.3-fix-missing-native-resources-test-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.0.3-fix-missing-native-resources-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "leysguqt5valzed7ey23tgcn2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.2-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.2-native-mt",
+            "requires": "1.4.2-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.3-fix-missing-native-resources-test-SNAPSHOT.klib",
+          "size": 194359,
+          "sha512": "1ff62d9cb80b61962fa87b74f9152bb146abe72323b978d3c4b91b5b51fd614fc78bc67cfd0f07ded77899d25796188a8f6ab0daecc4f5d5c99af691ebc58ea7",
+          "sha256": "dbe467c5fb9b491cd7ed0d730c549f28d44e559ab0e13e496f8d518db22d97c6",
+          "sha1": "b4e36e7de87de7ff334464db3fd412152a5a1c06",
+          "md5": "737c3e19c86a3cc63ebfd1791f2eb485"
+        },
+        {
+          "name": "data-donation-sdk-cinterop-iOSCryptoDD.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.3-fix-missing-native-resources-test-SNAPSHOT-cinterop-iOSCryptoDD.klib",
+          "size": 4269943,
+          "sha512": "b23220da57d742e497c71120e547784b42b73f9c445fce26e759d3219e2a979ba0fdfad0c6925bba24186c3857ecd37c0ede2b6b57e3a3e0fecfefe005ddf978",
+          "sha256": "3bc272b2fc5f89207dd788ef8611ff4f2f5adb310c6de81d97da4f3ce3f13c64",
+          "sha1": "ebfc9b1a01b85eeb29c07b42bf6e161fc0e3ed6f",
+          "md5": "a01bbfc89f739f3a4cd200124882e790"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-metadata/0.0.3-fix-missing-native-resources-test-SNAPSHOT/data-donation-sdk-metadata-0.0.3-fix-missing-native-resources-test-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-metadata",
+        "version": "0.0.3-fix-missing-native-resources-test-SNAPSHOT"
+      }
+    }
+  ]
+}
