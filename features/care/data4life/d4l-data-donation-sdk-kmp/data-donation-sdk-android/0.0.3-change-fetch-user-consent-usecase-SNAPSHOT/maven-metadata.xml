@@ -5,31 +5,31 @@
   <version>0.0.3-change-fetch-user-consent-usecase-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210705.141516</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210705.205708</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210705141516</lastUpdated>
+    <lastUpdated>20210705205708</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210705.205708-3</value>
+        <updated>20210705205708</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210705.141516-2</value>
-        <updated>20210705141516</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210705.141516-2</value>
-        <updated>20210705141516</updated>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210705.205708-3</value>
+        <updated>20210705205708</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210705.141516-2</value>
-        <updated>20210705141516</updated>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210705.205708-3</value>
+        <updated>20210705205708</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210705.141516-2</value>
-        <updated>20210705141516</updated>
+        <extension>module</extension>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210705.205708-3</value>
+        <updated>20210705205708</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
