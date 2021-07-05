@@ -5,37 +5,37 @@
   <version>0.0.3-fix-missing-native-resources-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210705.125006</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210705.125637</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210705125006</lastUpdated>
+    <lastUpdated>20210705125637</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.125006-4</value>
-        <updated>20210705125006</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.125006-4</value>
-        <updated>20210705125006</updated>
+        <value>0.0.3-fix-missing-native-resources-20210705.125637-5</value>
+        <updated>20210705125637</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.3-fix-missing-native-resources-20210705.125637-5</value>
+        <updated>20210705125637</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.125006-4</value>
-        <updated>20210705125006</updated>
+        <value>0.0.3-fix-missing-native-resources-20210705.125637-5</value>
+        <updated>20210705125637</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-fix-missing-native-resources-20210705.125637-5</value>
+        <updated>20210705125637</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.125006-4</value>
-        <updated>20210705125006</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.125006-4</value>
-        <updated>20210705125006</updated>
+        <value>0.0.3-fix-missing-native-resources-20210705.125637-5</value>
+        <updated>20210705125637</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
