@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android</artifactId>
   <versioning>
-    <latest>0.0.3-change-revoke-consent-usecase-SNAPSHOT</latest>
+    <latest>0.0.3-change-create-consent-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -26,7 +26,8 @@
       <version>0.0.3-change-fetch-consent-documents-SNAPSHOT</version>
       <version>0.0.3-change-koin-SNAPSHOT</version>
       <version>0.0.3-change-revoke-consent-usecase-SNAPSHOT</version>
+      <version>0.0.3-change-create-consent-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210705144359</lastUpdated>
+    <lastUpdated>20210705145305</lastUpdated>
   </versioning>
 </metadata>
