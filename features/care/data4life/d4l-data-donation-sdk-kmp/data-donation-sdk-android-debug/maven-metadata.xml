@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.0.3-fix-missing-native-resources-SNAPSHOT</latest>
+    <latest>0.0.3-bump-coroutines-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-add-debug-publish-SNAPSHOT</version>
       <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
@@ -13,7 +13,8 @@
       <version>0.0.3-change-create-and-revoke-consent-to-support-custom-key-SNAPSHOT</version>
       <version>0.0.3-missing-native-resources-SNAPSHOT</version>
       <version>0.0.3-fix-missing-native-resources-SNAPSHOT</version>
+      <version>0.0.3-bump-coroutines-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210705125818</lastUpdated>
+    <lastUpdated>20210705132535</lastUpdated>
   </versioning>
 </metadata>
