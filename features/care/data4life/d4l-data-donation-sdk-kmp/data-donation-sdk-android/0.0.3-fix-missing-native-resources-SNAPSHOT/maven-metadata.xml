@@ -5,31 +5,31 @@
   <version>0.0.3-fix-missing-native-resources-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210705.081822</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210705.112431</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210705081822</lastUpdated>
+    <lastUpdated>20210705112431</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.081822-1</value>
-        <updated>20210705081822</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.081822-1</value>
-        <updated>20210705081822</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.081822-1</value>
-        <updated>20210705081822</updated>
+        <value>0.0.3-fix-missing-native-resources-20210705.112431-2</value>
+        <updated>20210705112431</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.3-fix-missing-native-resources-20210705.081822-1</value>
-        <updated>20210705081822</updated>
+        <value>0.0.3-fix-missing-native-resources-20210705.112431-2</value>
+        <updated>20210705112431</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.3-fix-missing-native-resources-20210705.112431-2</value>
+        <updated>20210705112431</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.3-fix-missing-native-resources-20210705.112431-2</value>
+        <updated>20210705112431</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
