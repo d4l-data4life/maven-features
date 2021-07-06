@@ -5,37 +5,37 @@
   <version>0.0.3-change-consent-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210706.081611</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210706.085238</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210706081611</lastUpdated>
+    <lastUpdated>20210706085238</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.3-change-consent-service-20210706.081611-1</value>
-        <updated>20210706081611</updated>
+        <extension>klib</extension>
+        <value>0.0.3-change-consent-service-20210706.085238-2</value>
+        <updated>20210706085238</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSDCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.3-change-consent-service-20210706.081611-1</value>
-        <updated>20210706081611</updated>
+        <value>0.0.3-change-consent-service-20210706.085238-2</value>
+        <updated>20210706085238</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.3-change-consent-service-20210706.081611-1</value>
-        <updated>20210706081611</updated>
+        <extension>module</extension>
+        <value>0.0.3-change-consent-service-20210706.085238-2</value>
+        <updated>20210706085238</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-change-consent-service-20210706.085238-2</value>
+        <updated>20210706085238</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-change-consent-service-20210706.081611-1</value>
-        <updated>20210706081611</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.3-change-consent-service-20210706.081611-1</value>
-        <updated>20210706081611</updated>
+        <value>0.0.3-change-consent-service-20210706.085238-2</value>
+        <updated>20210706085238</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
