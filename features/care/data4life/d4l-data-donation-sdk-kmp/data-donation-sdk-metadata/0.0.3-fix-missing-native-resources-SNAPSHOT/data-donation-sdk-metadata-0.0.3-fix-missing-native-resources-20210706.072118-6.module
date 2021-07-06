@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.3-fix-missing-native-resources-SNAPSHOT/data-donation-sdk-iosx64-0.0.3-fix-missing-native-resources-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.3-fix-missing-native-resources-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "lrlpeftc3nh2fpblxntsgpu6lm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.3-fix-missing-native-resources-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.3-fix-missing-native-resources-SNAPSHOT.jar",
+          "size": 64163,
+          "sha512": "8b9e8a9fb3afac3cd12f3ee2cac7e205daa23eb4193296df723d45f317c273817fab9a944c63a8328c3930fcaaebe472a2aaf8315deb31a6c60b8e95f75cbafa",
+          "sha256": "671c8332664ab757450b806312d901a7818229708938f7bab0658544934996fb",
+          "sha1": "d0df2d4a4b79d642feee88514897f90cb17b4494",
+          "md5": "76e5fa40510101a7bfbda02456dcb6d9"
+        }
+      ]
+    }
+  ]
+}
