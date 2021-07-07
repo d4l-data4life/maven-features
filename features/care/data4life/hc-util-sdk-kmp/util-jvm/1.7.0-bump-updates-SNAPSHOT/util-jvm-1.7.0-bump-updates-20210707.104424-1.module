@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-bump-updates-SNAPSHOT/util-1.7.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "oczoox7a2fhj5mmiy5nkvkwts4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-bump-updates-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-bump-updates-SNAPSHOT.jar",
+          "size": 20085,
+          "sha512": "74f1e5a12d44c5e8d86c81c08de014e41adcf89243ad7fd591068e98bd3b53a7a107962d6d89d13616092feac3514744e68c6999095ef1ca150be19f876498c1",
+          "sha256": "fb37c78591c27ba1d329201fb1bb15485703e57e561c3bd0cc758d1a616102d6",
+          "sha1": "3fff3e5ddf12b70b8079b3718905551699717efa",
+          "md5": "569de6608d92b0e536148a999ab7cbf8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-bump-updates-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-bump-updates-SNAPSHOT.jar",
+          "size": 20085,
+          "sha512": "74f1e5a12d44c5e8d86c81c08de014e41adcf89243ad7fd591068e98bd3b53a7a107962d6d89d13616092feac3514744e68c6999095ef1ca150be19f876498c1",
+          "sha256": "fb37c78591c27ba1d329201fb1bb15485703e57e561c3bd0cc758d1a616102d6",
+          "sha1": "3fff3e5ddf12b70b8079b3718905551699717efa",
+          "md5": "569de6608d92b0e536148a999ab7cbf8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-bump-updates-SNAPSHOT/util-metadata-1.7.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-bump-updates-SNAPSHOT"
+      }
+    }
+  ]
+}
