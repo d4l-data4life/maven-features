@@ -5,37 +5,37 @@
   <version>0.0.3-change-fetch-user-consent-usecase-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210707.065441</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20210707.072252</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
-    <lastUpdated>20210707065441</lastUpdated>
+    <lastUpdated>20210707072252</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210707.065441-5</value>
-        <updated>20210707065441</updated>
+        <extension>pom</extension>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210707.072252-6</value>
+        <updated>20210707072252</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210707.072252-6</value>
+        <updated>20210707072252</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210707.065441-5</value>
-        <updated>20210707065441</updated>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210707.072252-6</value>
+        <updated>20210707072252</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210707.065441-5</value>
-        <updated>20210707065441</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210707.065441-5</value>
-        <updated>20210707065441</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210707.072252-6</value>
+        <updated>20210707072252</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.3-change-fetch-user-consent-usecase-20210707.065441-5</value>
-        <updated>20210707065441</updated>
+        <value>0.0.3-change-fetch-user-consent-usecase-20210707.072252-6</value>
+        <updated>20210707072252</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
