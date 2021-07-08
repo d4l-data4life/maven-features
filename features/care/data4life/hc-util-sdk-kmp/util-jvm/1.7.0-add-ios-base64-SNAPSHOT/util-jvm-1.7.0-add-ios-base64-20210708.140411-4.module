@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-add-ios-base64-SNAPSHOT/util-1.7.0-add-ios-base64-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-add-ios-base64-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "n4462ibm4vh5bcf3z2d6dch6o4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-add-ios-base64-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-add-ios-base64-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "25e5360c1e9006952d08b4f212d83283ec4e98bd6b65d30f1f406aa1105998cd38dbbcf4b86e59ed6b077caed9318f4605d192a4f4ed251d3ae9f7bee372f183",
+          "sha256": "b48ef5fff8a2712a1e96dc1427c1832c862014a3a7fa63cdff8a78dd7081e3a0",
+          "sha1": "4e8ace0a7e2eae9e138a24753d9f51fc73028c09",
+          "md5": "f4d96a3a6c1ee0d1c9119ddce3f5fda2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-add-ios-base64-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-add-ios-base64-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "25e5360c1e9006952d08b4f212d83283ec4e98bd6b65d30f1f406aa1105998cd38dbbcf4b86e59ed6b077caed9318f4605d192a4f4ed251d3ae9f7bee372f183",
+          "sha256": "b48ef5fff8a2712a1e96dc1427c1832c862014a3a7fa63cdff8a78dd7081e3a0",
+          "sha1": "4e8ace0a7e2eae9e138a24753d9f51fc73028c09",
+          "md5": "f4d96a3a6c1ee0d1c9119ddce3f5fda2"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-add-ios-base64-SNAPSHOT/util-metadata-1.7.0-add-ios-base64-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-add-ios-base64-SNAPSHOT"
+      }
+    }
+  ]
+}
