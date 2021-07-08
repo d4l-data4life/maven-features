@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-jvm</artifactId>
   <versioning>
-    <latest>1.7.0-add-ios-base64-SNAPSHOT</latest>
+    <latest>1.7.0-add-ios-sha1-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
       <version>1.7.0-add-ios-branch-SNAPSHOT</version>
       <version>1.7.0-add-ios-base64-SNAPSHOT</version>
+      <version>1.7.0-add-ios-sha1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210708140606</lastUpdated>
+    <lastUpdated>20210708202902</lastUpdated>
   </versioning>
 </metadata>
