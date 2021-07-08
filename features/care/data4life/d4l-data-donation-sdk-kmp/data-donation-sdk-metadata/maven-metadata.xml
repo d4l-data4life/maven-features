@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.0.3-change-fetch-consent-documents-SNAPSHOT</latest>
+    <latest>0.0.3-change-koin-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -31,6 +31,6 @@
       <version>0.0.3-add-call-builder-SNAPSHOT</version>
       <version>0.0.3-change-consent-service-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210707145145</lastUpdated>
+    <lastUpdated>20210708102846</lastUpdated>
   </versioning>
 </metadata>
