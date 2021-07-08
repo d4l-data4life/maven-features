@@ -5,37 +5,37 @@
   <version>0.0.3-change-revoke-consent-usecase-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210705.144225</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210708.105927</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210705144225</lastUpdated>
+    <lastUpdated>20210708105927</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>cinterop-iOSDCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.3-change-revoke-consent-usecase-20210705.144225-2</value>
-        <updated>20210705144225</updated>
+        <value>0.0.3-change-revoke-consent-usecase-20210708.105927-3</value>
+        <updated>20210708105927</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.3-change-revoke-consent-usecase-20210705.144225-2</value>
-        <updated>20210705144225</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.3-change-revoke-consent-usecase-20210705.144225-2</value>
-        <updated>20210705144225</updated>
+        <extension>module</extension>
+        <value>0.0.3-change-revoke-consent-usecase-20210708.105927-3</value>
+        <updated>20210708105927</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-change-revoke-consent-usecase-20210705.144225-2</value>
-        <updated>20210705144225</updated>
+        <value>0.0.3-change-revoke-consent-usecase-20210708.105927-3</value>
+        <updated>20210708105927</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.3-change-revoke-consent-usecase-20210705.144225-2</value>
-        <updated>20210705144225</updated>
+        <extension>pom</extension>
+        <value>0.0.3-change-revoke-consent-usecase-20210708.105927-3</value>
+        <updated>20210708105927</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>cinterop-iOSCryptoDD</classifier>
+        <extension>klib</extension>
+        <value>0.0.3-change-revoke-consent-usecase-20210708.105927-3</value>
+        <updated>20210708105927</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
