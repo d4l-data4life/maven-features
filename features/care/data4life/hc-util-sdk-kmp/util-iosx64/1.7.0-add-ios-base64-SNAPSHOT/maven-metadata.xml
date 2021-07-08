@@ -5,31 +5,31 @@
   <version>1.7.0-add-ios-base64-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210708.080355</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210708.121122</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210708080355</lastUpdated>
+    <lastUpdated>20210708121122</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.7.0-add-ios-base64-20210708.080355-1</value>
-        <updated>20210708080355</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.7.0-add-ios-base64-20210708.080355-1</value>
-        <updated>20210708080355</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.7.0-add-ios-base64-20210708.080355-1</value>
-        <updated>20210708080355</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.7.0-add-ios-base64-20210708.080355-1</value>
-        <updated>20210708080355</updated>
+        <value>1.7.0-add-ios-base64-20210708.121122-2</value>
+        <updated>20210708121122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.7.0-add-ios-base64-20210708.121122-2</value>
+        <updated>20210708121122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>1.7.0-add-ios-base64-20210708.121122-2</value>
+        <updated>20210708121122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.7.0-add-ios-base64-20210708.121122-2</value>
+        <updated>20210708121122</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
