@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3prnx3q6anhwzaup2h2upig4ry"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.jar",
+          "size": 73681,
+          "sha512": "4ab324f247e9ab20b8bc570751823704978a5fa39f498975c92bb7a963f5dd7eac8ea90905682d1f30b9a672be8b74f429ab10aece529e4941aaf6d12bf38dc4",
+          "sha256": "9d37aeb68ab7d01c5a499f6328a14239f90a06175bc0104439bf3782c055e92b",
+          "sha1": "19383a7b355f6f79d30bc10f828d5a08e8cebb5a",
+          "md5": "caee52bd37115fa4b2029c0fad320620"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-android-debug-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-android-debug-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-android-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-android-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-iosarm64-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT/data-donation-sdk-iosx64-0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT"
+      }
+    }
+  ]
+}
