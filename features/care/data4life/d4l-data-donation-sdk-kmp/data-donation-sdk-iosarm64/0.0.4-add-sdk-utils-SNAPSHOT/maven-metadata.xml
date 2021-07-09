@@ -5,37 +5,37 @@
   <version>0.0.4-add-sdk-utils-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210709.184705</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210709.185109</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210709184705</lastUpdated>
+    <lastUpdated>20210709185109</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.4-add-sdk-utils-20210709.184705-3</value>
-        <updated>20210709184705</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-add-sdk-utils-20210709.184705-3</value>
-        <updated>20210709184705</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.4-add-sdk-utils-20210709.184705-3</value>
-        <updated>20210709184705</updated>
+        <value>0.0.4-add-sdk-utils-20210709.185109-4</value>
+        <updated>20210709185109</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.4-add-sdk-utils-20210709.184705-3</value>
-        <updated>20210709184705</updated>
+        <value>0.0.4-add-sdk-utils-20210709.185109-4</value>
+        <updated>20210709185109</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-add-sdk-utils-20210709.185109-4</value>
+        <updated>20210709185109</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-add-sdk-utils-20210709.184705-3</value>
-        <updated>20210709184705</updated>
+        <value>0.0.4-add-sdk-utils-20210709.185109-4</value>
+        <updated>20210709185109</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.0.4-add-sdk-utils-20210709.185109-4</value>
+        <updated>20210709185109</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
