@@ -5,31 +5,31 @@
   <version>1.7.0-add-coroutine-test-util-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210709.142736</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210709.163506</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210709142736</lastUpdated>
+    <lastUpdated>20210709163506</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
-        <updated>20210709142736</updated>
+        <extension>klib</extension>
+        <value>1.7.0-add-coroutine-test-util-20210709.163506-4</value>
+        <updated>20210709163506</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
-        <updated>20210709142736</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
-        <updated>20210709142736</updated>
+        <value>1.7.0-add-coroutine-test-util-20210709.163506-4</value>
+        <updated>20210709163506</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
-        <updated>20210709142736</updated>
+        <value>1.7.0-add-coroutine-test-util-20210709.163506-4</value>
+        <updated>20210709163506</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.7.0-add-coroutine-test-util-20210709.163506-4</value>
+        <updated>20210709163506</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
