@@ -5,31 +5,31 @@
   <version>0.0.3-change-consent-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210706.085238</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210709.094016</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210706085238</lastUpdated>
+    <lastUpdated>20210709094016</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.3-change-consent-service-20210706.085238-2</value>
-        <updated>20210706085238</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-change-consent-service-20210706.085238-2</value>
-        <updated>20210706085238</updated>
+        <value>0.0.3-change-consent-service-20210709.094016-3</value>
+        <updated>20210709094016</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.3-change-consent-service-20210706.085238-2</value>
-        <updated>20210706085238</updated>
+        <value>0.0.3-change-consent-service-20210709.094016-3</value>
+        <updated>20210709094016</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-change-consent-service-20210709.094016-3</value>
+        <updated>20210709094016</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-change-consent-service-20210706.085238-2</value>
-        <updated>20210706085238</updated>
+        <value>0.0.3-change-consent-service-20210709.094016-3</value>
+        <updated>20210709094016</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
