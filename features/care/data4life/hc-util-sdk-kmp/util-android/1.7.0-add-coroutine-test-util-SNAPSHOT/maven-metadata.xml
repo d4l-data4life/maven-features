@@ -5,31 +5,43 @@
   <version>1.7.0-add-coroutine-test-util-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210709.125716</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210709.142736</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210709125716</lastUpdated>
+    <lastUpdated>20210709142736</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.125716-2</value>
-        <updated>20210709125716</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.125716-2</value>
-        <updated>20210709125716</updated>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.125716-2</value>
-        <updated>20210709125716</updated>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>debug-sources</classifier>
+        <extension>jar</extension>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.7.0-add-coroutine-test-util-20210709.125716-2</value>
-        <updated>20210709125716</updated>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>debug</classifier>
+        <extension>aar</extension>
+        <value>1.7.0-add-coroutine-test-util-20210709.142736-3</value>
+        <updated>20210709142736</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
