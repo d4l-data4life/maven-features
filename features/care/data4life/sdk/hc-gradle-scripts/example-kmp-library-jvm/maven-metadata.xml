@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.sdk.hc-gradle-scripts</groupId>
+  <artifactId>example-kmp-library-jvm</artifactId>
+  <versioning>
+    <latest>0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210712102453</lastUpdated>
+  </versioning>
+</metadata>
