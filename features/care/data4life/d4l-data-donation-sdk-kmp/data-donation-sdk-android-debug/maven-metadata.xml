@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.0.4-change-usecase-pattern-SNAPSHOT</latest>
+    <latest>0.0.4-remove-storage-layer-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-add-debug-publish-SNAPSHOT</version>
       <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
@@ -32,7 +32,8 @@
       <version>0.0.4-add-payload-tests-SNAPSHOT</version>
       <version>0.0.4-change-redact-usecase-SNAPSHOT</version>
       <version>0.0.4-change-usecase-pattern-SNAPSHOT</version>
+      <version>0.0.4-remove-storage-layer-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210712073839</lastUpdated>
+    <lastUpdated>20210712075226</lastUpdated>
   </versioning>
 </metadata>
