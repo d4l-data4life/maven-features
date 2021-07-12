@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.0.4-add-sdk-utils-SNAPSHOT</latest>
+    <latest>0.0.4-add-repo-tests-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-add-debug-publish-SNAPSHOT</version>
       <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
@@ -28,7 +28,8 @@
       <version>0.0.3-change_create_and_revoke_consent_for_custom_key-SNAPSHOT</version>
       <version>0.0.3-change-create-and-revoke-consent-for-custom-key-SNAPSHOT</version>
       <version>0.0.4-add-sdk-utils-SNAPSHOT</version>
+      <version>0.0.4-add-repo-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210711104210</lastUpdated>
+    <lastUpdated>20210712072007</lastUpdated>
   </versioning>
 </metadata>
