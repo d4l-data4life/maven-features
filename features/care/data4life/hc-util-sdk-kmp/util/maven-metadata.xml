@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util</artifactId>
   <versioning>
-    <latest>1.7.0-add-coroutine-test-util-SNAPSHOT</latest>
+    <latest>1.7.0-pepare-release-1.8.0-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
@@ -11,7 +11,8 @@
       <version>1.7.0-add-ios-base64-SNAPSHOT</version>
       <version>1.7.0-add-ios-sha1-SNAPSHOT</version>
       <version>1.7.0-add-coroutine-test-util-SNAPSHOT</version>
+      <version>1.7.0-pepare-release-1.8.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210712101012</lastUpdated>
+    <lastUpdated>20210713112714</lastUpdated>
   </versioning>
 </metadata>
