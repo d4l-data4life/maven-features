@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.0-add-ios-min-version-SNAPSHOT/util-test-1.8.0-add-ios-min-version-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.0-add-ios-min-version-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "bqecn2liy5fi7bul5bkwignmxq"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.0-add-ios-min-version-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.0-add-ios-min-version-SNAPSHOT.jar",
+          "size": 5724,
+          "sha512": "8b67341bf9d20aa2e6e8ebd0230d7d0d857c51ba177e319732130f5d4d1264a032c74c35a73bcc2137546b0a1085bc0e96cc3af4a44e4892ef1966b741dafe2d",
+          "sha256": "f78beb53b727b5ab5d1b01851ee20e92e5d4d89efc9ea5bb9f2fab259b949eac",
+          "sha1": "692d26e271072e00b6bdb229d7f524d0f41ba3d3",
+          "md5": "521ee00233acde888df1efcb7697aff3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.0-add-ios-min-version-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.0-add-ios-min-version-SNAPSHOT.jar",
+          "size": 5724,
+          "sha512": "8b67341bf9d20aa2e6e8ebd0230d7d0d857c51ba177e319732130f5d4d1264a032c74c35a73bcc2137546b0a1085bc0e96cc3af4a44e4892ef1966b741dafe2d",
+          "sha256": "f78beb53b727b5ab5d1b01851ee20e92e5d4d89efc9ea5bb9f2fab259b949eac",
+          "sha1": "692d26e271072e00b6bdb229d7f524d0f41ba3d3",
+          "md5": "521ee00233acde888df1efcb7697aff3"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.0-add-ios-min-version-SNAPSHOT/util-test-metadata-1.8.0-add-ios-min-version-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.0-add-ios-min-version-SNAPSHOT"
+      }
+    }
+  ]
+}
