@@ -5,31 +5,31 @@
   <version>0.0.4-add-payload-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210712.072125</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210714.091607</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210712072125</lastUpdated>
+    <lastUpdated>20210714091607</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-add-payload-tests-20210712.072125-1</value>
-        <updated>20210712072125</updated>
+        <extension>jar</extension>
+        <value>0.0.4-add-payload-tests-20210714.091607-2</value>
+        <updated>20210714091607</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.4-add-payload-tests-20210712.072125-1</value>
-        <updated>20210712072125</updated>
+        <extension>module</extension>
+        <value>0.0.4-add-payload-tests-20210714.091607-2</value>
+        <updated>20210714091607</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-add-payload-tests-20210714.091607-2</value>
+        <updated>20210714091607</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-add-payload-tests-20210712.072125-1</value>
-        <updated>20210712072125</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.4-add-payload-tests-20210712.072125-1</value>
-        <updated>20210712072125</updated>
+        <value>0.0.4-add-payload-tests-20210714.091607-2</value>
+        <updated>20210714091607</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

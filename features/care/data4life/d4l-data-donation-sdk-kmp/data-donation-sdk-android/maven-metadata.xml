@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android</artifactId>
   <versioning>
-    <latest>0.0.4-add-repo-tests-SNAPSHOT</latest>
+    <latest>0.0.4-add-payload-tests-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -42,6 +42,6 @@
       <version>0.0.4-change-http-client-SNAPSHOT</version>
       <version>0.0.4-remove-local-env-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210714085723</lastUpdated>
+    <lastUpdated>20210714091814</lastUpdated>
   </versioning>
 </metadata>
