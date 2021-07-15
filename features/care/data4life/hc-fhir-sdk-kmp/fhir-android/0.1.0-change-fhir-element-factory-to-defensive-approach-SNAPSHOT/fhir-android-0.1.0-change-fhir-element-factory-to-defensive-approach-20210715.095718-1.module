@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT/fhir-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fhir-release.aar",
+          "url": "fhir-android-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.aar",
+          "size": 14568665,
+          "sha512": "a05e6033597daa53a949e5b56ce4e974c6bcd4cab598e5f6bad1397720a566c41dd8d53d5cbf9f81b9d51c87c399acdb576ffc1cb978c7fb5573054f8318c809",
+          "sha256": "f031cc1d5527d2dc8d60a322b1cb046239d06d1712d4e263fa26c6e6bf6c7d9d",
+          "sha1": "a6bbe00ac19ee0997a67866e2fdd0b02a94486b1",
+          "md5": "7557bd4e23b7ed49c4efa86be02eee37"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-release.aar",
+          "url": "fhir-android-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.aar",
+          "size": 14568665,
+          "sha512": "a05e6033597daa53a949e5b56ce4e974c6bcd4cab598e5f6bad1397720a566c41dd8d53d5cbf9f81b9d51c87c399acdb576ffc1cb978c7fb5573054f8318c809",
+          "sha256": "f031cc1d5527d2dc8d60a322b1cb046239d06d1712d4e263fa26c6e6bf6c7d9d",
+          "sha1": "a6bbe00ac19ee0997a67866e2fdd0b02a94486b1",
+          "md5": "7557bd4e23b7ed49c4efa86be02eee37"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT/fhir-metadata-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT"
+      }
+    }
+  ]
+}

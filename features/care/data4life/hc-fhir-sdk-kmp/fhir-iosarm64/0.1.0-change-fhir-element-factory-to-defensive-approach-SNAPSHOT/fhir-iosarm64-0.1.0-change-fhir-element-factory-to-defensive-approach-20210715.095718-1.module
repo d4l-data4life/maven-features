@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT/fhir-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosarm64-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.klib",
+          "size": 9754160,
+          "sha512": "b67c1fcda26c8d4b23baa69a0d9ed63030f7ec29ed0d774187f3df7b93d507303b6bf0cb5d42f0f6c3e45abdd61d45f8dfb1e77aa98f81818c0062b947cd5e24",
+          "sha256": "f194eb2a4f578781b4dc34635989db2db556ef48db362c58bd39c625b2d23fa8",
+          "sha1": "193987913f2487e2dffbf9c4ec183233ba1f0319",
+          "md5": "da39a8ac09dc8dc6d81f1fb942ee38f3"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT/fhir-metadata-0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT"
+      }
+    }
+  ]
+}
