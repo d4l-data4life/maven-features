@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto/1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT/crypto-1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT.module",
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "paqddhk5ljglli2s3axmpqypge"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-debug.aar",
+          "url": "crypto-android-debug-1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT.aar",
+          "size": 63400,
+          "sha512": "44727615a00cb06527d6c2f134511861cb447a76cc005e57c3f4c0c9a7b4d8ebc6518aea84566dcdcffc9f67c36dc10c3ad9a5cde6d7fed7163317c5121d6016",
+          "sha256": "b3d46986e51696a7ef5195491380553308d986c353ecf20dde329aaab5cf9481",
+          "sha1": "6c052938933fdd2a884f56f69b246d2e988aaef5",
+          "md5": "e92d44940d80689be826d3781be723c8"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-debug.aar",
+          "url": "crypto-android-debug-1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT.aar",
+          "size": 63400,
+          "sha512": "44727615a00cb06527d6c2f134511861cb447a76cc005e57c3f4c0c9a7b4d8ebc6518aea84566dcdcffc9f67c36dc10c3ad9a5cde6d7fed7163317c5121d6016",
+          "sha256": "b3d46986e51696a7ef5195491380553308d986c353ecf20dde329aaab5cf9481",
+          "sha1": "6c052938933fdd2a884f56f69b246d2e988aaef5",
+          "md5": "e92d44940d80689be826d3781be723c8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../crypto-metadata/1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT/crypto-metadata-1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT.module",
+        "group": "care.data4life.hc-crypto-sdk-kmp",
+        "module": "crypto-metadata",
+        "version": "1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT"
+      }
+    }
+  ]
+}

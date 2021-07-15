@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-crypto-sdk-kmp</groupId>
+  <artifactId>crypto</artifactId>
+  <versioning>
+    <latest>1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT</latest>
+    <versions>
+      <version>1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210715163614</lastUpdated>
+  </versioning>
+</metadata>
