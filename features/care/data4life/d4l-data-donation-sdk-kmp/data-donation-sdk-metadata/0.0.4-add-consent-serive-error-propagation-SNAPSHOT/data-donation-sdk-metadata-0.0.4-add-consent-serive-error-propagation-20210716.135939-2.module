@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.4-add-consent-serive-error-propagation-SNAPSHOT/data-donation-sdk-iosx64-0.0.4-add-consent-serive-error-propagation-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.4-add-consent-serive-error-propagation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "gu2mgtnodza27d2l6eehv7svje"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.4-add-consent-serive-error-propagation-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.4-add-consent-serive-error-propagation-SNAPSHOT.jar",
+          "size": 77247,
+          "sha512": "4a13f3fd1954a3cc79bf8a63e26c307f3c0603c84f8ab528c63fa57d91598b6e9dd32ca2c98969197310132a05766c386dada80b3a1c970183561e7f79088174",
+          "sha256": "f6fbc0130977f52b066dcd45bf5c3b43f29ce85a26b4247f9b61055cd8c06d7b",
+          "sha1": "c639c664f7898ba2757f706a7e9a5b0f2cdc2323",
+          "md5": "d637eed16af994a4b918dd1f541f92f0"
+        }
+      ]
+    }
+  ]
+}
