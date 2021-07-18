@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.8.1-add-resource-loader-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hzss7wvbjvga7gznlw4raiplju"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "url": "util-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "size": 6309,
+          "sha512": "6bc9d4b5638848da2b8a40213a9f91fce7fac306ab1f60f04099fdff81927c064c8a48a43df21c8f515c4fa140a9e3b5c1c7ee9e7deb069291bbbe2b86ff9866",
+          "sha256": "36c3b58e99937aa95e70cf8199e5004ff2948677339b7956a5df389453b8b14f",
+          "sha1": "c7564f3fe593ebd3df2c43a0fa9e42fe1d411e7d",
+          "md5": "c409f6205e2296345b5db40d6f4b8d14"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.8.1-add-resource-loader-common-SNAPSHOT/util-android-debug-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.8.1-add-resource-loader-common-SNAPSHOT/util-android-debug-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.8.1-add-resource-loader-common-SNAPSHOT/util-android-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.8.1-add-resource-loader-common-SNAPSHOT/util-android-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosarm64/1.8.1-add-resource-loader-common-SNAPSHOT/util-iosarm64-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-iosarm64",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosx64/1.8.1-add-resource-loader-common-SNAPSHOT/util-iosx64-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-iosx64",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.8.1-add-resource-loader-common-SNAPSHOT/util-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.8.1-add-resource-loader-common-SNAPSHOT/util-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    }
+  ]
+}

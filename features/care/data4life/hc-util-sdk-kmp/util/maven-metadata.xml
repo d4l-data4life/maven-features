@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util</artifactId>
   <versioning>
-    <latest>1.8.0-SNAPSHOT</latest>
+    <latest>1.8.1-add-resource-loader-common-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
@@ -15,7 +15,8 @@
       <version>1.7.0-SNAPSHOT</version>
       <version>1.8.0-add-ios-min-version-SNAPSHOT</version>
       <version>1.8.0-SNAPSHOT</version>
+      <version>1.8.1-add-resource-loader-common-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210714102336</lastUpdated>
+    <lastUpdated>20210718041515</lastUpdated>
   </versioning>
 </metadata>
