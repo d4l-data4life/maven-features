@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.1-add-mock-object-response-SNAPSHOT/util-test-1.8.1-add-mock-object-response-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.1-add-mock-object-response-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hktlo67ttjh7rphvngffkwu7qi"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-test-debug.aar",
+          "url": "util-test-android-debug-1.8.1-add-mock-object-response-SNAPSHOT.aar",
+          "size": 17246,
+          "sha512": "65b8388c83d24ad6954a4b8cedf98dfda0630da918c7672aa006bc5aa6f8ef30b09b55556da100ab2a45f90a33cfe4501a7b89425647570d3811b75d23e18134",
+          "sha256": "f52940cabfd722d8539c912a2f9ae71ed4f2e89f890b117749a2f1b19e5b1ea1",
+          "sha1": "c32cf7f346d928f6cff8919db82993485c2dac5f",
+          "md5": "94506960dbf4a323b5c361408d2230d5"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test-debug.aar",
+          "url": "util-test-android-debug-1.8.1-add-mock-object-response-SNAPSHOT.aar",
+          "size": 17246,
+          "sha512": "65b8388c83d24ad6954a4b8cedf98dfda0630da918c7672aa006bc5aa6f8ef30b09b55556da100ab2a45f90a33cfe4501a7b89425647570d3811b75d23e18134",
+          "sha256": "f52940cabfd722d8539c912a2f9ae71ed4f2e89f890b117749a2f1b19e5b1ea1",
+          "sha1": "c32cf7f346d928f6cff8919db82993485c2dac5f",
+          "md5": "94506960dbf4a323b5c361408d2230d5"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.1-add-mock-object-response-SNAPSHOT/util-test-metadata-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    }
+  ]
+}

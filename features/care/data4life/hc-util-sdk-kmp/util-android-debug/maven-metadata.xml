@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android-debug</artifactId>
   <versioning>
-    <latest>1.8.1-add-resource-loader-common-SNAPSHOT</latest>
+    <latest>1.8.1-add-mock-object-response-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-add-coroutine-test-util-SNAPSHOT</version>
       <version>1.7.0-pepare-release-1.8.0-SNAPSHOT</version>
@@ -11,7 +11,8 @@
       <version>1.8.0-add-ios-min-version-SNAPSHOT</version>
       <version>1.8.0-SNAPSHOT</version>
       <version>1.8.1-add-resource-loader-common-SNAPSHOT</version>
+      <version>1.8.1-add-mock-object-response-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210718165557</lastUpdated>
+    <lastUpdated>20210719112154</lastUpdated>
   </versioning>
 </metadata>
