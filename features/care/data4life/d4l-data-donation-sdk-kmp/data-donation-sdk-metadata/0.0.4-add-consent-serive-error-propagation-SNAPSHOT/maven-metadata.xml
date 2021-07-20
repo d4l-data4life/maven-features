@@ -5,31 +5,31 @@
   <version>0.0.4-add-consent-serive-error-propagation-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210716.135939</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210720.064447</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210716135939</lastUpdated>
+    <lastUpdated>20210720064447</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-add-consent-serive-error-propagation-20210716.135939-2</value>
-        <updated>20210716135939</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-add-consent-serive-error-propagation-20210716.135939-2</value>
-        <updated>20210716135939</updated>
+        <value>0.0.4-add-consent-serive-error-propagation-20210720.064447-3</value>
+        <updated>20210720064447</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.4-add-consent-serive-error-propagation-20210716.135939-2</value>
-        <updated>20210716135939</updated>
+        <value>0.0.4-add-consent-serive-error-propagation-20210720.064447-3</value>
+        <updated>20210720064447</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.4-add-consent-serive-error-propagation-20210716.135939-2</value>
-        <updated>20210716135939</updated>
+        <value>0.0.4-add-consent-serive-error-propagation-20210720.064447-3</value>
+        <updated>20210720064447</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-add-consent-serive-error-propagation-20210720.064447-3</value>
+        <updated>20210720064447</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
