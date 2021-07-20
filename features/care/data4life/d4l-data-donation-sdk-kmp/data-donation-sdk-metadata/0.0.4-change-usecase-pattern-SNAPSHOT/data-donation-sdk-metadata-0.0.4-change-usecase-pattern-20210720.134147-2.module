@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.4-change-usecase-pattern-SNAPSHOT/data-donation-sdk-iosx64-0.0.4-change-usecase-pattern-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.4-change-usecase-pattern-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "n4e64vafi5da3mdffqjqxnz6gi"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.4-change-usecase-pattern-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.4-change-usecase-pattern-SNAPSHOT.jar",
+          "size": 73674,
+          "sha512": "06d424c23354f3bf15ffc7f2752f3c1c3965c70069c01513cc4c29d82209f3adf90e245a426ac49266679dbbfdd4de502e8c233dde51f6765b74947a0f91ed14",
+          "sha256": "f4d66a23f77a71fe9bbc873aa57954db728e0565fffc167acfdf4fce1a08b5bc",
+          "sha1": "afcd3462c4d9f87dadc6c6a8f6d97cef28cdd4c2",
+          "md5": "dd26837a5be85154f2d82f2ff141f4d1"
+        }
+      ]
+    }
+  ]
+}
