@@ -5,37 +5,37 @@
   <version>0.0.4-change-http-client-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210721.161050</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210721.174349</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210721161050</lastUpdated>
+    <lastUpdated>20210721174349</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.4-change-http-client-20210721.174349-5</value>
+        <updated>20210721174349</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.0.4-change-http-client-20210721.174349-5</value>
+        <updated>20210721174349</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>cinterop-iOSCryptoDD</classifier>
         <extension>klib</extension>
-        <value>0.0.4-change-http-client-20210721.161050-4</value>
-        <updated>20210721161050</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.4-change-http-client-20210721.161050-4</value>
-        <updated>20210721161050</updated>
+        <value>0.0.4-change-http-client-20210721.174349-5</value>
+        <updated>20210721174349</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.4-change-http-client-20210721.161050-4</value>
-        <updated>20210721161050</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.0.4-change-http-client-20210721.161050-4</value>
-        <updated>20210721161050</updated>
+        <value>0.0.4-change-http-client-20210721.174349-5</value>
+        <updated>20210721174349</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-change-http-client-20210721.161050-4</value>
-        <updated>20210721161050</updated>
+        <value>0.0.4-change-http-client-20210721.174349-5</value>
+        <updated>20210721174349</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
