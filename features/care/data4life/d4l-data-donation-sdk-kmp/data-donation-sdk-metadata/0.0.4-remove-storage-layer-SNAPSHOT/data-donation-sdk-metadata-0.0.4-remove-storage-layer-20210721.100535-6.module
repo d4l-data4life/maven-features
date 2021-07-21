@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.4-remove-storage-layer-SNAPSHOT/data-donation-sdk-iosx64-0.0.4-remove-storage-layer-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.4-remove-storage-layer-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "lxqbil4kzvce7hoqnfkosp75ai"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.4-remove-storage-layer-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.4-remove-storage-layer-SNAPSHOT.jar",
+          "size": 70929,
+          "sha512": "a20a82c4cb42f6c6c334be8150d8e1b84c4055fcd5b39a24ca2de17d67d4e6030338ef938f768b9a5f71c08a0289fcbe2a8c92c4e10f98230c9444c6f1af693e",
+          "sha256": "86d119bdb9208723a4c71fd5df58d14cc3bb3208decc45500f20086650eb4fcb",
+          "sha1": "bcad7b6a6c6645a3e163cada751cbaa42508f958",
+          "md5": "c6aae27c87421b1ee40ce14c61b8294e"
+        }
+      ]
+    }
+  ]
+}
