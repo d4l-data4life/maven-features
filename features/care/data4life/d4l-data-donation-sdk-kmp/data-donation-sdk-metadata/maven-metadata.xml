@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.0.4-change-http-client-SNAPSHOT</latest>
+    <latest>0.0.4-remove-local-env-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -49,6 +49,6 @@
       <version>0.0.4-add-flow-SNAPSHOT</version>
       <version>0.0.4-change-client-parameter-injection-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210722135627</lastUpdated>
+    <lastUpdated>20210722142325</lastUpdated>
   </versioning>
 </metadata>

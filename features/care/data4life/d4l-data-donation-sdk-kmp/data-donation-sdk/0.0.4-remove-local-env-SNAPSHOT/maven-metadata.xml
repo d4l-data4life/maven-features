@@ -5,31 +5,31 @@
   <version>0.0.4-remove-local-env-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210719.193654</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210722.142052</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210719193654</lastUpdated>
+    <lastUpdated>20210722142052</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.4-remove-local-env-20210722.142052-3</value>
+        <updated>20210722142052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.4-remove-local-env-20210719.193654-2</value>
-        <updated>20210719193654</updated>
+        <value>0.0.4-remove-local-env-20210722.142052-3</value>
+        <updated>20210722142052</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.4-remove-local-env-20210719.193654-2</value>
-        <updated>20210719193654</updated>
+        <value>0.0.4-remove-local-env-20210722.142052-3</value>
+        <updated>20210722142052</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-remove-local-env-20210719.193654-2</value>
-        <updated>20210719193654</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.4-remove-local-env-20210719.193654-2</value>
-        <updated>20210719193654</updated>
+        <value>0.0.4-remove-local-env-20210722.142052-3</value>
+        <updated>20210722142052</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
