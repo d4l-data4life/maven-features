@@ -5,31 +5,31 @@
   <version>0.0.4-change-client-parameter-injection-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210723.140228</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20210723.142223</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
-    <lastUpdated>20210723140228</lastUpdated>
+    <lastUpdated>20210723142223</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.140228-5</value>
-        <updated>20210723140228</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.140228-5</value>
-        <updated>20210723140228</updated>
+        <value>0.0.4-change-client-parameter-injection-20210723.142223-6</value>
+        <updated>20210723142223</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.140228-5</value>
-        <updated>20210723140228</updated>
+        <extension>pom</extension>
+        <value>0.0.4-change-client-parameter-injection-20210723.142223-6</value>
+        <updated>20210723142223</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.140228-5</value>
-        <updated>20210723140228</updated>
+        <value>0.0.4-change-client-parameter-injection-20210723.142223-6</value>
+        <updated>20210723142223</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.4-change-client-parameter-injection-20210723.142223-6</value>
+        <updated>20210723142223</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
