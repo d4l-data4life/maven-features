@@ -5,31 +5,31 @@
   <version>0.0.4-change-client-parameter-injection-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210723.114734</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210723.120106</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210723114734</lastUpdated>
+    <lastUpdated>20210723120106</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.114734-2</value>
-        <updated>20210723114734</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.114734-2</value>
-        <updated>20210723114734</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.114734-2</value>
-        <updated>20210723114734</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-change-client-parameter-injection-20210723.114734-2</value>
-        <updated>20210723114734</updated>
+        <value>0.0.4-change-client-parameter-injection-20210723.120106-3</value>
+        <updated>20210723120106</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.4-change-client-parameter-injection-20210723.120106-3</value>
+        <updated>20210723120106</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-change-client-parameter-injection-20210723.120106-3</value>
+        <updated>20210723120106</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.4-change-client-parameter-injection-20210723.120106-3</value>
+        <updated>20210723120106</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
