@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android</artifactId>
   <versioning>
-    <latest>1.8.1-add-coroutine-util-SNAPSHOT</latest>
+    <latest>1.8.1-change-util-test-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
@@ -18,7 +18,8 @@
       <version>1.8.1-add-resource-loader-common-SNAPSHOT</version>
       <version>1.8.1-add-mock-object-response-SNAPSHOT</version>
       <version>1.8.1-add-coroutine-util-SNAPSHOT</version>
+      <version>1.8.1-change-util-test-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210724075755</lastUpdated>
+    <lastUpdated>20210724081459</lastUpdated>
   </versioning>
 </metadata>
