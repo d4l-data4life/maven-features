@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-ktor-test",
+    "version": "1.8.1-change-util-test-ktor-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dmuj7nktljamnk4qk2vce44lka"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-ktor-test-metadata-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "url": "util-ktor-test-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "size": 2702,
+          "sha512": "8bf79d5706eaff6c8171b911be6c891ff9a0261a97805425ab446805a3b2b26359c1f02f999756da64923726078e4f69ae2eb6e07e7d30ae8b214c8c0e61cd3f",
+          "sha256": "5fcaaac919f2ecd839f6ddf74dd9b812fe6c270bd4bb460fbbc2260b7336efde",
+          "sha1": "9149f3b2ef4f8827769a3f4f123b36b0d85c0856",
+          "md5": "c29e61634a919f99b56f6e4d13c4d273"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-android-debug/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-android-debug-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-android-debug",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-android-debug/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-android-debug-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-android-debug",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-android/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-android-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-android",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-android/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-android-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-android",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-iosarm64/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-iosarm64-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-iosarm64",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-iosx64/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-iosx64-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-iosx64",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-jvm/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-jvm",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-jvm/1.8.1-change-util-test-ktor-SNAPSHOT/util-ktor-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-jvm",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    }
+  ]
+}

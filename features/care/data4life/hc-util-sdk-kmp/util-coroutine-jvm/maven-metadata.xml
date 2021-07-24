@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-coroutine-jvm</artifactId>
   <versioning>
-    <latest>1.8.1-change-util-test-SNAPSHOT</latest>
+    <latest>1.8.1-change-util-test-ktor-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-add-coroutine-util-SNAPSHOT</version>
       <version>1.8.1-change-util-test-SNAPSHOT</version>
+      <version>1.8.1-change-util-test-ktor-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210724081500</lastUpdated>
+    <lastUpdated>20210724084134</lastUpdated>
   </versioning>
 </metadata>
