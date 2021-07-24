@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-iosarm64</artifactId>
   <versioning>
-    <latest>1.8.1-add-mock-object-response-SNAPSHOT</latest>
+    <latest>1.8.1-add-coroutine-util-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-add-ios-branch-SNAPSHOT</version>
       <version>1.7.0-add-ios-base64-SNAPSHOT</version>
@@ -15,7 +15,8 @@
       <version>1.8.0-SNAPSHOT</version>
       <version>1.8.1-add-resource-loader-common-SNAPSHOT</version>
       <version>1.8.1-add-mock-object-response-SNAPSHOT</version>
+      <version>1.8.1-add-coroutine-util-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210719112154</lastUpdated>
+    <lastUpdated>20210724075755</lastUpdated>
   </versioning>
 </metadata>
