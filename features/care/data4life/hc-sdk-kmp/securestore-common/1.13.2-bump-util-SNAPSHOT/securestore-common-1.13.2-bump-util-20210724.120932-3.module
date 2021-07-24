@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.2-bump-util-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "xmyruergafad7iumov7cthehqi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.8.1-bump-android-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "dda8368d64c1435fadd5d78adacaaedf6bb41de245301f0cc3a958dabdfa51f66cec9a5f74bb5b825de418e321ce7624dd2292c4ea5325104c85b5d487c2151d",
+          "sha256": "69c9317930a993bfd27272cc0fd06059fcf2fb4fca82609e10e39da23b8d7656",
+          "sha1": "544ae730943d0dc4229ce2f54fa9e1cda74541c6",
+          "md5": "9f898bb8c384444d60fd7b6b3dc3ec82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.8.1-bump-android-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "dda8368d64c1435fadd5d78adacaaedf6bb41de245301f0cc3a958dabdfa51f66cec9a5f74bb5b825de418e321ce7624dd2292c4ea5325104c85b5d487c2151d",
+          "sha256": "69c9317930a993bfd27272cc0fd06059fcf2fb4fca82609e10e39da23b8d7656",
+          "sha1": "544ae730943d0dc4229ce2f54fa9e1cda74541c6",
+          "md5": "9f898bb8c384444d60fd7b6b3dc3ec82"
+        }
+      ]
+    }
+  ]
+}

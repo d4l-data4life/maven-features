@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.13.2-bump-util-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "xmyruergafad7iumov7cthehqi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 11957,
+          "sha512": "02e6f11afd2f0ffa47e1db5aae9df824c7955a48535263e64a853ee6934ac4f934457c8088a052ecb322226a859d9cf7c32caf62896b236125efb1a2742e1d03",
+          "sha256": "54945396063506ad06ce1072f140815cba4407d68ef5c1610ffb4d8eb3a5f8f8",
+          "sha1": "569df77be177bcb8c39a7ed68dab6e632824b184",
+          "md5": "04ed5ea49a761299e8798d2f7f20329a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.8.1-bump-android-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "crypto-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 11957,
+          "sha512": "02e6f11afd2f0ffa47e1db5aae9df824c7955a48535263e64a853ee6934ac4f934457c8088a052ecb322226a859d9cf7c32caf62896b236125efb1a2742e1d03",
+          "sha256": "54945396063506ad06ce1072f140815cba4407d68ef5c1610ffb4d8eb3a5f8f8",
+          "sha1": "569df77be177bcb8c39a7ed68dab6e632824b184",
+          "md5": "04ed5ea49a761299e8798d2f7f20329a"
+        }
+      ]
+    }
+  ]
+}
