@@ -3,12 +3,12 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-coroutine-test-jvm</artifactId>
   <versioning>
-    <latest>1.8.1-change-util-test-SNAPSHOT</latest>
+    <latest>1.8.1-change-util-test-ktor-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-change-util-test-SNAPSHOT</version>
       <version>1.8.1-change-util-test-ktor-SNAPSHOT</version>
       <version>1.8.1-bump-android-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210726135225</lastUpdated>
+    <lastUpdated>20210726140811</lastUpdated>
   </versioning>
 </metadata>
