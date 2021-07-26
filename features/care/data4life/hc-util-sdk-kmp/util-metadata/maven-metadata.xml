@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-metadata</artifactId>
   <versioning>
-    <latest>1.8.1-add-resource-loader-common-SNAPSHOT</latest>
+    <latest>1.8.1-add-mock-object-response-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
@@ -24,6 +24,6 @@
       <version>1.8.1-update-codeowners-SNAPSHOT</version>
       <version>1.8.1-change-codeowners-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210726122402</lastUpdated>
+    <lastUpdated>20210726123907</lastUpdated>
   </versioning>
 </metadata>

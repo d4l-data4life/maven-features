@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.8.1-add-mock-object-response-SNAPSHOT/util-1.8.1-add-mock-object-response-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.8.1-add-mock-object-response-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ueh6vwyut5ftrj7x2bci4u5wwa"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "url": "util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "457535034b9024b0ab95b0813ed82f33cd4d89148e6040a4bf59310fc070c8b11c2239f3a567d1689296fc87e08ada366cb5745c5978ae0ac286c8de11ea3077",
+          "sha256": "c77bab3e9ab712b1eae554fd3d1b453af037ed3541384aca68d52eb3dc47ae8a",
+          "sha1": "27829866989b77aad93fbe86ef1db9787148eee9",
+          "md5": "03ab924edfb6ba4d3128be19ea57552b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "url": "util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "457535034b9024b0ab95b0813ed82f33cd4d89148e6040a4bf59310fc070c8b11c2239f3a567d1689296fc87e08ada366cb5745c5978ae0ac286c8de11ea3077",
+          "sha256": "c77bab3e9ab712b1eae554fd3d1b453af037ed3541384aca68d52eb3dc47ae8a",
+          "sha1": "27829866989b77aad93fbe86ef1db9787148eee9",
+          "md5": "03ab924edfb6ba4d3128be19ea57552b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.8.1-add-mock-object-response-SNAPSHOT/util-metadata-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    }
+  ]
+}

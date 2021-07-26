@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.8.1-add-mock-object-response-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ueh6vwyut5ftrj7x2bci4u5wwa"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "url": "util-1.8.1-add-mock-object-response-SNAPSHOT.jar",
+          "size": 6309,
+          "sha512": "7e67a53667b3a0fdbcc1ec7bf590771f76aa244bb57ae875a037bc2da77d8e0417e448f84e1166411b07027ef7bf9043c1ba58c795cf856bd9eac09f9d33c0c8",
+          "sha256": "a60184d6dbbeb894584111a025a1e69a486ab3a58fecf2efc64f8b555593a1c3",
+          "sha1": "0f52f8ab8fac576060b30ae72eeb8af87f48a2da",
+          "md5": "c4c3475592386dc5c7b788dd76160575"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.8.1-add-mock-object-response-SNAPSHOT/util-android-debug-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.8.1-add-mock-object-response-SNAPSHOT/util-android-debug-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.8.1-add-mock-object-response-SNAPSHOT/util-android-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.8.1-add-mock-object-response-SNAPSHOT/util-android-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosarm64/1.8.1-add-mock-object-response-SNAPSHOT/util-iosarm64-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-iosarm64",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosx64/1.8.1-add-mock-object-response-SNAPSHOT/util-iosx64-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-iosx64",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.8.1-add-mock-object-response-SNAPSHOT/util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.8.1-add-mock-object-response-SNAPSHOT/util-jvm-1.8.1-add-mock-object-response-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.8.1-add-mock-object-response-SNAPSHOT"
+      }
+    }
+  ]
+}
