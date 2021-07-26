@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.1-add-resource-loader-common-SNAPSHOT/util-test-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.1-add-resource-loader-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "uoggfmnxv5bh5j2f3w3o5ulghi"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "size": 11938,
+          "sha512": "a4f7da052b0966532db22a0e56098099d77b34816b81e7f63d6e3997f70c26f54a110a05496662a2a4ac96630fa08089b0296c0cf9c76db4696c9151e8713bf0",
+          "sha256": "ba49ae0f422e0651ce6932a8908d312d9ed29cc21fd0a27d6a995ea458ba5be2",
+          "sha1": "752354ab98155f0b06f6d2469a368e8c8caa1e3e",
+          "md5": "e5faafb3c03416b6fa892a52a51d8fa4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.1-add-resource-loader-common-SNAPSHOT.jar",
+          "size": 11938,
+          "sha512": "a4f7da052b0966532db22a0e56098099d77b34816b81e7f63d6e3997f70c26f54a110a05496662a2a4ac96630fa08089b0296c0cf9c76db4696c9151e8713bf0",
+          "sha256": "ba49ae0f422e0651ce6932a8908d312d9ed29cc21fd0a27d6a995ea458ba5be2",
+          "sha1": "752354ab98155f0b06f6d2469a368e8c8caa1e3e",
+          "md5": "e5faafb3c03416b6fa892a52a51d8fa4"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.1-add-resource-loader-common-SNAPSHOT/util-test-metadata-1.8.1-add-resource-loader-common-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.1-add-resource-loader-common-SNAPSHOT"
+      }
+    }
+  ]
+}
