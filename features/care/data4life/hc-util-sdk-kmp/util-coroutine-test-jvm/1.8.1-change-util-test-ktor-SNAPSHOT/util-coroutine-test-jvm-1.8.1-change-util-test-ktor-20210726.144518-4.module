@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-coroutine-test/1.8.1-change-util-test-ktor-SNAPSHOT/util-coroutine-test-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine-test",
+    "version": "1.8.1-change-util-test-ktor-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dksa7z23hzdlxd5ftaixfygnba"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "url": "util-coroutine-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "size": 5989,
+          "sha512": "3b26d2c33cc26b9dd1134970d7830cd04a6102c26e80d5786c069aaae06bfc75ab513163a378eeb3ab8a7a340423517122c580aab247a6c5f31f6aa7629e4827",
+          "sha256": "e78171d903ad046a142f5b380d42e1624a8471f0700e8d1194b20c5a41de2eed",
+          "sha1": "4b0927164b2f57146b900590aa715317678e4793",
+          "md5": "a89f70284044e4e65f68f917e85bee23"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-coroutine-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "url": "util-coroutine-test-jvm-1.8.1-change-util-test-ktor-SNAPSHOT.jar",
+          "size": 5989,
+          "sha512": "3b26d2c33cc26b9dd1134970d7830cd04a6102c26e80d5786c069aaae06bfc75ab513163a378eeb3ab8a7a340423517122c580aab247a6c5f31f6aa7629e4827",
+          "sha256": "e78171d903ad046a142f5b380d42e1624a8471f0700e8d1194b20c5a41de2eed",
+          "sha1": "4b0927164b2f57146b900590aa715317678e4793",
+          "md5": "a89f70284044e4e65f68f917e85bee23"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-metadata/1.8.1-change-util-test-ktor-SNAPSHOT/util-coroutine-test-metadata-1.8.1-change-util-test-ktor-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-metadata",
+        "version": "1.8.1-change-util-test-ktor-SNAPSHOT"
+      }
+    }
+  ]
+}
