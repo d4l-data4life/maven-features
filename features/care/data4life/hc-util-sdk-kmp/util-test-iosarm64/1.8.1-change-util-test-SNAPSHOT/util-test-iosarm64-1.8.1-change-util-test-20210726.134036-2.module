@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.1-change-util-test-SNAPSHOT/util-test-1.8.1-change-util-test-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.1-change-util-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wmediofzbve6fnpgoqpadtf2aq"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.8.1-change-util-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test.klib",
+          "url": "util-test-iosarm64-1.8.1-change-util-test-SNAPSHOT.klib",
+          "size": 17244,
+          "sha512": "9362bce47e5ac38a3030c63f005d60218165b324b0ed2d31b46049dd9e489a05ad608917bb72977c75400736fc1027678234bfa68e3c474bce25b70fc2362eeb",
+          "sha256": "84efabb959609ae57d3c3438a7d70219b98178c85cd3b07b94f415f0a49f00f4",
+          "sha1": "19c011e82689da41165a6ec65b04427bb6a38a12",
+          "md5": "89abe93a0b9868a4b9ea60cbdabc5fb1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.1-change-util-test-SNAPSHOT/util-test-metadata-1.8.1-change-util-test-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.1-change-util-test-SNAPSHOT"
+      }
+    }
+  ]
+}
