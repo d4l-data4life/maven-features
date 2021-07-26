@@ -5,31 +5,31 @@
   <version>1.5.0-bump-update-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210724.124527</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210726.173348</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210724124527</lastUpdated>
+    <lastUpdated>20210726173348</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.5.0-bump-update-20210724.124527-3</value>
-        <updated>20210724124527</updated>
+        <extension>aar</extension>
+        <value>1.5.0-bump-update-20210726.173348-4</value>
+        <updated>20210726173348</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.5.0-bump-update-20210724.124527-3</value>
-        <updated>20210724124527</updated>
+        <extension>module</extension>
+        <value>1.5.0-bump-update-20210726.173348-4</value>
+        <updated>20210726173348</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.5.0-bump-update-20210726.173348-4</value>
+        <updated>20210726173348</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.5.0-bump-update-20210724.124527-3</value>
-        <updated>20210724124527</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.5.0-bump-update-20210724.124527-3</value>
-        <updated>20210724124527</updated>
+        <value>1.5.0-bump-update-20210726.173348-4</value>
+        <updated>20210726173348</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
