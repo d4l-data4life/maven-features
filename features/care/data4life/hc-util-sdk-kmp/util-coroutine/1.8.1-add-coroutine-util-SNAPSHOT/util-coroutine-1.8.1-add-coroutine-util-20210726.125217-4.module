@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine",
+    "version": "1.8.1-add-coroutine-util-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3gxapi3hobc3za3qtxn6bz6taa"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-metadata-1.8.1-add-coroutine-util-SNAPSHOT.jar",
+          "url": "util-coroutine-1.8.1-add-coroutine-util-SNAPSHOT.jar",
+          "size": 2232,
+          "sha512": "2cdecb2c26941d70186ca170a8fcff0954d4f09da5582ee9a6b18cdbafa63d2099a4b1aaeef6efc6b33f5eb7fae488e4a1819ad1090e38491a3cd21bd92ef279",
+          "sha256": "11a6819cf5fbe1f7d7fe9ae7952815d38db1e2e5e8b9e56b441d131d0eae9f55",
+          "sha1": "c3e1cf25eea1e60e0e3710412eafa90d1cd30723",
+          "md5": "1a1b41739b0a37ad9dfcfd7bfaf65dcf"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-android-debug-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-android-debug-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-android-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-android-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosarm64/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-iosarm64-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosarm64",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosx64/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-iosx64-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosx64",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-jvm-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.8.1-add-coroutine-util-SNAPSHOT/util-coroutine-jvm-1.8.1-add-coroutine-util-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.8.1-add-coroutine-util-SNAPSHOT"
+      }
+    }
+  ]
+}
