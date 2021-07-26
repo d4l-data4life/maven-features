@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.8.1-change-codeowners-SNAPSHOT/util-1.8.1-change-codeowners-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.8.1-change-codeowners-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "tfnm2hq77bfs3e5vy3drhtupma"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "url": "util-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "4149a08a8db6534e5e75ea58efba8264c61c23f9fc243c3486f069dbe2ede39d104aa40152c09d119556c5d9dea653b0dac163cd5f11045c5fe358565390169c",
+          "sha256": "651b4d06d05f9cd599cbe06971767dce6b83cfee13ba4da8a086361a643806fa",
+          "sha1": "b91aab0bfa7f979ed04b988744e616b14fcc23d4",
+          "md5": "850d40f98b5f755fa0a0765b00541ef8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "url": "util-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "size": 19627,
+          "sha512": "4149a08a8db6534e5e75ea58efba8264c61c23f9fc243c3486f069dbe2ede39d104aa40152c09d119556c5d9dea653b0dac163cd5f11045c5fe358565390169c",
+          "sha256": "651b4d06d05f9cd599cbe06971767dce6b83cfee13ba4da8a086361a643806fa",
+          "sha1": "b91aab0bfa7f979ed04b988744e616b14fcc23d4",
+          "md5": "850d40f98b5f755fa0a0765b00541ef8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.8.1-change-codeowners-SNAPSHOT/util-metadata-1.8.1-change-codeowners-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.8.1-change-codeowners-SNAPSHOT"
+      }
+    }
+  ]
+}

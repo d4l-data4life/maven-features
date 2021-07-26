@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test/1.8.1-change-codeowners-SNAPSHOT/util-test-1.8.1-change-codeowners-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test",
+    "version": "1.8.1-change-codeowners-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "tfnm2hq77bfs3e5vy3drhtupma"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "size": 5724,
+          "sha512": "904d3c79e770b8ae77f887fd738ffb246dfaf9f63f21a71f00f7bb0e5c4713c85ab090de90353110c9eac412531ff1ef957f3610fff61461449ec8881318b3e9",
+          "sha256": "22e79569de3237c441639e469c6d52864fa9da6f08e360c6b87426895535d70a",
+          "sha1": "38a00fa957289449f40821616ce3c1cd3b4398fa",
+          "md5": "bdbab29b41ce06e8b84fe2ba04716866"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-test-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "url": "util-test-jvm-1.8.1-change-codeowners-SNAPSHOT.jar",
+          "size": 5724,
+          "sha512": "904d3c79e770b8ae77f887fd738ffb246dfaf9f63f21a71f00f7bb0e5c4713c85ab090de90353110c9eac412531ff1ef957f3610fff61461449ec8881318b3e9",
+          "sha256": "22e79569de3237c441639e469c6d52864fa9da6f08e360c6b87426895535d70a",
+          "sha1": "38a00fa957289449f40821616ce3c1cd3b4398fa",
+          "md5": "bdbab29b41ce06e8b84fe2ba04716866"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-test-metadata/1.8.1-change-codeowners-SNAPSHOT/util-test-metadata-1.8.1-change-codeowners-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-test-metadata",
+        "version": "1.8.1-change-codeowners-SNAPSHOT"
+      }
+    }
+  ]
+}
