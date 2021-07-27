@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android</artifactId>
   <versioning>
-    <latest>0.0.5-bump-util-SNAPSHOT</latest>
+    <latest>0.0.5-add-consent-flow-module-tests-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -49,7 +49,8 @@
       <version>0.0.4-add-flow-SNAPSHOT</version>
       <version>0.0.4-change-client-parameter-injection-SNAPSHOT</version>
       <version>0.0.5-bump-util-SNAPSHOT</version>
+      <version>0.0.5-add-consent-flow-module-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210727051117</lastUpdated>
+    <lastUpdated>20210727053832</lastUpdated>
   </versioning>
 </metadata>
