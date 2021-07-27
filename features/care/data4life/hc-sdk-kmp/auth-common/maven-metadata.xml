@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-common</artifactId>
   <versioning>
-    <latest>1.13.2-bump-util-SNAPSHOT</latest>
+    <latest>1.13.2-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -54,7 +54,8 @@
       <version>1.10.0-change-securestore-to-external-dependency-SNAPSHOT</version>
       <version>1.13.2-bump-util-SNAPSHOT</version>
       <version>1.13.2-add-alessio-SNAPSHOT</version>
+      <version>1.13.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210727153257</lastUpdated>
+    <lastUpdated>20210727165519</lastUpdated>
   </versioning>
 </metadata>
