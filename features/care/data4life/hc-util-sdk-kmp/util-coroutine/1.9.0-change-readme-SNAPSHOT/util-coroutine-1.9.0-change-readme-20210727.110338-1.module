@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine",
+    "version": "1.9.0-change-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "a4qrfs6qivbfnbjipyclm7rnem"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-metadata-1.9.0-change-readme-SNAPSHOT.jar",
+          "url": "util-coroutine-1.9.0-change-readme-SNAPSHOT.jar",
+          "size": 2237,
+          "sha512": "1bbbe25385403bc0ddbfd2010682603e7399b90ad4b106798a446cc9be0b5e71e1c37dfc0250081c6ba516a1f7804e3fbdf6708a7404cbd6f24ec0aa9653bc3c",
+          "sha256": "2322fc1518cfd352ab23ba9ce266316ff0b84673a3bcfbd9309c8e28fc196caf",
+          "sha1": "e56ec8fae0b1e7723a16eec1ccb7f41339cb34cf",
+          "md5": "81e64f8d3388ceda3facec7f25cdf890"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.9.0-change-readme-SNAPSHOT/util-coroutine-android-debug-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.9.0-change-readme-SNAPSHOT/util-coroutine-android-debug-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.9.0-change-readme-SNAPSHOT/util-coroutine-android-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.9.0-change-readme-SNAPSHOT/util-coroutine-android-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosarm64/1.9.0-change-readme-SNAPSHOT/util-coroutine-iosarm64-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosarm64",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosx64/1.9.0-change-readme-SNAPSHOT/util-coroutine-iosx64-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosx64",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.9.0-change-readme-SNAPSHOT/util-coroutine-jvm-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.9.0-change-readme-SNAPSHOT/util-coroutine-jvm-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    }
+  ]
+}

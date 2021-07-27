@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine-test",
+    "version": "1.9.0-change-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "a4qrfs6qivbfnbjipyclm7rnem"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-test-metadata-1.9.0-change-readme-SNAPSHOT.jar",
+          "url": "util-coroutine-test-1.9.0-change-readme-SNAPSHOT.jar",
+          "size": 1777,
+          "sha512": "19070788bfd6aa980bd171f485d9ee4e59742518eb01b4eee0a117490a37a410e5cff4b4142f9b5e3922ab1e36d9f50a6c87a2ec87f146d36313fe679ac9fbf7",
+          "sha256": "cf4f4aea63cb0b66873bfed5c4c55beff220cb5c347e79273c42460af98b4aa2",
+          "sha1": "a378cc83b67d64eb9c0e0ef11a9a79d196090122",
+          "md5": "331a8958d94c5cbfdef838ce3e6dda71"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android-debug/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-android-debug-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-android-debug",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android-debug/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-android-debug-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-android-debug",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-android-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-android",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-android-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-android",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-iosarm64/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-iosarm64-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-iosarm64",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-iosx64/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-iosx64-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-iosx64",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-jvm/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-jvm-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-jvm",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-jvm/1.9.0-change-readme-SNAPSHOT/util-coroutine-test-jvm-1.9.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-jvm",
+        "version": "1.9.0-change-readme-SNAPSHOT"
+      }
+    }
+  ]
+}
