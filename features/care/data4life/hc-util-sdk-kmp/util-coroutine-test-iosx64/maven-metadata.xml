@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-coroutine-test-iosx64</artifactId>
   <versioning>
-    <latest>1.8.1-SNAPSHOT</latest>
+    <latest>1.9.0-change-test-config-template-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-change-util-test-SNAPSHOT</version>
       <version>1.8.1-change-util-test-ktor-SNAPSHOT</version>
       <version>1.8.1-bump-android-SNAPSHOT</version>
       <version>1.8.1-SNAPSHOT</version>
+      <version>1.9.0-change-test-config-template-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210726161825</lastUpdated>
+    <lastUpdated>20210727075053</lastUpdated>
   </versioning>
 </metadata>
