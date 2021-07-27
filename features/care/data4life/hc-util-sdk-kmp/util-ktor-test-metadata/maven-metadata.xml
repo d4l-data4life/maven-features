@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-ktor-test-metadata</artifactId>
   <versioning>
-    <latest>1.9.0-change-readme-SNAPSHOT</latest>
+    <latest>1.9.0-change-flow-tests-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-change-util-test-ktor-SNAPSHOT</version>
       <version>1.8.1-bump-android-SNAPSHOT</version>
       <version>1.8.1-SNAPSHOT</version>
       <version>1.9.0-change-test-config-template-SNAPSHOT</version>
       <version>1.9.0-change-readme-SNAPSHOT</version>
+      <version>1.9.0-change-flow-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210727110628</lastUpdated>
+    <lastUpdated>20210727182758</lastUpdated>
   </versioning>
 </metadata>
