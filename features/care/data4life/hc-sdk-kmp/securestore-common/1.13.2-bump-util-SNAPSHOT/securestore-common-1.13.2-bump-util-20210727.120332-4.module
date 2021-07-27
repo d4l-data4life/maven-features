@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.2-bump-util-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "tatqiqrknbckzjvvibt7te3zxq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "63061fc542b0f71c8f333f03c16c6b4755a5143595e684e0d7a5086d964fb7291f1f579064013c7fd3dd6555899b0ebc0386db81ea4d9a4dc4d0cd7c963e5e49",
+          "sha256": "bd78bb16ba384308750394ec1d475538a81f9cfcf9e23a697b5765cc47165fd0",
+          "sha1": "d361c6009dcbd7843d260e32673bb4a8303f2109",
+          "md5": "f5daae24a5d8d8e42159c3d4a63ebac0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-bump-util-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "63061fc542b0f71c8f333f03c16c6b4755a5143595e684e0d7a5086d964fb7291f1f579064013c7fd3dd6555899b0ebc0386db81ea4d9a4dc4d0cd7c963e5e49",
+          "sha256": "bd78bb16ba384308750394ec1d475538a81f9cfcf9e23a697b5765cc47165fd0",
+          "sha1": "d361c6009dcbd7843d260e32673bb4a8303f2109",
+          "md5": "f5daae24a5d8d8e42159c3d4a63ebac0"
+        }
+      ]
+    }
+  ]
+}

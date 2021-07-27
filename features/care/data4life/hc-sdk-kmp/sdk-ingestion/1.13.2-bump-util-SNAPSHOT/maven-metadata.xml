@@ -5,37 +5,37 @@
   <version>1.13.2-bump-util-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210724.120932</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210727.120332</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210724120932</lastUpdated>
+    <lastUpdated>20210727120332</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.13.2-bump-util-20210724.120932-3</value>
-        <updated>20210724120932</updated>
+        <extension>jar</extension>
+        <value>1.13.2-bump-util-20210727.120332-4</value>
+        <updated>20210727120332</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.13.2-bump-util-20210724.120932-3</value>
-        <updated>20210724120932</updated>
+        <extension>module</extension>
+        <value>1.13.2-bump-util-20210727.120332-4</value>
+        <updated>20210727120332</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.13.2-bump-util-20210724.120932-3</value>
-        <updated>20210724120932</updated>
+        <value>1.13.2-bump-util-20210727.120332-4</value>
+        <updated>20210727120332</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.13.2-bump-util-20210724.120932-3</value>
-        <updated>20210724120932</updated>
+        <value>1.13.2-bump-util-20210727.120332-4</value>
+        <updated>20210727120332</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.13.2-bump-util-20210724.120932-3</value>
-        <updated>20210724120932</updated>
+        <extension>pom</extension>
+        <value>1.13.2-bump-util-20210727.120332-4</value>
+        <updated>20210727120332</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
