@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.13.2-bump-util-SNAPSHOT</latest>
+    <latest>1.13.2-add-alessio-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -52,7 +52,8 @@
       <version>1.13.2-add-coverage-android-SNAPSHOT</version>
       <version>1.13.2-add-coverage-aggregation-SNAPSHOT</version>
       <version>1.13.2-bump-util-SNAPSHOT</version>
+      <version>1.13.2-add-alessio-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210727120635</lastUpdated>
+    <lastUpdated>20210727145932</lastUpdated>
   </versioning>
 </metadata>

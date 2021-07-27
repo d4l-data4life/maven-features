@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.13.2-add-alessio-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "oj7wsp7tpbeorhl4yd76ewwiiq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-add-alessio-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-add-alessio-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "b999f32fca9161a18ae41ad150b135025af5793862b10b6721c1cff860ed3e4b5c4a991385b2526d5578a93d02866696cd34f56fd0ac6f4c4f6cda56af291839",
+          "sha256": "e35c068b6e94aa7332cb2e3f0cf88d1475b79cb191d5127d9b08efc900b075b0",
+          "sha1": "e443d4f22e1f0b4e8b7d48f5fd03c02aa090e914",
+          "md5": "78d17c5fe9c977c53e6fd058ed2a3339"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.13.2-add-alessio-SNAPSHOT.jar",
+          "url": "securestore-common-1.13.2-add-alessio-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "b999f32fca9161a18ae41ad150b135025af5793862b10b6721c1cff860ed3e4b5c4a991385b2526d5578a93d02866696cd34f56fd0ac6f4c4f6cda56af291839",
+          "sha256": "e35c068b6e94aa7332cb2e3f0cf88d1475b79cb191d5127d9b08efc900b075b0",
+          "sha1": "e443d4f22e1f0b4e8b7d48f5fd03c02aa090e914",
+          "md5": "78d17c5fe9c977c53e6fd058ed2a3339"
+        }
+      ]
+    }
+  ]
+}

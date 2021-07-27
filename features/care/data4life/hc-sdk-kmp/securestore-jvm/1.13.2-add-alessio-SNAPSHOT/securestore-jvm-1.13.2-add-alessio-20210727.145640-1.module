@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.13.2-add-alessio-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "oj7wsp7tpbeorhl4yd76ewwiiq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.2-add-alessio-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2-add-alessio-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.2-add-alessio-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "c285f027ec5b763b5e61f38579257eabc0d2aab96c210886359b975bf9384cb58efc53f853b6a6b843e9f54afff534bd6580a5b63194f7f7ff47199dc86a022d",
+          "sha256": "6f2dfcde9fddbc8bd0db33e9606a9c5a2d38ce272a4494466be5fa7766a73179",
+          "sha1": "727b4e451401e5ad6a0e8be5db168833bfff8082",
+          "md5": "a3cc98e0315900d380d1cfb88fc5781f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.13.2-add-alessio-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.13.2-add-alessio-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.13.2-add-alessio-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "c285f027ec5b763b5e61f38579257eabc0d2aab96c210886359b975bf9384cb58efc53f853b6a6b843e9f54afff534bd6580a5b63194f7f7ff47199dc86a022d",
+          "sha256": "6f2dfcde9fddbc8bd0db33e9606a9c5a2d38ce272a4494466be5fa7766a73179",
+          "sha1": "727b4e451401e5ad6a0e8be5db168833bfff8082",
+          "md5": "a3cc98e0315900d380d1cfb88fc5781f"
+        }
+      ]
+    }
+  ]
+}
