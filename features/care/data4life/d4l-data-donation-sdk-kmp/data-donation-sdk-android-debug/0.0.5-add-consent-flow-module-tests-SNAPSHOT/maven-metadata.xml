@@ -5,31 +5,31 @@
   <version>0.0.5-add-consent-flow-module-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210727.053556</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210727.072713</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210727053556</lastUpdated>
+    <lastUpdated>20210727072713</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.5-add-consent-flow-module-tests-20210727.053556-1</value>
-        <updated>20210727053556</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.5-add-consent-flow-module-tests-20210727.053556-1</value>
-        <updated>20210727053556</updated>
+        <value>0.0.5-add-consent-flow-module-tests-20210727.072713-2</value>
+        <updated>20210727072713</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.0.5-add-consent-flow-module-tests-20210727.053556-1</value>
-        <updated>20210727053556</updated>
+        <value>0.0.5-add-consent-flow-module-tests-20210727.072713-2</value>
+        <updated>20210727072713</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-add-consent-flow-module-tests-20210727.053556-1</value>
-        <updated>20210727053556</updated>
+        <value>0.0.5-add-consent-flow-module-tests-20210727.072713-2</value>
+        <updated>20210727072713</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.5-add-consent-flow-module-tests-20210727.072713-2</value>
+        <updated>20210727072713</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
