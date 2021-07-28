@@ -5,31 +5,31 @@
   <version>0.0.5-change-visibility-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210728.105511</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210728.111052</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210728105511</lastUpdated>
+    <lastUpdated>20210728111052</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.5-change-visibility-20210728.105511-1</value>
-        <updated>20210728105511</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.5-change-visibility-20210728.105511-1</value>
-        <updated>20210728105511</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.5-change-visibility-20210728.105511-1</value>
-        <updated>20210728105511</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-change-visibility-20210728.105511-1</value>
-        <updated>20210728105511</updated>
+        <value>0.0.5-change-visibility-20210728.111052-2</value>
+        <updated>20210728111052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.5-change-visibility-20210728.111052-2</value>
+        <updated>20210728111052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.5-change-visibility-20210728.111052-2</value>
+        <updated>20210728111052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.5-change-visibility-20210728.111052-2</value>
+        <updated>20210728111052</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
