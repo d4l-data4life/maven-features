@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-test-jvm/1.9.0-change-badges-SNAPSHOT/util-test-jvm-1.9.0-change-badges-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-test-jvm",
+    "version": "1.9.0-change-badges-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "d4h7o7s3cngfnjje4vazyi3c64"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-test-metadata-1.9.0-change-badges-SNAPSHOT.jar",
+          "url": "util-test-metadata-1.9.0-change-badges-SNAPSHOT.jar",
+          "size": 3389,
+          "sha512": "241474af633a81c4a3bb483eb7801bedfa00914642115abe18f98e0bad384d4663c900b3df13e8244e18313c0fb5e664b16925669aa9a5e02eab6c6c2c64fc62",
+          "sha256": "420f938e67d14c3d96bf4f7b01a32a37c372ede3be61c61f34a5105c07a193da",
+          "sha1": "8046bb6a43a45a94f9d45761611be1c900e002f7",
+          "md5": "eb625268fbb2da472f5160a2f5240360"
+        }
+      ]
+    }
+  ]
+}
