@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.14.0-change-readme-badges-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "4ddlzw6aovhffaigdkgrto6qfa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.14.0-change-readme-badges-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "a2550876d8037dfcff918b6d3711b2917ed0a1b094e275b0dc29f722a02bcaccb90487146a6c56fd352deeacb2b9d007a6ee464d4cf43a5e8c27e4dcc7a0de32",
+          "sha256": "be32ddfa16fd86655d16997d5435522188c9e8adea513960554ef2d7c8266a3d",
+          "sha1": "d9db1a66ab2a921ba6747f1b3d217b2ed1c977b4",
+          "md5": "ff148f73fe497c4e774619fdb4a1968d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.14.0-change-readme-badges-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "size": 16455,
+          "sha512": "a2550876d8037dfcff918b6d3711b2917ed0a1b094e275b0dc29f722a02bcaccb90487146a6c56fd352deeacb2b9d007a6ee464d4cf43a5e8c27e4dcc7a0de32",
+          "sha256": "be32ddfa16fd86655d16997d5435522188c9e8adea513960554ef2d7c8266a3d",
+          "sha1": "d9db1a66ab2a921ba6747f1b3d217b2ed1c977b4",
+          "md5": "ff148f73fe497c4e774619fdb4a1968d"
+        }
+      ]
+    }
+  ]
+}

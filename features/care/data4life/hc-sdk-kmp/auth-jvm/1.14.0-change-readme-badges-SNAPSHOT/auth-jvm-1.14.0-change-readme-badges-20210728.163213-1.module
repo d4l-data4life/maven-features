@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.14.0-change-readme-badges-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "4ddlzw6aovhffaigdkgrto6qfa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.14.0-change-readme-badges-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "3f8c4861007a81331c379bcf52446aa6d0c62b4e92c84482d302f3628e69e713050e16eaa7e3afab730aa5d8bd9f3fbdfa5d1bec6bd3169c309b12b25f048104",
+          "sha256": "3d88fcdfb36a1c92855adff36ed4fa3725c9c624f9a9cd11df53d5419c08783d",
+          "sha1": "f4c44bb518156b99c7b23922b9cc5f0bafdc9eaf",
+          "md5": "7806e2042faccd4204f23684a304caa6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.14.0-change-readme-badges-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.14.0-change-readme-badges-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-change-readme-badges-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "3f8c4861007a81331c379bcf52446aa6d0c62b4e92c84482d302f3628e69e713050e16eaa7e3afab730aa5d8bd9f3fbdfa5d1bec6bd3169c309b12b25f048104",
+          "sha256": "3d88fcdfb36a1c92855adff36ed4fa3725c9c624f9a9cd11df53d5419c08783d",
+          "sha1": "f4c44bb518156b99c7b23922b9cc5f0bafdc9eaf",
+          "md5": "7806e2042faccd4204f23684a304caa6"
+        }
+      ]
+    }
+  ]
+}
