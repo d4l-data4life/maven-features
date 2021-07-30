@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine",
+    "version": "1.9.0-add-default-scope-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "slmcoamjm5fibhhi25tilvdm6y"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-metadata-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "url": "util-coroutine-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "size": 2494,
+          "sha512": "f5ae66880215a8c0b2e8b0a66b2de44f90e50c20ee8e96a3b673c570c35803b3e1821c70508b12b33981506bc4668228943b90751ee563c7c243982557cda8bc",
+          "sha256": "3ae944c51c8296f5b7ba86a7cf224dc363c1aec1b90b22a9f99eaf0f180fce0d",
+          "sha1": "8b420b8bb9d75099d9c5d0fc7d36860b9644b345",
+          "md5": "9999402d005a8fc54efdf304096c2b97"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-android-debug-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android-debug/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-android-debug-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android-debug",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-android-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-android/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-android-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-android",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosarm64/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-iosarm64-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosarm64",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-iosx64/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-iosx64-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-iosx64",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-jvm-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-jvm/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-jvm-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-jvm",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    }
+  ]
+}

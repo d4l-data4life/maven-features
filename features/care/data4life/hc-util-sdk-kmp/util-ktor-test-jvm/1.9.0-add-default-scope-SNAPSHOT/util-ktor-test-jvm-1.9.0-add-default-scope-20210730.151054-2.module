@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-ktor-test/1.9.0-add-default-scope-SNAPSHOT/util-ktor-test-1.9.0-add-default-scope-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-ktor-test",
+    "version": "1.9.0-add-default-scope-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "slmcoamjm5fibhhi25tilvdm6y"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-ktor-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "url": "util-ktor-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "size": 28641,
+          "sha512": "3304f4568507a53b36d6834afbf98e6fc89cd4be1feb22f426f89a19c198758681170451f42298ec77788e231afb67520fc341b371d69d7e40dba7bb4699a93d",
+          "sha256": "534f5c12d745655d7f8b055d37cb46a857d63688043ab63d565baa453bd4760d",
+          "sha1": "2a25cb58097d6115b30b01f751e47f134f57c92b",
+          "md5": "ca06e40ee929651baf25b3f592ffd9ed"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.5.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-ktor-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "url": "util-ktor-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "size": 28641,
+          "sha512": "3304f4568507a53b36d6834afbf98e6fc89cd4be1feb22f426f89a19c198758681170451f42298ec77788e231afb67520fc341b371d69d7e40dba7bb4699a93d",
+          "sha256": "534f5c12d745655d7f8b055d37cb46a857d63688043ab63d565baa453bd4760d",
+          "sha1": "2a25cb58097d6115b30b01f751e47f134f57c92b",
+          "md5": "ca06e40ee929651baf25b3f592ffd9ed"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-ktor-test-metadata/1.9.0-add-default-scope-SNAPSHOT/util-ktor-test-metadata-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-ktor-test-metadata",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    }
+  ]
+}
