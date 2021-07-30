@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-coroutine-test/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-test-1.9.0-add-default-scope-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-coroutine-test",
+    "version": "1.9.0-add-default-scope-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "3slklvdlmjbxpbmnrit5srhlme"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "url": "util-coroutine-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "size": 5989,
+          "sha512": "9856043078c07f77d3bda0f0bf39506325e64390ba931f5381ff79c05789ba9199d488155bc901b97a3b7d510853ea016aefb05e8043169564b863272631caff",
+          "sha256": "8bc7c2b117c9940d02f1d66c3388680f16b4f7100b0b2d461e80e4e4ec438531",
+          "sha1": "6fe46eb2e36eec73a7f9549a2a1c12e28a784144",
+          "md5": "498473d8db6f3254edb8465d44f1abc6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-coroutine-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "url": "util-coroutine-test-jvm-1.9.0-add-default-scope-SNAPSHOT.jar",
+          "size": 5989,
+          "sha512": "9856043078c07f77d3bda0f0bf39506325e64390ba931f5381ff79c05789ba9199d488155bc901b97a3b7d510853ea016aefb05e8043169564b863272631caff",
+          "sha256": "8bc7c2b117c9940d02f1d66c3388680f16b4f7100b0b2d461e80e4e4ec438531",
+          "sha1": "6fe46eb2e36eec73a7f9549a2a1c12e28a784144",
+          "md5": "498473d8db6f3254edb8465d44f1abc6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-metadata/1.9.0-add-default-scope-SNAPSHOT/util-coroutine-test-metadata-1.9.0-add-default-scope-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-coroutine-test-metadata",
+        "version": "1.9.0-add-default-scope-SNAPSHOT"
+      }
+    }
+  ]
+}
