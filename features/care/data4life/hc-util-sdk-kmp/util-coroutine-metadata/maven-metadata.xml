@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-coroutine-metadata</artifactId>
   <versioning>
-    <latest>1.9.0-add-default-scope-SNAPSHOT</latest>
+    <latest>1.9.0-change-badges-SNAPSHOT</latest>
     <versions>
       <version>1.8.1-add-coroutine-util-SNAPSHOT</version>
       <version>1.8.1-change-util-test-SNAPSHOT</version>
@@ -16,6 +16,6 @@
       <version>1.9.0-change-badges-SNAPSHOT</version>
       <version>1.9.0-add-default-scope-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210730151338</lastUpdated>
+    <lastUpdated>20210730152621</lastUpdated>
   </versioning>
 </metadata>
