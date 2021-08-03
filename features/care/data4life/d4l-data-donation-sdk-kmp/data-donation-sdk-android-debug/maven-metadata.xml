@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.1.0-add-swift-package-SNAPSHOT</latest>
+    <latest>0.1.0-change-token-service-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-add-debug-publish-SNAPSHOT</version>
       <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
@@ -57,6 +57,6 @@
       <version>0.1.0-change-consent-document-model-SNAPSHOT</version>
       <version>0.1.0-change-token-service-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210803044314</lastUpdated>
+    <lastUpdated>20210803132515</lastUpdated>
   </versioning>
 </metadata>
