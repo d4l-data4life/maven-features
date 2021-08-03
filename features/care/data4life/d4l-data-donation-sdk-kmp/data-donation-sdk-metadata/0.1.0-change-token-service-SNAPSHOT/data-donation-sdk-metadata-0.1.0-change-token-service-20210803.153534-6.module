@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.0-change-token-service-SNAPSHOT/data-donation-sdk-iosx64-0.1.0-change-token-service-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.0-change-token-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zcrc3bgqtrclven3hcfpsxfpwa"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.0-change-token-service-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.0-change-token-service-SNAPSHOT.jar",
+          "size": 40287,
+          "sha512": "5d60101f5a2d70a422afecb73e960d8d5d7a104c9ea7c960a3618d3d5a97af0b43fd7122a686bc7ac9a9383da3a1b153c869573acb0e4232455b58d2551b3db7",
+          "sha256": "afa9f79ddccaf6b2ebbf14bcbf56d9769261c944c7c2bc3eb2f435707696303a",
+          "sha1": "2c80f3ecb96c7cac6d1fc6be66b801d175f03bb5",
+          "md5": "f4238eeac86f4daad9480aeeb5e13e46"
+        }
+      ]
+    }
+  ]
+}
