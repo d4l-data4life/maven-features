@@ -5,31 +5,31 @@
   <version>0.1.0-fix-ci-branch-trigger-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210804.104941</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210804.105545</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210804104941</lastUpdated>
+    <lastUpdated>20210804105545</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-fix-ci-branch-trigger-20210804.105545-3</value>
+        <updated>20210804105545</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-fix-ci-branch-trigger-20210804.104941-2</value>
-        <updated>20210804104941</updated>
+        <value>0.1.0-fix-ci-branch-trigger-20210804.105545-3</value>
+        <updated>20210804105545</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.0-fix-ci-branch-trigger-20210804.104941-2</value>
-        <updated>20210804104941</updated>
+        <value>0.1.0-fix-ci-branch-trigger-20210804.105545-3</value>
+        <updated>20210804105545</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.1.0-fix-ci-branch-trigger-20210804.104941-2</value>
-        <updated>20210804104941</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-fix-ci-branch-trigger-20210804.104941-2</value>
-        <updated>20210804104941</updated>
+        <value>0.1.0-fix-ci-branch-trigger-20210804.105545-3</value>
+        <updated>20210804105545</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
