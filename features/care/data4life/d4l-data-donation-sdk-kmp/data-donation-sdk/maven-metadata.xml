@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk</artifactId>
   <versioning>
-    <latest>0.1.0-remove-fhir-SNAPSHOT</latest>
+    <latest>0.1.0-fix-bug-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -62,7 +62,8 @@
       <version>0.1.0-change-consent-document-model-SNAPSHOT</version>
       <version>0.1.0-change-token-service-SNAPSHOT</version>
       <version>0.1.0-remove-fhir-SNAPSHOT</version>
+      <version>0.1.0-fix-bug-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210804090544</lastUpdated>
+    <lastUpdated>20210804091851</lastUpdated>
   </versioning>
 </metadata>
