@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.9.0-remove-migrated-features-SNAPSHOT/util-1.9.0-remove-migrated-features-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.9.0-remove-migrated-features-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "z2sib2samrg2xkks7x6rrieskq"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.9.0-remove-migrated-features-SNAPSHOT.klib",
+          "size": 24638,
+          "sha512": "c7b21792ba33655888b04290f52df8a3d9ebec3f9a47e171bc1ee99989ab16e6a7fe6ff196fd5dbf22d8e81d94dbb0f838bc5e57967774cbc158502d314556c3",
+          "sha256": "89db3948462bbe1c7eff05f75da8111f4dffe66e8e81e0562a94c9006e8ad252",
+          "sha1": "c4152137ed571121655c3cb675a424fa9245c19d",
+          "md5": "43d8c8a4582c25e31dcc4610723a039e"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.9.0-remove-migrated-features-SNAPSHOT/util-metadata-1.9.0-remove-migrated-features-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.9.0-remove-migrated-features-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-metadata</artifactId>
   <versioning>
-    <latest>1.9.0-add-default-scope-SNAPSHOT</latest>
+    <latest>1.9.0-remove-migrated-features-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-change-publishing-SNAPSHOT</version>
       <version>1.7.0-bump-updates-SNAPSHOT</version>
@@ -29,7 +29,8 @@
       <version>1.9.0-change-flow-tests-SNAPSHOT</version>
       <version>1.9.0-change-badges-SNAPSHOT</version>
       <version>1.9.0-add-default-scope-SNAPSHOT</version>
+      <version>1.9.0-remove-migrated-features-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210804141605</lastUpdated>
+    <lastUpdated>20210805125354</lastUpdated>
   </versioning>
 </metadata>
