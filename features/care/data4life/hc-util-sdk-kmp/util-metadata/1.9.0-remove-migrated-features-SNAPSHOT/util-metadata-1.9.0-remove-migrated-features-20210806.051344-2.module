@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util-jvm/1.9.0-remove-migrated-features-SNAPSHOT/util-jvm-1.9.0-remove-migrated-features-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util-jvm",
+    "version": "1.9.0-remove-migrated-features-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "oxukndls7rcldihokq3tnz527y"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.9.0-remove-migrated-features-SNAPSHOT.jar",
+          "url": "util-metadata-1.9.0-remove-migrated-features-SNAPSHOT.jar",
+          "size": 4934,
+          "sha512": "01ee16ff35c5a996fafef3c9ef9e949fa578e1deb61b2197e1259ec85d65ea2396154a646a4c0beae05a02f0cb77bce84bc3d2f8881daa026eca072b2338c262",
+          "sha256": "d127e8d4c88c39af59fabc9971f4af0f56b64f95bdd7c7c774c702dea7588d85",
+          "sha1": "03b46a7829180ebfcb74aec50c5eae9dc9cd113a",
+          "md5": "d5c3e7b14cbafe628c2f8575207054fc"
+        }
+      ]
+    }
+  ]
+}
