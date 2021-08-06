@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/36e16af-add-github-workflows-SNAPSHOT/error-36e16af-add-github-workflows-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "36e16af-add-github-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "fwb5fvfgljhntiwbncsdxieygy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "error-jvm-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "url": "error-jvm-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "size": 3296,
+          "sha512": "2eab22aa820286921f9bc7d6e4ebe248da31ec9ea8247206fd47d6c2ad8187f3e1458e9ee78f30c5b8c08a8086dc04a00eacf4af1a109966bc2a666b663b9fb0",
+          "sha256": "3797e2cf0e6331219b47f2aed37151efd60b06e6d930e00f5560a0059a6a5ac9",
+          "sha1": "5d914f73e1de3f2a918121d903e9a707e669e571",
+          "md5": "f7e27bc99de4b51720a711bc89693b89"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-jvm-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "url": "error-jvm-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "size": 3296,
+          "sha512": "2eab22aa820286921f9bc7d6e4ebe248da31ec9ea8247206fd47d6c2ad8187f3e1458e9ee78f30c5b8c08a8086dc04a00eacf4af1a109966bc2a666b663b9fb0",
+          "sha256": "3797e2cf0e6331219b47f2aed37151efd60b06e6d930e00f5560a0059a6a5ac9",
+          "sha1": "5d914f73e1de3f2a918121d903e9a707e669e571",
+          "md5": "f7e27bc99de4b51720a711bc89693b89"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/36e16af-add-github-workflows-SNAPSHOT/error-metadata-36e16af-add-github-workflows-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "36e16af-add-github-workflows-SNAPSHOT"
+      }
+    }
+  ]
+}

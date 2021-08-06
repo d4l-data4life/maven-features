@@ -1,0 +1,47 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow-jvm/36e16af-add-github-workflows-SNAPSHOT/flow-jvm-36e16af-add-github-workflows-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow-jvm",
+    "version": "36e16af-add-github-workflows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "fwb5fvfgljhntiwbncsdxieygy"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "36e16af-add-github-workflows-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-metadata-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "url": "flow-metadata-36e16af-add-github-workflows-SNAPSHOT.jar",
+          "size": 2807,
+          "sha512": "4ebf7f698e64408b8d5f6b35f9acc86fd6b0aece632da32f175a197f235501d6880352dfcf4b0473d454a85d66ee6b95d41c994525115e4f9f90ca9e49cd72cd",
+          "sha256": "cc8a4167ba8ed05eed0b351c229b8334a60db49873f42809d6dcf7323d4f1985",
+          "sha1": "e649aeef04cc73c2d6f76a6f9639af2b7a9c41e4",
+          "md5": "a49539dafd8cb3b6440cdf38d96ead3c"
+        }
+      ]
+    }
+  ]
+}
