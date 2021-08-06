@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-objc-util-kmp</groupId>
   <artifactId>objc-util-metadata</artifactId>
   <versioning>
-    <latest>c0084c1</latest>
-    <release>c0084c1</release>
+    <latest>5acd50d</latest>
+    <release>5acd50d</release>
     <versions>
       <version>c0084c1</version>
+      <version>5acd50d</version>
     </versions>
-    <lastUpdated>20210805194038</lastUpdated>
+    <lastUpdated>20210806054051</lastUpdated>
   </versioning>
 </metadata>
