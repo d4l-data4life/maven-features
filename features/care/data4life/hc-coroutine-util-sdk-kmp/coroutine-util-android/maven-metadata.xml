@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
   <artifactId>coroutine-util-android</artifactId>
   <versioning>
-    <latest>b61d556</latest>
-    <release>b61d556</release>
+    <latest>141021c</latest>
+    <release>141021c</release>
     <versions>
       <version>b61d556</version>
+      <version>141021c</version>
     </versions>
-    <lastUpdated>20210806054743</lastUpdated>
+    <lastUpdated>20210806055758</lastUpdated>
   </versioning>
 </metadata>
