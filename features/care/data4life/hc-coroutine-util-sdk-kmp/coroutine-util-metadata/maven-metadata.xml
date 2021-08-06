@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
   <artifactId>coroutine-util-metadata</artifactId>
   <versioning>
-    <latest>53c3cea</latest>
-    <release>53c3cea</release>
+    <latest>9facc07</latest>
+    <release>9facc07</release>
     <versions>
       <version>b61d556</version>
       <version>141021c</version>
       <version>7a3ba33</version>
       <version>53c3cea</version>
+      <version>9facc07</version>
     </versions>
-    <lastUpdated>20210806063936</lastUpdated>
+    <lastUpdated>20210806071612</lastUpdated>
   </versioning>
 </metadata>
