@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-objc-util-sdk-kmp</groupId>
   <artifactId>objc-util-iosarm64</artifactId>
   <versioning>
-    <latest>9c8be7f</latest>
-    <release>9c8be7f</release>
+    <latest>858dafa</latest>
+    <release>858dafa</release>
     <versions>
       <version>9c8be7f</version>
+      <version>858dafa</version>
     </versions>
-    <lastUpdated>20210806090242</lastUpdated>
+    <lastUpdated>20210806092103</lastUpdated>
   </versioning>
 </metadata>
