@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "util",
+    "version": "1.9.0-change-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "yorverysjbczhdukaj2axvo7um"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.9.0-change-setup-SNAPSHOT.jar",
+          "url": "util-1.9.0-change-setup-SNAPSHOT.jar",
+          "size": 6309,
+          "sha512": "0b9fe9bb844880c74da47a1f1843adf6e8ef4e1a2a2fbdef6b42109657ce12eaeba58a05c0d88dd40dfac3706e749c9eafca9ba387367d423c2b0aff7ec5dd8d",
+          "sha256": "7fc79a1f06b6f3feb839a7aa9b65216f64de8b20330ba9984aee2dc5b4409b32",
+          "sha1": "517e487eadce898427a00aa2670dfe9c0e62bb2d",
+          "md5": "51f520464da3b01aedd5bd2e88328ca5"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.9.0-change-setup-SNAPSHOT/util-android-debug-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android-debug/1.9.0-change-setup-SNAPSHOT/util-android-debug-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-android-debug",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.9.0-change-setup-SNAPSHOT/util-android-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.9.0-change-setup-SNAPSHOT/util-android-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosarm64/1.9.0-change-setup-SNAPSHOT/util-iosarm64-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "util-iosarm64",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-iosx64/1.9.0-change-setup-SNAPSHOT/util-iosx64-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "util-iosx64",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.9.0-change-setup-SNAPSHOT/util-jvm-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.9.0-change-setup-SNAPSHOT/util-jvm-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    }
+  ]
+}

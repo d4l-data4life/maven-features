@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "util-coroutine-test",
+    "version": "1.9.0-change-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "yorverysjbczhdukaj2axvo7um"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-coroutine-test-metadata-1.9.0-change-setup-SNAPSHOT.jar",
+          "url": "util-coroutine-test-1.9.0-change-setup-SNAPSHOT.jar",
+          "size": 1777,
+          "sha512": "487b5f975f4305e439486c513ddd12b67fa3a9f537cc4dbe5067c6a885c0be706616b817b29040d35ef1364e528bbdc6ccd65a3d974bcbe2454287f822d0a451",
+          "sha256": "728c1065cfad29357f3e1ed25d8d513c8900d7f1588180b0eb457ab7c8a0278e",
+          "sha1": "3108f9f4ac216b16f305cf29a7eb7d52e044789c",
+          "md5": "802d7c68beb795c139d763407777367d"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android-debug/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-android-debug-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-android-debug",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android-debug/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-android-debug-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-android-debug",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-android-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-android",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-android/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-android-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-android",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-iosarm64/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-iosarm64-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "util-coroutine-test-iosarm64",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-iosx64/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-iosx64-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life",
+        "module": "util-coroutine-test-iosx64",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-jvm/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-jvm-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-jvm",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-coroutine-test-jvm/1.9.0-change-setup-SNAPSHOT/util-coroutine-test-jvm-1.9.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "util-coroutine-test-jvm",
+        "version": "1.9.0-change-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
