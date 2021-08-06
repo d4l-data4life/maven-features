@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android-debug</artifactId>
   <versioning>
-    <latest>1.9.0-change-setup-SNAPSHOT</latest>
+    <latest>1.9.0-SNAPSHOT</latest>
     <versions>
       <version>1.7.0-add-coroutine-test-util-SNAPSHOT</version>
       <version>1.7.0-pepare-release-1.8.0-SNAPSHOT</version>
@@ -26,7 +26,8 @@
       <version>1.9.0-add-default-scope-SNAPSHOT</version>
       <version>1.9.0-remove-migrated-features-SNAPSHOT</version>
       <version>1.9.0-change-setup-SNAPSHOT</version>
+      <version>1.9.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210806105124</lastUpdated>
+    <lastUpdated>20210806111957</lastUpdated>
   </versioning>
 </metadata>
