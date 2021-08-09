@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.10.0-change-readme-SNAPSHOT/util-1.10.0-change-readme-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.10.0-change-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "wa4lviktrrbvbpif26efjhohxq"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.10.0-change-readme-SNAPSHOT.jar",
+          "url": "util-jvm-1.10.0-change-readme-SNAPSHOT.jar",
+          "size": 14923,
+          "sha512": "63917a4890efa9f3abeb872dbbab73d1571036c03f45312903044222023b19f9bbfcd0dd0e4b4defdbe0a8c34cf0a4c9a5c834936d9e7bac99d724c87793bb24",
+          "sha256": "bdeb787f74741e900fdf8d2816e4014ec22c6e0ab5b56e6d874b6164ba499c0b",
+          "sha1": "71d277ed48f3c1687ae8922ceae03d1f15bd53f0",
+          "md5": "de98b3a24c210a99631d83c92d52ec64"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.10.0-change-readme-SNAPSHOT.jar",
+          "url": "util-jvm-1.10.0-change-readme-SNAPSHOT.jar",
+          "size": 14923,
+          "sha512": "63917a4890efa9f3abeb872dbbab73d1571036c03f45312903044222023b19f9bbfcd0dd0e4b4defdbe0a8c34cf0a4c9a5c834936d9e7bac99d724c87793bb24",
+          "sha256": "bdeb787f74741e900fdf8d2816e4014ec22c6e0ab5b56e6d874b6164ba499c0b",
+          "sha1": "71d277ed48f3c1687ae8922ceae03d1f15bd53f0",
+          "md5": "de98b3a24c210a99631d83c92d52ec64"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.10.0-change-readme-SNAPSHOT/util-metadata-1.10.0-change-readme-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.10.0-change-readme-SNAPSHOT"
+      }
+    }
+  ]
+}
