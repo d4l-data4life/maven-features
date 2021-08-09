@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "01c196c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "kw3hgruu4nhztiirkxis4qehp4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-metadata-01c196c.jar",
+          "url": "test-util-ktor-01c196c.jar",
+          "size": 3186,
+          "sha512": "82d09273dccad8093744fa84020cc537fbbacec0bb61eb3eedd874ac0eccc6956a7d260221b965cd6f70887d3d860e52de019e7b7bd7df05d16bd3b68491c12a",
+          "sha256": "91ec65dbdfa3410106b56c906a28d146b0645aef217d6e49d2618ebe69706153",
+          "sha1": "4b619d3e64ee650c75dbab82e93edbd595a0780f",
+          "md5": "941d9a945b9bb25bb2b44507e8b6916e"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/01c196c/test-util-ktor-android-debug-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/01c196c/test-util-ktor-android-debug-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/01c196c/test-util-ktor-android-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/01c196c/test-util-ktor-android-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosarm64/01c196c/test-util-ktor-iosarm64-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosarm64",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosx64/01c196c/test-util-ktor-iosx64-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosx64",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/01c196c/test-util-ktor-jvm-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "01c196c"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/01c196c/test-util-ktor-jvm-01c196c.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "01c196c"
+      }
+    }
+  ]
+}
