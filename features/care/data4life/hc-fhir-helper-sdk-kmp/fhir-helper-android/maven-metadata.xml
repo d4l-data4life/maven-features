@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-fhir-helper-sdk-kmp</groupId>
   <artifactId>fhir-helper-android</artifactId>
   <versioning>
-    <latest>1.5.0-SNAPSHOT</latest>
+    <latest>1.6.0-change-docs-SNAPSHOT</latest>
     <versions>
       <version>1.5.0-change-publishing-SNAPSHOT</version>
       <version>1.5.0-bump-update-SNAPSHOT</version>
       <version>1.5.0-change-codeowners-SNAPSHOT</version>
       <version>1.5.0-SNAPSHOT</version>
+      <version>1.6.0-change-docs-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210727104417</lastUpdated>
+    <lastUpdated>20210809150033</lastUpdated>
   </versioning>
 </metadata>
