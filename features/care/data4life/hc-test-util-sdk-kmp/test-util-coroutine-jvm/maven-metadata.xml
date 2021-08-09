@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util-coroutine-jvm</artifactId>
   <versioning>
-    <latest>01c196c</latest>
-    <release>01c196c</release>
+    <latest>a3881fc</latest>
+    <release>a3881fc</release>
     <versions>
       <version>2f41327</version>
       <version>01c196c</version>
+      <version>a3881fc</version>
     </versions>
-    <lastUpdated>20210809111034</lastUpdated>
+    <lastUpdated>20210809123002</lastUpdated>
   </versioning>
 </metadata>
