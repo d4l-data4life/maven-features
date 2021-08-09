@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error-jvm/9477001/error-jvm-9477001.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error-jvm",
+    "version": "9477001",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "fheroftsqjftfdye3dmqpy5aim"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-metadata-9477001.jar",
+          "url": "error-metadata-9477001.jar",
+          "size": 2491,
+          "sha512": "14cd17320310bafa9fd6e7c031f52faac39fc19f373a595452163dcfd689f1c98698331390ee536f0cf5c9c0b1067f2c6ec4748e5a08486f9409c3bfaaa397e4",
+          "sha256": "ec751b2c4037f4987d38843b74d9df18c2ba1a3f4f6cc764bc3457018b89d873",
+          "sha1": "c4d1bccb09b1344d3eeda718635a45b12eef607f",
+          "md5": "28c3ff91749494529544c2650c6a62a9"
+        }
+      ]
+    }
+  ]
+}
