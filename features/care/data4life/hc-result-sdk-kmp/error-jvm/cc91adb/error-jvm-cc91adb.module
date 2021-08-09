@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/cc91adb/error-cc91adb.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "cc91adb",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "c7c7tb4kpvdv3df7flcyb647l4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "error-jvm-cc91adb.jar",
+          "url": "error-jvm-cc91adb.jar",
+          "size": 5992,
+          "sha512": "34b9766f2558c5bfe36f1c9a695791ac240c02f468569c0ca821081df4f3e08ec21cc51d64444c602d06f624c264f2367d6b64be2b643103870619c79b870ad5",
+          "sha256": "04eb0be195c4489d8b55ef6110fc132ee0355504b61ae5a29532f804eadd5ced",
+          "sha1": "70a363b57694991b67cc48b5f15efe90dc79f8cf",
+          "md5": "d6d2bdf51598b12a2048bee06561aab1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-jvm-cc91adb.jar",
+          "url": "error-jvm-cc91adb.jar",
+          "size": 5992,
+          "sha512": "34b9766f2558c5bfe36f1c9a695791ac240c02f468569c0ca821081df4f3e08ec21cc51d64444c602d06f624c264f2367d6b64be2b643103870619c79b870ad5",
+          "sha256": "04eb0be195c4489d8b55ef6110fc132ee0355504b61ae5a29532f804eadd5ced",
+          "sha1": "70a363b57694991b67cc48b5f15efe90dc79f8cf",
+          "md5": "d6d2bdf51598b12a2048bee06561aab1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/cc91adb/error-metadata-cc91adb.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "cc91adb"
+      }
+    }
+  ]
+}

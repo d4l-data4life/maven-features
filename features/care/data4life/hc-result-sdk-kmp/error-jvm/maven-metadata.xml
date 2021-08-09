@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error-jvm</artifactId>
   <versioning>
-    <latest>9477001</latest>
-    <release>9477001</release>
+    <latest>cc91adb</latest>
+    <release>cc91adb</release>
     <versions>
       <version>36e16af-add-github-workflows-SNAPSHOT</version>
       <version>9477001</version>
+      <version>cc91adb</version>
     </versions>
-    <lastUpdated>20210809165951</lastUpdated>
+    <lastUpdated>20210809184046</lastUpdated>
   </versioning>
 </metadata>
