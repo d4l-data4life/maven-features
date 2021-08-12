@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.1.2-change-kotlin-duration-usage-SNAPSHOT</latest>
+    <latest>0.1.2-change-revoke-errors-SNAPSHOT</latest>
     <versions>
       <version>0.0.2-add-debug-publish-SNAPSHOT</version>
       <version>0.0.2-enable-data-donation-sdk-SNAPSHOT</version>
@@ -68,7 +68,8 @@
       <version>0.1.2-change-auth-token-SNAPSHOT</version>
       <version>0.1.2-change-error-mapping-SNAPSHOT</version>
       <version>0.1.2-change-kotlin-duration-usage-SNAPSHOT</version>
+      <version>0.1.2-change-revoke-errors-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210812170441</lastUpdated>
+    <lastUpdated>20210812193559</lastUpdated>
   </versioning>
 </metadata>

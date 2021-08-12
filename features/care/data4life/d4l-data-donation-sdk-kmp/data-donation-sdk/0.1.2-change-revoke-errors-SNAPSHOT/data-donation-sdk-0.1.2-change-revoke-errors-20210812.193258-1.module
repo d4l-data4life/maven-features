@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.2-change-revoke-errors-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "pi3yuh33tnejtewduiamesxjpu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.2-change-revoke-errors-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.1.2-change-revoke-errors-SNAPSHOT.jar",
+          "size": 39139,
+          "sha512": "c72e085bd6f17c853afad19894d53331ceb742139daf2f2ac3e8a1f05e525ae42a6e93fdb6e4f7cb1148e2f1ba191343b67a5d6c13f904b96b932b0f5b86ab35",
+          "sha256": "738e8dba0933a0cff6a87be63002a25d3d11feefcb1c05f3f20c0a508d18a2b1",
+          "sha1": "26e338fc25fd769f9f182d740c4514be886fe573",
+          "md5": "eed59f42ca4e469b3d4a3e8fbdb4de93"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-android-debug-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-android-debug-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-android-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-android-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-iosarm64-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.1.2-change-revoke-errors-SNAPSHOT/data-donation-sdk-iosx64-0.1.2-change-revoke-errors-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.1.2-change-revoke-errors-SNAPSHOT"
+      }
+    }
+  ]
+}
