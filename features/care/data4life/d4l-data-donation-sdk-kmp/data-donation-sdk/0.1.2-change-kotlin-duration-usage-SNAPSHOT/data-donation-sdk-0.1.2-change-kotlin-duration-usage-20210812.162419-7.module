@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zbmvwpzx2fdzjgqqtdtnlqdpjy"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.2-change-kotlin-duration-usage-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.1.2-change-kotlin-duration-usage-SNAPSHOT.jar",
+          "size": 39153,
+          "sha512": "da0ba04b77f26d96dfe7138ad361bcf97bed7121f2554afc623ca7c529f0cd825f8828647dc6e9b04f4dfd7f70f56feb3efe25559cad8b43d795a4d50ac9c6f9",
+          "sha256": "502591e5dd50c03624e2f2cd93fe68fd144bfd907c04df28c08690f638353726",
+          "sha1": "fcd2624d2f587bb4579300df38c5b149d8970fc9",
+          "md5": "3af0dd2c3d4f81c1fa447796ce106047"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-android-debug-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-android-debug-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-android-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-android-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-iosarm64-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-iosx64-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT"
+      }
+    }
+  ]
+}
