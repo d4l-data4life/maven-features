@@ -5,31 +5,31 @@
   <version>0.1.2-change-kotlin-duration-usage-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210812.162419</timestamp>
-      <buildNumber>7</buildNumber>
+      <timestamp>20210812.164200</timestamp>
+      <buildNumber>8</buildNumber>
     </snapshot>
-    <lastUpdated>20210812162419</lastUpdated>
+    <lastUpdated>20210812164200</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.2-change-kotlin-duration-usage-20210812.162419-7</value>
-        <updated>20210812162419</updated>
+        <value>0.1.2-change-kotlin-duration-usage-20210812.164200-8</value>
+        <updated>20210812164200</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.2-change-kotlin-duration-usage-20210812.162419-7</value>
-        <updated>20210812162419</updated>
+        <value>0.1.2-change-kotlin-duration-usage-20210812.164200-8</value>
+        <updated>20210812164200</updated>
       </snapshotVersion>
       <snapshotVersion>
+        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.2-change-kotlin-duration-usage-20210812.162419-7</value>
-        <updated>20210812162419</updated>
+        <value>0.1.2-change-kotlin-duration-usage-20210812.164200-8</value>
+        <updated>20210812164200</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.2-change-kotlin-duration-usage-20210812.162419-7</value>
-        <updated>20210812162419</updated>
+        <value>0.1.2-change-kotlin-duration-usage-20210812.164200-8</value>
+        <updated>20210812164200</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
