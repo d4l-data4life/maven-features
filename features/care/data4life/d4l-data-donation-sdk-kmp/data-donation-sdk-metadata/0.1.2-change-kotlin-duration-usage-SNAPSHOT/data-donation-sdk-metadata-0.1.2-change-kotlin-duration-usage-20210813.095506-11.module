@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.2-change-kotlin-duration-usage-SNAPSHOT/data-donation-sdk-iosx64-0.1.2-change-kotlin-duration-usage-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.2-change-kotlin-duration-usage-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qyhx6xudxbcqhio3tukogwlg5i"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.2-change-kotlin-duration-usage-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.2-change-kotlin-duration-usage-SNAPSHOT.jar",
+          "size": 39147,
+          "sha512": "f8494df8ae76c426cd6ef132f6846617bc47113f2f0fbabfbde8cef54c5bc3841201333dd5d040f66465203132905c1acde9f43c72b67ca47a1ba8b042b70090",
+          "sha256": "d733e20f880ee50253167bf41992ce76a40c2b7406eb1dde48ce0c7b207cc394",
+          "sha1": "30e7ba582241d3856f4d6711e8ea183cd1675245",
+          "md5": "4010a0565fb4d8a315d0cc309e6a5fed"
+        }
+      ]
+    }
+  ]
+}
