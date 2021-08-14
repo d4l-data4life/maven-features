@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.14.0-add-ios-legacy-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "m5km4hqtizetrcc3pe3mnrwswu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.14.0-add-ios-legacy-encoding-SNAPSHOT.jar",
+          "url": "auth-common-1.14.0-add-ios-legacy-encoding-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "ebd4146326dc045d7c93e01e5115c97700f9f47a9cd2128a34ab7ac9b0598af4b2770aecf13d91a2b9cbe4c38650a1806ff67843293f5a706c5fc7b331836308",
+          "sha256": "5dac444d70a69d55f7c65a6fe4d89a768645cc20918b634528dc9d12c8dac109",
+          "sha1": "252bbb9e20a58a7e542cfe02dd200975adbc0094",
+          "md5": "8a979f25c2265f38de70b162b0e1ca7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.14.0-add-ios-legacy-encoding-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.14.0-add-ios-legacy-encoding-SNAPSHOT.jar",
+          "url": "auth-common-1.14.0-add-ios-legacy-encoding-SNAPSHOT.jar",
+          "size": 3578,
+          "sha512": "ebd4146326dc045d7c93e01e5115c97700f9f47a9cd2128a34ab7ac9b0598af4b2770aecf13d91a2b9cbe4c38650a1806ff67843293f5a706c5fc7b331836308",
+          "sha256": "5dac444d70a69d55f7c65a6fe4d89a768645cc20918b634528dc9d12c8dac109",
+          "sha1": "252bbb9e20a58a7e542cfe02dd200975adbc0094",
+          "md5": "8a979f25c2265f38de70b162b0e1ca7e"
+        }
+      ]
+    }
+  ]
+}

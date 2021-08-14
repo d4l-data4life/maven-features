@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.14.0-change-readme-badges-SNAPSHOT</latest>
+    <latest>1.14.0-add-ios-legacy-encoding-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -56,7 +56,8 @@
       <version>1.13.2-add-alessio-SNAPSHOT</version>
       <version>1.13.2-SNAPSHOT</version>
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
+      <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210728163501</lastUpdated>
+    <lastUpdated>20210814184050</lastUpdated>
   </versioning>
 </metadata>
