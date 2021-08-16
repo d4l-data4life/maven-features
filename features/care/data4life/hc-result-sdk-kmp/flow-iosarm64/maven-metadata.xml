@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>flow-iosarm64</artifactId>
   <versioning>
-    <latest>cc91adb</latest>
-    <release>cc91adb</release>
+    <latest>192a67a</latest>
+    <release>192a67a</release>
     <versions>
       <version>9477001</version>
       <version>cc91adb</version>
+      <version>192a67a</version>
     </versions>
-    <lastUpdated>20210809184047</lastUpdated>
+    <lastUpdated>20210816172016</lastUpdated>
   </versioning>
 </metadata>

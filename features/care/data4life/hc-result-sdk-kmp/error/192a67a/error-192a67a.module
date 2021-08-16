@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "192a67a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "wxcofrm5rzbdbblhepkym2j2wq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-metadata-192a67a.jar",
+          "url": "error-192a67a.jar",
+          "size": 2491,
+          "sha512": "4bfb5aff430f9c68f0f19f8e63d3e9fee93522c113c2e3ef606efabed27054de9cfc10360210feccf65f1a1dbc6d2201a1293ad32d0a01b171f58b7cdaf6ad5c",
+          "sha256": "50f71f9f7819b6acbe1e33e7e979798774148cf7f64158a0753554eec56f96be",
+          "sha1": "b0a5be605dfe12f336fb649d89b645305ff9308d",
+          "md5": "4148eda20c371513c1dca404e2b05330"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/192a67a/error-android-debug-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/192a67a/error-android-debug-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/192a67a/error-android-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/192a67a/error-android-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/192a67a/error-iosarm64-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/192a67a/error-iosx64-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/192a67a/error-jvm-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-jvm",
+        "version": "192a67a"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/192a67a/error-jvm-192a67a.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-jvm",
+        "version": "192a67a"
+      }
+    }
+  ]
+}
