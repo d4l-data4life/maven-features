@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.14.0-change-crypto-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ahi6khiw35ahtfz6tat6gyxpxu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.14.0-change-crypto-SNAPSHOT.jar",
+          "url": "crypto-common-1.14.0-change-crypto-SNAPSHOT.jar",
+          "size": 11957,
+          "sha512": "050b3c28e922e3886c35bef3abcf43c634c8e2375f5c3ccb01e6253cbd8da16c03c28cbbe246430aab926eb024496ad87772432ab88b468f603a2959f7e6c6bc",
+          "sha256": "5fe48c076bd669e4bd96d3c465386c592a55da80797fd838fd08cd351a45c61b",
+          "sha1": "f470942b80d67413e498e3e68c3c847ce3858aba",
+          "md5": "94a79fbdf656de12c8d43fb98dfa2d54"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.14.0-change-crypto-SNAPSHOT.jar",
+          "url": "crypto-common-1.14.0-change-crypto-SNAPSHOT.jar",
+          "size": 11957,
+          "sha512": "050b3c28e922e3886c35bef3abcf43c634c8e2375f5c3ccb01e6253cbd8da16c03c28cbbe246430aab926eb024496ad87772432ab88b468f603a2959f7e6c6bc",
+          "sha256": "5fe48c076bd669e4bd96d3c465386c592a55da80797fd838fd08cd351a45c61b",
+          "sha1": "f470942b80d67413e498e3e68c3c847ce3858aba",
+          "md5": "94a79fbdf656de12c8d43fb98dfa2d54"
+        }
+      ]
+    }
+  ]
+}

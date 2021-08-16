@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>securestore-jvm</artifactId>
   <versioning>
-    <latest>1.14.0-change-logging-login-SNAPSHOT</latest>
+    <latest>1.14.0-change-crypto-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -60,6 +60,6 @@
       <version>1.14.0-change-crypto-SNAPSHOT</version>
       <version>1.14.0-change-logging-login-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210816142348</lastUpdated>
+    <lastUpdated>20210816151702</lastUpdated>
   </versioning>
 </metadata>
