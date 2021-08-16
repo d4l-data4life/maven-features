@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.14.0-add-new-search-parameter-SNAPSHOT</latest>
+    <latest>1.14.0-change-crypto-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -58,7 +58,8 @@
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
       <version>1.14.0-add-new-search-parameter-SNAPSHOT</version>
+      <version>1.14.0-change-crypto-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210816110408</lastUpdated>
+    <lastUpdated>20210816120750</lastUpdated>
   </versioning>
 </metadata>
