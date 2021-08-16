@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.14.0-add-new-search-parameter-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "32tx7contzckhowvew3ufdutae"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.14.0-add-new-search-parameter-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-add-new-search-parameter-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-add-new-search-parameter-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "495a422985a9a5cf197bf09e6a0588ce0014d67da28848d06d998f5876eeae72304691882a34102561f03f12e1c3200fb3d2370131ada420ef015e0d64d40636",
+          "sha256": "5ea5c3a1586a7add4de976f883e61481617edbd1397516cf8cf5b540ad5cb5d9",
+          "sha1": "c4c3e68ad2b095e9768bc7613b727d19e425b800",
+          "md5": "a26fdd37f8d133100fe2767b100aeb69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.14.0-add-new-search-parameter-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.14.0-add-new-search-parameter-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-add-new-search-parameter-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-add-new-search-parameter-SNAPSHOT.jar",
+          "size": 34319,
+          "sha512": "495a422985a9a5cf197bf09e6a0588ce0014d67da28848d06d998f5876eeae72304691882a34102561f03f12e1c3200fb3d2370131ada420ef015e0d64d40636",
+          "sha256": "5ea5c3a1586a7add4de976f883e61481617edbd1397516cf8cf5b540ad5cb5d9",
+          "sha1": "c4c3e68ad2b095e9768bc7613b727d19e425b800",
+          "md5": "a26fdd37f8d133100fe2767b100aeb69"
+        }
+      ]
+    }
+  ]
+}
