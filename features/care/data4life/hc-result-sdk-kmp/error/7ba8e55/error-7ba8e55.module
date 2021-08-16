@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "7ba8e55",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "grltdkzew5dmxp37b3fjmxmcki"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-metadata-7ba8e55.jar",
+          "url": "error-7ba8e55.jar",
+          "size": 2491,
+          "sha512": "47fcdbc14bf98818c4652d85cda1c66cd826e5dd495ff8cdeb33a17e9159e69a418d0b993319d72bf1dfa3292c78ad3db2e7a46fdea12e0a5336588a72cc0af1",
+          "sha256": "1a48e75c8e7baf4a6af0c887d200f2f9ddfaf2d54af2852896cfb1ab67b3476f",
+          "sha1": "a46b2091875313f286af171ca5844cf459eb7c92",
+          "md5": "6002aee8d905bc91608a840a984093ad"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/7ba8e55/error-android-debug-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/7ba8e55/error-android-debug-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/7ba8e55/error-android-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/7ba8e55/error-android-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-android",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/7ba8e55/error-iosarm64-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/7ba8e55/error-iosx64-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/7ba8e55/error-jvm-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-jvm",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/7ba8e55/error-jvm-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-jvm",
+        "version": "7ba8e55"
+      }
+    }
+  ]
+}

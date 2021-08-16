@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow",
+    "version": "7ba8e55",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "grltdkzew5dmxp37b3fjmxmcki"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "7ba8e55"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-metadata-7ba8e55.jar",
+          "url": "flow-7ba8e55.jar",
+          "size": 2807,
+          "sha512": "fdd5700ea82716a4ba46e6a4d16237ca8a10e51a73b171a8c0b004edb5c4cd7f83077f4f119511718f73581eea1a8786c0669b17cf331583d8fb2d418939b99b",
+          "sha256": "e598b19b0fd170e346ac898bc0851e83c8ae5dcf2e131cbffb414cb029187d71",
+          "sha1": "a381e4e0893ad64b5508e3fb2176cc68bc088fbd",
+          "md5": "b2e0ebf115d7bbe65bfd662b13d40430"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../flow-android-debug/7ba8e55/flow-android-debug-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-android-debug",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../flow-android-debug/7ba8e55/flow-android-debug-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-android-debug",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../flow-android/7ba8e55/flow-android-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-android",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../flow-android/7ba8e55/flow-android-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-android",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../flow-iosarm64/7ba8e55/flow-iosarm64-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-iosarm64",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../flow-iosx64/7ba8e55/flow-iosx64-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-iosx64",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../flow-jvm/7ba8e55/flow-jvm-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-jvm",
+        "version": "7ba8e55"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../flow-jvm/7ba8e55/flow-jvm-7ba8e55.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow-jvm",
+        "version": "7ba8e55"
+      }
+    }
+  ]
+}
