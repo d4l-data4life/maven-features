@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.14.0-change-logging-login-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dmwxw2tqtvh6veenwto3vh3gdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "url": "securestore-common-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "b73ff20923f5f36fad5f174eae7c0575219123834835e1d5248816d128496a5402a01c061ff1e7ff34aaba18b15040cfbd1fc60f4233eb841c441e5bdd31cdb3",
+          "sha256": "047bf941ca6defe67bc4fb78affce3fb1edcab4db500e0153c6e4fd34a2118f7",
+          "sha1": "da4408bf2154da5301d36612f2d8630555e448b7",
+          "md5": "9b87df333de78fba26b4ecf2c92c8372"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "url": "securestore-common-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "b73ff20923f5f36fad5f174eae7c0575219123834835e1d5248816d128496a5402a01c061ff1e7ff34aaba18b15040cfbd1fc60f4233eb841c441e5bdd31cdb3",
+          "sha256": "047bf941ca6defe67bc4fb78affce3fb1edcab4db500e0153c6e4fd34a2118f7",
+          "sha1": "da4408bf2154da5301d36612f2d8630555e448b7",
+          "md5": "9b87df333de78fba26b4ecf2c92c8372"
+        }
+      ]
+    }
+  ]
+}

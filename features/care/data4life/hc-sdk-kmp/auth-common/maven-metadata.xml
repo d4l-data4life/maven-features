@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-common</artifactId>
   <versioning>
-    <latest>1.14.0-change-crypto-SNAPSHOT</latest>
+    <latest>1.14.0-change-logging-login-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-change-publishing-SNAPSHOT</version>
       <version>1.11.0-add-networking-contract-SNAPSHOT</version>
@@ -59,7 +59,8 @@
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
       <version>1.14.0-add-new-search-parameter-SNAPSHOT</version>
       <version>1.14.0-change-crypto-SNAPSHOT</version>
+      <version>1.14.0-change-logging-login-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210816120751</lastUpdated>
+    <lastUpdated>20210816142346</lastUpdated>
   </versioning>
 </metadata>

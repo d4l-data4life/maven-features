@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.14.0-change-logging-login-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "dmwxw2tqtvh6veenwto3vh3gdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.14.0-change-logging-login-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "size": 57739,
+          "sha512": "714e22d0781ba0f5fba244d655b612c1686a1ed1eb22ee08aafe3ff192a48679165684ba1800f097c44795bac0c25ebfce193e51f2b95bef691078e045955e9e",
+          "sha256": "c39034c71e057d74e19c0844e9b156bbd55c6c73b46b71c0f6bdd01dd547a125",
+          "sha1": "1e1a25d3f3eaf5d169ae3d0ded748de4dabc15d1",
+          "md5": "bda69f211a0a498592f20c9e9564cd5b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.14.0-change-logging-login-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.14.0-change-logging-login-SNAPSHOT.jar",
+          "size": 57739,
+          "sha512": "714e22d0781ba0f5fba244d655b612c1686a1ed1eb22ee08aafe3ff192a48679165684ba1800f097c44795bac0c25ebfce193e51f2b95bef691078e045955e9e",
+          "sha256": "c39034c71e057d74e19c0844e9b156bbd55c6c73b46b71c0f6bdd01dd547a125",
+          "sha1": "1e1a25d3f3eaf5d169ae3d0ded748de4dabc15d1",
+          "md5": "bda69f211a0a498592f20c9e9564cd5b"
+        }
+      ]
+    }
+  ]
+}
