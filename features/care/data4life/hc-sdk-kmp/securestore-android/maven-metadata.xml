@@ -5,42 +5,7 @@
   <versioning>
     <latest>1.14.0-change-crypto-SNAPSHOT</latest>
     <versions>
-      <version>1.11.0-change-publishing-SNAPSHOT</version>
-      <version>1.11.0-add-networking-contract-SNAPSHOT</version>
-      <version>1.11.0-add-envrioment-tests-SNAPSHOT</version>
-      <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
-      <version>1.11.0-add-api-service-unit-tests-SNAPSHOT</version>
-      <version>1.11.0-change-api-service-to-kotlin-SNAPSHOT</version>
-      <version>1.11.0-change-api-module-tests-SNAPSHOT</version>
-      <version>1.11.0-change-client-version-header-SNAPSHOT</version>
-      <version>1.11.0-change-update-data-SNAPSHOT</version>
-      <version>1.11.0-add-interceptors-SNAPSHOT</version>
-      <version>1.11.0-add-certificate-pinner-SNAPSHOT</version>
-      <version>1.11.0-change-api-service-SNAPSHOT</version>
-      <version>1.11.0-bump-okhttp-SNAPSHOT</version>
-      <version>1.11.0-fix-updateRecord-checks-SNAPSHOT</version>
-      <version>1.11.0-fix-update-record-data-SNAPSHOT</version>
-      <version>1.11.0-bump-android-gradle-plugin-SNAPSHOT</version>
-      <version>1.11.0-change-compatibility-service-unblocking-SNAPSHOT</version>
-      <version>1.11.0-change-client-version-header-dynamic-SNAPSHOT</version>
-      <version>1.11.0-SNAPSHOT</version>
-      <version>1.12.0-add-inspection-kotlin-style-SNAPSHOT</version>
-      <version>1.11.0-add-client-factory-SNAPSHOT</version>
-      <version>1.11.0-add-ihc-service-factory-SNAPSHOT</version>
-      <version>1.11.0-change-ihc-service-SNAPSHOT</version>
-      <version>1.10.0-add-secure-store-and-crypto-service-kotlin-tests-SNAPSHOT</version>
-      <version>1.12.0-bump-fhir-java-sdk-SNAPSHOT</version>
-      <version>1.12.0-change-resource-client-tests-SNAPSHOT</version>
-      <version>1.12.0-add-count-for-arbitrary-data-SNAPSHOT</version>
-      <version>1.12.0-change-resource-crypto-tests-SNAPSHOT</version>
-      <version>1.12.0-change-resource-crypto-service-SNAPSHOT</version>
-      <version>1.12.0-change-merge-fhir-and-data-SNAPSHOT</version>
-      <version>1.12.0-add-auth-client-tests-SNAPSHOT</version>
-      <version>1.12.0-change-user-service-tests-SNAPSHOT</version>
-      <version>1.12.0-change-contracts-SNAPSHOT</version>
-      <version>1.12.0-SNAPSHOT</version>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
-      <version>1.12.0-change-fileservice-tests-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
       <version>1.13.0-SNAPSHOT</version>
       <version>1.13.1-change-attachment-service-tests-SNAPSHOT</version>

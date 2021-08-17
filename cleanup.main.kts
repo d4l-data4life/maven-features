@@ -106,8 +106,8 @@ fun searchSemanticVersionsToRemove(
                 //TODO
             }
         } else if (gitHashVersion.matches(version)) {
-            println("WARNING: can't handle gitHash version: $latestVersion vs $version")
-            //TODO
+            println("WARNING: can't handle gitHash version: $latestVersion vs $version -> remove it")
+            return@filter true
         }
         return@filter false
     }
