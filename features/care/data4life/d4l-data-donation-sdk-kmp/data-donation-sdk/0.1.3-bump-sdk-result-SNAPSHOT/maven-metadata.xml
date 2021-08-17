@@ -5,31 +5,31 @@
   <version>0.1.3-bump-sdk-result-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210817.120654</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210817.120425</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210817120654</lastUpdated>
+    <lastUpdated>20210817120425</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.3-bump-sdk-result-20210817.120425-4</value>
+        <updated>20210817120425</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.3-bump-sdk-result-20210817.120425-4</value>
+        <updated>20210817120425</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-bump-sdk-result-20210817.120654-3</value>
-        <updated>20210817120654</updated>
+        <value>0.1.3-bump-sdk-result-20210817.120425-4</value>
+        <updated>20210817120425</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-bump-sdk-result-20210817.120654-3</value>
-        <updated>20210817120654</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.3-bump-sdk-result-20210817.120654-3</value>
-        <updated>20210817120654</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.3-bump-sdk-result-20210817.120654-3</value>
-        <updated>20210817120654</updated>
+        <value>0.1.3-bump-sdk-result-20210817.120425-4</value>
+        <updated>20210817120425</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
