@@ -3,7 +3,7 @@
   <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-iosarm64</artifactId>
   <versioning>
-    <latest>0.0.5-add-example-app-SNAPSHOT</latest>
+    <latest>0.1.3-change-latest-consent-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-fix-koin-dependency-SNAPSHOT</version>
       <version>0.0.1-change-publish-script-SNAPSHOT</version>
@@ -81,6 +81,6 @@
       <version>0.0.5-add-example-app-SNAPSHOT</version>
       <version>0.1.3-add-program-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210817132758</lastUpdated>
+    <lastUpdated>20210817141708</lastUpdated>
   </versioning>
 </metadata>
