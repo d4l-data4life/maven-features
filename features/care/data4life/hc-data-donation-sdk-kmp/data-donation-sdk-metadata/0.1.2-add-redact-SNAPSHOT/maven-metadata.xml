@@ -5,31 +5,31 @@
   <version>0.1.2-add-redact-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210820.104802</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210820.150129</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210820104802</lastUpdated>
+    <lastUpdated>20210820150129</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.2-add-redact-20210820.150129-2</value>
+        <updated>20210820150129</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.2-add-redact-20210820.104802-1</value>
-        <updated>20210820104802</updated>
+        <value>0.1.2-add-redact-20210820.150129-2</value>
+        <updated>20210820150129</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.2-add-redact-20210820.104802-1</value>
-        <updated>20210820104802</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.2-add-redact-20210820.104802-1</value>
-        <updated>20210820104802</updated>
+        <value>0.1.2-add-redact-20210820.150129-2</value>
+        <updated>20210820150129</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.2-add-redact-20210820.104802-1</value>
-        <updated>20210820104802</updated>
+        <value>0.1.2-add-redact-20210820.150129-2</value>
+        <updated>20210820150129</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
