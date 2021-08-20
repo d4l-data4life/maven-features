@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.1.3-add-docs-SNAPSHOT</latest>
+    <latest>0.1.3-add-program-SNAPSHOT</latest>
     <versions>
       <version>0.1.3-change-setup-SNAPSHOT</version>
       <version>0.1.3-add-docs-SNAPSHOT</version>
+      <version>0.1.3-add-program-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210820083051</lastUpdated>
+    <lastUpdated>20210820091717</lastUpdated>
   </versioning>
 </metadata>
