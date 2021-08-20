@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android-debug</artifactId>
   <versioning>
-    <latest>0.1.3-add-consent-document-title-SNAPSHOT</latest>
+    <latest>0.1.3-add-objc-crypto-bridge-SNAPSHOT</latest>
     <versions>
       <version>0.1.3-change-setup-SNAPSHOT</version>
       <version>0.1.3-add-docs-SNAPSHOT</version>
@@ -12,6 +12,6 @@
       <version>0.1.2-add-redact-SNAPSHOT</version>
       <version>0.1.3-add-consent-document-title-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210820110642</lastUpdated>
+    <lastUpdated>20210820111547</lastUpdated>
   </versioning>
 </metadata>
