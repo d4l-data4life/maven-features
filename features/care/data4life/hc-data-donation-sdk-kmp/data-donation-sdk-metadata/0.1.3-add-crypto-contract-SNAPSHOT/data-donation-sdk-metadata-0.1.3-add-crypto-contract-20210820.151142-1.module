@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-crypto-contract-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-crypto-contract-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-crypto-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "lboku4mje5gelgpncjpbn6iii4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-crypto-contract-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-crypto-contract-SNAPSHOT.jar",
+          "size": 49312,
+          "sha512": "bbbd9d5eed69773a84551a9b036e880289225d2c6bebd21218e992695b25faf78ed132436905aad43753cef1903ed348a05ef463d383ca3f6df3aac60027daad",
+          "sha256": "97580b3dc332725a4ea60e0dbf8ee6fc94b18fce8ec0fb7b7c6e2ea42fa2a905",
+          "sha1": "4ac960cdc73bb7d6e0b1547f673701ffee60a62a",
+          "md5": "cc261e4861737389bc556eb151a8c0cc"
+        }
+      ]
+    }
+  ]
+}
