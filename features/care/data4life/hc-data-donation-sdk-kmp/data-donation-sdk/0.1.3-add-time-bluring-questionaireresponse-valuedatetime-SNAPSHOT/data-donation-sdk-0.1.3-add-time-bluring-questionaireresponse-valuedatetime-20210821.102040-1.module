@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "dj6smnt7ofhw3f66nekpsh36my"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.jar",
+          "size": 54608,
+          "sha512": "1e39fd32455cfdb01b72495cfaa2434dcc0f5cbd3ade6f4dbc76e45d633cebff96bac733d698795cb69a8dfbf480e53795809e00540236e9677a4f4eb889327c",
+          "sha256": "60993d7c5313dd06b7e3c7d4f46ac158a186e634432c7b70e498e6b013e7b1e5",
+          "sha1": "837f08a6b926f1312a00a6d26e62eb34a216b208",
+          "md5": "ff103dfe49456d6a3de6cee3f407c55c"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-android-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-android-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-iosarm64-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.1.3-add-time-bluring-questionaireresponse-valuedatetime-SNAPSHOT"
+      }
+    }
+  ]
+}
