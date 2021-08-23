@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.14.0-change-crypto-SNAPSHOT</latest>
+    <latest>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</latest>
     <versions>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
@@ -24,7 +24,8 @@
       <version>1.14.0-add-new-search-parameter-SNAPSHOT</version>
       <version>1.14.0-change-crypto-SNAPSHOT</version>
       <version>1.14.0-change-logging-login-SNAPSHOT</version>
+      <version>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210816151702</lastUpdated>
+    <lastUpdated>20210823100352</lastUpdated>
   </versioning>
 </metadata>
