@@ -5,31 +5,31 @@
   <version>0.1.3-add-crypto-contract-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210820.151142</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210823.083356</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210820151142</lastUpdated>
+    <lastUpdated>20210823083356</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.3-add-crypto-contract-20210820.151142-1</value>
-        <updated>20210820151142</updated>
+        <extension>module</extension>
+        <value>0.1.3-add-crypto-contract-20210823.083356-2</value>
+        <updated>20210823083356</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.3-add-crypto-contract-20210820.151142-1</value>
-        <updated>20210820151142</updated>
+        <extension>pom</extension>
+        <value>0.1.3-add-crypto-contract-20210823.083356-2</value>
+        <updated>20210823083356</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-crypto-contract-20210820.151142-1</value>
-        <updated>20210820151142</updated>
+        <value>0.1.3-add-crypto-contract-20210823.083356-2</value>
+        <updated>20210823083356</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.3-add-crypto-contract-20210820.151142-1</value>
-        <updated>20210820151142</updated>
+        <extension>jar</extension>
+        <value>0.1.3-add-crypto-contract-20210823.083356-2</value>
+        <updated>20210823083356</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

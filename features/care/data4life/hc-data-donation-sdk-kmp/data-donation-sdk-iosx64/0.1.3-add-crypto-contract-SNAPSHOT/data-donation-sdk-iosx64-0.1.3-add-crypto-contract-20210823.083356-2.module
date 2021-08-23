@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk/0.1.3-add-crypto-contract-SNAPSHOT/data-donation-sdk-0.1.3-add-crypto-contract-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.3-add-crypto-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "2yqyqr43vjedlbs3nzexsx4fzm"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.1.6-a1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "flow",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+          "module": "coroutine-util",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "excludes": [
+            {
+              "group": "co.touchlab:stately-concurrency",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.3-native-mt",
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "care.data4life.hc-objc-util-sdk-kmp",
+          "module": "objc-util",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk.klib",
+          "url": "data-donation-sdk-iosx64-0.1.3-add-crypto-contract-SNAPSHOT.klib",
+          "size": 136812,
+          "sha512": "b17a66882a4142f112b29bf022624339d05bba0c3ddefc5142d42bceea0029390809a9c61a9e56adebd05c38e33621b2ff7c341748c6b365a4ee06d484324b43",
+          "sha256": "cb10b28f9975a735313d668495d5153992bf958e3ca62ada2d52d8a6dd02b42c",
+          "sha1": "d6c8cbc319aa5ddf91bd8193af18860903e6929b",
+          "md5": "e496a6b6980d1666979138aa1dd6ad40"
+        },
+        {
+          "name": "data-donation-sdk-cinterop-DataDonationCryptoObjC.klib",
+          "url": "data-donation-sdk-iosx64-0.1.3-add-crypto-contract-SNAPSHOT-cinterop-DataDonationCryptoObjC.klib",
+          "size": 14769,
+          "sha512": "da75f2272a912c25284a8f6d08959775696f63029613b2c95208665b8e9414f38c4ee4848a021e44242cd8f20b790e6784b9c6cda70bd326f034d45e7e91a9a9",
+          "sha256": "82599d58575485bf010f901fb2d28ad9d882df2f06a81bd8a19c169d6dc4b0d0",
+          "sha1": "63838ee5ab6f23ebece27b512db9c8b2a5fedae4",
+          "md5": "e4ae430c4cde5ff3ad3ee6c02cd9cfb3"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-metadata/0.1.3-add-crypto-contract-SNAPSHOT/data-donation-sdk-metadata-0.1.3-add-crypto-contract-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-metadata",
+        "version": "0.1.3-add-crypto-contract-SNAPSHOT"
+      }
+    }
+  ]
+}
