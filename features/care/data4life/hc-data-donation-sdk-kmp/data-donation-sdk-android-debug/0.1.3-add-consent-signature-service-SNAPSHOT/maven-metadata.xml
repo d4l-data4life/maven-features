@@ -5,31 +5,31 @@
   <version>0.1.3-add-consent-signature-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210820.114423</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210823.071331</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210820114423</lastUpdated>
+    <lastUpdated>20210823071331</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.3-add-consent-signature-service-20210820.114423-1</value>
-        <updated>20210820114423</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-consent-signature-service-20210820.114423-1</value>
-        <updated>20210820114423</updated>
+        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
+        <updated>20210823071331</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-consent-signature-service-20210820.114423-1</value>
-        <updated>20210820114423</updated>
+        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
+        <updated>20210823071331</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.1.3-add-consent-signature-service-20210820.114423-1</value>
-        <updated>20210820114423</updated>
+        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
+        <updated>20210823071331</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
+        <updated>20210823071331</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

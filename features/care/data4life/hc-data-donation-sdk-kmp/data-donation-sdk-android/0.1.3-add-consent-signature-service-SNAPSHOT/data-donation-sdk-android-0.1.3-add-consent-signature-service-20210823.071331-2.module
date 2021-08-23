@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk/0.1.3-add-consent-signature-service-SNAPSHOT/data-donation-sdk-0.1.3-add-consent-signature-service-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.3-add-consent-signature-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "jgchynzjiffavhjimqkazz4fbu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk-release.aar",
+          "url": "data-donation-sdk-android-0.1.3-add-consent-signature-service-SNAPSHOT.aar",
+          "size": 344714,
+          "sha512": "2f893c795c1e31cd3023fe55895b0ac92eddd48f93f2c68547ed2efff2f559ee7022181bac9b20e6f8119b6b4984109e94a5c05a6a122118aa6b7c7c8906f573",
+          "sha256": "baebd6b5fb6edc979392849289a801335c35d9d2766a9e29f5ac3347ec437da4",
+          "sha1": "6348efefb8be66089160ac037c20a93dcf328f52",
+          "md5": "484263a18e679a3d09c458f825d56bea"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.31"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.31"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.1.6-a1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "flow",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+          "module": "coroutine-util",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "excludes": [
+            {
+              "group": "co.touchlab:stately-concurrency",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk-release.aar",
+          "url": "data-donation-sdk-android-0.1.3-add-consent-signature-service-SNAPSHOT.aar",
+          "size": 344714,
+          "sha512": "2f893c795c1e31cd3023fe55895b0ac92eddd48f93f2c68547ed2efff2f559ee7022181bac9b20e6f8119b6b4984109e94a5c05a6a122118aa6b7c7c8906f573",
+          "sha256": "baebd6b5fb6edc979392849289a801335c35d9d2766a9e29f5ac3347ec437da4",
+          "sha1": "6348efefb8be66089160ac037c20a93dcf328f52",
+          "md5": "484263a18e679a3d09c458f825d56bea"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-metadata/0.1.3-add-consent-signature-service-SNAPSHOT/data-donation-sdk-metadata-0.1.3-add-consent-signature-service-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-metadata",
+        "version": "0.1.3-add-consent-signature-service-SNAPSHOT"
+      }
+    }
+  ]
+}
