@@ -5,31 +5,31 @@
   <version>1.6.0-change-data-restriction-error-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.063450</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210823.122358</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210823063450</lastUpdated>
+    <lastUpdated>20210823122358</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.6.0-change-data-restriction-error-20210823.063450-1</value>
-        <updated>20210823063450</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>aar</extension>
-        <value>1.6.0-change-data-restriction-error-20210823.063450-1</value>
-        <updated>20210823063450</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.6.0-change-data-restriction-error-20210823.063450-1</value>
-        <updated>20210823063450</updated>
+        <value>1.6.0-change-data-restriction-error-20210823.122358-2</value>
+        <updated>20210823122358</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.6.0-change-data-restriction-error-20210823.063450-1</value>
-        <updated>20210823063450</updated>
+        <value>1.6.0-change-data-restriction-error-20210823.122358-2</value>
+        <updated>20210823122358</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.6.0-change-data-restriction-error-20210823.122358-2</value>
+        <updated>20210823122358</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.6.0-change-data-restriction-error-20210823.122358-2</value>
+        <updated>20210823122358</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
