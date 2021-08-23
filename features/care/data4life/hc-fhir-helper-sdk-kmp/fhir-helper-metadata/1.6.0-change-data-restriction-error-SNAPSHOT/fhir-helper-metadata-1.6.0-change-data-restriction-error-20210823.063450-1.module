@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper-jvm/1.6.0-change-data-restriction-error-SNAPSHOT/fhir-helper-jvm-1.6.0-change-data-restriction-error-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper-jvm",
+    "version": "1.6.0-change-data-restriction-error-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "cqcpn62birgorjq6fpqaql7qum"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-helper-metadata-1.6.0-change-data-restriction-error-SNAPSHOT.jar",
+          "url": "fhir-helper-metadata-1.6.0-change-data-restriction-error-SNAPSHOT.jar",
+          "size": 1512,
+          "sha512": "c548aedcabecd39f9a6881434f318253616e1d237d1923e0bd205e8ca2a5ed710300d06e99cd1d0d451b422ec8169dd6233bddfb2d8afaec7debbeccf40851bb",
+          "sha256": "571a39d91ff0ac902382fbb6484ebd1eb94731b98d8726ec714d9baa84d08514",
+          "sha1": "8925acc99ffac0997b696a10af12635c3f2d453e",
+          "md5": "675d57071b9379be1d27a6abe472cb8c"
+        }
+      ]
+    }
+  ]
+}
