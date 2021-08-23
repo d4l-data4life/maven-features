@@ -5,37 +5,37 @@
   <version>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.095706</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210823.101545</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210823095706</lastUpdated>
+    <lastUpdated>20210823101545</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.095706-1</value>
-        <updated>20210823095706</updated>
+        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.101545-2</value>
+        <updated>20210823101545</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.095706-1</value>
-        <updated>20210823095706</updated>
+        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.101545-2</value>
+        <updated>20210823101545</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.095706-1</value>
-        <updated>20210823095706</updated>
+        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.101545-2</value>
+        <updated>20210823101545</updated>
       </snapshotVersion>
       <snapshotVersion>
+        <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.095706-1</value>
-        <updated>20210823095706</updated>
+        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.101545-2</value>
+        <updated>20210823101545</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.095706-1</value>
-        <updated>20210823095706</updated>
+        <value>1.10.0-change-kmp-sdks-to-external-dependency-20210823.101545-2</value>
+        <updated>20210823101545</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
