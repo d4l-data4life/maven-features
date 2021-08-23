@@ -5,37 +5,37 @@
   <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.143012</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210823.153825</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210823143012</lastUpdated>
+    <lastUpdated>20210823153825</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.14.0-add-ios-legacy-encoding-20210823.153825-3</value>
+        <updated>20210823153825</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.143012-2</value>
-        <updated>20210823143012</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.143012-2</value>
-        <updated>20210823143012</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.143012-2</value>
-        <updated>20210823143012</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.143012-2</value>
-        <updated>20210823143012</updated>
+        <value>1.14.0-add-ios-legacy-encoding-20210823.153825-3</value>
+        <updated>20210823153825</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.143012-2</value>
-        <updated>20210823143012</updated>
+        <value>1.14.0-add-ios-legacy-encoding-20210823.153825-3</value>
+        <updated>20210823153825</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.14.0-add-ios-legacy-encoding-20210823.153825-3</value>
+        <updated>20210823153825</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.14.0-add-ios-legacy-encoding-20210823.153825-3</value>
+        <updated>20210823153825</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
