@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.6.0-change-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "3wxxbdxnfzefteyxvrceh2dszq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-helper-metadata-1.6.0-change-setup-SNAPSHOT.jar",
+          "url": "fhir-helper-1.6.0-change-setup-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "d2e5ed4543af16973e022410fce28847353ece7e8ed3a7b7b77a22ecc87109e9f82047d053cac677343585aba69b3f91a8044e42789e3317aab59c6f5aa6ae42",
+          "sha256": "1a429a8d7aa46a8ed696224d4037cb150c3e860eeb907c04b4d028ecab3e7e1c",
+          "sha1": "e3d85e318755367e987f2dbd2cbe8c8be63a2940",
+          "md5": "beaaf6f5e68aec02bf5a4cc356c5524d"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android-debug/1.6.0-change-setup-SNAPSHOT/fhir-helper-android-debug-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android-debug",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android-debug/1.6.0-change-setup-SNAPSHOT/fhir-helper-android-debug-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android-debug",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android/1.6.0-change-setup-SNAPSHOT/fhir-helper-android-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-android/1.6.0-change-setup-SNAPSHOT/fhir-helper-android-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-android",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-jvm/1.6.0-change-setup-SNAPSHOT/fhir-helper-jvm-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-jvm",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-jvm/1.6.0-change-setup-SNAPSHOT/fhir-helper-jvm-1.6.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-jvm",
+        "version": "1.6.0-change-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
