@@ -1,0 +1,47 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow-jvm/0.1.1-remove-data-restriction-exception-SNAPSHOT/flow-jvm-0.1.1-remove-data-restriction-exception-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow-jvm",
+    "version": "0.1.1-remove-data-restriction-exception-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "sdwnsf74ozhglg6zwmbkixy6nq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1-remove-data-restriction-exception-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-metadata-0.1.1-remove-data-restriction-exception-SNAPSHOT.jar",
+          "url": "flow-metadata-0.1.1-remove-data-restriction-exception-SNAPSHOT.jar",
+          "size": 2807,
+          "sha512": "50c9caee40dcf080dc87aa13d9dec156819b60a99c1bb895961eca0c741f5a812532839fd51068ac499dd6bf5e1cc1f33306ae452e5e1657ecad25cdc514cbd2",
+          "sha256": "a18a13dbd45b8461e4a2660f39dca27d6b8f5fa3ffce403f3e29584743e2f603",
+          "sha1": "800e8148f1f08b9878dbedc5bde53accd31e20cc",
+          "md5": "2af53b1ab1f51433181fa6c3509f0512"
+        }
+      ]
+    }
+  ]
+}
