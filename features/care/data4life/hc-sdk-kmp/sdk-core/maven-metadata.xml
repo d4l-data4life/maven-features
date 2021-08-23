@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</latest>
+    <latest>1.10.0-change-data-restriction-error-SNAPSHOT</latest>
     <versions>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
@@ -27,6 +27,6 @@
       <version>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</version>
       <version>1.10.0-change-data-restriction-error-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210823101839</lastUpdated>
+    <lastUpdated>20210823103905</lastUpdated>
   </versioning>
 </metadata>

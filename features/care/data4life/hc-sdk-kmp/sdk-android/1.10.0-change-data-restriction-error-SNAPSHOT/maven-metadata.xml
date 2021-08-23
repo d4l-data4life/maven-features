@@ -5,25 +5,25 @@
   <version>1.10.0-change-data-restriction-error-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.100745</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210823.103622</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210823100745</lastUpdated>
+    <lastUpdated>20210823103622</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-change-data-restriction-error-20210823.100745-1</value>
-        <updated>20210823100745</updated>
+        <extension>pom</extension>
+        <value>1.10.0-change-data-restriction-error-20210823.103622-2</value>
+        <updated>20210823103622</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.10.0-change-data-restriction-error-20210823.100745-1</value>
-        <updated>20210823100745</updated>
+        <value>1.10.0-change-data-restriction-error-20210823.103622-2</value>
+        <updated>20210823103622</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-change-data-restriction-error-20210823.100745-1</value>
-        <updated>20210823100745</updated>
+        <extension>module</extension>
+        <value>1.10.0-change-data-restriction-error-20210823.103622-2</value>
+        <updated>20210823103622</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
