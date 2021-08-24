@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-gradle-scripts</groupId>
   <artifactId>example-kmp-library-android-debug</artifactId>
   <versioning>
-    <latest>0.0.1-add-android-example-app-SNAPSHOT</latest>
+    <latest>0.0.1-fix-git-submodule-support-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT</version>
       <version>0.0.1-add-coverage-plugin-SNAPSHOT</version>
       <version>0.0.1-add-android-example-app-SNAPSHOT</version>
+      <version>0.0.1-fix-git-submodule-support-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210809154943</lastUpdated>
+    <lastUpdated>20210824125003</lastUpdated>
   </versioning>
 </metadata>
