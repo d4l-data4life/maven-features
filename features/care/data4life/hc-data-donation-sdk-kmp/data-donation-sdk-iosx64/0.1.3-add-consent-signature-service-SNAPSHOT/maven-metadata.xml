@@ -5,37 +5,37 @@
   <version>0.1.3-add-consent-signature-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.071331</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210824.144719</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210823071331</lastUpdated>
+    <lastUpdated>20210824144719</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <classifier>cinterop-DataDonationCryptoObjC</classifier>
-        <extension>klib</extension>
-        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
-        <updated>20210823071331</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
-        <updated>20210823071331</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
-        <updated>20210823071331</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
-        <updated>20210823071331</updated>
+        <value>0.1.3-add-consent-signature-service-20210824.144719-3</value>
+        <updated>20210824144719</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>cinterop-DataDonationCryptoObjC</classifier>
+        <extension>klib</extension>
+        <value>0.1.3-add-consent-signature-service-20210824.144719-3</value>
+        <updated>20210824144719</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-consent-signature-service-20210823.071331-2</value>
-        <updated>20210823071331</updated>
+        <value>0.1.3-add-consent-signature-service-20210824.144719-3</value>
+        <updated>20210824144719</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.1.3-add-consent-signature-service-20210824.144719-3</value>
+        <updated>20210824144719</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.3-add-consent-signature-service-20210824.144719-3</value>
+        <updated>20210824144719</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
