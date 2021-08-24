@@ -5,31 +5,31 @@
   <version>0.0.1-fix-git-submodule-support-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210824.124814</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210824.133039</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210824124814</lastUpdated>
+    <lastUpdated>20210824133039</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.0.1-fix-git-submodule-support-20210824.124814-1</value>
-        <updated>20210824124814</updated>
+        <extension>module</extension>
+        <value>0.0.1-fix-git-submodule-support-20210824.133039-2</value>
+        <updated>20210824133039</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.1-fix-git-submodule-support-20210824.124814-1</value>
-        <updated>20210824124814</updated>
+        <extension>pom</extension>
+        <value>0.0.1-fix-git-submodule-support-20210824.133039-2</value>
+        <updated>20210824133039</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-fix-git-submodule-support-20210824.124814-1</value>
-        <updated>20210824124814</updated>
+        <value>0.0.1-fix-git-submodule-support-20210824.133039-2</value>
+        <updated>20210824133039</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.1-fix-git-submodule-support-20210824.124814-1</value>
-        <updated>20210824124814</updated>
+        <extension>aar</extension>
+        <value>0.0.1-fix-git-submodule-support-20210824.133039-2</value>
+        <updated>20210824133039</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
