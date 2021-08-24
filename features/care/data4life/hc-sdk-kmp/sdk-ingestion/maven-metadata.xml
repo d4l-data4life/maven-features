@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-ingestion</artifactId>
   <versioning>
-    <latest>1.14.0-fix-git-submodule-support-SNAPSHOT</latest>
+    <latest>1.14.0-change-codeowner-SNAPSHOT</latest>
     <versions>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
@@ -27,7 +27,8 @@
       <version>1.10.0-change-kmp-sdks-to-external-dependency-SNAPSHOT</version>
       <version>1.10.0-change-data-restriction-error-SNAPSHOT</version>
       <version>1.14.0-fix-git-submodule-support-SNAPSHOT</version>
+      <version>1.14.0-change-codeowner-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210824170040</lastUpdated>
+    <lastUpdated>20210824173345</lastUpdated>
   </versioning>
 </metadata>
