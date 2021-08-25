@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.14.0-change-codeowner-SNAPSHOT</latest>
+    <latest>1.14.0-add-ios-legacy-encoding-SNAPSHOT</latest>
     <versions>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
@@ -29,6 +29,6 @@
       <version>1.14.0-fix-git-submodule-support-SNAPSHOT</version>
       <version>1.14.0-change-codeowner-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210825074848</lastUpdated>
+    <lastUpdated>20210825105929</lastUpdated>
   </versioning>
 </metadata>

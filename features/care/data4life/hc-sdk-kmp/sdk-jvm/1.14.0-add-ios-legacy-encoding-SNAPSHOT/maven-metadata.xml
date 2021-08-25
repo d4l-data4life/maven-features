@@ -5,37 +5,37 @@
   <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.181921</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20210825.105704</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20210823181921</lastUpdated>
+    <lastUpdated>20210825105704</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.181921-4</value>
-        <updated>20210823181921</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.181921-4</value>
-        <updated>20210823181921</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.181921-4</value>
-        <updated>20210823181921</updated>
+        <value>1.14.0-add-ios-legacy-encoding-20210825.105704-5</value>
+        <updated>20210825105704</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.181921-4</value>
-        <updated>20210823181921</updated>
+        <value>1.14.0-add-ios-legacy-encoding-20210825.105704-5</value>
+        <updated>20210825105704</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.14.0-add-ios-legacy-encoding-20210825.105704-5</value>
+        <updated>20210825105704</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.14.0-add-ios-legacy-encoding-20210823.181921-4</value>
-        <updated>20210823181921</updated>
+        <value>1.14.0-add-ios-legacy-encoding-20210825.105704-5</value>
+        <updated>20210825105704</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.14.0-add-ios-legacy-encoding-20210825.105704-5</value>
+        <updated>20210825105704</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
