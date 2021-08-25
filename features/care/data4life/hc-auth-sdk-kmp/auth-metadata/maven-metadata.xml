@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-auth-sdk-kmp</groupId>
+  <artifactId>auth-metadata</artifactId>
+  <versioning>
+    <latest>1.13.2-bump-app-auth-dependency-SNAPSHOT</latest>
+    <versions>
+      <version>1.13.2-bump-app-auth-dependency-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210825130633</lastUpdated>
+  </versioning>
+</metadata>

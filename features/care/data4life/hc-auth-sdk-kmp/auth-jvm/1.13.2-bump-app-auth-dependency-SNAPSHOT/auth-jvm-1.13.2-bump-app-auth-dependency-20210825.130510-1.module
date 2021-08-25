@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth/1.13.2-bump-app-auth-dependency-SNAPSHOT/auth-1.13.2-bump-app-auth-dependency-SNAPSHOT.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.13.2-bump-app-auth-dependency-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "3qdq3xqqovgybcgp2ixkajj7t4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "auth-jvm-1.13.2-bump-app-auth-dependency-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.2-bump-app-auth-dependency-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "527a0470e8133e9199675f1932f075a370d18de85130d9eea74ce58c4cec15811aabef4bb9ee0cf887a055055384b0994ed6a17cbdfeaf6a6fee0e06d57b33b3",
+          "sha256": "4e74818172948d33dbdfa05092b337eacde2c75cf9848c96862246f71f46fded",
+          "sha1": "5493b7118b8917312e07e37fbd317797590c3d61",
+          "md5": "b7abf01472aa2f9da1b5c9fefb165671"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.13.2-bump-app-auth-dependency-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.2-bump-app-auth-dependency-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "527a0470e8133e9199675f1932f075a370d18de85130d9eea74ce58c4cec15811aabef4bb9ee0cf887a055055384b0994ed6a17cbdfeaf6a6fee0e06d57b33b3",
+          "sha256": "4e74818172948d33dbdfa05092b337eacde2c75cf9848c96862246f71f46fded",
+          "sha1": "5493b7118b8917312e07e37fbd317797590c3d61",
+          "md5": "b7abf01472aa2f9da1b5c9fefb165671"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../auth-metadata/1.13.2-bump-app-auth-dependency-SNAPSHOT/auth-metadata-1.13.2-bump-app-auth-dependency-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-metadata",
+        "version": "1.13.2-bump-app-auth-dependency-SNAPSHOT"
+      }
+    }
+  ]
+}
