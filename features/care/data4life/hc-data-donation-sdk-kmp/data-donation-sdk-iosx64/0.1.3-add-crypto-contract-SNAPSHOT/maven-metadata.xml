@@ -5,31 +5,31 @@
   <version>0.1.3-add-crypto-contract-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210823.102556</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210825.134440</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210823102556</lastUpdated>
+    <lastUpdated>20210825134440</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.3-add-crypto-contract-20210823.102556-3</value>
-        <updated>20210823102556</updated>
+        <extension>klib</extension>
+        <value>0.1.3-add-crypto-contract-20210825.134440-4</value>
+        <updated>20210825134440</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-crypto-contract-20210823.102556-3</value>
-        <updated>20210823102556</updated>
+        <value>0.1.3-add-crypto-contract-20210825.134440-4</value>
+        <updated>20210825134440</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.3-add-crypto-contract-20210825.134440-4</value>
+        <updated>20210825134440</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-crypto-contract-20210823.102556-3</value>
-        <updated>20210823102556</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.3-add-crypto-contract-20210823.102556-3</value>
-        <updated>20210823102556</updated>
+        <value>0.1.3-add-crypto-contract-20210825.134440-4</value>
+        <updated>20210825134440</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
