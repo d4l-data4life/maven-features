@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth/1.13.2-SNAPSHOT/auth-1.13.2-SNAPSHOT.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.13.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "q6ff7ibfhfdylgug7nryduieyu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "auth-jvm-1.13.2-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.2-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "efa29c57023c55c97968da10167ab848c264f2a353af32a421ee5d9f576586d55f51c6325272eb89e8a4a1b79414eae886b97a9f7fb094d71dc5f75f4e55f4ba",
+          "sha256": "9153b98bd5d9e735760ca97db7a1df21a3cae79d5a3d6a68752470351fd8763f",
+          "sha1": "42fb112ef43daf7363438580939d6218ed98d6b0",
+          "md5": "28453dc4dfdf9dc1c3bc70834fb23ff3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.13.2-SNAPSHOT.jar",
+          "url": "auth-jvm-1.13.2-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "efa29c57023c55c97968da10167ab848c264f2a353af32a421ee5d9f576586d55f51c6325272eb89e8a4a1b79414eae886b97a9f7fb094d71dc5f75f4e55f4ba",
+          "sha256": "9153b98bd5d9e735760ca97db7a1df21a3cae79d5a3d6a68752470351fd8763f",
+          "sha1": "42fb112ef43daf7363438580939d6218ed98d6b0",
+          "md5": "28453dc4dfdf9dc1c3bc70834fb23ff3"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../auth-metadata/1.13.2-SNAPSHOT/auth-metadata-1.13.2-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-metadata",
+        "version": "1.13.2-SNAPSHOT"
+      }
+    }
+  ]
+}
