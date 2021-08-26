@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.3-add-asym-key-creation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "ajh5lyyxjfejriiesoan7etbba"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-asym-key-creation-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.1.3-add-asym-key-creation-SNAPSHOT.jar",
+          "size": 49580,
+          "sha512": "178be281bbf7df5389d95e484ced8f1a8ead47fa4bb184e65ffe2117f1637f5d561d4725afd952bd9e1b09bb7a74bd3019026897373b5016771cd5bc14cad930",
+          "sha256": "352c38decd241e488aeda65063649a1f4fc1e5c3d5fdd6429a36887c665502e9",
+          "sha1": "02765f2ba43cd6bb30a1e58199589db506baf443",
+          "md5": "f94a36b60c8ecad1ed0922d78bb8cf65"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-android-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-android-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-iosarm64-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.1.3-add-asym-key-creation-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-asym-key-creation-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.1.3-add-asym-key-creation-SNAPSHOT"
+      }
+    }
+  ]
+}
