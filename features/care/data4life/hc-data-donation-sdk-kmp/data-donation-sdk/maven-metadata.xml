@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk</artifactId>
   <versioning>
-    <latest>0.1.3-bump-ios-crypto-version-SNAPSHOT</latest>
+    <latest>0.1.3-add-missing-tests-SNAPSHOT</latest>
     <versions>
       <version>0.1.3-change-setup-SNAPSHOT</version>
       <version>0.1.3-add-docs-SNAPSHOT</version>
@@ -23,7 +23,8 @@
       <version>0.1.3-bump-update-SNAPSHOT</version>
       <version>0.1.3-add-asym-key-creation-SNAPSHOT</version>
       <version>0.1.3-bump-ios-crypto-version-SNAPSHOT</version>
+      <version>0.1.3-add-missing-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210826134725</lastUpdated>
+    <lastUpdated>20210826140030</lastUpdated>
   </versioning>
 </metadata>
