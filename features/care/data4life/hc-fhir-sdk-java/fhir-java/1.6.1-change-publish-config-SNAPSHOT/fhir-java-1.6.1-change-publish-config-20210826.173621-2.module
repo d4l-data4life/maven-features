@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.6.1-change-publish-config-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "orug5lhu6be6xg5dyxpw3l3bpi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.6.1-change-publish-config-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.1-change-publish-config-SNAPSHOT.jar",
+          "size": 1012036,
+          "sha512": "b8598b68b1f6ff06d07b26ff839bd41aac25ea6f60f773d37884054747e7cca31fae1663a00690421ee03bdb92d2c1f3c282397fb66e91daa0d42bfadb434b41",
+          "sha256": "c66adc208a050f18fe685d1ec771d78c4df2633b870576df29dcf8571bd915a0",
+          "sha1": "a8a32a7d7886d6e98ec8cefaf03da70be8f0c6fd",
+          "md5": "a055e0d952bd72d6ce470c0c6cc461c2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.6.1-change-publish-config-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.1-change-publish-config-SNAPSHOT.jar",
+          "size": 1012036,
+          "sha512": "b8598b68b1f6ff06d07b26ff839bd41aac25ea6f60f773d37884054747e7cca31fae1663a00690421ee03bdb92d2c1f3c282397fb66e91daa0d42bfadb434b41",
+          "sha256": "c66adc208a050f18fe685d1ec771d78c4df2633b870576df29dcf8571bd915a0",
+          "sha1": "a8a32a7d7886d6e98ec8cefaf03da70be8f0c6fd",
+          "md5": "a055e0d952bd72d6ce470c0c6cc461c2"
+        }
+      ]
+    }
+  ]
+}
