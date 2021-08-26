@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-android</artifactId>
   <versioning>
-    <latest>0.1.3-add-credential-retrieval-SNAPSHOT</latest>
+    <latest>0.1.3-bump-update-SNAPSHOT</latest>
     <versions>
       <version>0.1.3-change-setup-SNAPSHOT</version>
       <version>0.1.3-add-docs-SNAPSHOT</version>
@@ -20,7 +20,8 @@
       <version>0.1.3-add-resource-validator-SNAPSHOT</version>
       <version>0.1.3-add-donation-service-model-SNAPSHOT</version>
       <version>0.1.3-add-credential-retrieval-SNAPSHOT</version>
+      <version>0.1.3-bump-update-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210826072140</lastUpdated>
+    <lastUpdated>20210826072643</lastUpdated>
   </versioning>
 </metadata>
