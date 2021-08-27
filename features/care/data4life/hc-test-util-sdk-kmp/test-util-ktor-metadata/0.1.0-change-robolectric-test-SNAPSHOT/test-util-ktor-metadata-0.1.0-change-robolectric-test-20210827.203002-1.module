@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor-jvm/0.1.0-change-robolectric-test-SNAPSHOT/test-util-ktor-jvm-0.1.0-change-robolectric-test-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor-jvm",
+    "version": "0.1.0-change-robolectric-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "ktl2ive425c6ti4bdnhjzdabie"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-metadata-0.1.0-change-robolectric-test-SNAPSHOT.jar",
+          "url": "test-util-ktor-metadata-0.1.0-change-robolectric-test-SNAPSHOT.jar",
+          "size": 3186,
+          "sha512": "69e6e01d85631820feb87ab43268eb90c2852e5c3cb63093bc67645238a234d38bdc290528c3e4c1eae7a791f504802ea96e6be17c5cfb5f983cc58d710baf31",
+          "sha256": "c932f4d2284fc02d5d584dc85dc9c45f802fafcbf9eda7a44ec72a1b118b934e",
+          "sha1": "abaa6eb32d285eef12015beac606c879ff7208b3",
+          "md5": "dcca3ca496515a2c7db91da0c282aea5"
+        }
+      ]
+    }
+  ]
+}

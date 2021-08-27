@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util-metadata</artifactId>
   <versioning>
-    <latest>0.1.0-add-robolectric-common-SNAPSHOT</latest>
+    <latest>0.1.0-change-robolectric-test-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-docs-SNAPSHOT</version>
       <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
+      <version>0.1.0-change-robolectric-test-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210827075307</lastUpdated>
+    <lastUpdated>20210827203249</lastUpdated>
   </versioning>
 </metadata>
