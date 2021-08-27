@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine-jvm/0.1.0-add-robolectric-common-SNAPSHOT/test-util-coroutine-jvm-0.1.0-add-robolectric-common-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine-jvm",
+    "version": "0.1.0-add-robolectric-common-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "xng2ulgvgnf63azrlwhohh4lzi"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-metadata-0.1.0-add-robolectric-common-SNAPSHOT.jar",
+          "url": "test-util-coroutine-metadata-0.1.0-add-robolectric-common-SNAPSHOT.jar",
+          "size": 1777,
+          "sha512": "002cb0b8f7831b79fa6353f8af481c88f664c1b39feabbfa4de05f652cb5a765c32d12eb08d4f2ce9e376280b5a0414d6f1a0644d7cb6b559dcfe425f11ad40e",
+          "sha256": "d543188faa1eface6092736dd7be6167348540088d89d22ca5f96efb46a7b46c",
+          "sha1": "93e5e7c46466befecdd2953b60f3bc472c96fb50",
+          "md5": "91152b8b9bab0dc60247a63357e6c292"
+        }
+      ]
+    }
+  ]
+}
