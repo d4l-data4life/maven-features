@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
+  <artifactId>test-util-coroutine-metadata</artifactId>
+  <versioning>
+    <latest>0.1.0-change-docs-SNAPSHOT</latest>
+    <versions>
+      <version>0.1.0-change-docs-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210827060811</lastUpdated>
+  </versioning>
+</metadata>
