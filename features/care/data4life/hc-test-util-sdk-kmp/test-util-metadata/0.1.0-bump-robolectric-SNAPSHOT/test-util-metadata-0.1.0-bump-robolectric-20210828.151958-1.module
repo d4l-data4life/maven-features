@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-jvm/0.1.0-bump-robolectric-SNAPSHOT/test-util-jvm-0.1.0-bump-robolectric-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-jvm",
+    "version": "0.1.0-bump-robolectric-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "zwzryyjrszf5vhynbmmehnrtpe"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-metadata-0.1.0-bump-robolectric-SNAPSHOT.jar",
+          "url": "test-util-metadata-0.1.0-bump-robolectric-SNAPSHOT.jar",
+          "size": 6262,
+          "sha512": "60dba22b6bfac2d2aa151e06b86eada7c586cb3040423723f574c6052c550adbe50a6c7144f9f0d0732937387637c30b2e8788c87fd328565a3521f583b3da72",
+          "sha256": "006902b78d963d34820860052dd8a3241b43a42d99f4968485fab4b9f40f4834",
+          "sha1": "96699c29ec658fbf01c5d257e62cf30281cd6869",
+          "md5": "b41310b7edd6e24002753d919fd3199c"
+        }
+      ]
+    }
+  ]
+}
