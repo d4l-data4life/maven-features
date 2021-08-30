@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-missing-tests-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-missing-tests-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-missing-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "exbzprddzzblhirgvsajirqr4a"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-missing-tests-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-missing-tests-SNAPSHOT.jar",
+          "size": 58853,
+          "sha512": "71da2332da8dc1ec8d6b7993a248e42b060f4949b2662901c8f2168046982de4e1f5294e2a7d8054ddf1843b9f14a353ff5d7f6a4a0f8ec86a91326fbd656fea",
+          "sha256": "03a1a1764c14ffb9a11391fb05e1c95eb95b9f25ded09ae06f4549531f55c847",
+          "sha1": "40741e40d1444e102419edf7b26d85235f179e79",
+          "md5": "f68a7916aa74dfafd30fd667f44c2298"
+        }
+      ]
+    }
+  ]
+}
