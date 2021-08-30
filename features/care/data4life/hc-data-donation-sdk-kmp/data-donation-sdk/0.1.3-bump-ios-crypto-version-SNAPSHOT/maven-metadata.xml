@@ -5,31 +5,31 @@
   <version>0.1.3-bump-ios-crypto-version-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210826.134304</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210830.133034</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210826134304</lastUpdated>
+    <lastUpdated>20210830133034</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-bump-ios-crypto-version-20210826.134304-1</value>
-        <updated>20210826134304</updated>
+        <value>0.1.3-bump-ios-crypto-version-20210830.133034-2</value>
+        <updated>20210830133034</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-bump-ios-crypto-version-20210826.134304-1</value>
-        <updated>20210826134304</updated>
+        <value>0.1.3-bump-ios-crypto-version-20210830.133034-2</value>
+        <updated>20210830133034</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.3-bump-ios-crypto-version-20210830.133034-2</value>
+        <updated>20210830133034</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-bump-ios-crypto-version-20210826.134304-1</value>
-        <updated>20210826134304</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.3-bump-ios-crypto-version-20210826.134304-1</value>
-        <updated>20210826134304</updated>
+        <value>0.1.3-bump-ios-crypto-version-20210830.133034-2</value>
+        <updated>20210830133034</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
