@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util-coroutine-android-debug</artifactId>
   <versioning>
-    <latest>0.1.0-bump-robolectric-SNAPSHOT</latest>
+    <latest>0.1.0-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-docs-SNAPSHOT</version>
       <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
       <version>0.1.0-change-robolectric-test-SNAPSHOT</version>
       <version>0.1.0-bump-robolectric-SNAPSHOT</version>
+      <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210828152257</lastUpdated>
+    <lastUpdated>20210830133019</lastUpdated>
   </versioning>
 </metadata>
