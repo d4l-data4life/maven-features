@@ -5,31 +5,31 @@
   <version>0.1.3-add-donation-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210827.062307</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210831.062401</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210827062307</lastUpdated>
+    <lastUpdated>20210831062401</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.3-add-donation-service-20210831.062401-2</value>
+        <updated>20210831062401</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-donation-service-20210827.062307-1</value>
-        <updated>20210827062307</updated>
+        <value>0.1.3-add-donation-service-20210831.062401-2</value>
+        <updated>20210831062401</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-donation-service-20210827.062307-1</value>
-        <updated>20210827062307</updated>
+        <value>0.1.3-add-donation-service-20210831.062401-2</value>
+        <updated>20210831062401</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.3-add-donation-service-20210827.062307-1</value>
-        <updated>20210827062307</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.3-add-donation-service-20210827.062307-1</value>
-        <updated>20210827062307</updated>
+        <value>0.1.3-add-donation-service-20210831.062401-2</value>
+        <updated>20210831062401</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
