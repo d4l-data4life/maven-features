@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.6.2-change-codeowner-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "pxyd3bidhfcbvlvcfcajkve6qe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.6.2-change-codeowner-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.2-change-codeowner-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "b557544a43fc9318e80cc22ae621a79a7d2d660d1961d908eb2a58464e1af8cc9ee44ee1ee2279255746fa00300fc5dee2c5694cf7e40e6c999cf98134c3c743",
+          "sha256": "4b43eafde4a65f0afb8de1e003add8f96fbbdecee4257099833207f4591bb929",
+          "sha1": "83b06af8e68852ef6a7140332041eae86414f5f2",
+          "md5": "f92854708082b611d41255a3940d3eb3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.6.2-change-codeowner-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.2-change-codeowner-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "b557544a43fc9318e80cc22ae621a79a7d2d660d1961d908eb2a58464e1af8cc9ee44ee1ee2279255746fa00300fc5dee2c5694cf7e40e6c999cf98134c3c743",
+          "sha256": "4b43eafde4a65f0afb8de1e003add8f96fbbdecee4257099833207f4591bb929",
+          "sha1": "83b06af8e68852ef6a7140332041eae86414f5f2",
+          "md5": "f92854708082b611d41255a3940d3eb3"
+        }
+      ]
+    }
+  ]
+}
