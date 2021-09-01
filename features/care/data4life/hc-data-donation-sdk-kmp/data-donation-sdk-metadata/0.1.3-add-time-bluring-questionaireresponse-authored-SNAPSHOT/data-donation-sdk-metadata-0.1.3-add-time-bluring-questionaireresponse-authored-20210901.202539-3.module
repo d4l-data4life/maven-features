@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "h6l3xibc6naazj7ihwbrubedaq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT.jar",
+          "size": 62436,
+          "sha512": "c57d14e5c002689d792bfce7c63036b54d692a9a9ff6ad85e76bf7bb6e54cc1b8a85fd1c790d842b674214ec802a4fc3a5fffdc7318fa861d83e96c7bd80aaf5",
+          "sha256": "2f34cf3338eea083e8386a27b09189fff06efe02ee50914bd3a3bf3bea6e50e8",
+          "sha1": "c9f49fca716d1ab946238c012691782d180b4ce1",
+          "md5": "2f211eb538853885cac2b6563696a9b7"
+        }
+      ]
+    }
+  ]
+}

@@ -5,37 +5,31 @@
   <version>0.1.3-add-time-bluring-questionaireresponse-authored-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210821.100617</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210901.202539</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210821100617</lastUpdated>
+    <lastUpdated>20210901202539</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210821.100617-2</value>
-        <updated>20210821100617</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210821.100617-2</value>
-        <updated>20210821100617</updated>
+        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210901.202539-3</value>
+        <updated>20210901202539</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210821.100617-2</value>
-        <updated>20210821100617</updated>
+        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210901.202539-3</value>
+        <updated>20210901202539</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>cinterop-DataDonationCryptoObjC</classifier>
         <extension>klib</extension>
-        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210821.100617-2</value>
-        <updated>20210821100617</updated>
+        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210901.202539-3</value>
+        <updated>20210901202539</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210821.100617-2</value>
-        <updated>20210821100617</updated>
+        <value>0.1.3-add-time-bluring-questionaireresponse-authored-20210901.202539-3</value>
+        <updated>20210901202539</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
