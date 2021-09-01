@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.14.0-SNAPSHOT</latest>
+    <latest>1.14.0-change-elementfactory-tests-SNAPSHOT</latest>
     <versions>
       <version>1.13.0-bump-mockk-SNAPSHOT</version>
       <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
@@ -31,7 +31,8 @@
       <version>1.14.0-bump-hc-auth-dependency-SNAPSHOT</version>
       <version>1.14.0-bump-fhir-SNAPSHOT</version>
       <version>1.14.0-SNAPSHOT</version>
+      <version>1.14.0-change-elementfactory-tests-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210827125954</lastUpdated>
+    <lastUpdated>20210901102800</lastUpdated>
   </versioning>
 </metadata>
