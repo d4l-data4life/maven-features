@@ -5,37 +5,31 @@
   <version>0.1.3-add-credential-retrieval-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210826.133330</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210902.094843</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210826133330</lastUpdated>
+    <lastUpdated>20210902094843</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-credential-retrieval-20210826.133330-3</value>
-        <updated>20210826133330</updated>
+        <value>0.1.3-add-credential-retrieval-20210902.094843-4</value>
+        <updated>20210902094843</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-credential-retrieval-20210826.133330-3</value>
-        <updated>20210826133330</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>cinterop-DataDonationCryptoObjC</classifier>
-        <extension>klib</extension>
-        <value>0.1.3-add-credential-retrieval-20210826.133330-3</value>
-        <updated>20210826133330</updated>
+        <value>0.1.3-add-credential-retrieval-20210902.094843-4</value>
+        <updated>20210902094843</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-credential-retrieval-20210826.133330-3</value>
-        <updated>20210826133330</updated>
+        <value>0.1.3-add-credential-retrieval-20210902.094843-4</value>
+        <updated>20210902094843</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>0.1.3-add-credential-retrieval-20210826.133330-3</value>
-        <updated>20210826133330</updated>
+        <value>0.1.3-add-credential-retrieval-20210902.094843-4</value>
+        <updated>20210902094843</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
