@@ -5,31 +5,31 @@
   <version>0.0.1-add-android-example-app-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210809.154800</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210902.103446</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210809154800</lastUpdated>
+    <lastUpdated>20210902103446</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-add-android-example-app-20210809.154800-2</value>
-        <updated>20210809154800</updated>
+        <value>0.0.1-add-android-example-app-20210902.103446-3</value>
+        <updated>20210902103446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1-add-android-example-app-20210902.103446-3</value>
+        <updated>20210902103446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-add-android-example-app-20210902.103446-3</value>
+        <updated>20210902103446</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-add-android-example-app-20210809.154800-2</value>
-        <updated>20210809154800</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-add-android-example-app-20210809.154800-2</value>
-        <updated>20210809154800</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.1-add-android-example-app-20210809.154800-2</value>
-        <updated>20210809154800</updated>
+        <value>0.0.1-add-android-example-app-20210902.103446-3</value>
+        <updated>20210902103446</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

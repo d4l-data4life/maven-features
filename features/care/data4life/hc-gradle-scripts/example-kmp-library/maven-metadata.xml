@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-gradle-scripts</groupId>
   <artifactId>example-kmp-library</artifactId>
   <versioning>
-    <latest>0.0.1-fix-git-submodule-support-SNAPSHOT</latest>
+    <latest>0.0.1-add-android-example-app-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-add-dependabot-versioning-exception-SNAPSHOT</version>
       <version>0.0.1-add-coverage-scripts-SNAPSHOT</version>
@@ -19,6 +19,6 @@
       <version>0.0.1-fix-git-submodule-support-SNAPSHOT</version>
       <version>0.0.1-change-repo-ownership-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210824141325</lastUpdated>
+    <lastUpdated>20210902103616</lastUpdated>
   </versioning>
 </metadata>
