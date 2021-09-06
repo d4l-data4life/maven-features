@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
+  <artifactId>coroutine-util-android-debug</artifactId>
+  <versioning>
+    <latest>0.1.0-change-codeowners-SNAPSHOT</latest>
+    <versions>
+      <version>0.1.0-change-codeowners-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210906095008</lastUpdated>
+  </versioning>
+</metadata>
