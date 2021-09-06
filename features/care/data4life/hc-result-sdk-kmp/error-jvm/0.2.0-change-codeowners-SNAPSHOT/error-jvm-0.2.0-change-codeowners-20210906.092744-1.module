@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/0.2.0-change-codeowners-SNAPSHOT/error-0.2.0-change-codeowners-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "0.2.0-change-codeowners-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "jrsdkofu25gc7b33jyfczuxzly"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "error-jvm-0.2.0-change-codeowners-SNAPSHOT.jar",
+          "url": "error-jvm-0.2.0-change-codeowners-SNAPSHOT.jar",
+          "size": 3296,
+          "sha512": "f3237b782df25dec3a103c6a2a0a3f37ac82a6f6ca842c1a120a4a3530fe9c81ee17483f6827a12eaa7c17dbc2e28fe04dfccfa158e9ce805a20e731a79377e1",
+          "sha256": "8a9ab57dd1f7ca12686253f04c9e27403ac866ca6c5329da24e5e8439df58178",
+          "sha1": "c15b3f198b221a82466259d5c60f32323d2e9eab",
+          "md5": "e85ea5f9f320ea575ccbcda86f9468d6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-jvm-0.2.0-change-codeowners-SNAPSHOT.jar",
+          "url": "error-jvm-0.2.0-change-codeowners-SNAPSHOT.jar",
+          "size": 3296,
+          "sha512": "f3237b782df25dec3a103c6a2a0a3f37ac82a6f6ca842c1a120a4a3530fe9c81ee17483f6827a12eaa7c17dbc2e28fe04dfccfa158e9ce805a20e731a79377e1",
+          "sha256": "8a9ab57dd1f7ca12686253f04c9e27403ac866ca6c5329da24e5e8439df58178",
+          "sha1": "c15b3f198b221a82466259d5c60f32323d2e9eab",
+          "md5": "e85ea5f9f320ea575ccbcda86f9468d6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error-metadata/0.2.0-change-codeowners-SNAPSHOT/error-metadata-0.2.0-change-codeowners-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error-metadata",
+        "version": "0.2.0-change-codeowners-SNAPSHOT"
+      }
+    }
+  ]
+}

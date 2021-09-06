@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>flow-iosarm64</artifactId>
   <versioning>
-    <latest>0.1.1-SNAPSHOT</latest>
+    <latest>0.2.0-change-codeowners-SNAPSHOT</latest>
     <versions>
       <version>0.1.1-remove-DataRestrictionException-SNAPSHOT</version>
       <version>0.1.1-remove-data-restriction-exception-SNAPSHOT</version>
       <version>0.1.1-SNAPSHOT</version>
+      <version>0.2.0-change-codeowners-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210823144102</lastUpdated>
+    <lastUpdated>20210906093027</lastUpdated>
   </versioning>
 </metadata>
