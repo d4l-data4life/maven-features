@@ -5,31 +5,31 @@
   <version>0.2.0-add-coroutine-parameter-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210907.104745</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210907.112314</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210907104745</lastUpdated>
+    <lastUpdated>20210907112314</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.2.0-add-coroutine-parameter-20210907.104745-1</value>
-        <updated>20210907104745</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.2.0-add-coroutine-parameter-20210907.104745-1</value>
-        <updated>20210907104745</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.0-add-coroutine-parameter-20210907.104745-1</value>
-        <updated>20210907104745</updated>
+        <value>0.2.0-add-coroutine-parameter-20210907.112314-2</value>
+        <updated>20210907112314</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.2.0-add-coroutine-parameter-20210907.112314-2</value>
+        <updated>20210907112314</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.2.0-add-coroutine-parameter-20210907.112314-2</value>
+        <updated>20210907112314</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.2.0-add-coroutine-parameter-20210907.104745-1</value>
-        <updated>20210907104745</updated>
+        <value>0.2.0-add-coroutine-parameter-20210907.112314-2</value>
+        <updated>20210907112314</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
