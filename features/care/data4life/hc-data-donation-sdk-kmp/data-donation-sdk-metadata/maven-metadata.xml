@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
   <artifactId>data-donation-sdk-metadata</artifactId>
   <versioning>
-    <latest>0.2.0-SNAPSHOT</latest>
+    <latest>0.1.3-add-donor-key-storage-SNAPSHOT</latest>
     <versions>
       <version>0.1.3-change-setup-SNAPSHOT</version>
       <version>0.1.3-add-docs-SNAPSHOT</version>
@@ -36,6 +36,6 @@
       <version>0.2.0-add-coroutine-parameter-SNAPSHOT</version>
       <version>0.2.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210907165035</lastUpdated>
+    <lastUpdated>20210907180530</lastUpdated>
   </versioning>
 </metadata>
