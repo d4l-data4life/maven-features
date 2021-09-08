@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "i5f5y4jknna2namzdh3fibw73e"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "size": 58960,
+          "sha512": "35c9e85a69d43e2c88122efa061bb5ed3b83285bfc49e630f27dc7f64de013bfbe5316a5f6e092f1a04a6109ba381f51b364a09c7dd0f65fbc1482271c30ee15",
+          "sha256": "156fdfa3a04858f37e2d2a82ef716b9241735bf8092a6b326905412d840980b5",
+          "sha1": "a0d54b5d7d770cdde70e8f0cb851d2f8ea586c17",
+          "md5": "4c91df537c2ee58dd8f72d92810c8e6a"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-android-debug-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-android-debug-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-android-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-android-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-iosarm64-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT/data-donation-sdk-iosx64-0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    }
+  ]
+}

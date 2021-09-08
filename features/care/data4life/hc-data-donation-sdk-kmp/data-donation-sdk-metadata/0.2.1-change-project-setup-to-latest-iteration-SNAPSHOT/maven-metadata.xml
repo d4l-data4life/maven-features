@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
+  <artifactId>data-donation-sdk-metadata</artifactId>
+  <version>0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210908.162305</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210908162305</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
+        <updated>20210908162305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
+        <updated>20210908162305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
+        <updated>20210908162305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
+        <updated>20210908162305</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
