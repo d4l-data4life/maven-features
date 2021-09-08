@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT/example-kmp-library-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "re2rbw366vcrfpwznpw5wxbjeu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "size": 16692,
+          "sha512": "6277e9c8095e8729b166ccbc5d13920c8f7d6e4e1e6e3eb55456d7f1d077548615552ec76d5bde2baf1ba5e04b658c9b5668ae1d35ba76cd2762783a59f1dbd3",
+          "sha256": "f0f8a158f6883603e18d0d5a3e32c1d7a302cd31920039fab019b7c2fab1d92e",
+          "sha1": "0a1ad7612f03d3ea8629ab661152c1b0e5b95a61",
+          "md5": "5e1e1fb4880e676335948f9575e4609e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.jar",
+          "size": 16692,
+          "sha512": "6277e9c8095e8729b166ccbc5d13920c8f7d6e4e1e6e3eb55456d7f1d077548615552ec76d5bde2baf1ba5e04b658c9b5668ae1d35ba76cd2762783a59f1dbd3",
+          "sha256": "f0f8a158f6883603e18d0d5a3e32c1d7a302cd31920039fab019b7c2fab1d92e",
+          "sha1": "0a1ad7612f03d3ea8629ab661152c1b0e5b95a61",
+          "md5": "5e1e1fb4880e676335948f9575e4609e"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-metadata/0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT/example-kmp-library-metadata-0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-metadata",
+        "version": "0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -5,31 +5,31 @@
   <version>0.0.1-change-project-setup-to-latest-iteration-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210714.083351</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20210908.103123</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
-    <lastUpdated>20210714083351</lastUpdated>
+    <lastUpdated>20210908103123</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.1-change-project-setup-to-latest-iteration-20210714.083351-5</value>
-        <updated>20210714083351</updated>
+        <extension>jar</extension>
+        <value>0.0.1-change-project-setup-to-latest-iteration-20210908.103123-6</value>
+        <updated>20210908103123</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-change-project-setup-to-latest-iteration-20210714.083351-5</value>
-        <updated>20210714083351</updated>
+        <extension>module</extension>
+        <value>0.0.1-change-project-setup-to-latest-iteration-20210908.103123-6</value>
+        <updated>20210908103123</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-change-project-setup-to-latest-iteration-20210714.083351-5</value>
-        <updated>20210714083351</updated>
+        <value>0.0.1-change-project-setup-to-latest-iteration-20210908.103123-6</value>
+        <updated>20210908103123</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-change-project-setup-to-latest-iteration-20210714.083351-5</value>
-        <updated>20210714083351</updated>
+        <value>0.0.1-change-project-setup-to-latest-iteration-20210908.103123-6</value>
+        <updated>20210908103123</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
