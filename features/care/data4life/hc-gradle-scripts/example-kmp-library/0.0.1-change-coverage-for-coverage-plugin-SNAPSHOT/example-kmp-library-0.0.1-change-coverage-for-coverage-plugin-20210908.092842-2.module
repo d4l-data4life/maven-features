@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "jmbqyrhkvfflbktbjfqa5vtb5a"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-metadata-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.jar",
+          "url": "example-kmp-library-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.jar",
+          "size": 6554,
+          "sha512": "295229e693b339a502b2fbd4104a02e3411163d1274bcccb28441422406abd19cdbb747d6c510e92340b7d65926bb9b6fbb9f5914b7bd10bea1461b5ea671f66",
+          "sha256": "1d10ec739021a91a11268d9befa2411e2469d69789936f56b59eaaa05294a046",
+          "sha1": "195d1768e1488509260474bc6814e1b24510624c",
+          "md5": "7d49aa49ce68ffb94ed94b305151275b"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android-debug/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-android-debug-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android-debug",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android-debug/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-android-debug-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android-debug",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-android-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-android/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-android-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-android",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-iosarm64/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-iosarm64-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.sdk.script",
+        "module": "example-kmp-library-iosarm64",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-iosx64/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-iosx64-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.sdk.script",
+        "module": "example-kmp-library-iosx64",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-jvm/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-jvm-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-jvm",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../example-kmp-library-jvm/0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT/example-kmp-library-jvm-0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-gradle-scripts",
+        "module": "example-kmp-library-jvm",
+        "version": "0.0.1-change-coverage-for-coverage-plugin-SNAPSHOT"
+      }
+    }
+  ]
+}
