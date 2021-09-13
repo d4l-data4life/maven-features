@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-api/0.2.1-add-defintion-module-SNAPSHOT/data-donation-sdk-api-0.2.1-add-defintion-module-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-api",
+    "version": "0.2.1-add-defintion-module-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "f3vilcc5vfbvhlh4xcstptsbi4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk-api-release.aar",
+          "url": "data-donation-sdk-api-android-0.2.1-add-defintion-module-SNAPSHOT.aar",
+          "size": 11603,
+          "sha512": "bad293f12d22f3d4440bf5ea332a2ea267b022cf1050e336b466ac6108fc2e69ad599a9e335ad98a47a2a5cd1e6ca38434aeb2d49dd3891c369a34f53b3bd1a9",
+          "sha256": "151bfc8225660e9210846c8d06e3210363b8bbd2b1abdcc7db0cb9c7cd48d571",
+          "sha1": "0375e6e04e112d471439d3ea52ceb4b43e523c7e",
+          "md5": "87f9002b61571418dfa3836dc12e566b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "flow",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk-api-release.aar",
+          "url": "data-donation-sdk-api-android-0.2.1-add-defintion-module-SNAPSHOT.aar",
+          "size": 11603,
+          "sha512": "bad293f12d22f3d4440bf5ea332a2ea267b022cf1050e336b466ac6108fc2e69ad599a9e335ad98a47a2a5cd1e6ca38434aeb2d49dd3891c369a34f53b3bd1a9",
+          "sha256": "151bfc8225660e9210846c8d06e3210363b8bbd2b1abdcc7db0cb9c7cd48d571",
+          "sha1": "0375e6e04e112d471439d3ea52ceb4b43e523c7e",
+          "md5": "87f9002b61571418dfa3836dc12e566b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-api-metadata/0.2.1-add-defintion-module-SNAPSHOT/data-donation-sdk-api-metadata-0.2.1-add-defintion-module-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-api-metadata",
+        "version": "0.2.1-add-defintion-module-SNAPSHOT"
+      }
+    }
+  ]
+}

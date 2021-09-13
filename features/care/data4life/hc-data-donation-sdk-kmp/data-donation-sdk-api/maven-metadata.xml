@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-data-donation-sdk-kmp</groupId>
+  <artifactId>data-donation-sdk-api</artifactId>
+  <versioning>
+    <latest>0.2.1-add-defintion-module-SNAPSHOT</latest>
+    <versions>
+      <version>0.2.1-add-defintion-module-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210913130247</lastUpdated>
+  </versioning>
+</metadata>

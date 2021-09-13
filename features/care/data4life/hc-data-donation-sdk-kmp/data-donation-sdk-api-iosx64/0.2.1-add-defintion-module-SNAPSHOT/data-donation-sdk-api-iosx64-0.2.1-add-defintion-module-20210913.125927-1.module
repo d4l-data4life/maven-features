@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-api/0.2.1-add-defintion-module-SNAPSHOT/data-donation-sdk-api-0.2.1-add-defintion-module-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-api",
+    "version": "0.2.1-add-defintion-module-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "f3vilcc5vfbvhlh4xcstptsbi4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "flow",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.3-native-mt",
+            "requires": "1.4.3-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk-api.klib",
+          "url": "data-donation-sdk-api-iosx64-0.2.1-add-defintion-module-SNAPSHOT.klib",
+          "size": 11766,
+          "sha512": "8018307963f7a3e3b38c43683aab198497e819f0ad1ea76830c2fa050438323833bc59fef68dee0a5355240a15dec06514219c616cfbe3bede467755580a482d",
+          "sha256": "80474bd4d1d0736d5f9fb50b1f0e91a8e3f6bfd6c55b1425f08add3648023a66",
+          "sha1": "9d5c8398cf4eddfe4218cabc982e9663e0cdeb81",
+          "md5": "e5f152c3a6b9b2312c959d6cb9703246"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-api-metadata/0.2.1-add-defintion-module-SNAPSHOT/data-donation-sdk-api-metadata-0.2.1-add-defintion-module-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-api-metadata",
+        "version": "0.2.1-add-defintion-module-SNAPSHOT"
+      }
+    }
+  ]
+}
