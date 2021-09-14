@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-objc-util-sdk-kmp</groupId>
+  <artifactId>objc-util</artifactId>
+  <versioning>
+    <latest>0.1.0-change-setup-SNAPSHOT</latest>
+    <versions>
+      <version>0.1.0-change-setup-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210914162039</lastUpdated>
+  </versioning>
+</metadata>
