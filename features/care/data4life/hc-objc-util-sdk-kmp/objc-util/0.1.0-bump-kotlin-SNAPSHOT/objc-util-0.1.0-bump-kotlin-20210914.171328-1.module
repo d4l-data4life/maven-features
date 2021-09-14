@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-bump-kotlin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "t3wjjjek35flrkl2vkgzp4m2tm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-metadata-0.1.0-bump-kotlin-SNAPSHOT-all.jar",
+          "url": "objc-util-0.1.0-bump-kotlin-SNAPSHOT-all.jar",
+          "size": 706,
+          "sha512": "70ae42ff5294afa94d2299c8b9bbcf49f9949b4c07ad6c34a37771be3ce8e968c8ac495917a4d9e7f38f7af2b36757b5cef7326e9295e0504df3e57c5276d4ab",
+          "sha256": "607151a058e7ded576b1a193ca29c04c434de782ba924b60db8613ea8cfeb63d",
+          "sha1": "858bbcb72f2e754cadb5fe605149a303260a8ef6",
+          "md5": "eba6a0334c66b6c28442e15fa04af900"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "objc-util-0.1.0-bump-kotlin-SNAPSHOT.jar",
+          "url": "objc-util-0.1.0-bump-kotlin-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "d06c971d61d11bbeaaf7ba4485ad84d54ee3510c0425ed44616596e990ea50606db65ebb54e00ff4655de541548322c71e54f2c1d878ac72c463d460ce55b8b3",
+          "sha256": "9ee99c4196fa38e26a9450c374a425822d5da2bf5d3f90a7d95d92bbcc2b2bc2",
+          "sha1": "6595eb975281c6914381b8f1fcd90d6033d61f58",
+          "md5": "8635d3a0a44c2a2ca4a0578c6616f3fe"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosarm64/0.1.0-bump-kotlin-SNAPSHOT/objc-util-iosarm64-0.1.0-bump-kotlin-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosarm64",
+        "version": "0.1.0-bump-kotlin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosarm64/0.1.0-bump-kotlin-SNAPSHOT/objc-util-iosarm64-0.1.0-bump-kotlin-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosarm64",
+        "version": "0.1.0-bump-kotlin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosx64/0.1.0-bump-kotlin-SNAPSHOT/objc-util-iosx64-0.1.0-bump-kotlin-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosx64",
+        "version": "0.1.0-bump-kotlin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosx64/0.1.0-bump-kotlin-SNAPSHOT/objc-util-iosx64-0.1.0-bump-kotlin-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosx64",
+        "version": "0.1.0-bump-kotlin-SNAPSHOT"
+      }
+    }
+  ]
+}
