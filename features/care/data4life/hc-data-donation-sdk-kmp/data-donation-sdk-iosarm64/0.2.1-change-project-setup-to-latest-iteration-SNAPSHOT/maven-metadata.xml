@@ -5,31 +5,31 @@
   <version>0.2.1-change-project-setup-to-latest-iteration-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210908.162305</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210914.110939</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210908162305</lastUpdated>
+    <lastUpdated>20210914110939</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
-        <updated>20210908162305</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
-        <updated>20210908162305</updated>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210914.110939-2</value>
+        <updated>20210914110939</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
-        <updated>20210908162305</updated>
+        <extension>module</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210914.110939-2</value>
+        <updated>20210914110939</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.2.1-change-project-setup-to-latest-iteration-20210908.162305-1</value>
-        <updated>20210908162305</updated>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210914.110939-2</value>
+        <updated>20210914110939</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.2.1-change-project-setup-to-latest-iteration-20210914.110939-2</value>
+        <updated>20210914110939</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
