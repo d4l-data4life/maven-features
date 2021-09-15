@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.10.0-bump-updates-SNAPSHOT/util-1.10.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.10.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.10.0-bump-updates-SNAPSHOT.klib",
+          "size": 23927,
+          "sha512": "4f06dc2376aa6ce4ad65910c0e16418e76b8e43844490202d2b03da6b02ba7f06860300f3017d46d8b7f33295652c65f51311c2ddf14b0b3bc4cab97a4da66d4",
+          "sha256": "da2d98ac677ba8611d27d223c0f6d8382ec9f860fe60ebae3ecffb6fe5fce789",
+          "sha1": "ee848aff1943391279e985e38d10dc73acc8739e",
+          "md5": "83327c323f04ba1113e90fda17570df7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-iosx64-1.10.0-bump-updates-SNAPSHOT-metadata.jar",
+          "url": "util-iosx64-1.10.0-bump-updates-SNAPSHOT-metadata.jar",
+          "size": 5501,
+          "sha512": "e4e5b5b23c53c2e8a4a6603bba8a09c9206f828a562cc7c4a76f3aecfbee80580f6fadeb99e4324eb018d6560f45425a7fe477061d0d375f569a65dd40d324cf",
+          "sha256": "76c8abe4fee5c67091929fbbdc1a516af4c4e8c3702232f3205b8725227be3b0",
+          "sha1": "ac9a7389a1b74e4b07d5c613810e8d0364b89257",
+          "md5": "7624587b124d4ce877551926bfaf4160"
+        }
+      ]
+    }
+  ]
+}
