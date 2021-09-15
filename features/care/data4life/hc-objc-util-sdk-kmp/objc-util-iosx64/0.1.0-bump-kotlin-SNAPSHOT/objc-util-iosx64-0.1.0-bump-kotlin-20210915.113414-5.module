@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.1.0-bump-kotlin-SNAPSHOT/objc-util-0.1.0-bump-kotlin-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-bump-kotlin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosx64-0.1.0-bump-kotlin-SNAPSHOT.klib",
+          "size": 8882,
+          "sha512": "ba9439706673c7bce71692adf48cb14c1056a107c7dacdf696d227e7f40d7b0bd875d6b5d13e711b81f0f836760266c51296208a666c69a2f691dd8a7710f7a0",
+          "sha256": "1be2bdcfb0c3bdf00528903465345ccf5e0f9b5cffcbe284688ad14080fff55a",
+          "sha1": "3927b4af7a5de28dee43fbdde2074d611f9ce2fe",
+          "md5": "6680587c64d67f1afb31799b872d2972"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-iosx64-0.1.0-bump-kotlin-SNAPSHOT-metadata.jar",
+          "url": "objc-util-iosx64-0.1.0-bump-kotlin-SNAPSHOT-metadata.jar",
+          "size": 5763,
+          "sha512": "7958b8038555d92d82d8ff442a542bc1e1f419d2523442102715ed4247c721158fe6274ec35ab2dd6e3ed30de1f0bf60f3e0ffe57ef62317a928f57848da1693",
+          "sha256": "7569ed7dca5fc936c0b79247947bdd2de16bca5b5ba21cdf802fb23d50ee349a",
+          "sha1": "9672711585bf27417f21b9bf35a690cd7676429f",
+          "md5": "2cda434cdeea4895b3cef7afef14d0bc"
+        }
+      ]
+    }
+  ]
+}
