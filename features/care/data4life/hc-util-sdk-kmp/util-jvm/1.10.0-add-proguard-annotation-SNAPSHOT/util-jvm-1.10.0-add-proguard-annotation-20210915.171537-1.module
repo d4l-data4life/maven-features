@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.10.0-add-proguard-annotation-SNAPSHOT/util-1.10.0-add-proguard-annotation-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.10.0-add-proguard-annotation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "ggq53thli5f37jwentu35duy4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.10.0-add-proguard-annotation-SNAPSHOT.jar",
+          "url": "util-jvm-1.10.0-add-proguard-annotation-SNAPSHOT.jar",
+          "size": 15572,
+          "sha512": "2cae0fd0902198268a05ded436f972afbb12dfcd3b64711f539a992523b8b07bc9d5bdb430c0b0fd4fe11f362dc42296dac16ee6c64198ee4f384f8c71d4495e",
+          "sha256": "f54e3134479543eedc029808db2b851bbe1a6fb7fe397b4fc2dbbe1cf00116f4",
+          "sha1": "f8edd3bcfbe77795f07f85226f80104d2f571d4c",
+          "md5": "585417794036433b3faf61e7b17c35aa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.10.0-add-proguard-annotation-SNAPSHOT.jar",
+          "url": "util-jvm-1.10.0-add-proguard-annotation-SNAPSHOT.jar",
+          "size": 15572,
+          "sha512": "2cae0fd0902198268a05ded436f972afbb12dfcd3b64711f539a992523b8b07bc9d5bdb430c0b0fd4fe11f362dc42296dac16ee6c64198ee4f384f8c71d4495e",
+          "sha256": "f54e3134479543eedc029808db2b851bbe1a6fb7fe397b4fc2dbbe1cf00116f4",
+          "sha1": "f8edd3bcfbe77795f07f85226f80104d2f571d4c",
+          "md5": "585417794036433b3faf61e7b17c35aa"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.10.0-add-proguard-annotation-SNAPSHOT/util-metadata-1.10.0-add-proguard-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.10.0-add-proguard-annotation-SNAPSHOT"
+      }
+    }
+  ]
+}

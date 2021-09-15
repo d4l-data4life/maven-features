@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-iosarm64</artifactId>
   <versioning>
-    <latest>1.10.0-change-tests-SNAPSHOT</latest>
+    <latest>1.10.0-add-proguard-annotation-SNAPSHOT</latest>
     <versions>
       <version>1.9.0-change-test-config-template-SNAPSHOT</version>
       <version>1.9.0-change-readme-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>1.10.0-change-readme-SNAPSHOT</version>
       <version>1.10.0-change-to-latest-setup-SNAPSHOT</version>
       <version>1.10.0-change-tests-SNAPSHOT</version>
+      <version>1.10.0-add-proguard-annotation-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210915165423</lastUpdated>
+    <lastUpdated>20210915171822</lastUpdated>
   </versioning>
 </metadata>
