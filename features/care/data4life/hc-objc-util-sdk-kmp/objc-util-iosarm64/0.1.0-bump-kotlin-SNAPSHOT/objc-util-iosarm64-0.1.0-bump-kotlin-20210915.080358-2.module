@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.1.0-bump-kotlin-SNAPSHOT/objc-util-0.1.0-bump-kotlin-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-bump-kotlin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "6ns7sve6h5ebtfvli6vb2skfgm"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosarm64-0.1.0-bump-kotlin-SNAPSHOT.klib",
+          "size": 8731,
+          "sha512": "f7c220a771e3310538a0e6267ab05e463a1f45e255ff473c5b014d429cb096f43d6124e8e49b436ff073328e6238686c24976477d4963ad67ac15478814d791f",
+          "sha256": "c54811b7d274bcf90c50d0802453455523f24d347b27e36a6def8018d9a15b07",
+          "sha1": "3a16aa867e28688e6169531d43c4b605516b58ee",
+          "md5": "56e146ea2933e093ab93d9fdd14d65ce"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-iosarm64-0.1.0-bump-kotlin-SNAPSHOT-metadata.jar",
+          "url": "objc-util-iosarm64-0.1.0-bump-kotlin-SNAPSHOT-metadata.jar",
+          "size": 5812,
+          "sha512": "1242bd4797d7d8eef5416f1c0e127e93c87ddf1cd10f528b57d1600841f09b09a9670b7b9bab63ee1d9e4c2e372347a168aba8a3a97ecbf836c2eae61a9ce1f3",
+          "sha256": "2abcb3a05245bd6d70d0dafc6c717e653e7995c1a45414cf4858451f0e0acc0a",
+          "sha1": "b27fb3adb9107148848f39df1e15b2653c353a29",
+          "md5": "66e3dfbf53c26d4bdc2fc795aeb83111"
+        }
+      ]
+    }
+  ]
+}
