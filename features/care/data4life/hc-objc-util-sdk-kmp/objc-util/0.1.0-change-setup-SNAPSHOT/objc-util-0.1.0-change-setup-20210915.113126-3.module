@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.1.0-change-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "n3nmmahwvjhjxcnjjn6dxtyzmi"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "objc-util-metadata-0.1.0-change-setup-SNAPSHOT.jar",
+          "url": "objc-util-0.1.0-change-setup-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "8b3733d4c4f95cb627ea9aa49a5fa2e76a8d9b20695a734d3ecbd281c8057e5a985139181c1c678b741c11df8ceb499c963075d791ba8f8c17af13cd70716aeb",
+          "sha256": "dcd6efaa63ab421c42e40d005a5f67b48b04527af1030e2d958a6672d72be674",
+          "sha1": "8f01a2c65c5da024b07641207e4c20a97c411c54",
+          "md5": "a63e74fefd2eca1b7774fdefaf42fb1e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosarm64/0.1.0-change-setup-SNAPSHOT/objc-util-iosarm64-0.1.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosarm64",
+        "version": "0.1.0-change-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../objc-util-iosx64/0.1.0-change-setup-SNAPSHOT/objc-util-iosx64-0.1.0-change-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-objc-util-sdk-kmp",
+        "module": "objc-util-iosx64",
+        "version": "0.1.0-change-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
