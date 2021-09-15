@@ -3,14 +3,15 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error-iosarm64</artifactId>
   <versioning>
-    <latest>0.1.1-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>0.1.1-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>0.1.1-remove-DataRestrictionException-SNAPSHOT</version>
       <version>0.1.1-remove-data-restriction-exception-SNAPSHOT</version>
       <version>0.1.1-SNAPSHOT</version>
       <version>0.2.0-change-codeowners-SNAPSHOT</version>
       <version>0.1.1-change-to-latest-setup-SNAPSHOT</version>
+      <version>0.1.1-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210915204700</lastUpdated>
+    <lastUpdated>20210915205411</lastUpdated>
   </versioning>
 </metadata>
