@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.2.0-bump-updates-SNAPSHOT/test-util-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 11754,
+          "sha512": "47257ad7309199aff34df3223b1b2536aee5e736cc84accebdc17c118c794b0587e0ff02173ea78d700e4dd447f17eed2087a47e096746b34ded7220e6ea9f0f",
+          "sha256": "7a36048515ae147bdbf50f88b9445ba1da473e27661a3d1deebc2f795a801904",
+          "sha1": "ef453744a227ba5027bf7f9300080728c114da4c",
+          "md5": "989ca7e512047ad60b08e8b9014e04a1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 11754,
+          "sha512": "47257ad7309199aff34df3223b1b2536aee5e736cc84accebdc17c118c794b0587e0ff02173ea78d700e4dd447f17eed2087a47e096746b34ded7220e6ea9f0f",
+          "sha256": "7a36048515ae147bdbf50f88b9445ba1da473e27661a3d1deebc2f795a801904",
+          "sha1": "ef453744a227ba5027bf7f9300080728c114da4c",
+          "md5": "989ca7e512047ad60b08e8b9014e04a1"
+        }
+      ]
+    }
+  ]
+}

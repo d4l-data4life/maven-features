@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.2.0-bump-updates-SNAPSHOT/test-util-ktor-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "a6d075811b7e5e5b58373ed33d229608382e5b2b6b31e977d625dea0cac5838f84c095d433cc96f2b60b560a917b356c5089f4c56f84094136f4d953feacf18c",
+          "sha256": "113ea9847a3377745cb8104cd001b157355279e37ddda948d7d0000ad7005dc5",
+          "sha1": "d2980f507a521c86909a1a02954ffb9e36174672",
+          "md5": "6d4d0e68af40887bf644c41eebbd0474"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "a6d075811b7e5e5b58373ed33d229608382e5b2b6b31e977d625dea0cac5838f84c095d433cc96f2b60b560a917b356c5089f4c56f84094136f4d953feacf18c",
+          "sha256": "113ea9847a3377745cb8104cd001b157355279e37ddda948d7d0000ad7005dc5",
+          "sha1": "d2980f507a521c86909a1a02954ffb9e36174672",
+          "md5": "6d4d0e68af40887bf644c41eebbd0474"
+        }
+      ]
+    }
+  ]
+}
