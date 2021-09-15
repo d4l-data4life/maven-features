@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../flow/0.1.1-change-to-latest-setup-SNAPSHOT/flow-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "flow",
+    "version": "0.1.1-change-to-latest-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "eluanzmuojddrmtnehfpxgagwe"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1-change-to-latest-setup-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-jvm-0.1.1-change-to-latest-setup-SNAPSHOT.jar",
+          "url": "flow-jvm-0.1.1-change-to-latest-setup-SNAPSHOT.jar",
+          "size": 10342,
+          "sha512": "2ac19536d2f460576e6201fd893ed1dc5b2c5c0d44cd0d2356ba3d990b7c0923cc08c8bb3900af2c2bcb0502764ceab2f612cd23329aba6060d4fa03362c0883",
+          "sha256": "e282e97681e4744c1d89639cf54403cd6e4f63eb0e053443c1275ece9214b6be",
+          "sha1": "f80b7ee63bf287a8281a788c45ccf4a8fa2823a3",
+          "md5": "5d5b04c2985f6d929f01f40f0b7944a3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.1.1-change-to-latest-setup-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flow-jvm-0.1.1-change-to-latest-setup-SNAPSHOT.jar",
+          "url": "flow-jvm-0.1.1-change-to-latest-setup-SNAPSHOT.jar",
+          "size": 10342,
+          "sha512": "2ac19536d2f460576e6201fd893ed1dc5b2c5c0d44cd0d2356ba3d990b7c0923cc08c8bb3900af2c2bcb0502764ceab2f612cd23329aba6060d4fa03362c0883",
+          "sha256": "e282e97681e4744c1d89639cf54403cd6e4f63eb0e053443c1275ece9214b6be",
+          "sha1": "f80b7ee63bf287a8281a788c45ccf4a8fa2823a3",
+          "md5": "5d5b04c2985f6d929f01f40f0b7944a3"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../flow/0.1.1-change-to-latest-setup-SNAPSHOT/flow-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow",
+        "version": "0.1.1-change-to-latest-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../flow/0.1.1-change-to-latest-setup-SNAPSHOT/flow-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "flow",
+        "version": "0.1.1-change-to-latest-setup-SNAPSHOT"
+      }
+    }
+  ]
+}

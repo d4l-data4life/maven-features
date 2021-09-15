@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error</artifactId>
   <versioning>
-    <latest>0.2.0-change-codeowners-SNAPSHOT</latest>
+    <latest>0.1.1-change-to-latest-setup-SNAPSHOT</latest>
     <versions>
       <version>0.1.1-remove-DataRestrictionException-SNAPSHOT</version>
       <version>0.1.1-remove-data-restriction-exception-SNAPSHOT</version>
       <version>0.1.1-SNAPSHOT</version>
       <version>0.2.0-change-codeowners-SNAPSHOT</version>
+      <version>0.1.1-change-to-latest-setup-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210906093027</lastUpdated>
+    <lastUpdated>20210915204701</lastUpdated>
   </versioning>
 </metadata>
