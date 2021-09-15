@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-change-setup-to-latest-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "zpmu4wnpmvg7zgjd3gvyn7txai"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-metadata-0.2.0-change-setup-to-latest-SNAPSHOT.jar",
+          "url": "test-util-0.2.0-change-setup-to-latest-SNAPSHOT.jar",
+          "size": 6262,
+          "sha512": "2c2bcadc4641552219b62b7bb33a16ccd41b6d26dfa14b525e2d7ae06197d518df88c0f784f0cdbc3119c1be47455e9677ff78240da4cc4e5941bb3319091493",
+          "sha256": "663a84cc40aea7bb084b29455b170ebade4932381feafce11e22f06d26f95f23",
+          "sha1": "94c5711c1114c331b2816ff4b7380fa6c0005d6a",
+          "md5": "619ee0d8457dfdbb2455f1e191011179"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android-debug/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-android-debug-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android-debug",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android-debug/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-android-debug-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android-debug",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-android-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-android-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosarm64/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-iosarm64-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosarm64",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosx64/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-iosx64-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosx64",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-jvm/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-jvm-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-jvm",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-jvm/0.2.0-change-setup-to-latest-SNAPSHOT/test-util-jvm-0.2.0-change-setup-to-latest-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-jvm",
+        "version": "0.2.0-change-setup-to-latest-SNAPSHOT"
+      }
+    }
+  ]
+}
