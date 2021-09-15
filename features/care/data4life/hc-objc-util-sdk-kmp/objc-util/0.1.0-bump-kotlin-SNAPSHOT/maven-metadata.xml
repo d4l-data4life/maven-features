@@ -5,37 +5,37 @@
   <version>0.1.0-bump-kotlin-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210915.102400</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210915.105913</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210915102400</lastUpdated>
+    <lastUpdated>20210915105913</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.0-bump-kotlin-20210915.102400-3</value>
-        <updated>20210915102400</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-bump-kotlin-20210915.102400-3</value>
-        <updated>20210915102400</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-bump-kotlin-20210915.102400-3</value>
-        <updated>20210915102400</updated>
+        <value>0.1.0-bump-kotlin-20210915.105913-4</value>
+        <updated>20210915105913</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>all</classifier>
         <extension>jar</extension>
-        <value>0.1.0-bump-kotlin-20210915.102400-3</value>
-        <updated>20210915102400</updated>
+        <value>0.1.0-bump-kotlin-20210915.105913-4</value>
+        <updated>20210915105913</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-bump-kotlin-20210915.105913-4</value>
+        <updated>20210915105913</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-bump-kotlin-20210915.105913-4</value>
+        <updated>20210915105913</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-bump-kotlin-20210915.102400-3</value>
-        <updated>20210915102400</updated>
+        <value>0.1.0-bump-kotlin-20210915.105913-4</value>
+        <updated>20210915105913</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
