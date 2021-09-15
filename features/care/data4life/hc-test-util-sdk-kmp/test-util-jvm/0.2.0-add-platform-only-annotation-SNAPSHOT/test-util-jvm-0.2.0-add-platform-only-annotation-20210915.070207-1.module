@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-add-platform-only-annotation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "76q2u4kkfncxhghh2zhheq5rqu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "size": 12808,
+          "sha512": "70ec49f50e9ba3bddc37e5dde87652cb15073d07c6ef25b231b5405fcd09e5a2ac973a65bb81a3cd3dbfa4b1bdb8fdfb99afe7a7cab6f9170cb2a1efb3e667b1",
+          "sha256": "7d6dc9dca4fc32279444f22694683c95adfcb892e8a87ec0ccbc5bc918a6e3c7",
+          "sha1": "49e4c53d19669c7b212dea0a11fa90e689a1da2c",
+          "md5": "7433e48af85dfa7068597cb8563608b8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "size": 12808,
+          "sha512": "70ec49f50e9ba3bddc37e5dde87652cb15073d07c6ef25b231b5405fcd09e5a2ac973a65bb81a3cd3dbfa4b1bdb8fdfb99afe7a7cab6f9170cb2a1efb3e667b1",
+          "sha256": "7d6dc9dca4fc32279444f22694683c95adfcb892e8a87ec0ccbc5bc918a6e3c7",
+          "sha1": "49e4c53d19669c7b212dea0a11fa90e689a1da2c",
+          "md5": "7433e48af85dfa7068597cb8563608b8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../test-util-metadata/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-metadata-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-metadata",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    }
+  ]
+}

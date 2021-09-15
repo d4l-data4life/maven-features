@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.2.0-add-platform-only-annotation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "76q2u4kkfncxhghh2zhheq5rqu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-metadata-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "url": "test-util-ktor-0.2.0-add-platform-only-annotation-SNAPSHOT.jar",
+          "size": 3186,
+          "sha512": "83c1aac5a257b351f622879537edc16ae150b0d61035fb6e361717bf19c7d3eb9918d082584335a153a9e08f311c812fc69358987212bcf5ecc78ae4226d4951",
+          "sha256": "bcc7bee8f1e76cfb1702ab38560f74182de19d795490f6c1fd7809b0f1db529c",
+          "sha1": "8e65d7272db7d03f12a1c350fc669f3aaa6d42f3",
+          "md5": "3417ba1b7d602b62ce5406d9ce310c9a"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-android-debug-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-android-debug-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-android-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-android-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosarm64/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-iosarm64-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosarm64",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosx64/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-iosx64-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosx64",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.2.0-add-platform-only-annotation-SNAPSHOT/test-util-ktor-jvm-0.2.0-add-platform-only-annotation-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.2.0-add-platform-only-annotation-SNAPSHOT"
+      }
+    }
+  ]
+}
