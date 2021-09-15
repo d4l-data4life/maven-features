@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.10.0-bump-updates-SNAPSHOT/util-1.10.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.10.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-debug.aar",
+          "url": "util-android-debug-1.10.0-bump-updates-SNAPSHOT.aar",
+          "size": 14626,
+          "sha512": "92a2420535a2c76fed54b2984c50f1ebcb475bad04c53decf66bd1679faa53b25140007f8b993e189ea5737ec5bb5082b4075e67d06c581aa97edf90bbe6be0e",
+          "sha256": "0f6298e3175e5d5c516b2f91697209cd421704fdeed4a455a12b0df08a00dd1b",
+          "sha1": "6045f83beb344e763dceb0b6a0d8dc781bb876b7",
+          "md5": "3e0beac4c72d91ac4ef822ac3a006d9f"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-debug.aar",
+          "url": "util-android-debug-1.10.0-bump-updates-SNAPSHOT.aar",
+          "size": 14626,
+          "sha512": "92a2420535a2c76fed54b2984c50f1ebcb475bad04c53decf66bd1679faa53b25140007f8b993e189ea5737ec5bb5082b4075e67d06c581aa97edf90bbe6be0e",
+          "sha256": "0f6298e3175e5d5c516b2f91697209cd421704fdeed4a455a12b0df08a00dd1b",
+          "sha1": "6045f83beb344e763dceb0b6a0d8dc781bb876b7",
+          "md5": "3e0beac4c72d91ac4ef822ac3a006d9f"
+        }
+      ]
+    }
+  ]
+}
