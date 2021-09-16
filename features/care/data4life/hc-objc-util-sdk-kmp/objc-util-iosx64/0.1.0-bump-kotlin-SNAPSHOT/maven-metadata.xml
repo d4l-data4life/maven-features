@@ -5,37 +5,37 @@
   <version>0.1.0-bump-kotlin-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210915.113414</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20210916.154540</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
-    <lastUpdated>20210915113414</lastUpdated>
+    <lastUpdated>20210916154540</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>metadata</classifier>
-        <extension>jar</extension>
-        <value>0.1.0-bump-kotlin-20210915.113414-5</value>
-        <updated>20210915113414</updated>
+        <extension>klib</extension>
+        <value>0.1.0-bump-kotlin-20210916.154540-6</value>
+        <updated>20210916154540</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-bump-kotlin-20210916.154540-6</value>
+        <updated>20210916154540</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-bump-kotlin-20210915.113414-5</value>
-        <updated>20210915113414</updated>
+        <value>0.1.0-bump-kotlin-20210916.154540-6</value>
+        <updated>20210916154540</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-bump-kotlin-20210915.113414-5</value>
-        <updated>20210915113414</updated>
+        <value>0.1.0-bump-kotlin-20210916.154540-6</value>
+        <updated>20210916154540</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-bump-kotlin-20210915.113414-5</value>
-        <updated>20210915113414</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.0-bump-kotlin-20210915.113414-5</value>
-        <updated>20210915113414</updated>
+        <classifier>metadata</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-bump-kotlin-20210916.154540-6</value>
+        <updated>20210916154540</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
