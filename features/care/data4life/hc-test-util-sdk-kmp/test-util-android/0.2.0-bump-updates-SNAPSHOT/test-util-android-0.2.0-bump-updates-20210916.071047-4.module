@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.2.0-bump-updates-SNAPSHOT/test-util-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-util-release.aar",
+          "url": "test-util-android-0.2.0-bump-updates-SNAPSHOT.aar",
+          "size": 7158,
+          "sha512": "69d078dbeb49f28c02c69483bdc56edea5a44d8f44a762892304773c7cd30a484c971042dcf5728ee8ab2247e847339e878de6a54d23af711b795e5d6c0f7a6d",
+          "sha256": "7aabcd677cec82cece26376bec161cd0697b2040a11df5570ed61acbf57a7e24",
+          "sha1": "bd5976a66e68cb1bde655912e5b9348a12095aac",
+          "md5": "c1379b4fd13a6549420d9188591c165c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "robolectric",
+          "version": {
+            "requires": "4.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-release.aar",
+          "url": "test-util-android-0.2.0-bump-updates-SNAPSHOT.aar",
+          "size": 7158,
+          "sha512": "69d078dbeb49f28c02c69483bdc56edea5a44d8f44a762892304773c7cd30a484c971042dcf5728ee8ab2247e847339e878de6a54d23af711b795e5d6c0f7a6d",
+          "sha256": "7aabcd677cec82cece26376bec161cd0697b2040a11df5570ed61acbf57a7e24",
+          "sha1": "bd5976a66e68cb1bde655912e5b9348a12095aac",
+          "md5": "c1379b4fd13a6549420d9188591c165c"
+        }
+      ]
+    }
+  ]
+}
