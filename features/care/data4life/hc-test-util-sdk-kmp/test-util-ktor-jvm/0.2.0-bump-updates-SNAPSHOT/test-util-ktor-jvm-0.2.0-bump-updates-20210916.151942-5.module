@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.2.0-bump-updates-SNAPSHOT/test-util-ktor-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "f280882a1dd4ddf703be21c8f245ab0c68302868e87cf430ed42bb59c2f3d9e84534b107fd7e806db511d55d4e0cc2455f3674a83f008ff7ebad766fe5bedf7e",
+          "sha256": "7458731d4fd0f53c7dd67bc983aa404d46230b6eeffac9b7467d9f12f2ef4bbe",
+          "sha1": "9814453594a762529f35b8f38e4403bfef16a2d6",
+          "md5": "db236ccb907601642430d9eb3759dfa5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "f280882a1dd4ddf703be21c8f245ab0c68302868e87cf430ed42bb59c2f3d9e84534b107fd7e806db511d55d4e0cc2455f3674a83f008ff7ebad766fe5bedf7e",
+          "sha256": "7458731d4fd0f53c7dd67bc983aa404d46230b6eeffac9b7467d9f12f2ef4bbe",
+          "sha1": "9814453594a762529f35b8f38e4403bfef16a2d6",
+          "md5": "db236ccb907601642430d9eb3759dfa5"
+        }
+      ]
+    }
+  ]
+}
