@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-java</groupId>
   <artifactId>fhir-java</artifactId>
   <versioning>
-    <latest>1.6.3-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>1.6.3-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>1.4.0-change-publishing-SNAPSHOT</version>
       <version>1.4.0-add-allergy-intolerance-and-others-SNAPSHOT</version>
@@ -15,7 +15,8 @@
       <version>1.6.2-SNAPSHOT</version>
       <version>1.6.2-change-codeowner-SNAPSHOT</version>
       <version>1.6.3-change-to-latest-setup-SNAPSHOT</version>
+      <version>1.6.3-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210916162908</lastUpdated>
+    <lastUpdated>20210916164625</lastUpdated>
   </versioning>
 </metadata>
