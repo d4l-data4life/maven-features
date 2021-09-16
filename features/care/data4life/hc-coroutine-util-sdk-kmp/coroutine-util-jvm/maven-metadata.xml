@@ -3,10 +3,11 @@
   <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
   <artifactId>coroutine-util-jvm</artifactId>
   <versioning>
-    <latest>0.1.0-change-codeowners-SNAPSHOT</latest>
+    <latest>0.1.0-change-scope-factory-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-codeowners-SNAPSHOT</version>
+      <version>0.1.0-change-scope-factory-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210906095009</lastUpdated>
+    <lastUpdated>20210916175437</lastUpdated>
   </versioning>
 </metadata>

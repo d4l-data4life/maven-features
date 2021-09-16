@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coroutine-util/0.1.0-change-scope-factory-SNAPSHOT/coroutine-util-0.1.0-change-scope-factory-SNAPSHOT.module",
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "coroutine-util",
+    "version": "0.1.0-change-scope-factory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "klvaqjgr7bhy5lvt52hlxwnfvm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "coroutine-util-jvm-0.1.0-change-scope-factory-SNAPSHOT.jar",
+          "url": "coroutine-util-jvm-0.1.0-change-scope-factory-SNAPSHOT.jar",
+          "size": 5205,
+          "sha512": "ec6a3c5ed3be9177dcf9324122a7b7bed5a58b83d8a9461ed9953b62c70ad76d6d554dd97b425002a31a1eb0497ace374a607e9f5c5369e45b8984a90408d339",
+          "sha256": "84e5a5da3e4ea0cf61f624aafa5e07c10f473148638841e4655397e1d89b1181",
+          "sha1": "2d09680ae5864d3f9861496cf89943a85cf6d5dd",
+          "md5": "e4abe959447e42379727ccdbb055d4ff"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-util-jvm-0.1.0-change-scope-factory-SNAPSHOT.jar",
+          "url": "coroutine-util-jvm-0.1.0-change-scope-factory-SNAPSHOT.jar",
+          "size": 5205,
+          "sha512": "ec6a3c5ed3be9177dcf9324122a7b7bed5a58b83d8a9461ed9953b62c70ad76d6d554dd97b425002a31a1eb0497ace374a607e9f5c5369e45b8984a90408d339",
+          "sha256": "84e5a5da3e4ea0cf61f624aafa5e07c10f473148638841e4655397e1d89b1181",
+          "sha1": "2d09680ae5864d3f9861496cf89943a85cf6d5dd",
+          "md5": "e4abe959447e42379727ccdbb055d4ff"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../coroutine-util/0.1.0-change-scope-factory-SNAPSHOT/coroutine-util-0.1.0-change-scope-factory-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util",
+        "version": "0.1.0-change-scope-factory-SNAPSHOT"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../coroutine-util/0.1.0-change-scope-factory-SNAPSHOT/coroutine-util-0.1.0-change-scope-factory-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util",
+        "version": "0.1.0-change-scope-factory-SNAPSHOT"
+      }
+    }
+  ]
+}
