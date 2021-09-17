@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/0.1.1-change-to-latest-setup-SNAPSHOT/error-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+    "group": "care.data4life.hc-result-sdk-kmp",
+    "module": "error",
+    "version": "0.1.1-change-to-latest-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "tc4bcxtx6rbulcwd3p7m2efd6q"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosx64-0.1.1-change-to-latest-setup-SNAPSHOT.klib",
+          "size": 6702,
+          "sha512": "4409b502dffbbaf82aed87d6f743a3c159789c441bb26e5b879563065c3e3471539624197e97fc15d623fdf3968d6953ab8072e523a068babefe2211f94b42c1",
+          "sha256": "a74120e89a6326fa6cc0d09216b91ff009e1abf2d9cf4c26eaf73127d7daf2d9",
+          "sha1": "ce0c1959b27fd1d6796113c356ad528323628de5",
+          "md5": "7fa0a4d40adf392dc1a0a0756f793ebb"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-iosx64-0.1.1-change-to-latest-setup-SNAPSHOT-metadata.jar",
+          "url": "error-iosx64-0.1.1-change-to-latest-setup-SNAPSHOT-metadata.jar",
+          "size": 4993,
+          "sha512": "8004dad209b5e9d60c99c81e51699d5c4f8918be7a570d87a8a980ab9987df254770304906668c18c77bbe433ec62c85a1861882045ae9663d339f37c0440d8d",
+          "sha256": "c45e14d31bfcd8fafa185743c34ba24854ab80df3b34dc7d575761f72b61336f",
+          "sha1": "744d764726af4aa753d904dfbc819aa3817cf6b1",
+          "md5": "03a977c69f31d8a06f0ee881999790e5"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error/0.1.1-change-to-latest-setup-SNAPSHOT/error-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error",
+        "version": "0.1.1-change-to-latest-setup-SNAPSHOT"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../error/0.1.1-change-to-latest-setup-SNAPSHOT/error-0.1.1-change-to-latest-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-result-sdk-kmp",
+        "module": "error",
+        "version": "0.1.1-change-to-latest-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
