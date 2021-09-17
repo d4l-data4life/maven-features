@@ -5,37 +5,37 @@
   <version>1.6.3-change-to-latest-setup-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210916.162721</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210917.085419</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210916162721</lastUpdated>
+    <lastUpdated>20210917085419</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.6.3-change-to-latest-setup-20210916.162721-1</value>
-        <updated>20210916162721</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.6.3-change-to-latest-setup-20210917.085419-2</value>
+        <updated>20210917085419</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.6.3-change-to-latest-setup-20210916.162721-1</value>
-        <updated>20210916162721</updated>
+        <value>1.6.3-change-to-latest-setup-20210917.085419-2</value>
+        <updated>20210917085419</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.6.3-change-to-latest-setup-20210916.162721-1</value>
-        <updated>20210916162721</updated>
+        <value>1.6.3-change-to-latest-setup-20210917.085419-2</value>
+        <updated>20210917085419</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.6.3-change-to-latest-setup-20210917.085419-2</value>
+        <updated>20210917085419</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.6.3-change-to-latest-setup-20210916.162721-1</value>
-        <updated>20210916162721</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.6.3-change-to-latest-setup-20210916.162721-1</value>
-        <updated>20210916162721</updated>
+        <value>1.6.3-change-to-latest-setup-20210917.085419-2</value>
+        <updated>20210917085419</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
