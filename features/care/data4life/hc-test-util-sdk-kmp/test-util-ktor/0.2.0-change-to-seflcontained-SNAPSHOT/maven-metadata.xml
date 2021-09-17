@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
+  <artifactId>test-util-ktor</artifactId>
+  <version>0.2.0-change-to-seflcontained-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210917.081716</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210917081716</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
+        <updated>20210917081716</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
+        <updated>20210917081716</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
+        <updated>20210917081716</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
+        <updated>20210917081716</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
