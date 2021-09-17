@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util-android-debug</artifactId>
   <versioning>
-    <latest>0.2.0-change-to-seflcontained-SNAPSHOT</latest>
+    <latest>0.2.0-change-setup-to-latest-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-docs-SNAPSHOT</version>
       <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
@@ -16,6 +16,6 @@
       <version>0.2.0-bump-updates-SNAPSHOT</version>
       <version>0.2.0-change-to-seflcontained-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210917082005</lastUpdated>
+    <lastUpdated>20210917084031</lastUpdated>
   </versioning>
 </metadata>
