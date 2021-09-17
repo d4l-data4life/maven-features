@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coroutine-util/0.1.0-bump-updates-SNAPSHOT/coroutine-util-0.1.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "coroutine-util",
+    "version": "0.1.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coroutine-util-release.aar",
+          "url": "coroutine-util-android-0.1.0-bump-updates-SNAPSHOT.aar",
+          "size": 3150,
+          "sha512": "5743a888495c46cfda01cb6b999d1b5d05ef1deb97ce68c8ec049e5c4229a8f5ac9c849866f8b4eb67052cb8fba06e50a1dcd7eb2cfe0c7735dbff5d0b1f8175",
+          "sha256": "dfd6584c4f3ac94a92597c10392126f0b7185d8d2470d5746631c80092a41fa5",
+          "sha1": "3633a1e5e47fc770fe3ba28ed50a0be20670ed45",
+          "md5": "0cd3693d3a6ee9b218be5cb4e0828703"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-util-release.aar",
+          "url": "coroutine-util-android-0.1.0-bump-updates-SNAPSHOT.aar",
+          "size": 3150,
+          "sha512": "5743a888495c46cfda01cb6b999d1b5d05ef1deb97ce68c8ec049e5c4229a8f5ac9c849866f8b4eb67052cb8fba06e50a1dcd7eb2cfe0c7735dbff5d0b1f8175",
+          "sha256": "dfd6584c4f3ac94a92597c10392126f0b7185d8d2470d5746631c80092a41fa5",
+          "sha1": "3633a1e5e47fc770fe3ba28ed50a0be20670ed45",
+          "md5": "0cd3693d3a6ee9b218be5cb4e0828703"
+        }
+      ]
+    }
+  ]
+}
