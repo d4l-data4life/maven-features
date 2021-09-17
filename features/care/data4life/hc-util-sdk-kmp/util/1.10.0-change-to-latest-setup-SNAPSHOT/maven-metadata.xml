@@ -5,37 +5,37 @@
   <version>1.10.0-change-to-latest-setup-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210917.082858</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210917.093745</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210917082858</lastUpdated>
+    <lastUpdated>20210917093745</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-change-to-latest-setup-20210917.082858-2</value>
-        <updated>20210917082858</updated>
+        <extension>pom</extension>
+        <value>1.10.0-change-to-latest-setup-20210917.093745-3</value>
+        <updated>20210917093745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-to-latest-setup-20210917.082858-2</value>
-        <updated>20210917082858</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-change-to-latest-setup-20210917.082858-2</value>
-        <updated>20210917082858</updated>
+        <value>1.10.0-change-to-latest-setup-20210917.093745-3</value>
+        <updated>20210917093745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>all</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-to-latest-setup-20210917.082858-2</value>
-        <updated>20210917082858</updated>
+        <value>1.10.0-change-to-latest-setup-20210917.093745-3</value>
+        <updated>20210917093745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.10.0-change-to-latest-setup-20210917.082858-2</value>
-        <updated>20210917082858</updated>
+        <value>1.10.0-change-to-latest-setup-20210917.093745-3</value>
+        <updated>20210917093745</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-change-to-latest-setup-20210917.093745-3</value>
+        <updated>20210917093745</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
