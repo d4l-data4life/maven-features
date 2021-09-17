@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "coroutine-util",
+    "version": "0.1.0-change-to-selfcontained-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "675guchcvrbfbfdi6jid2qpsd4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "coroutine-util-metadata-0.1.0-change-to-selfcontained-SNAPSHOT.jar",
+          "url": "coroutine-util-0.1.0-change-to-selfcontained-SNAPSHOT.jar",
+          "size": 1911,
+          "sha512": "2709949857fe104d7f1819840dbae83ec8bb03de31d9712b64bb642c66d33b818d96f5c67a0884d5fae152edd233492c6c501f249b1075bc7690084b2ba51754",
+          "sha256": "97ee2620fab200f3782663b6e851faafa210f37f22fbdd6f7aeecf601adc2d6a",
+          "sha1": "f52f82ff67eef2ecde8a8fb4ac03ec0ed876f7bb",
+          "md5": "9fdc1815f5cd11853c7919600c250015"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-android-debug/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-android-debug-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-android-debug",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-android-debug/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-android-debug-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-android-debug",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-android/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-android-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-android",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-android/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-android-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-android",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-iosarm64/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-iosarm64-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-iosarm64",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-iosx64/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-iosx64-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-iosx64",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-jvm/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-jvm-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-jvm",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../coroutine-util-jvm/0.1.0-change-to-selfcontained-SNAPSHOT/coroutine-util-jvm-0.1.0-change-to-selfcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+        "module": "coroutine-util-jvm",
+        "version": "0.1.0-change-to-selfcontained-SNAPSHOT"
+      }
+    }
+  ]
+}

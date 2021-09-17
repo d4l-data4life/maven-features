@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-coroutine-util-sdk-kmp</groupId>
   <artifactId>coroutine-util-iosarm64</artifactId>
   <versioning>
-    <latest>0.1.0-change-scope-factory-SNAPSHOT</latest>
+    <latest>0.1.0-change-to-selfcontained-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-codeowners-SNAPSHOT</version>
       <version>0.1.0-change-scope-factory-SNAPSHOT</version>
+      <version>0.1.0-change-to-selfcontained-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210916175437</lastUpdated>
+    <lastUpdated>20210917093118</lastUpdated>
   </versioning>
 </metadata>
