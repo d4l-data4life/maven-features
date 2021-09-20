@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.2.0-fix-labels-SNAPSHOT/test-util-coroutine-0.2.0-fix-labels-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.2.0-fix-labels-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "yfecy2wgwbfhlapokert5acnwq"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "size": 5987,
+          "sha512": "fa85d5affd9d2da4c98fe799751ae8363f422638a7b403644c7277372f70680a0bcd360128df920badd5a94b01018c08e59d09ffe8f753a0843ecb66ae919f29",
+          "sha256": "07d51b8c538442d7238d4cfd3c02a0645648b7d58b091966443a4f3ccf7cf315",
+          "sha1": "f966ead0fca3adb342d419c6e6d4923ffee6ab31",
+          "md5": "e15cf5ee49a4b55c6db282f1171282fb"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "size": 5987,
+          "sha512": "fa85d5affd9d2da4c98fe799751ae8363f422638a7b403644c7277372f70680a0bcd360128df920badd5a94b01018c08e59d09ffe8f753a0843ecb66ae919f29",
+          "sha256": "07d51b8c538442d7238d4cfd3c02a0645648b7d58b091966443a4f3ccf7cf315",
+          "sha1": "f966ead0fca3adb342d419c6e6d4923ffee6ab31",
+          "md5": "e15cf5ee49a4b55c6db282f1171282fb"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../test-util-coroutine-metadata/0.2.0-fix-labels-SNAPSHOT/test-util-coroutine-metadata-0.2.0-fix-labels-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-coroutine-metadata",
+        "version": "0.2.0-fix-labels-SNAPSHOT"
+      }
+    }
+  ]
+}
