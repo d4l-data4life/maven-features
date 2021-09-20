@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coroutine-util/0.1.0-bump-updates-SNAPSHOT/coroutine-util-0.1.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-coroutine-util-sdk-kmp",
+    "module": "coroutine-util",
+    "version": "0.1.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "coroutine-util-jvm-0.1.0-bump-updates-SNAPSHOT.jar",
+          "url": "coroutine-util-jvm-0.1.0-bump-updates-SNAPSHOT.jar",
+          "size": 5143,
+          "sha512": "55127131f875e9e35b4b0d2e1504c30b281956fccd73318fc1742609977308d61954184542131b0145227dafe10ad561b522a0b75cbc05112c36ffe18a2dc8e4",
+          "sha256": "1ebd3abcb36c0d6d95c392c96965e1b8ce98717a5015fa853c44f76d278b51dc",
+          "sha1": "92e3d49f92488bd08d36aa113a8752896206b507",
+          "md5": "d00b17488bc884e8319e0ef6df7145f0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-util-jvm-0.1.0-bump-updates-SNAPSHOT.jar",
+          "url": "coroutine-util-jvm-0.1.0-bump-updates-SNAPSHOT.jar",
+          "size": 5143,
+          "sha512": "55127131f875e9e35b4b0d2e1504c30b281956fccd73318fc1742609977308d61954184542131b0145227dafe10ad561b522a0b75cbc05112c36ffe18a2dc8e4",
+          "sha256": "1ebd3abcb36c0d6d95c392c96965e1b8ce98717a5015fa853c44f76d278b51dc",
+          "sha1": "92e3d49f92488bd08d36aa113a8752896206b507",
+          "md5": "d00b17488bc884e8319e0ef6df7145f0"
+        }
+      ]
+    }
+  ]
+}
