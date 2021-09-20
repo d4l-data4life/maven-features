@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.10.0-bump-updates-SNAPSHOT/util-1.10.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.10.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.10.0-bump-updates-SNAPSHOT.aar",
+          "size": 14307,
+          "sha512": "3704b729f1699a7c6b2b94f81a2145015c64eb626ee8d246d07fd45f1ea1f35a9b4a049cf82f2e5b1ac9791ecdf88494f15e5e70a60717cb9e9fd3659b227758",
+          "sha256": "5fb6d33cfa3b6371f268a5d76def853bd3419d65b197bf29ebbef736e417633d",
+          "sha1": "2e7a0e8037a1dcea3c4a31bfcd07576813388339",
+          "md5": "3e0e898f8bdc74f607024a817ebcd0ff"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.10.0-bump-updates-SNAPSHOT.aar",
+          "size": 14307,
+          "sha512": "3704b729f1699a7c6b2b94f81a2145015c64eb626ee8d246d07fd45f1ea1f35a9b4a049cf82f2e5b1ac9791ecdf88494f15e5e70a60717cb9e9fd3659b227758",
+          "sha256": "5fb6d33cfa3b6371f268a5d76def853bd3419d65b197bf29ebbef736e417633d",
+          "sha1": "2e7a0e8037a1dcea3c4a31bfcd07576813388339",
+          "md5": "3e0e898f8bdc74f607024a817ebcd0ff"
+        }
+      ]
+    }
+  ]
+}
