@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-objc-util-sdk-kmp</groupId>
   <artifactId>objc-util</artifactId>
   <versioning>
-    <latest>0.1.0-bump-kotlin-SNAPSHOT</latest>
+    <latest>0.1.0-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-setup-SNAPSHOT</version>
       <version>0.1.0-bump-kotlin-SNAPSHOT</version>
+      <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210920081121</lastUpdated>
+    <lastUpdated>20210920094138</lastUpdated>
   </versioning>
 </metadata>
