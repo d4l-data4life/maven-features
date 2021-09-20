@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.2.0-fix-labels-SNAPSHOT/test-util-coroutine-0.2.0-fix-labels-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.2.0-fix-labels-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "aaf8f600ad4ad859eee07096c111d5d5292123c89de0890cd6b52939c967b0a502d39b8911598128cca94c1153647f5645a5c1f313fba03a85338bfa19a2a9d6",
+          "sha256": "7d015133771706933ee8a84d6cb45843a58ea3eabe81d044110379a251e3ea46",
+          "sha1": "a0d2c4af2862d4877cd51ae87c752d6e96a8c59f",
+          "md5": "272bf730e26f51a7bf599546ee1979e5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-fix-labels-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "aaf8f600ad4ad859eee07096c111d5d5292123c89de0890cd6b52939c967b0a502d39b8911598128cca94c1153647f5645a5c1f313fba03a85338bfa19a2a9d6",
+          "sha256": "7d015133771706933ee8a84d6cb45843a58ea3eabe81d044110379a251e3ea46",
+          "sha1": "a0d2c4af2862d4877cd51ae87c752d6e96a8c59f",
+          "md5": "272bf730e26f51a7bf599546ee1979e5"
+        }
+      ]
+    }
+  ]
+}
