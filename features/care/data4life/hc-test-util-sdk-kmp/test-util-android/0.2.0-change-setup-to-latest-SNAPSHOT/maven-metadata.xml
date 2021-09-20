@@ -5,31 +5,31 @@
   <version>0.2.0-change-setup-to-latest-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210917.083744</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210920.085534</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210917083744</lastUpdated>
+    <lastUpdated>20210920085534</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.2.0-change-setup-to-latest-20210917.083744-2</value>
-        <updated>20210917083744</updated>
+        <extension>module</extension>
+        <value>0.2.0-change-setup-to-latest-20210920.085534-3</value>
+        <updated>20210920085534</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.2.0-change-setup-to-latest-20210917.083744-2</value>
-        <updated>20210917083744</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.2.0-change-setup-to-latest-20210917.083744-2</value>
-        <updated>20210917083744</updated>
+        <value>0.2.0-change-setup-to-latest-20210920.085534-3</value>
+        <updated>20210920085534</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.2.0-change-setup-to-latest-20210917.083744-2</value>
-        <updated>20210917083744</updated>
+        <value>0.2.0-change-setup-to-latest-20210920.085534-3</value>
+        <updated>20210920085534</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.2.0-change-setup-to-latest-20210920.085534-3</value>
+        <updated>20210920085534</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
