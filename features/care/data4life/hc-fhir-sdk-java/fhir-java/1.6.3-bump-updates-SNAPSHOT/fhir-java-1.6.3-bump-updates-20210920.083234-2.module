@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.6.3-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.6.3-bump-updates-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.3-bump-updates-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "4f5a304c8dfae2f0b1df1aa9ce058e3b38be3b95e62fadaa311920d729bac922ede51c3a80d3608b088bfb0447000b3c6182dabcccca4157cf09521e9ffacc24",
+          "sha256": "180ab31243b62d3c71e89d0e3a388da235cdffa9a8804e2a51fd1b77a7aa62c6",
+          "sha1": "9e4a80c3c28baf8b5b980df2a1d0ddda4af03094",
+          "md5": "5cc76d6b32c248c04565c84d88c69ffe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.6.3-bump-updates-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.3-bump-updates-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "4f5a304c8dfae2f0b1df1aa9ce058e3b38be3b95e62fadaa311920d729bac922ede51c3a80d3608b088bfb0447000b3c6182dabcccca4157cf09521e9ffacc24",
+          "sha256": "180ab31243b62d3c71e89d0e3a388da235cdffa9a8804e2a51fd1b77a7aa62c6",
+          "sha1": "9e4a80c3c28baf8b5b980df2a1d0ddda4af03094",
+          "md5": "5cc76d6b32c248c04565c84d88c69ffe"
+        }
+      ]
+    }
+  ]
+}
