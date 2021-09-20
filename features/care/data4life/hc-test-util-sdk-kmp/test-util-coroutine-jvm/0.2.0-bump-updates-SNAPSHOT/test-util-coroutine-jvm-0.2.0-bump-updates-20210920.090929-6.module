@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.2.0-bump-updates-SNAPSHOT/test-util-coroutine-0.2.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.2.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "fdf6bcf7bfb81581958a96d288a320114c76e84919004aedda66e7c76c18423ec8f177b9d4c6f8108737dd4081c11e2855ea466a7be051a4fa0c4fe8a61b4d99",
+          "sha256": "331296f1cc9d62aa2a39c6cb5e4912b0e769dc2d52d9fcc16ff20eb47aea0369",
+          "sha1": "139dbce797887cd589ffbbfdbdf8b7c906d99e66",
+          "md5": "b5cb176966eaf7a101e8a22cc49215f4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.2.0-bump-updates-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "fdf6bcf7bfb81581958a96d288a320114c76e84919004aedda66e7c76c18423ec8f177b9d4c6f8108737dd4081c11e2855ea466a7be051a4fa0c4fe8a61b4d99",
+          "sha256": "331296f1cc9d62aa2a39c6cb5e4912b0e769dc2d52d9fcc16ff20eb47aea0369",
+          "sha1": "139dbce797887cd589ffbbfdbdf8b7c906d99e66",
+          "md5": "b5cb176966eaf7a101e8a22cc49215f4"
+        }
+      ]
+    }
+  ]
+}
