@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util</artifactId>
   <versioning>
-    <latest>0.2.0-fix-labels-SNAPSHOT</latest>
+    <latest>0.2.0-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-docs-SNAPSHOT</version>
       <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>0.2.0-bump-updates-SNAPSHOT</version>
       <version>0.2.0-change-to-seflcontained-SNAPSHOT</version>
       <version>0.2.0-fix-labels-SNAPSHOT</version>
+      <version>0.2.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210920104955</lastUpdated>
+    <lastUpdated>20210920110715</lastUpdated>
   </versioning>
 </metadata>
