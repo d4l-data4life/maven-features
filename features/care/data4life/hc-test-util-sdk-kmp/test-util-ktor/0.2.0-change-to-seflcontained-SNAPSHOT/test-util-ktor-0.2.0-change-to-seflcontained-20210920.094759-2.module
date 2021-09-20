@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.2.0-change-to-seflcontained-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "256glaxuurcclofuqjzn2stkga"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-metadata-0.2.0-change-to-seflcontained-SNAPSHOT.jar",
+          "url": "test-util-ktor-0.2.0-change-to-seflcontained-SNAPSHOT.jar",
+          "size": 3186,
+          "sha512": "27e6fdb1948ad6119c5c6252c140bbd7c369cb3c734c43661d71d9ca7eab3d34b359d86a69e13ce0ae365b91ed755b3ac6fb8240aa690604a52c72b74774a86a",
+          "sha256": "eec449e9f6661b926bbc759b8346947135341b2eee59e227b537642203252e63",
+          "sha1": "f73bbc7c4d54ce8c4619855d96eb09557993e23b",
+          "md5": "36f921a4073169bfb9f813579e2d138a"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-android-debug-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-android-debug-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-android-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-android-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosarm64/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-iosarm64-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosarm64",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosx64/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-iosx64-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosx64",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-jvm-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.2.0-change-to-seflcontained-SNAPSHOT/test-util-ktor-jvm-0.2.0-change-to-seflcontained-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.2.0-change-to-seflcontained-SNAPSHOT"
+      }
+    }
+  ]
+}

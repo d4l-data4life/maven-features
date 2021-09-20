@@ -5,31 +5,31 @@
   <version>0.2.0-change-to-seflcontained-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210917.081716</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210920.094759</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210917081716</lastUpdated>
+    <lastUpdated>20210920094759</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
-        <updated>20210917081716</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
-        <updated>20210917081716</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
-        <updated>20210917081716</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.0-change-to-seflcontained-20210917.081716-1</value>
-        <updated>20210917081716</updated>
+        <value>0.2.0-change-to-seflcontained-20210920.094759-2</value>
+        <updated>20210920094759</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.2.0-change-to-seflcontained-20210920.094759-2</value>
+        <updated>20210920094759</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.2.0-change-to-seflcontained-20210920.094759-2</value>
+        <updated>20210920094759</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.2.0-change-to-seflcontained-20210920.094759-2</value>
+        <updated>20210920094759</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
