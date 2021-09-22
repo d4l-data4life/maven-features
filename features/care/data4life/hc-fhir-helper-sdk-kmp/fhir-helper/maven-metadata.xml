@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-helper-sdk-kmp</groupId>
   <artifactId>fhir-helper</artifactId>
   <versioning>
-    <latest>1.7.1-SNAPSHOT</latest>
+    <latest>1.7.1-change-to-latest-setup-SNAPSHOT</latest>
     <versions>
       <version>1.5.0-change-publishing-SNAPSHOT</version>
       <version>1.5.0-bump-update-SNAPSHOT</version>
@@ -18,7 +18,8 @@
       <version>1.7.0-SNAPSHOT</version>
       <version>V1.7.1-SNAPSHOT</version>
       <version>1.7.1-SNAPSHOT</version>
+      <version>1.7.1-change-to-latest-setup-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210901125801</lastUpdated>
+    <lastUpdated>20210922081536</lastUpdated>
   </versioning>
 </metadata>
