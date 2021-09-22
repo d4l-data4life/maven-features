@@ -3,11 +3,12 @@
   <groupId>care.data4life.d4l-kmp-library-template</groupId>
   <artifactId>template-library-jvm</artifactId>
   <versioning>
-    <latest>c51376c</latest>
-    <release>c51376c</release>
+    <latest>dd19dc4</latest>
+    <release>dd19dc4</release>
     <versions>
       <version>c51376c</version>
+      <version>dd19dc4</version>
     </versions>
-    <lastUpdated>20210922083513</lastUpdated>
+    <lastUpdated>20210922145222</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../template-library/dd19dc4/template-library-dd19dc4.module",
+    "group": "care.data4life.d4l-kmp-library-template",
+    "module": "template-library",
+    "version": "dd19dc4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "template-library-jvm-dd19dc4.jar",
+          "url": "template-library-jvm-dd19dc4.jar",
+          "size": 3552,
+          "sha512": "c12cd515a8d29e13f95a569e0186c627365245d0b7c201c5517066231de4204be574b19b71f9baf4573b092036d16348c79f83f1bd7d41e52d9cc5d77efc982e",
+          "sha256": "5378189578e1beba6fb3cd6f415f84b1b678accb1d35c0cd8bd96d3a4fae2bb7",
+          "sha1": "00274d6515eac477e69db637a18e5f263a513e45",
+          "md5": "cd665876517f3f2ca97a95f597125c82"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "template-library-jvm-dd19dc4.jar",
+          "url": "template-library-jvm-dd19dc4.jar",
+          "size": 3552,
+          "sha512": "c12cd515a8d29e13f95a569e0186c627365245d0b7c201c5517066231de4204be574b19b71f9baf4573b092036d16348c79f83f1bd7d41e52d9cc5d77efc982e",
+          "sha256": "5378189578e1beba6fb3cd6f415f84b1b678accb1d35c0cd8bd96d3a4fae2bb7",
+          "sha1": "00274d6515eac477e69db637a18e5f263a513e45",
+          "md5": "cd665876517f3f2ca97a95f597125c82"
+        }
+      ]
+    }
+  ]
+}
