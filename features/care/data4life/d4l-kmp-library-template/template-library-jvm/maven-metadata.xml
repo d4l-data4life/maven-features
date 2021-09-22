@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.d4l-kmp-library-template</groupId>
+  <artifactId>template-library-jvm</artifactId>
+  <versioning>
+    <latest>c51376c</latest>
+    <release>c51376c</release>
+    <versions>
+      <version>c51376c</version>
+    </versions>
+    <lastUpdated>20210922083513</lastUpdated>
+  </versioning>
+</metadata>
