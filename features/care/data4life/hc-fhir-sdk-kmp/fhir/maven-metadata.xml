@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir</artifactId>
   <versioning>
-    <latest>0.2.0-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>0.2.0-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -29,7 +29,8 @@
       <version>0.1.0-change-fhir-element-factory-to-defensive-approach-SNAPSHOT</version>
       <version>0.1.0-SNAPSHOT</version>
       <version>0.2.0-change-to-latest-setup-SNAPSHOT</version>
+      <version>0.2.0-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210922163633</lastUpdated>
+    <lastUpdated>20210922165725</lastUpdated>
   </versioning>
 </metadata>

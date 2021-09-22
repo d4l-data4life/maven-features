@@ -3,11 +3,12 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-android-debug</artifactId>
   <versioning>
-    <latest>0.2.0-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>0.2.0-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-SNAPSHOT</version>
       <version>0.2.0-change-to-latest-setup-SNAPSHOT</version>
+      <version>0.2.0-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210922163619</lastUpdated>
+    <lastUpdated>20210922165710</lastUpdated>
   </versioning>
 </metadata>
