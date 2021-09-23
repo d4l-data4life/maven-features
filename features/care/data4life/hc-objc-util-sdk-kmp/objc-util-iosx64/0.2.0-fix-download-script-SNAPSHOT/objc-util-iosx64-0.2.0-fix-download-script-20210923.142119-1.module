@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../objc-util/0.2.0-fix-download-script-SNAPSHOT/objc-util-0.2.0-fix-download-script-SNAPSHOT.module",
+    "group": "care.data4life.hc-objc-util-sdk-kmp",
+    "module": "objc-util",
+    "version": "0.2.0-fix-download-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util.klib",
+          "url": "objc-util-iosx64-0.2.0-fix-download-script-SNAPSHOT.klib",
+          "size": 8882,
+          "sha512": "ba9439706673c7bce71692adf48cb14c1056a107c7dacdf696d227e7f40d7b0bd875d6b5d13e711b81f0f836760266c51296208a666c69a2f691dd8a7710f7a0",
+          "sha256": "1be2bdcfb0c3bdf00528903465345ccf5e0f9b5cffcbe284688ad14080fff55a",
+          "sha1": "3927b4af7a5de28dee43fbdde2074d611f9ce2fe",
+          "md5": "6680587c64d67f1afb31799b872d2972"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objc-util-iosx64-0.2.0-fix-download-script-SNAPSHOT-metadata.jar",
+          "url": "objc-util-iosx64-0.2.0-fix-download-script-SNAPSHOT-metadata.jar",
+          "size": 5763,
+          "sha512": "9ab34f4a7d3482ee54a037ea4fadcb858f4015c9d04a7e355ce7f8ea7ba2aff1da954f7485ae595296ba907ece06d99b1819c16a3e6972224a584ec13ec5b22c",
+          "sha256": "f5b55adfe3589439f16017f0d0a54971c891f991f4daef82ad159acb0b8e1497",
+          "sha1": "96f7616efd2a83aecf241b872fd842afc5d79b32",
+          "md5": "38b55f7a4285cf793ce783404eec89d9"
+        }
+      ]
+    }
+  ]
+}
