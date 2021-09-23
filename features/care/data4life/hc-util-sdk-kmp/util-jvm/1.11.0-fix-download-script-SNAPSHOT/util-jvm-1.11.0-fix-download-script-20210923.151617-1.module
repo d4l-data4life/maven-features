@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-fix-download-script-SNAPSHOT/util-1.11.0-fix-download-script-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-fix-download-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-fix-download-script-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-fix-download-script-SNAPSHOT.jar",
+          "size": 15643,
+          "sha512": "fdec598245740498a846579623d2b3cc6005b30ae6f39df940ef9a9786183f9d0725fed27e0ad08525e59c733fa2d52c74693f9762ce44c81ddf2e73394a7b0b",
+          "sha256": "ac673797ebba5a6a616140b86857248d89d1a72b842306580a97b257f6991640",
+          "sha1": "f0a7ea7ed5c1e36c4c114fec10316c3ee0457bfe",
+          "md5": "7d54ce8593da0bf31f0e3cb6c65b36b3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-fix-download-script-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-fix-download-script-SNAPSHOT.jar",
+          "size": 15643,
+          "sha512": "fdec598245740498a846579623d2b3cc6005b30ae6f39df940ef9a9786183f9d0725fed27e0ad08525e59c733fa2d52c74693f9762ce44c81ddf2e73394a7b0b",
+          "sha256": "ac673797ebba5a6a616140b86857248d89d1a72b842306580a97b257f6991640",
+          "sha1": "f0a7ea7ed5c1e36c4c114fec10316c3ee0457bfe",
+          "md5": "7d54ce8593da0bf31f0e3cb6c65b36b3"
+        }
+      ]
+    }
+  ]
+}

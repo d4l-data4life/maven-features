@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-iosarm64</artifactId>
   <versioning>
-    <latest>1.11.0-bump-desugar-SNAPSHOT</latest>
+    <latest>1.11.0-fix-download-script-SNAPSHOT</latest>
     <versions>
       <version>1.9.0-change-test-config-template-SNAPSHOT</version>
       <version>1.9.0-change-readme-SNAPSHOT</version>
@@ -20,7 +20,8 @@
       <version>1.10.0-bump-updates-SNAPSHOT</version>
       <version>1.10.0-SNAPSHOT</version>
       <version>1.11.0-bump-desugar-SNAPSHOT</version>
+      <version>1.11.0-fix-download-script-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210923150113</lastUpdated>
+    <lastUpdated>20210923151901</lastUpdated>
   </versioning>
 </metadata>
