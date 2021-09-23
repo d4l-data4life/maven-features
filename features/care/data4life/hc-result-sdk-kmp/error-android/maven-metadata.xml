@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-result-sdk-kmp</groupId>
   <artifactId>error-android</artifactId>
   <versioning>
-    <latest>0.3.0-fix-download-script-SNAPSHOT</latest>
+    <latest>0.3.0-bump-desugar-SNAPSHOT</latest>
     <versions>
       <version>0.1.1-remove-DataRestrictionException-SNAPSHOT</version>
       <version>0.1.1-remove-data-restriction-exception-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>0.1.1-change-to-latest-setup-SNAPSHOT</version>
       <version>0.1.1-bump-updates-SNAPSHOT</version>
       <version>0.3.0-fix-download-script-SNAPSHOT</version>
+      <version>0.3.0-bump-desugar-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210923145051</lastUpdated>
+    <lastUpdated>20210923145615</lastUpdated>
   </versioning>
 </metadata>
