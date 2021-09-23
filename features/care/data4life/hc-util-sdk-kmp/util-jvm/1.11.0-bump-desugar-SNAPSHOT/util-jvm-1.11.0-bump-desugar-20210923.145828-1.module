@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-bump-desugar-SNAPSHOT/util-1.11.0-bump-desugar-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-bump-desugar-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-bump-desugar-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-bump-desugar-SNAPSHOT.jar",
+          "size": 15643,
+          "sha512": "8c4fb66bbeaad6241b058be7311cea688b05ae0acf85a95fd3b4f7f5d9fc4f2f0af94f4148b2bfc7a7cd65e63bf04b6c61c817739fedfc90f6ca957d3ce61a46",
+          "sha256": "5d0e0b7316803c0571a06d5958a1580b306ecb7dce7c1af42ae9dcffaad93d71",
+          "sha1": "c5ae12974f979cd73da35732ecbf44e1e048bc9a",
+          "md5": "2ace8f734c15ec5e5bba7544cb9ae903"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-bump-desugar-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-bump-desugar-SNAPSHOT.jar",
+          "size": 15643,
+          "sha512": "8c4fb66bbeaad6241b058be7311cea688b05ae0acf85a95fd3b4f7f5d9fc4f2f0af94f4148b2bfc7a7cd65e63bf04b6c61c817739fedfc90f6ca957d3ce61a46",
+          "sha256": "5d0e0b7316803c0571a06d5958a1580b306ecb7dce7c1af42ae9dcffaad93d71",
+          "sha1": "c5ae12974f979cd73da35732ecbf44e1e048bc9a",
+          "md5": "2ace8f734c15ec5e5bba7544cb9ae903"
+        }
+      ]
+    }
+  ]
+}
