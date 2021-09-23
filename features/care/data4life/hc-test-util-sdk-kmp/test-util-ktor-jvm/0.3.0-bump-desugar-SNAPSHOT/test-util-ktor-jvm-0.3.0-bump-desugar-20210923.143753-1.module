@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.3.0-bump-desugar-SNAPSHOT/test-util-ktor-0.3.0-bump-desugar-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-bump-desugar-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "a31c1dd2bb776e212f1cb3a4e9399cf320be9b4a5f3355d5111d16fc86539f55476512b0de95d146d50c9e8b5c06679ce166438eaad5d250b41f034e43f00266",
+          "sha256": "7e93873bacc70773fdab324e93bb67b044200b3d4859bf42f98d127f8f72b874",
+          "sha1": "647db13cf552c98cf45c62da3754d462bd1b56cc",
+          "md5": "2c598f5a341e22f70cb592f1bfe25809"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "a31c1dd2bb776e212f1cb3a4e9399cf320be9b4a5f3355d5111d16fc86539f55476512b0de95d146d50c9e8b5c06679ce166438eaad5d250b41f034e43f00266",
+          "sha256": "7e93873bacc70773fdab324e93bb67b044200b3d4859bf42f98d127f8f72b874",
+          "sha1": "647db13cf552c98cf45c62da3754d462bd1b56cc",
+          "md5": "2c598f5a341e22f70cb592f1bfe25809"
+        }
+      ]
+    }
+  ]
+}
