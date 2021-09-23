@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-java</groupId>
   <artifactId>fhir-java</artifactId>
   <versioning>
-    <latest>1.6.3-bump-updates-SNAPSHOT</latest>
+    <latest>1.6.3-fix-download-script-SNAPSHOT</latest>
     <versions>
       <version>1.6.1-change-publish-config-SNAPSHOT</version>
       <version>1.6.1-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>1.6.2-change-codeowner-SNAPSHOT</version>
       <version>1.6.3-change-to-latest-setup-SNAPSHOT</version>
       <version>1.6.3-bump-updates-SNAPSHOT</version>
+      <version>1.6.3-fix-download-script-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210920083454</lastUpdated>
+    <lastUpdated>20210923140918</lastUpdated>
   </versioning>
 </metadata>
