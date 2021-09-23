@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.3.0-fix-download-script-SNAPSHOT/test-util-coroutine-0.3.0-fix-download-script-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.3.0-fix-download-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "b04983f651d3f45e7dd5048bfae1f36ade519641ce06ae32ef349cd0dc3364ab27ad50e12c00f2d88546b6c7dc93430b388c2b8469384d41562b56748d9b47bc",
+          "sha256": "cf13ba51fba5b98a2147449b0892d96303f37a781e5b3e560ee7b9ae669e17d2",
+          "sha1": "bcb24261b9b973210751b6080c379142a7d0802f",
+          "md5": "249db4f89c59dadb6aeb5ebabcdac919"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "b04983f651d3f45e7dd5048bfae1f36ade519641ce06ae32ef349cd0dc3364ab27ad50e12c00f2d88546b6c7dc93430b388c2b8469384d41562b56748d9b47bc",
+          "sha256": "cf13ba51fba5b98a2147449b0892d96303f37a781e5b3e560ee7b9ae669e17d2",
+          "sha1": "bcb24261b9b973210751b6080c379142a7d0802f",
+          "md5": "249db4f89c59dadb6aeb5ebabcdac919"
+        }
+      ]
+    }
+  ]
+}

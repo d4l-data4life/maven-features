@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-fix-download-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-metadata-0.3.0-fix-download-script-SNAPSHOT-all.jar",
+          "url": "test-util-ktor-0.3.0-fix-download-script-SNAPSHOT-all.jar",
+          "size": 5649,
+          "sha512": "a72dc1b5419437ee1dcfd8be42fecb87db85f2abea51f3f43032c2ce8ae2255684b20dde34560c66031d51e06da54dd30e4229b79d05138ef17c37470c37c5cf",
+          "sha256": "1e04c2263e6e9c17c643a095dd0193afc66836c29f46917392bef6ae80414b53",
+          "sha1": "8b379adfe5396d9eeba3eafd3fb852de7422fef7",
+          "md5": "65c2e43c91ce6928fb7047146c2968cb"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "url": "test-util-ktor-0.3.0-fix-download-script-SNAPSHOT.jar",
+          "size": 3184,
+          "sha512": "65f2afe8fa68fef44e8ff393e5b10421ab499924b82c81db655bc108564fb9337d67732c7d889bb4074af2c2612f96bf31f6649a3b876a48053a6cf1614715de",
+          "sha256": "5449f40fa92f97dfa736a011d809e8488cc52e06733764f82a1c5a9fe90071c8",
+          "sha1": "cfe29d256750ea958ffd06279082a4dfef45f1bc",
+          "md5": "e2f5ee9f16f5ef3c31d7256aa40b1166"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-android-debug-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android-debug/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-android-debug-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android-debug",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-android-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-android/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-android-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-android",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosarm64/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-iosarm64-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosarm64",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosarm64/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-iosarm64-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosarm64",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosx64/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-iosx64-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosx64",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-iosx64/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-iosx64-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-iosx64",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-jvm-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-ktor-jvm/0.3.0-fix-download-script-SNAPSHOT/test-util-ktor-jvm-0.3.0-fix-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-ktor-jvm",
+        "version": "0.3.0-fix-download-script-SNAPSHOT"
+      }
+    }
+  ]
+}
