@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.6.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.6.3-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.3-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "c2f9a30abdf16a82ce45c44a7e309ae694c224771bcbab4aa1176bf02ea02638ba655aca0b5aef737a215b65009ec6f37faa405a80c8ad31d3206cc40e9c417c",
+          "sha256": "b163f5fb0ed24ff63544b40695baf2b6180a3ae040b9c538790090d5aa88f6eb",
+          "sha1": "d8a873ab415c72a31ba114c291243fb8172e421d",
+          "md5": "65fddc3a41321c6e7b4cbca9c51fd872"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.6.3-SNAPSHOT.jar",
+          "url": "fhir-java-1.6.3-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "c2f9a30abdf16a82ce45c44a7e309ae694c224771bcbab4aa1176bf02ea02638ba655aca0b5aef737a215b65009ec6f37faa405a80c8ad31d3206cc40e9c417c",
+          "sha256": "b163f5fb0ed24ff63544b40695baf2b6180a3ae040b9c538790090d5aa88f6eb",
+          "sha1": "d8a873ab415c72a31ba114c291243fb8172e421d",
+          "md5": "65fddc3a41321c6e7b4cbca9c51fd872"
+        }
+      ]
+    }
+  ]
+}
