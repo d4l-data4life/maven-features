@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-auth-sdk-kmp</groupId>
   <artifactId>auth-jvm</artifactId>
   <versioning>
-    <latest>1.14.0-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>1.14.0-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>1.13.2-bump-app-auth-dependency-SNAPSHOT</version>
       <version>1.13.2-SNAPSHOT</version>
       <version>1.14.0-change-to-latest-setup-SNAPSHOT</version>
+      <version>1.14.0-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210923110508</lastUpdated>
+    <lastUpdated>20210923132426</lastUpdated>
   </versioning>
 </metadata>
