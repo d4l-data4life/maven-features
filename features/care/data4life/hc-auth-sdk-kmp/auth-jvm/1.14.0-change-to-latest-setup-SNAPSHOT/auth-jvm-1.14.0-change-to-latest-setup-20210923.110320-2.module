@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth/1.14.0-change-to-latest-setup-SNAPSHOT/auth-1.14.0-change-to-latest-setup-SNAPSHOT.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.14.0-change-to-latest-setup-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "yjwysqzjq5edxfebutjpni6vhm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-change-to-latest-setup-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-change-to-latest-setup-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "449e154d16beaa28d175ff3d34d6f4aff989534dd138f3f184c4b82ed34960a6d71fcf00e6d4299f6338c4cb270d6fe858d81425cb616aacb3316e0c4c37a37a",
+          "sha256": "a3af9f53ac67cfca9c998f7c3bd7b84f45d3b6d5ab879adc6e9a60f17b65afe5",
+          "sha1": "951cc096285966b3665e97a8441595e4841cd984",
+          "md5": "0b7f3d38dc8165482b61eb55774a2a84"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-result-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.14.0-change-to-latest-setup-SNAPSHOT.jar",
+          "url": "auth-jvm-1.14.0-change-to-latest-setup-SNAPSHOT.jar",
+          "size": 34648,
+          "sha512": "449e154d16beaa28d175ff3d34d6f4aff989534dd138f3f184c4b82ed34960a6d71fcf00e6d4299f6338c4cb270d6fe858d81425cb616aacb3316e0c4c37a37a",
+          "sha256": "a3af9f53ac67cfca9c998f7c3bd7b84f45d3b6d5ab879adc6e9a60f17b65afe5",
+          "sha1": "951cc096285966b3665e97a8441595e4841cd984",
+          "md5": "0b7f3d38dc8165482b61eb55774a2a84"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../auth-metadata/1.14.0-change-to-latest-setup-SNAPSHOT/auth-metadata-1.14.0-change-to-latest-setup-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-metadata",
+        "version": "1.14.0-change-to-latest-setup-SNAPSHOT"
+      }
+    }
+  ]
+}
