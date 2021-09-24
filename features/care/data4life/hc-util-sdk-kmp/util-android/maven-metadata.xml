@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android</artifactId>
   <versioning>
-    <latest>1.11.0-fix-download-script-SNAPSHOT</latest>
+    <latest>1.11.0-bump-desugar-SNAPSHOT</latest>
     <versions>
       <version>1.9.0-change-test-config-template-SNAPSHOT</version>
       <version>1.9.0-change-readme-SNAPSHOT</version>
@@ -22,6 +22,6 @@
       <version>1.11.0-bump-desugar-SNAPSHOT</version>
       <version>1.11.0-fix-download-script-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210923151858</lastUpdated>
+    <lastUpdated>20210924085857</lastUpdated>
   </versioning>
 </metadata>
