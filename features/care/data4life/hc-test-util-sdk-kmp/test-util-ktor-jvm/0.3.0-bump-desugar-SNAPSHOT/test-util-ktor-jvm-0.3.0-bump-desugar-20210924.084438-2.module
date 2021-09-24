@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.3.0-bump-desugar-SNAPSHOT/test-util-ktor-0.3.0-bump-desugar-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.3.0-bump-desugar-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "6b041f162fc093661f50c9ebb2a0ea2cc4a7ebbd810421813f7bd590829816f9e0bd94ce366275777ca87f43cae16c226fad761d2c3cef3313ce259ca73acdf6",
+          "sha256": "f2c916e443f2ccaf196690a213c277bec21fc5313f5aad2ad77c67932dde2040",
+          "sha1": "79aac66efc0ab4b3833d352b1ad86d5b8cf1e859",
+          "md5": "dd0769101907c39e1d0b27937df4fe40"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 28636,
+          "sha512": "6b041f162fc093661f50c9ebb2a0ea2cc4a7ebbd810421813f7bd590829816f9e0bd94ce366275777ca87f43cae16c226fad761d2c3cef3313ce259ca73acdf6",
+          "sha256": "f2c916e443f2ccaf196690a213c277bec21fc5313f5aad2ad77c67932dde2040",
+          "sha1": "79aac66efc0ab4b3833d352b1ad86d5b8cf1e859",
+          "md5": "dd0769101907c39e1d0b27937df4fe40"
+        }
+      ]
+    }
+  ]
+}

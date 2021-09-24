@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.3.0-bump-desugar-SNAPSHOT/test-util-coroutine-0.3.0-bump-desugar-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.3.0-bump-desugar-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "888cffe34a743daddc2d9e43896bbccabbdd242e01e00c9f70efc405b93c4f31a218234cb234d2270b7d890ae831289709562fab4fee291bef8ce30c9499bffe",
+          "sha256": "f80e1b67386f36619332e7e368ae6dd500b4b97ac8303c04bbe1918e4490d396",
+          "sha1": "83f76b4b5cbf4d3023af73752f20226a00d89487",
+          "md5": "5916716db012a530fcb8ab26540342ba"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-bump-desugar-SNAPSHOT.jar",
+          "size": 6089,
+          "sha512": "888cffe34a743daddc2d9e43896bbccabbdd242e01e00c9f70efc405b93c4f31a218234cb234d2270b7d890ae831289709562fab4fee291bef8ce30c9499bffe",
+          "sha256": "f80e1b67386f36619332e7e368ae6dd500b4b97ac8303c04bbe1918e4490d396",
+          "sha1": "83f76b4b5cbf4d3023af73752f20226a00d89487",
+          "md5": "5916716db012a530fcb8ab26540342ba"
+        }
+      ]
+    }
+  ]
+}
