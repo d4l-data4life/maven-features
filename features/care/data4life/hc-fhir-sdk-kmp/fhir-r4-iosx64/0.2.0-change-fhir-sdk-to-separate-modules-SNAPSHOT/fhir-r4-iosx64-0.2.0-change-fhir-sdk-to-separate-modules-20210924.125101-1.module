@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-r4/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-r4-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-r4",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-r4.klib",
+          "url": "fhir-r4-iosx64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.klib",
+          "size": 5791809,
+          "sha512": "86113e51a60279c83969b632e30dc0681737d5515b791c495b933b875d959a99722132c1190b55bb319065f4c604b5bca3fff41f8be8d8ce60b9b488b1cd7680",
+          "sha256": "977c9ead3df571b3803fc36094959c590c99ada97d429f757c41c035bdc74d6c",
+          "sha1": "083e04ca88a74b721c2a48555b71c02b1852af32",
+          "md5": "f16b67b9cde23f4392991bae0d6fa1ba"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-r4-iosx64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT-metadata.jar",
+          "url": "fhir-r4-iosx64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "5b79f2fc8859bd394ecc926b11b32b0db174f7bf52b0bddb39c9bc9323ddb162c97099ac60c326e55680f5c4806669e641ef251ea5ce0318d4a65fbdda371912",
+          "sha256": "1190a2baf5b54eaf7ae25ad3fb35fd33187930f8ceb885d2ed38daa584980961",
+          "sha1": "7fb05aa7a0275ca8eb5d4a0a24ccd44a0a60a043",
+          "md5": "66c13a0c240bd0b436135417e25ca1eb"
+        }
+      ]
+    }
+  ]
+}

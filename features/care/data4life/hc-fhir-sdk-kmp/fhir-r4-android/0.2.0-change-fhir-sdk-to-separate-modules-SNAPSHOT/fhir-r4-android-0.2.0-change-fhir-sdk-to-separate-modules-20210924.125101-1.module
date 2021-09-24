@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-r4/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-r4-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-r4",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-r4-release.aar",
+          "url": "fhir-r4-android-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.aar",
+          "size": 8917953,
+          "sha512": "e0722135fa2ec56f89af26bb2ff394ae6525d3606fb104d21610456b19d5957e2d92970b869f85a26c071cb176b4ea6b03fcd8ebcceda3ce61e3318ef0b795aa",
+          "sha256": "e897a9af077f25a405678894122d964d50afc09e487a17de745b1fd56392bb1f",
+          "sha1": "be1102748ee664ce7bca9c5a699fe2ec46c6b522",
+          "md5": "19d943202fe4824cec5b91d46e760027"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-r4-release.aar",
+          "url": "fhir-r4-android-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.aar",
+          "size": 8917953,
+          "sha512": "e0722135fa2ec56f89af26bb2ff394ae6525d3606fb104d21610456b19d5957e2d92970b869f85a26c071cb176b4ea6b03fcd8ebcceda3ce61e3318ef0b795aa",
+          "sha256": "e897a9af077f25a405678894122d964d50afc09e487a17de745b1fd56392bb1f",
+          "sha1": "be1102748ee664ce7bca9c5a699fe2ec46c6b522",
+          "md5": "19d943202fe4824cec5b91d46e760027"
+        }
+      ]
+    }
+  ]
+}

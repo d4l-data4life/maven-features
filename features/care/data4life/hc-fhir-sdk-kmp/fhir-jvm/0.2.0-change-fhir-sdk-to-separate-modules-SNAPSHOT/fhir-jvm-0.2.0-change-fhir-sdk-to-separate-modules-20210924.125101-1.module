@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "8704affe31610eb173b39754210bda4e41829eaa27ed8cde55cbbaa5a9b66b05fc3093b685acaa786ffefd16983246ce1d8f55039bd3466c2ce864237ba8d726",
+          "sha256": "be555c21be25a2ed9bcff901de1afa26b61ee0016ede384e242144d45e47e70a",
+          "sha1": "2862b0e583529f6d8f23abef8644db8f0e603eeb",
+          "md5": "35ca1a44dc7aa46055c14f5d9cf9c4bd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "8704affe31610eb173b39754210bda4e41829eaa27ed8cde55cbbaa5a9b66b05fc3093b685acaa786ffefd16983246ce1d8f55039bd3466c2ce864237ba8d726",
+          "sha256": "be555c21be25a2ed9bcff901de1afa26b61ee0016ede384e242144d45e47e70a",
+          "sha1": "2862b0e583529f6d8f23abef8644db8f0e603eeb",
+          "md5": "35ca1a44dc7aa46055c14f5d9cf9c4bd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
+  <artifactId>fhir-r4</artifactId>
+  <versioning>
+    <latest>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</latest>
+    <versions>
+      <version>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210924125401</lastUpdated>
+  </versioning>
+</metadata>
