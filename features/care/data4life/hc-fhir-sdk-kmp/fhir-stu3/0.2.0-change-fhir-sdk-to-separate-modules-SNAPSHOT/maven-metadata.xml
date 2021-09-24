@@ -5,37 +5,37 @@
   <version>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210924.125101</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210924.154713</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210924125101</lastUpdated>
+    <lastUpdated>20210924154713</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>all</classifier>
-        <extension>jar</extension>
-        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.125101-1</value>
-        <updated>20210924125101</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.125101-1</value>
-        <updated>20210924125101</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.125101-1</value>
-        <updated>20210924125101</updated>
+        <extension>pom</extension>
+        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.154713-2</value>
+        <updated>20210924154713</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.125101-1</value>
-        <updated>20210924125101</updated>
+        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.154713-2</value>
+        <updated>20210924154713</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.125101-1</value>
-        <updated>20210924125101</updated>
+        <classifier>all</classifier>
+        <extension>jar</extension>
+        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.154713-2</value>
+        <updated>20210924154713</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.154713-2</value>
+        <updated>20210924154713</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.2.0-change-fhir-sdk-to-separate-modules-20210924.154713-2</value>
+        <updated>20210924154713</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

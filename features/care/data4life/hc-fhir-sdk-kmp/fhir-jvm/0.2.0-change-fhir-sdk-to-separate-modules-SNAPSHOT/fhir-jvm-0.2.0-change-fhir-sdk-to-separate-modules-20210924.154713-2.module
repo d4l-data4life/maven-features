@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "cf13152f32eea70a0cc0e7999957c2d1e51d408ae9dcf007c78c553e50c15d894c84bf0d933e9a9bd4943341e92768716945055115ffae7812bfc0ad9e25c847",
+          "sha256": "69e23604136e7ecce186bb8e93056337dc950d94ff0210524648b45691a2654d",
+          "sha1": "866e7eee197fa3a9d41cc0ebb859b58d08b80e9c",
+          "md5": "ca4a3b29738cd4f3a0bf7d582cccc082"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "cf13152f32eea70a0cc0e7999957c2d1e51d408ae9dcf007c78c553e50c15d894c84bf0d933e9a9bd4943341e92768716945055115ffae7812bfc0ad9e25c847",
+          "sha256": "69e23604136e7ecce186bb8e93056337dc950d94ff0210524648b45691a2654d",
+          "sha1": "866e7eee197fa3a9d41cc0ebb859b58d08b80e9c",
+          "md5": "ca4a3b29738cd4f3a0bf7d582cccc082"
+        }
+      ]
+    }
+  ]
+}
