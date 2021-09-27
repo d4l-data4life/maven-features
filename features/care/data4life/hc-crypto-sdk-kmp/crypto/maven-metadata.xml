@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-crypto-sdk-kmp</groupId>
   <artifactId>crypto</artifactId>
   <versioning>
-    <latest>1.13.2-SNAPSHOT</latest>
+    <latest>1.13.2-change-docs-SNAPSHOT</latest>
     <versions>
       <version>1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT</version>
       <version>1.13.2-change-to-latest-setup-SNAPSHOT</version>
       <version>1.13.2-bump-update-SNAPSHOT</version>
       <version>1.13.2-SNAPSHOT</version>
+      <version>1.13.2-change-docs-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210923151519</lastUpdated>
+    <lastUpdated>20210927131654</lastUpdated>
   </versioning>
 </metadata>
