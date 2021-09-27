@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-crypto-service-android-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-crypto-service-android-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-crypto-service-android-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "qgi7xqlewjhkxdxh64il5r4hwu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-crypto-service-android-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-crypto-service-android-SNAPSHOT.jar",
+          "size": 72461,
+          "sha512": "9ca005d5686b6abb693fecc3111a13cacc5b301f47c2e657407636dc4a4f1e8d690502aadb81fbecc6f1718c8b340b1e510761a4855231f7c7c0c6c309e325a2",
+          "sha256": "7f95bf56317f95a56d22a6286b191605e293cb55949dd148b7f733ec5d0c977d",
+          "sha1": "a5c7bfeb8ede01a902fbeed44495140039966fb9",
+          "md5": "ff7f7133d4a750170b4dad3b36d98f5c"
+        }
+      ]
+    }
+  ]
+}

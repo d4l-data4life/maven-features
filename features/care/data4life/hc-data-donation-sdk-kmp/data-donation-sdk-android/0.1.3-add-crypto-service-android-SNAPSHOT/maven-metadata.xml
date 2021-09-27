@@ -5,31 +5,31 @@
   <version>0.1.3-add-crypto-service-android-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210927.151503</timestamp>
-      <buildNumber>7</buildNumber>
+      <timestamp>20210927.190800</timestamp>
+      <buildNumber>8</buildNumber>
     </snapshot>
-    <lastUpdated>20210927151503</lastUpdated>
+    <lastUpdated>20210927190800</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.3-add-crypto-service-android-20210927.151503-7</value>
-        <updated>20210927151503</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.3-add-crypto-service-android-20210927.151503-7</value>
-        <updated>20210927151503</updated>
+        <value>0.1.3-add-crypto-service-android-20210927.190800-8</value>
+        <updated>20210927190800</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.1.3-add-crypto-service-android-20210927.151503-7</value>
-        <updated>20210927151503</updated>
+        <value>0.1.3-add-crypto-service-android-20210927.190800-8</value>
+        <updated>20210927190800</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-crypto-service-android-20210927.151503-7</value>
-        <updated>20210927151503</updated>
+        <value>0.1.3-add-crypto-service-android-20210927.190800-8</value>
+        <updated>20210927190800</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.3-add-crypto-service-android-20210927.190800-8</value>
+        <updated>20210927190800</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
