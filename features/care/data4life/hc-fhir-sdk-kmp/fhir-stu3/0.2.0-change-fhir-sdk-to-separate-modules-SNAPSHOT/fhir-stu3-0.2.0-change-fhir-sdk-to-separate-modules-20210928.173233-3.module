@@ -1,0 +1,241 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-stu3",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-stu3-metadata-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT-all.jar",
+          "url": "fhir-stu3-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT-all.jar",
+          "size": 342891,
+          "sha512": "6c11d819ebad04a16f46a792aa58b48937800b643eb13ff019316dad09ec00de439ed62e269b169605ae0d2df31e6783e4b3c5e9b946ff33555b954f65132505",
+          "sha256": "2333c9e9e142e0ebfc445ab1d50a4ebfe79ddcf57e260e8eee77c7fe61bf58eb",
+          "sha1": "3ae0e8fb13cd0d76015fcee3cc302ad72bec9351",
+          "md5": "ca6f9297bd045430587c41f7d9d20c82"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-stu3-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "url": "fhir-stu3-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.jar",
+          "size": 1279568,
+          "sha512": "8850e2f45de6b54b80ff5801cd53c94c876f41972c967cb2d87249a1db7003c9c0f3052dd0d5fccfda11a5f2dfcc9a304e6253bcdebc696aa11843fe481ef4e1",
+          "sha256": "c56a92ea3c9fb007a5e1b745389b768ff7194afbd09dfb2cdf38fe9f7281e617",
+          "sha1": "d9ab84d4d0eaa73e750adc49610340ff63246e23",
+          "md5": "ddead3a3dfa0fb2281ddd3cee6fbfc75"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-android-debug/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-android-debug-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-android-debug",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-android-debug/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-android-debug-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-android-debug",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-android/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-android-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-android",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-android/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-android-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-android",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-iosarm64/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-iosarm64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-iosarm64",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-iosarm64/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-iosarm64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-iosarm64",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-iosx64/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-iosx64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-iosx64",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-iosx64/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-iosx64-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-iosx64",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-jvm/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-jvm",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../fhir-stu3-jvm/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-stu3-jvm-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-stu3-jvm",
+        "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -10,6 +10,6 @@
       <version>0.2.0-bump-updates-SNAPSHOT</version>
       <version>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210924154947</lastUpdated>
+    <lastUpdated>20210928173553</lastUpdated>
   </versioning>
 </metadata>

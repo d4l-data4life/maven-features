@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT/fhir-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fhir-debug.aar",
+          "url": "fhir-android-debug-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.aar",
+          "size": 45046,
+          "sha512": "c8685b1703b35a076640a5128913f3a24e68df02471aac703a84256eab0d0dddaae0a3a954f8c8bb0ab00924dd2c85a53931904496477c29f985b6c642339569",
+          "sha256": "02696cc0cc4c79535421be317bf2ffd7cd215b0f00923542918f553b1e50e004",
+          "sha1": "97061300bd76bda585196ff8043fada05da2e845",
+          "md5": "b09957ff2f872d6e6dd364635709dd34"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.gradle.internal.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-debug.aar",
+          "url": "fhir-android-debug-0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT.aar",
+          "size": 45046,
+          "sha512": "c8685b1703b35a076640a5128913f3a24e68df02471aac703a84256eab0d0dddaae0a3a954f8c8bb0ab00924dd2c85a53931904496477c29f985b6c642339569",
+          "sha256": "02696cc0cc4c79535421be317bf2ffd7cd215b0f00923542918f553b1e50e004",
+          "sha1": "97061300bd76bda585196ff8043fada05da2e845",
+          "md5": "b09957ff2f872d6e6dd364635709dd34"
+        }
+      ]
+    }
+  ]
+}
