@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "46xtiyqvqrevljnamcukaastha"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.jar",
+          "url": "data-donation-sdk-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.jar",
+          "size": 110813,
+          "sha512": "27fff22f1be1045e8ef21b481f5cb8434eb6df2a4847622ad932ac754a766657fe7b9e876eb7de204ab656b95e750af7a10340c3db3409b8c784787932c19a9f",
+          "sha256": "21753f7aa954b027c5f5ffc35855b19c0834ede8c7c8e37a67ce2e11c26df672",
+          "sha1": "2050d02c9c3e8ddf857f2144ca6bda18a5d3c805",
+          "md5": "ee5cd37479f19ee9c9183531f2eac722"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android-debug/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-android-debug-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android-debug",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-android-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-android/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-android-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-android",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosarm64/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-iosarm64-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosarm64",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-iosx64/0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT.module",
+        "group": "care.data4life.hc-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-iosx64",
+        "version": "0.1.3-add-questionnaireresponseitemawnserlist-wrapper-SNAPSHOT"
+      }
+    }
+  ]
+}
