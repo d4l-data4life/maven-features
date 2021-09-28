@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-change-fhir-flow-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-change-fhir-flow-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-change-fhir-flow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "3pfehd6yjbew3noesprak6imym"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-change-fhir-flow-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-change-fhir-flow-SNAPSHOT.jar",
+          "size": 123084,
+          "sha512": "325f5fa8e89674654f861f3e9e3218a42b6ea591f441bb5545c2fe4fbb2e4c636483e5d25ce011c71cba9ec2f24549fdb1d81d785241b4211a966c30b4b09474",
+          "sha256": "4a84b70d994a53fd4ab083f29cd04232e3aa7f8f29404d2c8ec62f226e52aed3",
+          "sha1": "bdf029c5da819dd3a43f648dbd46dfe881ff4df1",
+          "md5": "9e1fceabef9d91dd83d3b9b2b56581f9"
+        }
+      ]
+    }
+  ]
+}
