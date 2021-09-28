@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-datetime-wrapper-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-datetime-wrapper-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-datetime-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "uumya7xjlvds3oszta4liqwr4m"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-datetime-wrapper-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-datetime-wrapper-SNAPSHOT.jar",
+          "size": 100485,
+          "sha512": "924ad7faa70f2c9e7b89b275604d05a56e5d8a07f9ba6a2f95717388503377a26da4509f049beb8a0852bf20c8bb3919d6ec5c5d6f50b54aafd7de111b9f372a",
+          "sha256": "bdc3f376425e14ff4404bab2d9f568a4215c6a83da76509c0e2715076c5f4fa0",
+          "sha1": "0ad7c47ad7fc9f62d48d85f6b02505e01bccd7e4",
+          "md5": "ef7b2861cf63d0beef8181fc3f2c63bf"
+        }
+      ]
+    }
+  ]
+}
