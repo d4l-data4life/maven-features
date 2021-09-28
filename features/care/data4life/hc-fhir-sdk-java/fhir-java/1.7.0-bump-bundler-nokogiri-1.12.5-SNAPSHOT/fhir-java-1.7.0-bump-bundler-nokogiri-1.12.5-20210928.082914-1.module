@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.7.0-bump-bundler-nokogiri-1.12.5-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.7.0-bump-bundler-nokogiri-1.12.5-SNAPSHOT.jar",
+          "url": "fhir-java-1.7.0-bump-bundler-nokogiri-1.12.5-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "ab85c0f8a6b9e05c645b12342c557933f56d0c182e914779ccb634b4e2de2afb439d1e920c5d35ec4ea0af5f488bc8eb5c6e9450ad5234cd329ddc7869650b21",
+          "sha256": "33f04febb6977237a89e44de0e505c1caa0f190c1cb6eaea57adb8a6a2674b7f",
+          "sha1": "57fbe78886791d58e8bb6b61a1b4978146e1b27f",
+          "md5": "43986f39c7218d585dd8d74bb56d7efa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.7.0-bump-bundler-nokogiri-1.12.5-SNAPSHOT.jar",
+          "url": "fhir-java-1.7.0-bump-bundler-nokogiri-1.12.5-SNAPSHOT.jar",
+          "size": 1012286,
+          "sha512": "ab85c0f8a6b9e05c645b12342c557933f56d0c182e914779ccb634b4e2de2afb439d1e920c5d35ec4ea0af5f488bc8eb5c6e9450ad5234cd329ddc7869650b21",
+          "sha256": "33f04febb6977237a89e44de0e505c1caa0f190c1cb6eaea57adb8a6a2674b7f",
+          "sha1": "57fbe78886791d58e8bb6b61a1b4978146e1b27f",
+          "md5": "43986f39c7218d585dd8d74bb56d7efa"
+        }
+      ]
+    }
+  ]
+}
