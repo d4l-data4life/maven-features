@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT/fhir-0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "445a3dd94951278fbaef65a635e0909ee8716c182c2d1b2ebe3e601c0fa5fdad918ed0077c9c891670b1d344e25ce9cd224ed9b74069412aebf12fb89b52513e",
+          "sha256": "dd1aa27e98f864f3e23c5a389550609f7bb95401967aa75cafe401d3ab357b05",
+          "sha1": "fa8e7eaf8c6567d1efc1467bbb83a084fa71a949",
+          "md5": "35d21f05e2ed2d43f153d982fa1cfb68"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT.jar",
+          "size": 46816,
+          "sha512": "445a3dd94951278fbaef65a635e0909ee8716c182c2d1b2ebe3e601c0fa5fdad918ed0077c9c891670b1d344e25ce9cd224ed9b74069412aebf12fb89b52513e",
+          "sha256": "dd1aa27e98f864f3e23c5a389550609f7bb95401967aa75cafe401d3ab357b05",
+          "sha1": "fa8e7eaf8c6567d1efc1467bbb83a084fa71a949",
+          "md5": "35d21f05e2ed2d43f153d982fa1cfb68"
+        }
+      ]
+    }
+  ]
+}
