@@ -5,31 +5,31 @@
   <version>0.1.3-add-register-flow-client-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210902.183321</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210929.113511</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210902183321</lastUpdated>
+    <lastUpdated>20210929113511</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.3-add-register-flow-client-20210902.183321-1</value>
-        <updated>20210902183321</updated>
+        <extension>klib</extension>
+        <value>0.1.3-add-register-flow-client-20210929.113511-2</value>
+        <updated>20210929113511</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.3-add-register-flow-client-20210902.183321-1</value>
-        <updated>20210902183321</updated>
+        <extension>pom</extension>
+        <value>0.1.3-add-register-flow-client-20210929.113511-2</value>
+        <updated>20210929113511</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.3-add-register-flow-client-20210902.183321-1</value>
-        <updated>20210902183321</updated>
+        <value>0.1.3-add-register-flow-client-20210929.113511-2</value>
+        <updated>20210929113511</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.3-add-register-flow-client-20210902.183321-1</value>
-        <updated>20210902183321</updated>
+        <value>0.1.3-add-register-flow-client-20210929.113511-2</value>
+        <updated>20210929113511</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
