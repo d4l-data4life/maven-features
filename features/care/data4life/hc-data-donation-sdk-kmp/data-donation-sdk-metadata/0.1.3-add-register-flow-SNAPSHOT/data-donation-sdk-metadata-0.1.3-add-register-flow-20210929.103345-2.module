@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.1.3-add-register-flow-SNAPSHOT/data-donation-sdk-iosx64-0.1.3-add-register-flow-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.1.3-add-register-flow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "deoy6gvqhvabjgp37lkv56mw5q"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.1.3-add-register-flow-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.1.3-add-register-flow-SNAPSHOT.jar",
+          "size": 111009,
+          "sha512": "05774725e21c057e511238a343fb000f64a2ae8e665239fac12b0032b9630fafdbcd05e81784e09693e6fbdd14b71ba65373307037985b8002de6d1bb24062da",
+          "sha256": "ca0c77eca613d4d58fe45c5fa12460511bfd92f523b1b4c973a1d31350916161",
+          "sha1": "61d447fe9fb8e6046673a7cb98cd3711adb90855",
+          "md5": "e346beeaa13abbfcf14e2b32b59f084d"
+        }
+      ]
+    }
+  ]
+}
