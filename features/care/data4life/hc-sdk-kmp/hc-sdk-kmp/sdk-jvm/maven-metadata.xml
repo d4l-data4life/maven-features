@@ -3,10 +3,11 @@
   <groupId>care.data4life.hc-sdk-kmp.hc-sdk-kmp</groupId>
   <artifactId>sdk-jvm</artifactId>
   <versioning>
-    <latest>1.15.1-change-to-latest-setup-SNAPSHOT</latest>
+    <latest>1.15.1-fix-ci-setup-SNAPSHOT</latest>
     <versions>
       <version>1.15.1-change-to-latest-setup-SNAPSHOT</version>
+      <version>1.15.1-fix-ci-setup-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210927105927</lastUpdated>
+    <lastUpdated>20220330154941</lastUpdated>
   </versioning>
 </metadata>
