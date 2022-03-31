@@ -5,25 +5,25 @@
   <version>1.15.1-fix-ci-setup-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220330.154423</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20220331.084638</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20220330154423</lastUpdated>
+    <lastUpdated>20220331084638</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.15.1-fix-ci-setup-20220331.084638-2</value>
+        <updated>20220331084638</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>1.15.1-fix-ci-setup-20220330.154423-1</value>
-        <updated>20220330154423</updated>
+        <value>1.15.1-fix-ci-setup-20220331.084638-2</value>
+        <updated>20220331084638</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.15.1-fix-ci-setup-20220330.154423-1</value>
-        <updated>20220330154423</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>1.15.1-fix-ci-setup-20220330.154423-1</value>
-        <updated>20220330154423</updated>
+        <value>1.15.1-fix-ci-setup-20220331.084638-2</value>
+        <updated>20220331084638</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
