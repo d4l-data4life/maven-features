@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-kmp-library/0.0.1-bump-updates-SNAPSHOT/example-kmp-library-0.0.1-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-gradle-scripts",
+    "module": "example-kmp-library",
+    "version": "0.0.1-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-bump-updates-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-bump-updates-SNAPSHOT.jar",
+          "size": 16589,
+          "sha512": "a115c1dcb093cd5288839bed0bec76da6705215acadc3bdb0a8b4238562ff605b44943944f9f0f4ef600d66b7b18cdcd9a431e827fbae3beb0597e8137a6ab20",
+          "sha256": "baf9c6b8fe12677a9c0c812f7fd11167030676388f0ae589857be070de34a69b",
+          "sha1": "ebb498448422ba6c3997cc488107a468d08d88ef",
+          "md5": "fe8484277e1db87656b24c2a78230243"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-kmp-library-jvm-0.0.1-bump-updates-SNAPSHOT.jar",
+          "url": "example-kmp-library-jvm-0.0.1-bump-updates-SNAPSHOT.jar",
+          "size": 16589,
+          "sha512": "a115c1dcb093cd5288839bed0bec76da6705215acadc3bdb0a8b4238562ff605b44943944f9f0f4ef600d66b7b18cdcd9a431e827fbae3beb0597e8137a6ab20",
+          "sha256": "baf9c6b8fe12677a9c0c812f7fd11167030676388f0ae589857be070de34a69b",
+          "sha1": "ebb498448422ba6c3997cc488107a468d08d88ef",
+          "md5": "fe8484277e1db87656b24c2a78230243"
+        }
+      ]
+    }
+  ]
+}
