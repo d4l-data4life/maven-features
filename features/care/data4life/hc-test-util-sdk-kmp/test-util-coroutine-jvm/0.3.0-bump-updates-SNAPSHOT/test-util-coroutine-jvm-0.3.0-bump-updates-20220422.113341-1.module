@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.3.0-bump-updates-SNAPSHOT/test-util-coroutine-0.3.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.3.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "b4662045eae56274de68332bd7b2b935099301c8875284057e578b40b4c8600e4628a26e3e4cacae0940312223260afb447f124815623215d5999b07659c5b82",
+          "sha256": "d259d7c3bf36053fba6d02af42af4f63b53e724b444e7381dd0f99f0d4883a17",
+          "sha1": "946322653dc4e4f255430c7a5a3d7f5f17404afd",
+          "md5": "f3634c57e351dd95ef90f313ea4298a7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "b4662045eae56274de68332bd7b2b935099301c8875284057e578b40b4c8600e4628a26e3e4cacae0940312223260afb447f124815623215d5999b07659c5b82",
+          "sha256": "d259d7c3bf36053fba6d02af42af4f63b53e724b444e7381dd0f99f0d4883a17",
+          "sha1": "946322653dc4e4f255430c7a5a3d7f5f17404afd",
+          "md5": "f3634c57e351dd95ef90f313ea4298a7"
+        }
+      ]
+    }
+  ]
+}

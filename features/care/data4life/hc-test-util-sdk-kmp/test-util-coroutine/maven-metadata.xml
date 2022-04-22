@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-test-util-sdk-kmp</groupId>
   <artifactId>test-util-coroutine</artifactId>
   <versioning>
-    <latest>0.3.0-bump-desugar-SNAPSHOT</latest>
+    <latest>0.3.0-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-docs-SNAPSHOT</version>
       <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
@@ -19,7 +19,8 @@
       <version>0.2.0-SNAPSHOT</version>
       <version>0.3.0-fix-download-script-SNAPSHOT</version>
       <version>0.3.0-bump-desugar-SNAPSHOT</version>
+      <version>0.3.0-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210924084717</lastUpdated>
+    <lastUpdated>20220422113833</lastUpdated>
   </versioning>
 </metadata>

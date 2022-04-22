@@ -1,0 +1,231 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.3.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-metadata-0.3.0-bump-updates-SNAPSHOT-all.jar",
+          "url": "test-util-0.3.0-bump-updates-SNAPSHOT-all.jar",
+          "size": 6415,
+          "sha512": "257e7f8456bd275c3dbfdd71349bcb1c390c86c2c3856221d564ea45ea6b0b7aa822e00a517c161addd8e874fa6319812372e560c66e57b41570cebe4ff14080",
+          "sha256": "3aeb7499abd0fff17e285c41c93afeca521dab093939bfba672bea9f8880c40d",
+          "sha1": "05409cbe9cc64e2b4dffd6ef5fa6088dfd51321a",
+          "md5": "423675b4221ad67dd75ec3edd7cd09a6"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-util-0.3.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-0.3.0-bump-updates-SNAPSHOT.jar",
+          "size": 7315,
+          "sha512": "8f46b341981d1adc6f27941526a077bd7515e040fa9d7e658ad82ac6ea2159fb2561f2c5eb75d5019d14dd86ea10abbf6644576b993799488107c7fefd8b3956",
+          "sha256": "0374822bb24fd8fc9946e689d303b89b6da10546b0d1d655c1620731b70bfb72",
+          "sha1": "e467da678111fc4219cacd3166eca96a4d20213d",
+          "md5": "4169761cdd6d12e4b30b775dd728c164"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android-debug/0.3.0-bump-updates-SNAPSHOT/test-util-android-debug-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android-debug",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android-debug/0.3.0-bump-updates-SNAPSHOT/test-util-android-debug-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android-debug",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android/0.3.0-bump-updates-SNAPSHOT/test-util-android-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-util-android/0.3.0-bump-updates-SNAPSHOT/test-util-android-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-android",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosarm64/0.3.0-bump-updates-SNAPSHOT/test-util-iosarm64-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosarm64",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosarm64/0.3.0-bump-updates-SNAPSHOT/test-util-iosarm64-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosarm64",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosx64/0.3.0-bump-updates-SNAPSHOT/test-util-iosx64-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosx64",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-util-iosx64/0.3.0-bump-updates-SNAPSHOT/test-util-iosx64-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-iosx64",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-jvm/0.3.0-bump-updates-SNAPSHOT/test-util-jvm-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-jvm",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-util-jvm/0.3.0-bump-updates-SNAPSHOT/test-util-jvm-0.3.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-test-util-sdk-kmp",
+        "module": "test-util-jvm",
+        "version": "0.3.0-bump-updates-SNAPSHOT"
+      }
+    }
+  ]
+}
