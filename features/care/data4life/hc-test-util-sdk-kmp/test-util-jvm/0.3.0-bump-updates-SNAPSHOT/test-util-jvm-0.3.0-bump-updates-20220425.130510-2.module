@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.3.0-bump-updates-SNAPSHOT/test-util-0.3.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.3.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "fcc25e3965980c09b6af7fe198839269fff2547229b4dabf5ed8c7b9c6cf838d2032d893c4a1e809fa12c12685db176c6c3db8bd1c23c90a593f3f31d22362b1",
+          "sha256": "62572186122c70ae70ba499ee2b496af1efe4837714c9ee7f29a180533a6aeec",
+          "sha1": "da90b076aa87e0166da77edb3ed875faaf8508b3",
+          "md5": "74546b8fd988c4d257ea075f80ae93d6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.3.0-bump-updates-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "fcc25e3965980c09b6af7fe198839269fff2547229b4dabf5ed8c7b9c6cf838d2032d893c4a1e809fa12c12685db176c6c3db8bd1c23c90a593f3f31d22362b1",
+          "sha256": "62572186122c70ae70ba499ee2b496af1efe4837714c9ee7f29a180533a6aeec",
+          "sha1": "da90b076aa87e0166da77edb3ed875faaf8508b3",
+          "md5": "74546b8fd988c4d257ea075f80ae93d6"
+        }
+      ]
+    }
+  ]
+}
