@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.7.0-bump-agp-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.7.0-bump-agp-SNAPSHOT.jar",
+          "url": "fhir-java-1.7.0-bump-agp-SNAPSHOT.jar",
+          "size": 1012051,
+          "sha512": "25a296b008b8e00dd6a9c482dc6e032e9ed0eb0b2f957b9b346126ca9849c178a110e733458faebbbdf9dc714c5ac81477b6ae555d676224a52e301a1f639305",
+          "sha256": "5dac587142a905044bf7e178284bc77ed6ccc2068ea5440ab26bfdf9db8dfa6a",
+          "sha1": "bfa11df80f7c0fcddb6e6f6e58ed632dc9c3d16a",
+          "md5": "9a8d2ae68a9ec57ab538c367943a5686"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.7.0-bump-agp-SNAPSHOT.jar",
+          "url": "fhir-java-1.7.0-bump-agp-SNAPSHOT.jar",
+          "size": 1012051,
+          "sha512": "25a296b008b8e00dd6a9c482dc6e032e9ed0eb0b2f957b9b346126ca9849c178a110e733458faebbbdf9dc714c5ac81477b6ae555d676224a52e301a1f639305",
+          "sha256": "5dac587142a905044bf7e178284bc77ed6ccc2068ea5440ab26bfdf9db8dfa6a",
+          "sha1": "bfa11df80f7c0fcddb6e6f6e58ed632dc9c3d16a",
+          "md5": "9a8d2ae68a9ec57ab538c367943a5686"
+        }
+      ]
+    }
+  ]
+}
