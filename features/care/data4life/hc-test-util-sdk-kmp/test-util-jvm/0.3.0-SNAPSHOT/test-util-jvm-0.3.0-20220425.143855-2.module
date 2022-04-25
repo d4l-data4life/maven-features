@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.3.0-SNAPSHOT/test-util-0.3.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "cae250f8f31fc58d9ba5a43ba1e445099ba70416cbeb792f1204b018203fb81a00f349a9ed921f6af941f719598d146978c623a0d41052c6e03358d5a824e08b",
+          "sha256": "fc0fd89a55837c393c2cd7e85902d0d2c2da307dbf3a293eefe6ee39b1a4376a",
+          "sha1": "d642bca394f310c89956dc338c741bbdbb439c97",
+          "md5": "dfe34831c05afec6fba7cec2406e99fb"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.3.0-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.3.0-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "cae250f8f31fc58d9ba5a43ba1e445099ba70416cbeb792f1204b018203fb81a00f349a9ed921f6af941f719598d146978c623a0d41052c6e03358d5a824e08b",
+          "sha256": "fc0fd89a55837c393c2cd7e85902d0d2c2da307dbf3a293eefe6ee39b1a4376a",
+          "sha1": "d642bca394f310c89956dc338c741bbdbb439c97",
+          "md5": "dfe34831c05afec6fba7cec2406e99fb"
+        }
+      ]
+    }
+  ]
+}
