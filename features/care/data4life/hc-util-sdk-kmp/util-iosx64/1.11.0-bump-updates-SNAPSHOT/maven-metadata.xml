@@ -5,37 +5,37 @@
   <version>1.11.0-bump-updates-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220426.100531</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20220426.104437</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20220426100531</lastUpdated>
+    <lastUpdated>20220426104437</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.11.0-bump-updates-20220426.100531-1</value>
-        <updated>20220426100531</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-bump-updates-20220426.100531-1</value>
-        <updated>20220426100531</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.11.0-bump-updates-20220426.100531-1</value>
-        <updated>20220426100531</updated>
+        <value>1.11.0-bump-updates-20220426.104437-2</value>
+        <updated>20220426104437</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.11.0-bump-updates-20220426.100531-1</value>
-        <updated>20220426100531</updated>
+        <extension>pom</extension>
+        <value>1.11.0-bump-updates-20220426.104437-2</value>
+        <updated>20220426104437</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>1.11.0-bump-updates-20220426.100531-1</value>
-        <updated>20220426100531</updated>
+        <value>1.11.0-bump-updates-20220426.104437-2</value>
+        <updated>20220426104437</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.11.0-bump-updates-20220426.104437-2</value>
+        <updated>20220426104437</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.11.0-bump-updates-20220426.104437-2</value>
+        <updated>20220426104437</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
