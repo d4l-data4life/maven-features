@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.11.0-add-error-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-metadata-1.11.0-add-error-SNAPSHOT-all.jar",
+          "url": "error-1.11.0-add-error-SNAPSHOT-all.jar",
+          "size": 3914,
+          "sha512": "7e64ec6ee035b63c9281d0d37a013aa6b3d453a59640636f33e37a635ef4952425555f63e9706981d2c333da96b4c4cc9578ab03e348a01badbaf670a28dd490",
+          "sha256": "67803bec0afe98abc4e6352982fe5a2415cec462579c940a2afc950f492626c5",
+          "sha1": "9c170977a67e9db4ce1504a1c8928672326ceb81",
+          "md5": "a16af72cadddb74c136553e5b533fa73"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-1.11.0-add-error-SNAPSHOT.jar",
+          "url": "error-1.11.0-add-error-SNAPSHOT.jar",
+          "size": 1921,
+          "sha512": "26561dad95c23bfdcd080033c7d30493d4f30c5613a060226d24f51acad058c7c2ee06a261e0dd2805ad3411404427a099a314f915c3be15c30a8b82204e53aa",
+          "sha256": "9f7d6f4677420e156a7761ed9b94ebe7e6a41598e7eaa00deb71b5d3b8fb9e8a",
+          "sha1": "a064a09a92da8f0c75c3d37ba16f7f056fb8ac83",
+          "md5": "4c65e21032d5b03ea51b9cd812efe1f9"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/1.11.0-add-error-SNAPSHOT/error-android-debug-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/1.11.0-add-error-SNAPSHOT/error-android-debug-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/1.11.0-add-error-SNAPSHOT/error-android-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/1.11.0-add-error-SNAPSHOT/error-android-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/1.11.0-add-error-SNAPSHOT/error-iosarm64-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/1.11.0-add-error-SNAPSHOT/error-iosarm64-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/1.11.0-add-error-SNAPSHOT/error-iosx64-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/1.11.0-add-error-SNAPSHOT/error-iosx64-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/1.11.0-add-error-SNAPSHOT/error-jvm-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-jvm",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/1.11.0-add-error-SNAPSHOT/error-jvm-1.11.0-add-error-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-jvm",
+        "version": "1.11.0-add-error-SNAPSHOT"
+      }
+    }
+  ]
+}

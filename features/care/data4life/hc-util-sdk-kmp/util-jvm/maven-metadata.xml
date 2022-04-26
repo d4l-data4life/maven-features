@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-jvm</artifactId>
   <versioning>
-    <latest>1.11.0-bump-updates-SNAPSHOT</latest>
+    <latest>1.11.0-add-error-SNAPSHOT</latest>
     <versions>
       <version>1.9.0-change-test-config-template-SNAPSHOT</version>
       <version>1.9.0-change-readme-SNAPSHOT</version>
@@ -22,7 +22,8 @@
       <version>1.11.0-bump-desugar-SNAPSHOT</version>
       <version>1.11.0-fix-download-script-SNAPSHOT</version>
       <version>1.11.0-bump-updates-SNAPSHOT</version>
+      <version>1.11.0-add-error-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220426100921</lastUpdated>
+    <lastUpdated>20220426103127</lastUpdated>
   </versioning>
 </metadata>

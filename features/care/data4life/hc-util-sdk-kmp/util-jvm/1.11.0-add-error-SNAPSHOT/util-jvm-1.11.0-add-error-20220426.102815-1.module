@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-add-error-SNAPSHOT/util-1.11.0-add-error-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-add-error-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-add-error-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-add-error-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "9bc9cf6758c9d813608d21c657f75ae1ea6200faf9833b8e56002c564b98695ac60dabf23eb81a89e9a7b7716137e3b5e1cfd882a32f9ff7a46688d4a7a2ca74",
+          "sha256": "54763b285e7413605d6ae59f2fb36575df65bf720272feffd094df5437ec4454",
+          "sha1": "d773cd18876d89e1fb242acd11600928af7bcbff",
+          "md5": "fbf6da897a7a4432c6ed77afb51d2d4b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-add-error-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-add-error-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "9bc9cf6758c9d813608d21c657f75ae1ea6200faf9833b8e56002c564b98695ac60dabf23eb81a89e9a7b7716137e3b5e1cfd882a32f9ff7a46688d4a7a2ca74",
+          "sha256": "54763b285e7413605d6ae59f2fb36575df65bf720272feffd094df5437ec4454",
+          "sha1": "d773cd18876d89e1fb242acd11600928af7bcbff",
+          "md5": "fbf6da897a7a4432c6ed77afb51d2d4b"
+        }
+      ]
+    }
+  ]
+}
