@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util/0.4.1-change-docs-SNAPSHOT/test-util-0.4.1-change-docs-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util",
+    "version": "0.4.1-change-docs-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "c9db1635673c204b483ae64ff2e1555eba31934176497d4ee3e73aab1081a9da3007d41c3ee1b119f41e6394fa68a82c48f824f09e9a273e173920608c5309a9",
+          "sha256": "1c781ecb4ea4404afd976e0635145fc78a4ad6cace114a0dadce081ed033bb5b",
+          "sha1": "1071a8dcabec9e6406f518716d7c5780dc10abcf",
+          "md5": "cb60d6ec36543792bdd7fbb73acb3b6d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 12827,
+          "sha512": "c9db1635673c204b483ae64ff2e1555eba31934176497d4ee3e73aab1081a9da3007d41c3ee1b119f41e6394fa68a82c48f824f09e9a273e173920608c5309a9",
+          "sha256": "1c781ecb4ea4404afd976e0635145fc78a4ad6cace114a0dadce081ed033bb5b",
+          "sha1": "1071a8dcabec9e6406f518716d7c5780dc10abcf",
+          "md5": "cb60d6ec36543792bdd7fbb73acb3b6d"
+        }
+      ]
+    }
+  ]
+}
