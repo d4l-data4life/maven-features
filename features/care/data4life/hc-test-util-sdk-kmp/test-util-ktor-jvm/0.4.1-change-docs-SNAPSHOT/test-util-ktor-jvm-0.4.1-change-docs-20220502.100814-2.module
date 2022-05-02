@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-ktor/0.4.1-change-docs-SNAPSHOT/test-util-ktor-0.4.1-change-docs-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-ktor",
+    "version": "0.4.1-change-docs-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 28739,
+          "sha512": "8a220307acd5aefa5a2d4b2910812600b0884c3bdc3fd56cdfd6e3abb2b9ce97e263532c137c192aab33eebaf7974c38443980a5c1321651fa78df40bbd9c04d",
+          "sha256": "59242657d0adf83f7e87a3e36614ab6fd9aeb71116e7a2566dcbe29e1345ca31",
+          "sha1": "c121f7231160341392d2c5e0d199f65ccdd0003d",
+          "md5": "d5f474f3311d09440c8f38007e67c9ea"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-ktor-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-ktor-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 28739,
+          "sha512": "8a220307acd5aefa5a2d4b2910812600b0884c3bdc3fd56cdfd6e3abb2b9ce97e263532c137c192aab33eebaf7974c38443980a5c1321651fa78df40bbd9c04d",
+          "sha256": "59242657d0adf83f7e87a3e36614ab6fd9aeb71116e7a2566dcbe29e1345ca31",
+          "sha1": "c121f7231160341392d2c5e0d199f65ccdd0003d",
+          "md5": "d5f474f3311d09440c8f38007e67c9ea"
+        }
+      ]
+    }
+  ]
+}

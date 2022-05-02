@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-util-coroutine/0.4.1-change-docs-SNAPSHOT/test-util-coroutine-0.4.1-change-docs-SNAPSHOT.module",
+    "group": "care.data4life.hc-test-util-sdk-kmp",
+    "module": "test-util-coroutine",
+    "version": "0.4.1-change-docs-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "3c121382dbc3fdbcee34b2d5011698815711f445fa4c98fd90ca1e86151ba2c64a5d0c79ab7a6e940f1c4c015719c26d9ba5422142840f7fb32fde069cf9ac7e",
+          "sha256": "46fcee923a423fa26cb5d26b702ab35fcdbf7f61932d945824ae5cc4afa9572e",
+          "sha1": "a9ccb896c1fe02e11fa0ad1887e4462644b8756a",
+          "md5": "de0b853251ae0bbd9429d10671353b3c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-util-coroutine-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "url": "test-util-coroutine-jvm-0.4.1-change-docs-SNAPSHOT.jar",
+          "size": 6100,
+          "sha512": "3c121382dbc3fdbcee34b2d5011698815711f445fa4c98fd90ca1e86151ba2c64a5d0c79ab7a6e940f1c4c015719c26d9ba5422142840f7fb32fde069cf9ac7e",
+          "sha256": "46fcee923a423fa26cb5d26b702ab35fcdbf7f61932d945824ae5cc4afa9572e",
+          "sha1": "a9ccb896c1fe02e11fa0ad1887e4462644b8756a",
+          "md5": "de0b853251ae0bbd9429d10671353b3c"
+        }
+      ]
+    }
+  ]
+}
