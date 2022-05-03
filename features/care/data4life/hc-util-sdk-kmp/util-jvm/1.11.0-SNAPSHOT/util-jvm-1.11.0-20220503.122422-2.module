@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-SNAPSHOT/util-1.11.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "dc70714c26fd6a990926400f8dbf3b2af2d65ac53b71f2c762a63444cbaa2d47b4e3ca9596443fec8f16e6b024974c11d43f50c50f4cb15710edd5f58898e1e1",
+          "sha256": "cc88ec75851adfa50a8a78a808b99b93e03de0992b926a73201ab3734386cee8",
+          "sha1": "b026cf2d186d85828ce93a4258b079b33816e8ce",
+          "md5": "0aa20c839d8dff4328e9992747a9404d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "dc70714c26fd6a990926400f8dbf3b2af2d65ac53b71f2c762a63444cbaa2d47b4e3ca9596443fec8f16e6b024974c11d43f50c50f4cb15710edd5f58898e1e1",
+          "sha256": "cc88ec75851adfa50a8a78a808b99b93e03de0992b926a73201ab3734386cee8",
+          "sha1": "b026cf2d186d85828ce93a4258b079b33816e8ce",
+          "md5": "0aa20c839d8dff4328e9992747a9404d"
+        }
+      ]
+    }
+  ]
+}
