@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.14.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "auth-metadata-1.14.0-SNAPSHOT.jar",
+          "url": "auth-1.14.0-SNAPSHOT.jar",
+          "size": 3762,
+          "sha512": "1c4b510f0d3f53ef3b2fd04d49921a17bf0be50f1263e599dfb2fc8067bc2755f8d6b4a20a1a614a03b136441e6e977ec699b2adc2c2b514687a79f50974c08e",
+          "sha256": "fe4435baf72def71da879fe9199baa37b13289e0be921b363f2533d65d4dac4d",
+          "sha1": "47a4433df34d5466964e48c5b0a60a7592c99871",
+          "md5": "cce545f47f23adcb5784118bb3ca93b7"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android-debug/1.14.0-SNAPSHOT/auth-android-debug-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android-debug",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android-debug/1.14.0-SNAPSHOT/auth-android-debug-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android-debug",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android/1.14.0-SNAPSHOT/auth-android-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../auth-android/1.14.0-SNAPSHOT/auth-android-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-android",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../auth-jvm/1.14.0-SNAPSHOT/auth-jvm-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-jvm",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../auth-jvm/1.14.0-SNAPSHOT/auth-jvm-1.14.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-auth-sdk-kmp",
+        "module": "auth-jvm",
+        "version": "1.14.0-SNAPSHOT"
+      }
+    }
+  ]
+}
