@@ -3,13 +3,14 @@
   <groupId>care.data4life.hc-sdk-kmp.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.15.1-bump-update-SNAPSHOT</latest>
+    <latest>1.15.1-SNAPSHOT</latest>
     <versions>
       <version>1.15.1-change-to-latest-setup-SNAPSHOT</version>
       <version>1.15.1-fix-ci-setup-SNAPSHOT</version>
       <version>1.15.1-change-documentation-SNAPSHOT</version>
       <version>1.15.1-bump-update-SNAPSHOT</version>
+      <version>1.15.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220505143845</lastUpdated>
+    <lastUpdated>20220505153206</lastUpdated>
   </versioning>
 </metadata>
