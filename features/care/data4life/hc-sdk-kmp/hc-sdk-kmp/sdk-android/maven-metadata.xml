@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.16.0-fix-publishing-SNAPSHOT</latest>
+    <latest>1.15.1-fix-deployment-SNAPSHOT</latest>
     <versions>
       <version>1.15.1-change-to-latest-setup-SNAPSHOT</version>
       <version>1.15.1-fix-ci-setup-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>1.15.1-SNAPSHOT</version>
       <version>1.15.1-fix-android-studio-error-SNAPSHOT</version>
       <version>1.16.0-fix-publishing-SNAPSHOT</version>
+      <version>1.15.1-fix-deployment-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220506132220</lastUpdated>
+    <lastUpdated>20220506134419</lastUpdated>
   </versioning>
 </metadata>
