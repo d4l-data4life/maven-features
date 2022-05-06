@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp.hc-sdk-kmp</groupId>
   <artifactId>sdk-ingestion</artifactId>
   <versioning>
-    <latest>1.15.1-fix-android-studio-error-SNAPSHOT</latest>
+    <latest>1.16.0-fix-publishing-SNAPSHOT</latest>
     <versions>
       <version>1.15.1-change-to-latest-setup-SNAPSHOT</version>
       <version>1.15.1-fix-ci-setup-SNAPSHOT</version>
@@ -11,7 +11,8 @@
       <version>1.15.1-bump-update-SNAPSHOT</version>
       <version>1.15.1-SNAPSHOT</version>
       <version>1.15.1-fix-android-studio-error-SNAPSHOT</version>
+      <version>1.16.0-fix-publishing-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220505164708</lastUpdated>
+    <lastUpdated>20220506132221</lastUpdated>
   </versioning>
 </metadata>
