@@ -5,18 +5,6 @@
   <versioning>
     <latest>0.4.1-SNAPSHOT</latest>
     <versions>
-      <version>0.1.0-change-docs-SNAPSHOT</version>
-      <version>0.1.0-add-robolectric-common-SNAPSHOT</version>
-      <version>0.1.0-change-robolectric-test-SNAPSHOT</version>
-      <version>0.1.0-bump-robolectric-SNAPSHOT</version>
-      <version>0.1.0-SNAPSHOT</version>
-      <version>0.2.0-change-codeowners-SNAPSHOT</version>
-      <version>0.2.0-add-platform-only-annotation-SNAPSHOT</version>
-      <version>0.2.0-change-setup-to-latest-SNAPSHOT</version>
-      <version>0.2.0-bump-updates-SNAPSHOT</version>
-      <version>0.2.0-change-to-seflcontained-SNAPSHOT</version>
-      <version>0.2.0-fix-labels-SNAPSHOT</version>
-      <version>0.2.0-SNAPSHOT</version>
       <version>0.3.0-fix-download-script-SNAPSHOT</version>
       <version>0.3.0-bump-desugar-SNAPSHOT</version>
       <version>0.3.0-bump-updates-SNAPSHOT</version>

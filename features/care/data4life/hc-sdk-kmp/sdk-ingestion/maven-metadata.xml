@@ -5,20 +5,6 @@
   <versioning>
     <latest>1.15.1-fix-group-id-SNAPSHOT</latest>
     <versions>
-      <version>1.13.0-bump-mockk-SNAPSHOT</version>
-      <version>1.13.0-add-sdk-config-to-gitignore-SNAPSHOT</version>
-      <version>1.13.0-SNAPSHOT</version>
-      <version>1.13.1-change-attachment-service-tests-SNAPSHOT</version>
-      <version>1.13.1-change-attachment-service-SNAPSHOT</version>
-      <version>1.13.1-bump-jacoco-SNAPSHOT</version>
-      <version>1.13.1-remove-pinning-s4h-SNAPSHOT</version>
-      <version>1.13.1-SNAPSHOT</version>
-      <version>1.13.2-fix-danger-SNAPSHOT</version>
-      <version>1.13.2-add-coverage-android-SNAPSHOT</version>
-      <version>1.13.2-add-coverage-aggregation-SNAPSHOT</version>
-      <version>1.13.2-bump-util-SNAPSHOT</version>
-      <version>1.13.2-add-alessio-SNAPSHOT</version>
-      <version>1.13.2-SNAPSHOT</version>
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
       <version>1.14.0-add-new-search-parameter-SNAPSHOT</version>
