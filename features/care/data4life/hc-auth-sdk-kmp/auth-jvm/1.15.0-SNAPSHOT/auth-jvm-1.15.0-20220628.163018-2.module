@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth/1.15.0-SNAPSHOT/auth-1.15.0-SNAPSHOT.module",
+    "group": "care.data4life.hc-auth-sdk-kmp",
+    "module": "auth",
+    "version": "1.15.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "auth-jvm-1.15.0-SNAPSHOT.jar",
+          "url": "auth-jvm-1.15.0-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "39fb64483fee476b3bee1901d7878343e2cad4867bc4ae4764fd4aca9726d326930d0d6e603f601df73e670271afb8a221ffcb7dcd336bb734708eb13b7b33ae",
+          "sha256": "979067520af3c6fa0e611a4707563e8f548c3b78b422b868b57ff6488f8b71db",
+          "sha1": "ef1cc9a2deb618a9639a5c9453d6e8f98dfebdf8",
+          "md5": "3e2dcadc4c839bc69b09693a94f208ac"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-securestore-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.15.0-SNAPSHOT.jar",
+          "url": "auth-jvm-1.15.0-SNAPSHOT.jar",
+          "size": 34248,
+          "sha512": "39fb64483fee476b3bee1901d7878343e2cad4867bc4ae4764fd4aca9726d326930d0d6e603f601df73e670271afb8a221ffcb7dcd336bb734708eb13b7b33ae",
+          "sha256": "979067520af3c6fa0e611a4707563e8f548c3b78b422b868b57ff6488f8b71db",
+          "sha1": "ef1cc9a2deb618a9639a5c9453d6e8f98dfebdf8",
+          "md5": "3e2dcadc4c839bc69b09693a94f208ac"
+        }
+      ]
+    }
+  ]
+}
