@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-jvm</artifactId>
   <versioning>
-    <latest>1.15.1-fix-group-id-SNAPSHOT</latest>
+    <latest>1.16.0-fix-auth-SNAPSHOT</latest>
     <versions>
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
@@ -20,7 +20,8 @@
       <version>1.15.0-SNAPSHOT</version>
       <version>1.15.1-fix-sdk-android-tests-SNAPSHOT</version>
       <version>1.15.1-fix-group-id-SNAPSHOT</version>
+      <version>1.16.0-fix-auth-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220518165928</lastUpdated>
+    <lastUpdated>20220628165830</lastUpdated>
   </versioning>
 </metadata>
