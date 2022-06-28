@@ -5,31 +5,31 @@
   <version>1.15.0-fix-auth-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220615.133013</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20220628.081515</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20220615133013</lastUpdated>
+    <lastUpdated>20220628081515</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.15.0-fix-auth-20220615.133013-2</value>
-        <updated>20220615133013</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.15.0-fix-auth-20220615.133013-2</value>
-        <updated>20220615133013</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>aar</extension>
-        <value>1.15.0-fix-auth-20220615.133013-2</value>
-        <updated>20220615133013</updated>
+        <value>1.15.0-fix-auth-20220628.081515-3</value>
+        <updated>20220628081515</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.15.0-fix-auth-20220628.081515-3</value>
+        <updated>20220628081515</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.15.0-fix-auth-20220615.133013-2</value>
-        <updated>20220615133013</updated>
+        <value>1.15.0-fix-auth-20220628.081515-3</value>
+        <updated>20220628081515</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.15.0-fix-auth-20220628.081515-3</value>
+        <updated>20220628081515</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
