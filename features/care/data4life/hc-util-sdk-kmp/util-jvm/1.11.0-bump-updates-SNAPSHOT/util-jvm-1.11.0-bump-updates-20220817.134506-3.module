@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-bump-updates-SNAPSHOT/util-1.11.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-bump-updates-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-bump-updates-SNAPSHOT.jar",
+          "size": 15430,
+          "sha512": "984afbbdd0f1e5013f2d794dbe3a91137c296e0b22d8332b7c3b4032eb3230e524f6d1c9a6fb5b7eb5f72a9b573d12894cc27a4edece601cb3983579fc617180",
+          "sha256": "6ab3afd6e8da981635343dfe1302401c78228a5e33ecf906c6b0ea461d38522c",
+          "sha1": "61eb36627d0d0c532e224ac041daa54bb2208c04",
+          "md5": "6acfb5e97768aacbc0e1d1a811ae8d21"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-bump-updates-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-bump-updates-SNAPSHOT.jar",
+          "size": 15430,
+          "sha512": "984afbbdd0f1e5013f2d794dbe3a91137c296e0b22d8332b7c3b4032eb3230e524f6d1c9a6fb5b7eb5f72a9b573d12894cc27a4edece601cb3983579fc617180",
+          "sha256": "6ab3afd6e8da981635343dfe1302401c78228a5e33ecf906c6b0ea461d38522c",
+          "sha1": "61eb36627d0d0c532e224ac041daa54bb2208c04",
+          "md5": "6acfb5e97768aacbc0e1d1a811ae8d21"
+        }
+      ]
+    }
+  ]
+}

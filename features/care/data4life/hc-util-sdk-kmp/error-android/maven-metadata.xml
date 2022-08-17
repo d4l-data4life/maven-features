@@ -3,12 +3,13 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>error-android</artifactId>
   <versioning>
-    <latest>1.11.0-remove-test-utils-SNAPSHOT</latest>
+    <latest>1.11.0-bump-updates-SNAPSHOT</latest>
     <versions>
       <version>1.11.0-add-error-SNAPSHOT</version>
       <version>1.11.0-SNAPSHOT</version>
       <version>1.11.0-remove-test-utils-SNAPSHOT</version>
+      <version>1.11.0-bump-updates-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220817125252</lastUpdated>
+    <lastUpdated>20220817134851</lastUpdated>
   </versioning>
 </metadata>
