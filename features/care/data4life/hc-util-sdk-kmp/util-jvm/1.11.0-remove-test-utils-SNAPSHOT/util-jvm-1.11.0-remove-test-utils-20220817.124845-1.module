@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-remove-test-utils-SNAPSHOT/util-1.11.0-remove-test-utils-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-remove-test-utils-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "24f4ab2c36234fd61cc2dd54b528226a50dc393814776d309eaccf0bc0b2c86e9a61674bea9ceb7dab43d841f72b3236c8e042bd284a1f91e1b59ea3d3e28b79",
+          "sha256": "11bff656e95a3afac698e32162730da3f075c59668d151a41955590531af6767",
+          "sha1": "f314d964636f1a236a1e22b4ca238b67a34b8c67",
+          "md5": "b4a9b1a6868d08f7f9e8cf8be8a29d28"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "url": "util-jvm-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "size": 15532,
+          "sha512": "24f4ab2c36234fd61cc2dd54b528226a50dc393814776d309eaccf0bc0b2c86e9a61674bea9ceb7dab43d841f72b3236c8e042bd284a1f91e1b59ea3d3e28b79",
+          "sha256": "11bff656e95a3afac698e32162730da3f075c59668d151a41955590531af6767",
+          "sha1": "f314d964636f1a236a1e22b4ca238b67a34b8c67",
+          "md5": "b4a9b1a6868d08f7f9e8cf8be8a29d28"
+        }
+      ]
+    }
+  ]
+}

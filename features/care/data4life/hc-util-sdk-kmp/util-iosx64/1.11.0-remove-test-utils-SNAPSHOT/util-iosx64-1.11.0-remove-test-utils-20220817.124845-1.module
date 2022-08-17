@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.11.0-remove-test-utils-SNAPSHOT/util-1.11.0-remove-test-utils-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.11.0-remove-test-utils-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util.klib",
+          "url": "util-iosx64-1.11.0-remove-test-utils-SNAPSHOT.klib",
+          "size": 25769,
+          "sha512": "41694487c662f68d2ed6a1d05af4973f225a3d1bf191ef4e78fcb71323d56bfd819fca2b0e78dde008b351ea4e7f5419a11ef550556fa4d202de72727f9e050b",
+          "sha256": "cf81e7166b7e7d242eab202bc8b943e2d2b1a975df14932a76afeaf5fe33ebdc",
+          "sha1": "5b18856e53efe56b9d849ae0b14e6a85acd91a0e",
+          "md5": "be5e0e80abd1e6eab87535cb6e14d8e9"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-iosx64-1.11.0-remove-test-utils-SNAPSHOT-metadata.jar",
+          "url": "util-iosx64-1.11.0-remove-test-utils-SNAPSHOT-metadata.jar",
+          "size": 6109,
+          "sha512": "85843d0ae768c54b16ce682de542dc774f83a5510a759a1fbc16a6b7a92bf8f37ec07347208a401c11e996fad1e2e8f9cedba62d065aeeff5a97803966a21647",
+          "sha256": "f10a70430eff46c6e575a1d7a56ac2b0d8bd8c395f3f77116e0e90ff287ebcf0",
+          "sha1": "d5b0c39d06950e935de71401de5b77675031e72e",
+          "md5": "1fd79abfe395ad43505d1c0fcf9c6372"
+        }
+      ]
+    }
+  ]
+}

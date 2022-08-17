@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-iosx64</artifactId>
   <versioning>
-    <latest>1.11.0-SNAPSHOT</latest>
+    <latest>1.11.0-remove-test-utils-SNAPSHOT</latest>
     <versions>
       <version>1.10.0-change-readme-SNAPSHOT</version>
       <version>1.10.0-change-to-latest-setup-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>1.11.0-bump-updates-SNAPSHOT</version>
       <version>1.11.0-add-error-SNAPSHOT</version>
       <version>1.11.0-SNAPSHOT</version>
+      <version>1.11.0-remove-test-utils-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220503122802</lastUpdated>
+    <lastUpdated>20220817125254</lastUpdated>
   </versioning>
 </metadata>

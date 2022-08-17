@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.11.0-remove-test-utils-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-metadata-1.11.0-remove-test-utils-SNAPSHOT-all.jar",
+          "url": "error-1.11.0-remove-test-utils-SNAPSHOT-all.jar",
+          "size": 3914,
+          "sha512": "a61cc9fe0af361d841a4fc41efd00f9529d5d9ccf3b4bc830b9a77f0b4237a71aba3c0ae239b054120107051a80e50be871d0dcb9c6b40a8acdc70a88bd895ad",
+          "sha256": "e63214fd3e4d6292fc819ac5b31e16fadc177dca8d9b67e0ed6e2ab456dbd82b",
+          "sha1": "51ef74ba496078cbeb874ca6fbf90363801d7962",
+          "md5": "766b6e907d1f5c863c2b80c2d6c2048c"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "error-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "url": "error-1.11.0-remove-test-utils-SNAPSHOT.jar",
+          "size": 1921,
+          "sha512": "455fc743224a273af4c5b1002343b4b6466ba808fe5df0e5e3ae187c24320e1e8fec0f271c751c4f416df761b0a142e1718268122f412510b100eeca047d7f06",
+          "sha256": "eb72543897c475d57be1a09e3f427308f712dbd0bcb3067335a351fdb36b3062",
+          "sha1": "fc9a7f1b24d00a6e8d9a8b3f04dad8cb1b668251",
+          "md5": "056375f09c1026b012c591ab45656cdb"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/1.11.0-remove-test-utils-SNAPSHOT/error-android-debug-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android-debug/1.11.0-remove-test-utils-SNAPSHOT/error-android-debug-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android-debug",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/1.11.0-remove-test-utils-SNAPSHOT/error-android-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../error-android/1.11.0-remove-test-utils-SNAPSHOT/error-android-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-android",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/1.11.0-remove-test-utils-SNAPSHOT/error-iosarm64-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosarm64/1.11.0-remove-test-utils-SNAPSHOT/error-iosarm64-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosarm64",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/1.11.0-remove-test-utils-SNAPSHOT/error-iosx64-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../error-iosx64/1.11.0-remove-test-utils-SNAPSHOT/error-iosx64-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-iosx64",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/1.11.0-remove-test-utils-SNAPSHOT/error-jvm-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-jvm",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../error-jvm/1.11.0-remove-test-utils-SNAPSHOT/error-jvm-1.11.0-remove-test-utils-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "error-jvm",
+        "version": "1.11.0-remove-test-utils-SNAPSHOT"
+      }
+    }
+  ]
+}
