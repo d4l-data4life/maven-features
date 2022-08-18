@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.9.0-bump-updates-SNAPSHOT/fhir-helper-1.9.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.9.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.9.0-bump-updates-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.9.0-bump-updates-SNAPSHOT.jar",
+          "size": 114322,
+          "sha512": "4987b09147e86f37a00110a2b5d1bdcee14750ae3d209e29fc60137d8e087a5bae80250216253b629d7aa644dce9f22d68d46833a4d04e57c52cd32c3f6bf9b1",
+          "sha256": "6f494add1ce156cea375ac6fafb9758c898478dcfa2f7b09c01c85634b183c47",
+          "sha1": "30124e2ebef1307862d23619bd78585f4c30b9e5",
+          "md5": "e74aa414227474e7d393900738b52cda"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.9.0-bump-updates-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.9.0-bump-updates-SNAPSHOT.jar",
+          "size": 114322,
+          "sha512": "4987b09147e86f37a00110a2b5d1bdcee14750ae3d209e29fc60137d8e087a5bae80250216253b629d7aa644dce9f22d68d46833a4d04e57c52cd32c3f6bf9b1",
+          "sha256": "6f494add1ce156cea375ac6fafb9758c898478dcfa2f7b09c01c85634b183c47",
+          "sha1": "30124e2ebef1307862d23619bd78585f4c30b9e5",
+          "md5": "e74aa414227474e7d393900738b52cda"
+        }
+      ]
+    }
+  ]
+}
