@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.14.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "securestore-metadata-1.14.0-bump-updates-SNAPSHOT.jar",
+          "url": "securestore-1.14.0-bump-updates-SNAPSHOT.jar",
+          "size": 670,
+          "sha512": "82d0d0f999811a742f95f206394dcded5639a7008457dbc0f3621dc387a6c2e0056fdf04162cc7448f55effa946d32a74aa8c474a11563d934265a225eab629f",
+          "sha256": "8ba7eb80650d7e476fe71dd2aeece9ac0c11a30b672e54eca414a4b049bcb891",
+          "sha1": "77be4d4990daa43f454697dd783ffd3e5826f568",
+          "md5": "1cc8fc0fa82e24c73de34c8919bce569"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android-debug/1.14.0-bump-updates-SNAPSHOT/securestore-android-debug-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android-debug",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android-debug/1.14.0-bump-updates-SNAPSHOT/securestore-android-debug-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android-debug",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android/1.14.0-bump-updates-SNAPSHOT/securestore-android-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../securestore-android/1.14.0-bump-updates-SNAPSHOT/securestore-android-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-android",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../securestore-jvm/1.14.0-bump-updates-SNAPSHOT/securestore-jvm-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-jvm",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../securestore-jvm/1.14.0-bump-updates-SNAPSHOT/securestore-jvm-1.14.0-bump-updates-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-sdk-kmp",
+        "module": "securestore-jvm",
+        "version": "1.14.0-bump-updates-SNAPSHOT"
+      }
+    }
+  ]
+}

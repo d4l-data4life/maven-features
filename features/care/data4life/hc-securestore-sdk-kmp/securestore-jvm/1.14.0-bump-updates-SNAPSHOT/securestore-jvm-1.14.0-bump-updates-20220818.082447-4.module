@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../securestore/1.14.0-bump-updates-SNAPSHOT/securestore-1.14.0-bump-updates-SNAPSHOT.module",
+    "group": "care.data4life.hc-securestore-sdk-kmp",
+    "module": "securestore",
+    "version": "1.14.0-bump-updates-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "securestore-jvm-1.14.0-bump-updates-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.14.0-bump-updates-SNAPSHOT.jar",
+          "size": 16628,
+          "sha512": "1d3a1be45921a5fba8c0346050357b42f519299fd76bbc569816684d59c17776b41f56d40743fce02e4114064cee9546d4df775d6af8265a8f896b678885bf50",
+          "sha256": "96d51c55f3739befa9b13ed08ed332b46314df5b1fcc4bf3ca6a18d9c490f92e",
+          "sha1": "4417c2965d88c144b9712341b2e1f9e9f0a3e351",
+          "md5": "aae09d13d89574ccb63d851641144d8e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.14.0-bump-updates-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.14.0-bump-updates-SNAPSHOT.jar",
+          "size": 16628,
+          "sha512": "1d3a1be45921a5fba8c0346050357b42f519299fd76bbc569816684d59c17776b41f56d40743fce02e4114064cee9546d4df775d6af8265a8f896b678885bf50",
+          "sha256": "96d51c55f3739befa9b13ed08ed332b46314df5b1fcc4bf3ca6a18d9c490f92e",
+          "sha1": "4417c2965d88c144b9712341b2e1f9e9f0a3e351",
+          "md5": "aae09d13d89574ccb63d851641144d8e"
+        }
+      ]
+    }
+  ]
+}
