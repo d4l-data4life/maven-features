@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-util-sdk-kmp</groupId>
   <artifactId>util-android-debug</artifactId>
   <versioning>
-    <latest>1.13.0-SNAPSHOT</latest>
+    <latest>1.14.0-bump-readme-SNAPSHOT</latest>
     <versions>
       <version>1.10.0-change-readme-SNAPSHOT</version>
       <version>1.10.0-change-to-latest-setup-SNAPSHOT</version>
@@ -18,7 +18,8 @@
       <version>1.11.0-SNAPSHOT</version>
       <version>1.11.0-remove-test-utils-SNAPSHOT</version>
       <version>1.13.0-SNAPSHOT</version>
+      <version>1.14.0-bump-readme-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220822092556</lastUpdated>
+    <lastUpdated>20220822101959</lastUpdated>
   </versioning>
 </metadata>

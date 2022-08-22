@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.14.0-bump-readme-SNAPSHOT/util-1.14.0-bump-readme-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.14.0-bump-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.14.0-bump-readme-SNAPSHOT.jar",
+          "url": "util-jvm-1.14.0-bump-readme-SNAPSHOT.jar",
+          "size": 15430,
+          "sha512": "a109990f32c353728d27e46a1c12ef08acb8a4f7aeb940cca104094bc3a76a79e4b0c5754ba3ed134a1ea463e274299501ffb717763b0eba48e870cc13619374",
+          "sha256": "5fe9aa86b8d76c6a6392c872f12daff8ba994c1cc8baca806e6b36d34b76e684",
+          "sha1": "4e287c2115b204a82fded99275993490f51fdfac",
+          "md5": "01709417d5f050f03419ab57954b8fc6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.14.0-bump-readme-SNAPSHOT.jar",
+          "url": "util-jvm-1.14.0-bump-readme-SNAPSHOT.jar",
+          "size": 15430,
+          "sha512": "a109990f32c353728d27e46a1c12ef08acb8a4f7aeb940cca104094bc3a76a79e4b0c5754ba3ed134a1ea463e274299501ffb717763b0eba48e870cc13619374",
+          "sha256": "5fe9aa86b8d76c6a6392c872f12daff8ba994c1cc8baca806e6b36d34b76e684",
+          "sha1": "4e287c2115b204a82fded99275993490f51fdfac",
+          "md5": "01709417d5f050f03419ab57954b8fc6"
+        }
+      ]
+    }
+  ]
+}
