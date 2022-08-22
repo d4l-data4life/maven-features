@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-securestore-sdk-kmp</groupId>
   <artifactId>securestore-android</artifactId>
   <versioning>
-    <latest>1.15.0-SNAPSHOT</latest>
+    <latest>1.16.0-bump-changelog-SNAPSHOT</latest>
     <versions>
       <version>1.13.2-change-to-latest-project-setup-SNAPSHOT</version>
       <version>1.13.2-change-to-latest-setup-SNAPSHOT</version>
@@ -12,7 +12,8 @@
       <version>1.14.0-bump-updates-SNAPSHOT</version>
       <version>1.14.0-SNAPSHOT</version>
       <version>1.15.0-SNAPSHOT</version>
+      <version>1.16.0-bump-changelog-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220822101156</lastUpdated>
+    <lastUpdated>20220822115621</lastUpdated>
   </versioning>
 </metadata>
