@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-core</artifactId>
   <versioning>
-    <latest>1.16.0-bump-updates-SNAPSHOT</latest>
+    <latest>1.16.0-SNAPSHOT</latest>
     <versions>
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
@@ -22,7 +22,8 @@
       <version>1.15.1-fix-group-id-SNAPSHOT</version>
       <version>1.16.0-fix-auth-SNAPSHOT</version>
       <version>1.16.0-bump-updates-SNAPSHOT</version>
+      <version>1.16.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220819081935</lastUpdated>
+    <lastUpdated>20220822153952</lastUpdated>
   </versioning>
 </metadata>
