@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/1.14.0-bump-readme-SNAPSHOT/error-1.14.0-bump-readme-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.14.0-bump-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosx64-1.14.0-bump-readme-SNAPSHOT.klib",
+          "size": 7076,
+          "sha512": "b546aeca485ff79ce297f8e21621b9d09644d6d03f025d0fd2ffd3bfb8ebd100640cfa9104bb8c7ae9b90c53e89df9903151cd4d28dc94f0421ce830dbf4a716",
+          "sha256": "fdc476c2d0f47659e23961b5303cd98e82b2f29d89ab5c73d1d5a2038aff2d14",
+          "sha1": "1bdf29866dac1f9dee9c75b7f83382f529c920e6",
+          "md5": "b9cb2fa35514ac6503837ab344fc834f"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-iosx64-1.14.0-bump-readme-SNAPSHOT-metadata.jar",
+          "url": "error-iosx64-1.14.0-bump-readme-SNAPSHOT-metadata.jar",
+          "size": 5050,
+          "sha512": "4b36d77b2a58f6e4a610bc6014a0e84f63686ad2eadc92100b2334b1a98caf1bf12319879777fabe097e5892e82f1aecdf6a3a5e984f38c32bd01134aa44f2dc",
+          "sha256": "5f3b25ec955e8651ada332e06d7cd05948e49dae6e97f7218e7610a435102a4f",
+          "sha1": "be9f9066d03fef03cd7b2c56fb11c6231d8ff979",
+          "md5": "78ed1171a59b6a21edef585e374235ef"
+        }
+      ]
+    }
+  ]
+}

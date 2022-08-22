@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../error/1.14.0-bump-readme-SNAPSHOT/error-1.14.0-bump-readme-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "error",
+    "version": "1.14.0-bump-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error.klib",
+          "url": "error-iosarm64-1.14.0-bump-readme-SNAPSHOT.klib",
+          "size": 7092,
+          "sha512": "bd0613db2bcda7b4cf0f99630a2518c764b1928ccc62939e7765e388ff55281200b050e0ab975ab740c005772420b50ade6882069ef2d0a5c1b79166ba710f6e",
+          "sha256": "907f86960b0b76a972fe76771d1506d917ec0bed02f01d1aab16dbaad1c360cc",
+          "sha1": "25a74c3e0b97b8ad7fb8974cf0c9d389fd2ae237",
+          "md5": "f8a076466dce6f04d75cbeb50784d893"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "error-iosarm64-1.14.0-bump-readme-SNAPSHOT-metadata.jar",
+          "url": "error-iosarm64-1.14.0-bump-readme-SNAPSHOT-metadata.jar",
+          "size": 5050,
+          "sha512": "4b36d77b2a58f6e4a610bc6014a0e84f63686ad2eadc92100b2334b1a98caf1bf12319879777fabe097e5892e82f1aecdf6a3a5e984f38c32bd01134aa44f2dc",
+          "sha256": "5f3b25ec955e8651ada332e06d7cd05948e49dae6e97f7218e7610a435102a4f",
+          "sha1": "be9f9066d03fef03cd7b2c56fb11c6231d8ff979",
+          "md5": "78ed1171a59b6a21edef585e374235ef"
+        }
+      ]
+    }
+  ]
+}
