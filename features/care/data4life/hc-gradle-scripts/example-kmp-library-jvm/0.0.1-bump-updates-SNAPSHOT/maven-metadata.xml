@@ -5,31 +5,31 @@
   <version>0.0.1-bump-updates-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220425.114512</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20220823.104534</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
-    <lastUpdated>20220425114512</lastUpdated>
+    <lastUpdated>20220823104534</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-bump-updates-20220425.114512-6</value>
-        <updated>20220425114512</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>0.0.1-bump-updates-20220425.114512-6</value>
-        <updated>20220425114512</updated>
+        <value>0.0.1-bump-updates-20220823.104534-7</value>
+        <updated>20220823104534</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-bump-updates-20220425.114512-6</value>
-        <updated>20220425114512</updated>
+        <value>0.0.1-bump-updates-20220823.104534-7</value>
+        <updated>20220823104534</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-bump-updates-20220823.104534-7</value>
+        <updated>20220823104534</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-bump-updates-20220425.114512-6</value>
-        <updated>20220425114512</updated>
+        <value>0.0.1-bump-updates-20220823.104534-7</value>
+        <updated>20220823104534</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
