@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../crypto/1.16.0-add-fixtures-SNAPSHOT/crypto-1.16.0-add-fixtures-SNAPSHOT.module",
+    "group": "care.data4life.hc-crypto-sdk-kmp",
+    "module": "crypto",
+    "version": "1.16.0-add-fixtures-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "crypto-jvm-1.16.0-add-fixtures-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.16.0-add-fixtures-SNAPSHOT.jar",
+          "size": 58650,
+          "sha512": "e76b4af4c9a9dd44023d8da4d330f4975595536d6d733b925d8270328472034df99a86ac94e329978d10b46c2ea8092892ffff493049cdd6b0d9b0aa0b7953a1",
+          "sha256": "d01b529e37bc88752b89c59e8edd4ce459d5b1c7da45345a1ed7f9a377999c39",
+          "sha1": "baabd045756e7b4d56b380860b30776662cf3fc4",
+          "md5": "a5ad7e2ba0dd195605d1c6516008d6bc"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "error",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.16.0-add-fixtures-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.16.0-add-fixtures-SNAPSHOT.jar",
+          "size": 58650,
+          "sha512": "e76b4af4c9a9dd44023d8da4d330f4975595536d6d733b925d8270328472034df99a86ac94e329978d10b46c2ea8092892ffff493049cdd6b0d9b0aa0b7953a1",
+          "sha256": "d01b529e37bc88752b89c59e8edd4ce459d5b1c7da45345a1ed7f9a377999c39",
+          "sha1": "baabd045756e7b4d56b380860b30776662cf3fc4",
+          "md5": "a5ad7e2ba0dd195605d1c6516008d6bc"
+        }
+      ]
+    }
+  ]
+}
