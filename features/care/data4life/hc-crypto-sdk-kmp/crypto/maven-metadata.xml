@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-crypto-sdk-kmp</groupId>
   <artifactId>crypto</artifactId>
   <versioning>
-    <latest>1.16.0-add-fixtures-SNAPSHOT</latest>
+    <latest>1.16.0-fix-kapt-SNAPSHOT</latest>
     <versions>
       <version>1.13.2-fix-project-dependency-to-util-sdk-SNAPSHOT</version>
       <version>1.13.2-change-to-latest-setup-SNAPSHOT</version>
@@ -16,7 +16,8 @@
       <version>1.16.0-bump-changelog-SNAPSHOT</version>
       <version>1.16.0-fix-versioning-SNAPSHOT</version>
       <version>1.16.0-add-fixtures-SNAPSHOT</version>
+      <version>1.16.0-fix-kapt-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220825094631</lastUpdated>
+    <lastUpdated>20220825160053</lastUpdated>
   </versioning>
 </metadata>
