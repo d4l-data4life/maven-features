@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
   <artifactId>fhir-iosarm64</artifactId>
   <versioning>
-    <latest>0.2.0-bump-updates-SNAPSHOT</latest>
+    <latest>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</latest>
     <versions>
       <version>0.1.0-change-publishing-SNAPSHOT</version>
       <version>0.1.0-change-setup-for-multiple-fhir-versions-SNAPSHOT</version>
@@ -33,6 +33,6 @@
       <version>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</version>
       <version>0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220819120803</lastUpdated>
+    <lastUpdated>20220906183515</lastUpdated>
   </versioning>
 </metadata>
