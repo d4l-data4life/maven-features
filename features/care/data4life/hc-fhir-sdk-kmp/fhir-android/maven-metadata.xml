@@ -33,6 +33,6 @@
       <version>0.2.0-change-fhir-sdk-to-separate-modules-SNAPSHOT</version>
       <version>0.2.0-add-fhir-r4-d4l-app-minimized-version-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220906183515</lastUpdated>
+    <lastUpdated>20220914161316</lastUpdated>
   </versioning>
 </metadata>
