@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-ingestion</artifactId>
   <versioning>
-    <latest>1.17.1-change-auth-docs-SNAPSHOT</latest>
+    <latest>1.17.1-SNAPSHOT</latest>
     <versions>
       <version>1.14.0-change-readme-badges-SNAPSHOT</version>
       <version>1.14.0-add-ios-legacy-encoding-SNAPSHOT</version>
@@ -27,7 +27,8 @@
       <version>1.17.0-SNAPSHOT</version>
       <version>1.17.1-fix-update-failing-for-pdf-SNAPSHOT</version>
       <version>1.17.1-change-auth-docs-SNAPSHOT</version>
+      <version>1.17.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220915090500</lastUpdated>
+    <lastUpdated>20220915094606</lastUpdated>
   </versioning>
 </metadata>
