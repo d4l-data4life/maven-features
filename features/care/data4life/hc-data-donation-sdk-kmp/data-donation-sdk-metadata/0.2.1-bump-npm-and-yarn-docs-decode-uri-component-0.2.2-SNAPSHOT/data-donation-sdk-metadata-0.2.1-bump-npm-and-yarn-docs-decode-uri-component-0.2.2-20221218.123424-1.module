@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.2.1-bump-npm-and-yarn-docs-decode-uri-component-0.2.2-SNAPSHOT/data-donation-sdk-iosx64-0.2.1-bump-npm-and-yarn-docs-decode-uri-component-0.2.2-SNAPSHOT.module",
+    "group": "care.data4life.hc-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.2.1-bump-npm-and-yarn-docs-decode-uri-component-0.2.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "tcqicyk2q5b6lhcv6t42avjd6a"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.2.1-bump-npm-and-yarn-docs-decode-uri-component-0.2.2-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.2.1-bump-npm-and-yarn-docs-decode-uri-component-0.2.2-SNAPSHOT.jar",
+          "size": 100737,
+          "sha512": "c17d411992af00c9440b8dcfbb56ce9ea1370df67d133442b058e69fa02d7879ea2ed2934d8ae19fc0b20096b231b4db3e9ab0f7c84c4770dfddaa0cf9572c2b",
+          "sha256": "167f9a0da6f5be479ab384f84edcddb25782648a35038a9411c4aadaee573f12",
+          "sha1": "94f7398d3adb2bb942bc950a34d20dd2340d5585",
+          "md5": "294543674565a850ae532ce4827ebe83"
+        }
+      ]
+    }
+  ]
+}
