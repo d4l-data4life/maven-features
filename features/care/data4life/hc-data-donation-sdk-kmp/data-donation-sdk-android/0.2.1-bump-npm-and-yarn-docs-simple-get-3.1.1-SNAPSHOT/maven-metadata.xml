@@ -5,31 +5,31 @@
   <version>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20221222.110444</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20221222.121300</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20221222110444</lastUpdated>
+    <lastUpdated>20221222121300</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.110444-1</value>
-        <updated>20221222110444</updated>
+        <extension>pom</extension>
+        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.121300-2</value>
+        <updated>20221222121300</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.110444-1</value>
-        <updated>20221222110444</updated>
+        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.121300-2</value>
+        <updated>20221222121300</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.121300-2</value>
+        <updated>20221222121300</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.110444-1</value>
-        <updated>20221222110444</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.110444-1</value>
-        <updated>20221222110444</updated>
+        <value>0.2.1-bump-npm-and-yarn-docs-simple-get-3.1.1-20221222.121300-2</value>
+        <updated>20221222121300</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
